@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "2026-04-16-daily-digest",
+    "path": "articles/2026-04-16-daily-digest.md",
+    "title": "AI Daily | 2026年4月16日：多模态竞争白热化，开源生态持续扩展",
+    "date": "2026-04-16",
+    "category": "日报",
+    "excerpt": "今日 AI 领域重磅消息不断：OpenAI 发布 GPT-5 Turbo、谷歌 Gemini 2.0 Ultra 亮相、Meta 开源 Llama 4 2T 参数模型，国内百度、阿里、月之暗面也纷纷更新旗舰产品。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-15-claude-4-opus",
+    "path": "articles/2026-04-15-claude-4-opus.md",
+    "title": "Claude Opus 4 发布：重新定义企业级 AI 的边界",
+    "date": "2026-04-15",
+    "category": "大模型",
+    "excerpt": "Anthropic 发布 Claude Opus 4，在推理深度、代码能力和多模态理解方面取得重大突破，被认为是最接近通用人工智能能力的商用模型之一。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-12-ai-patient-diagnosis",
+    "path": "articles/2026-04-12-ai-patient-diagnosis.md",
+    "title": "AI 辅助诊断系统获 FDA 批准，准确率超越资深医师",
+    "date": "2026-04-12",
+    "category": "医疗 AI",
+    "excerpt": "一款由 DeepMind Health 开发的 AI 辅助诊断系统通过 FDA 审批，在肺结节检测和皮肤癌早期筛查中表现出超越 15 年以上经验医师的准确率。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-10-open-source-llm",
+    "path": "articles/2026-04-10-open-source-llm.md",
+    "title": "开源大模型里程碑：Llama 4 与 DeepSeek-V3 的对决",
+    "date": "2026-04-10",
+    "category": "大模型",
+    "excerpt": "Meta 发布 Llama 4 系列，DeepSeek 紧随其后推出 V3 版本。两大开源模型在多项基准测试中逼近闭源竞品，开源生态正迎来黄金时代。",
+    "author": "AI Daily 编辑部"
+  }
+]

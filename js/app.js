@@ -6,13 +6,22 @@
 (function () {
   'use strict';
 
-  // ----- Article manifest (add new articles here) -----
-  const ARTICLES = [
-    'articles/2026-04-16-daily-digest.md',
-    'articles/2026-04-15-claude-4-opus.md',
-    'articles/2026-04-12-ai-patient-diagnosis.md',
-    'articles/2026-04-10-open-source-llm.md',
-  ];
+  // ----- Article manifest (loaded from articles.json) -----
+  let ARTICLES = [];
+
+  async function loadArticleManifest() {
+    try {
+      const res = await fetch('articles.json');
+      if (!res.ok) throw new Error('Failed to load articles.json');
+      const manifest = await res.json();
+      ARTICLES = manifest.map(a => a.path);
+      return manifest;
+    } catch (err) {
+      console.error('Failed to load article manifest:', err);
+      // Fallback: empty array
+      return [];
+    }
+  }
 
   // ----- Escape HTML -----
   function escapeHtml(str) {
@@ -298,6 +307,9 @@
     initTheme();
     initMobileNav();
 
+    // Load article manifest first
+    await loadArticleManifest();
+
     let allArticles = [];
     try {
       allArticles = await loadArticles();
@@ -326,6 +338,9 @@
 
     initTheme();
     initMobileNav();
+
+    // Load article manifest first
+    await loadArticleManifest();
 
     const params = new URLSearchParams(window.location.search);
     const slug = params.get('slug');
