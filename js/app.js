@@ -8,6 +8,7 @@
 
   // ----- Article manifest (add new articles here) -----
   const ARTICLES = [
+    'articles/2026-04-16-daily-digest.md',
     'articles/2026-04-15-claude-4-opus.md',
     'articles/2026-04-12-ai-patient-diagnosis.md',
     'articles/2026-04-10-open-source-llm.md',
