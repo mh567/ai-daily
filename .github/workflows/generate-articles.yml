@@ -1,0 +1,30 @@
+name: Generate Articles JSON
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'articles/*.md'
+
+jobs:
+  generate-articles-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    
+    - name: Generate articles.json
+      run: python generate_articles_json.py
+    
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add articles.json
+        git diff --staged --quiet || git commit -m "Auto-update articles.json"
+        git push
