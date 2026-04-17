@@ -112,6 +112,15 @@
     html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
     // Horizontal rule
     html = html.replace(/^---$/gm, '<hr>');
+    // Tables — pipe-style
+    html = html.replace(/^(\|.+\|)\n(\|[\s\-:|]+\|)\n((?:\|.+\|\n?)+)/gm, (match, header, sep, body) => {
+      const ths = header.split('|').filter(c => c.trim()).map(c => `<th>${c.trim()}</th>`).join('');
+      const rows = body.trim().split('\n').map(row => {
+        const tds = row.split('|').filter(c => c.trim()).map(c => `<td>${c.trim()}</td>`).join('');
+        return `<tr>${tds}</tr>`;
+      }).join('');
+      return `<table><thead><tr>${ths}</tr></thead><tbody>${rows}</tbody></table>`;
+    });
     // Unordered list items
     html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
     html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
@@ -258,6 +267,21 @@
     const theme = stored || (prefersDark ? 'dark' : 'light');
     document.documentElement.setAttribute('data-theme', theme);
     updateThemeIcon(theme);
+
+    // Bind toggle button
+    const btn = document.querySelector('.theme-toggle');
+    if (btn) {
+      btn.addEventListener('click', toggleTheme);
+    }
+
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('ai-daily-theme')) {
+        const theme = e.matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        updateThemeIcon(theme);
+      }
+    });
   }
 
   function toggleTheme() {
