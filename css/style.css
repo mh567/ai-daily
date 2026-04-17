@@ -863,6 +863,23 @@ body::before {
   border-bottom: none;
 }
 
+/* ---------- Article End Mark ---------- */
+.article-content p[align="center"] {
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  color: var(--text-tertiary);
+  margin: var(--space-2xl) 0 var(--space-md);
+}
+
+.article-content p[align="center"] + p {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-tertiary);
+  letter-spacing: 0.05em;
+}
+
 /* ---------- About Page ---------- */
 .about-page {
   padding-top: calc(var(--nav-height) + var(--space-3xl));
