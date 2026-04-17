@@ -1176,28 +1176,22 @@ body::before {
 
   .nav__links {
     position: fixed;
-    top: 0;
+    top: var(--nav-height);
     left: 0;
-    width: 100%;
-    height: 100%;
+    right: 0;
+    bottom: 0;
     background: var(--bg-primary);
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--space-xl);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    z-index: 200;
+    transform: translateX(100%);
+    transition: transform var(--duration-normal) var(--ease-out);
+    z-index: 99;
   }
 
   .nav__links.open {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .nav-backdrop {
-    display: none;
+    transform: translateX(0);
   }
 
   .nav__link {

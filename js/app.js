@@ -306,35 +306,19 @@
     const toggle = document.querySelector('.nav__mobile-toggle');
     const links = document.querySelector('.nav__links');
     if (!toggle || !links) return;
-
-    function openMenu() {
-      toggle.setAttribute('aria-expanded', 'true');
-      toggle.classList.add('active');
-      links.classList.add('open');
-    }
-
-    function closeMenu() {
-      toggle.setAttribute('aria-expanded', 'false');
-      toggle.classList.remove('active');
-      links.classList.remove('open');
-    }
-
     toggle.setAttribute('aria-expanded', 'false');
     toggle.addEventListener('click', () => {
       const expanded = toggle.getAttribute('aria-expanded') === 'true';
-      expanded ? closeMenu() : openMenu();
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      toggle.classList.toggle('active');
+      links.classList.toggle('open');
     });
-
-    // Click link to close
-    links.querySelectorAll('.nav__link, .theme-toggle').forEach((el) => {
-      el.addEventListener('click', () => {
-        setTimeout(closeMenu, 100);
+    links.querySelectorAll('.nav__link').forEach((link) => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.classList.remove('active');
+        links.classList.remove('open');
       });
-    });
-
-    // Click empty area of overlay to close
-    links.addEventListener('click', (e) => {
-      if (e.target === links) closeMenu();
     });
   }
 
