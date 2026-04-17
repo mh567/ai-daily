@@ -61,6 +61,6 @@ author: "AI Daily 编辑部"
 
 ---
 
-<p align="center">— 完 —</p>
+— 完 —
 
 AI Daily · 每日黄昏，如约而至

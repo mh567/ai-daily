@@ -864,7 +864,8 @@ body::before {
 }
 
 /* ---------- Article End Mark ---------- */
-.article-content p[align="center"] {
+.end-mark {
+  text-align: center;
   font-family: var(--font-serif);
   font-size: 0.85rem;
   letter-spacing: 0.3em;
@@ -872,7 +873,7 @@ body::before {
   margin: var(--space-2xl) 0 var(--space-md);
 }
 
-.article-content p[align="center"] + p {
+.end-mark-sub {
   text-align: center;
   font-family: var(--font-mono);
   font-size: 0.72rem;

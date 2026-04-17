@@ -141,6 +141,11 @@
         return `<p>${block.replace(/\n/g, '<br>')}</p>`;
       })
       .join('\n');
+    // End mark — detect "— 完 —" pattern
+    html = html.replace(
+      /<p>(— 完 —)<\/p>\s*<p>(AI Daily ·[\s\S]*?)<\/p>\s*$/,
+      '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
+    );
     return sanitizeHtml(html);
   }
 
