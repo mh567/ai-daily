@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#C4553A"/>
+
+  <!-- A letter — single continuous stroke -->
+  <path d="
+    M 155 440
+    L 256 90
+    L 357 440
+    H 298
+    L 275 360
+    H 237
+    L 214 440
+    Z
+    M 237 310
+    H 275
+    L 256 230
+    Z
+  " fill-rule="evenodd" fill="#fff"/>
+
+  <!-- i dot — sun rising from apex -->
+  <circle cx="256" cy="56" r="32" fill="#fff"/>
+</svg>
