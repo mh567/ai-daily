@@ -601,16 +601,16 @@ body::before {
   grid-template-columns: 1fr auto;
   gap: var(--space-xl);
   align-items: start;
-  padding: var(--space-xl) 0;
+  padding: var(--space-xl) 0 var(--space-2xl);
   border-bottom: 1px solid var(--border-secondary);
   cursor: pointer;
-  transition: opacity var(--duration-fast) var(--ease-out);
   text-decoration: none;
   color: inherit;
+  transition: background-color var(--duration-fast) var(--ease-out);
 }
 
-.article-card:hover {
-  opacity: 0.8;
+.article-card:last-child {
+  border-bottom: none;
 }
 
 .article-card__left {
@@ -621,14 +621,15 @@ body::before {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
 }
 
 .article-card__date {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
   color: var(--text-tertiary);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
   white-space: nowrap;
 }
 
@@ -638,35 +639,44 @@ body::before {
 
 .article-card__title {
   font-family: var(--font-serif);
-  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
   font-weight: 500;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
   color: var(--text-primary);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.article-card:hover .article-card__title {
+  color: var(--accent-warm);
 }
 
 .article-card__excerpt {
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--text-secondary);
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-bottom: var(--space-md);
 }
 
 .article-card__read-more {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--text-tertiary);
-  margin-top: var(--space-md);
   display: flex;
   align-items: center;
   gap: 6px;
   transition: color var(--duration-fast) var(--ease-out);
+}
+
+.article-card:hover .article-card__read-more {
+  color: var(--accent-warm);
 }
 
 .article-card__read-more::after {
