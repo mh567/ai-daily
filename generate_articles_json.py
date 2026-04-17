@@ -12,18 +12,23 @@ ARTICLES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'article
 OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'articles.json')
 
 def parse_frontmatter(content):
-    """解析 YAML frontmatter"""
+    """解析 YAML frontmatter，支持多行值"""
     match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
     if not match:
         return {}
     
     frontmatter = {}
+    current_key = None
     for line in match.group(1).split('\n'):
-        if ':' in line:
+        if ':' in line and not line.startswith(' '):
             key, value = line.split(':', 1)
             key = key.strip()
             value = value.strip().strip('"\'')
             frontmatter[key] = value
+            current_key = key
+        elif current_key and line.strip():
+            # Continuation line — append to previous key
+            frontmatter[current_key] += '\n' + line.strip().strip('"\'')
     
     return frontmatter
 

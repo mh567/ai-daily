@@ -1,6 +1,6 @@
 /* ==========================================================================
    AI Daily — App Logic
-   Articles loading, category filtering, theme toggle, markdown rendering
+   Articles loading, theme toggle, markdown rendering
    ========================================================================== */
 
 (function () {
@@ -169,13 +169,6 @@
     return results.filter(Boolean).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   }
 
-  // ----- Get unique categories -----
-  function getCategories(articles) {
-    const cats = new Set();
-    articles.forEach((a) => { if (a.category) cats.add(a.category); });
-    return ['全部', ...Array.from(cats).sort()];
-  }
-
   // ----- Render article cards (DOM API — no innerHTML with user data) -----
   function renderCards(articles, container) {
     if (!container) return;
@@ -248,20 +241,6 @@
     });
   }
 
-  // ----- Render filters (DOM API — no innerHTML with user data) -----
-  function renderFilters(categories, activeCategory, container, onChange) {
-    if (!container) return;
-    container.textContent = '';
-    categories.forEach((cat) => {
-      const btn = document.createElement('button');
-      btn.className = 'filter-btn' + (cat === activeCategory ? ' filter-btn--active' : '');
-      btn.dataset.category = cat;
-      btn.textContent = cat;
-      btn.addEventListener('click', () => onChange(btn.dataset.category));
-      container.appendChild(btn);
-    });
-  }
-
   // ----- Theme toggle -----
   function initTheme() {
     // Theme is pre-set by inline <head> script; only bind events and update icon here
@@ -313,8 +292,8 @@
       toggle.classList.toggle('active');
       links.classList.toggle('open');
     });
-    links.querySelectorAll('.nav__link').forEach((link) => {
-      link.addEventListener('click', () => {
+    links.querySelectorAll('.nav__link, .theme-toggle').forEach((el) => {
+      el.addEventListener('click', () => {
         toggle.setAttribute('aria-expanded', 'false');
         toggle.classList.remove('active');
         links.classList.remove('open');
@@ -325,7 +304,6 @@
   // ----- Home page init -----
   async function initHome() {
     const cardsContainer = document.querySelector('.articles-list');
-    const filtersContainer = document.querySelector('.filters');
     if (!cardsContainer) return;
 
     initTheme();
@@ -340,18 +318,8 @@
     } catch (err) {
       console.error('Failed to load articles:', err);
     }
-    const categories = getCategories(allArticles);
-    let activeCategory = '全部';
 
-    function applyFilter(cat) {
-      activeCategory = cat;
-      const filtered =
-        cat === '全部' ? allArticles : allArticles.filter((a) => a.category === cat);
-      renderCards(filtered, cardsContainer);
-      renderFilters(categories, activeCategory, filtersContainer, applyFilter);
-    }
-
-    applyFilter('全部');
+    renderCards(allArticles, cardsContainer);
   }
 
   // ----- Article detail page init -----
