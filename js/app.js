@@ -310,44 +310,56 @@
   function initPullToRefresh(onRefresh) {
     let startY = 0;
     let pulling = false;
-    const threshold = 80;
+    let refreshing = false;
+    const threshold = 60;
 
     const indicator = document.createElement('div');
     indicator.className = 'ptr-indicator';
     indicator.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0020 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 004 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" fill="currentColor"/></svg>';
     document.body.prepend(indicator);
 
-    document.addEventListener('touchstart', (e) => {
-      if (window.scrollY === 0) {
+    function show(dy) {
+      indicator.style.transform = 'translateY(' + Math.min(dy * 0.4, 50) + 'px)';
+      indicator.style.opacity = Math.min(dy / threshold, 1);
+    }
+
+    function hide() {
+      indicator.style.transform = 'translateY(-50px)';
+      indicator.style.opacity = 0;
+      indicator.classList.remove('ptr-spinning');
+      refreshing = false;
+    }
+
+    document.addEventListener('touchstart', function(e) {
+      if (refreshing) return;
+      if (window.scrollY <= 0) {
         startY = e.touches[0].clientY;
         pulling = true;
       }
     }, { passive: true });
 
-    document.addEventListener('touchmove', (e) => {
-      if (!pulling) return;
-      const dy = e.touches[0].clientY - startY;
-      if (dy > 0 && window.scrollY === 0) {
-        const progress = Math.min(dy / threshold, 1);
-        indicator.style.transform = `translateY(${dy * 0.5}px)`;
-        indicator.style.opacity = progress;
+    document.addEventListener('touchmove', function(e) {
+      if (!pulling || refreshing) return;
+      var dy = e.touches[0].clientY - startY;
+      if (dy > 10 && window.scrollY <= 0) {
+        show(dy);
       }
     }, { passive: true });
 
-    document.addEventListener('touchend', () => {
-      if (!pulling) return;
+    document.addEventListener('touchend', function(e) {
+      if (!pulling || refreshing) return;
       pulling = false;
-      const current = parseFloat(indicator.style.transform.replace(/[^0-9.]/g, '')) || 0;
-      if (current >= threshold * 0.5) {
+      var dy = e.changedTouches[0].clientY - startY;
+      if (dy > threshold) {
+        refreshing = true;
         indicator.classList.add('ptr-spinning');
         indicator.style.transform = 'translateY(40px)';
         indicator.style.opacity = 1;
-        setTimeout(() => {
-          onRefresh();
-        }, 300);
+        Promise.resolve(onRefresh()).then(function() {
+          setTimeout(hide, 200);
+        });
       } else {
-        indicator.style.transform = 'translateY(0)';
-        indicator.style.opacity = 0;
+        hide();
       }
     }, { passive: true });
   }
