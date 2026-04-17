@@ -44,7 +44,8 @@
       if (idx === -1) return;
       const key = line.slice(0, idx).trim();
       let val = line.slice(idx + 1).trim();
-      if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1);
+      if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'")))
+        val = val.slice(1, -1);
       meta[key] = val;
     });
     return { meta, body: match[2] };
@@ -263,10 +264,8 @@
 
   // ----- Theme toggle -----
   function initTheme() {
-    const stored = localStorage.getItem('ai-daily-theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = stored || (prefersDark ? 'dark' : 'light');
-    document.documentElement.setAttribute('data-theme', theme);
+    // Theme is pre-set by inline <head> script; only bind events and update icon here
+    const theme = document.documentElement.getAttribute('data-theme') || 'light';
     updateThemeIcon(theme);
 
     // Bind toggle button
@@ -402,12 +401,21 @@
     if (headerEl) {
       headerEl.querySelector('.article-page__tag').textContent = article.category || '';
       headerEl.querySelector('.article-page__title').textContent = article.title || '';
-      const metaParts = [];
-      if (article.author) metaParts.push(`<span>${escapeHtml(article.author)}</span>`);
-      if (article.date) metaParts.push(`<span>${escapeHtml(article.date)}</span>`);
-      headerEl.querySelector('.article-page__meta').innerHTML = metaParts.join(
-        '<span class="article-page__meta-separator"></span>'
-      );
+      const metaEl = headerEl.querySelector('.article-page__meta');
+      metaEl.textContent = '';
+      const parts = [];
+      if (article.author) parts.push(article.author);
+      if (article.date) parts.push(article.date);
+      parts.forEach((text, i) => {
+        if (i > 0) {
+          const sep = document.createElement('span');
+          sep.className = 'article-page__meta-separator';
+          metaEl.appendChild(sep);
+        }
+        const span = document.createElement('span');
+        span.textContent = text;
+        metaEl.appendChild(span);
+      });
     }
 
     contentEl.innerHTML = mdToHtml(article.body);

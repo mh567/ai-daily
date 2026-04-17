@@ -7,10 +7,9 @@
 import os
 import json
 import re
-from datetime import datetime
 
-ARTICLES_DIR = os.path.join(os.path.dirname(__file__), 'articles')
-OUTPUT_FILE = os.path.join(os.path.dirname(__file__), 'articles.json')
+ARTICLES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'articles')
+OUTPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'articles.json')
 
 def parse_frontmatter(content):
     """解析 YAML frontmatter"""
