@@ -1176,45 +1176,31 @@ body::before {
 
   .nav__links {
     position: fixed;
-    top: var(--nav-height);
-    left: auto;
+    top: 0;
+    left: 0;
     right: 0;
-    width: 260px;
     bottom: 0;
     background: var(--bg-primary);
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--space-2xl) var(--space-lg);
-    gap: var(--space-lg);
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xl);
     transform: translateX(100%);
     transition: transform var(--duration-normal) var(--ease-out);
-    z-index: 101;
-    box-shadow: -4px 0 24px rgba(0,0,0,0.1);
+    z-index: 200;
   }
 
   .nav__links.open {
     transform: translateX(0);
   }
 
-  /* Mobile backdrop */
+  /* Backdrop — no position fixed, use the nav__links container itself as the overlay */
   .nav-backdrop {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.35);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity var(--duration-normal) var(--ease-out);
-    z-index: 100;
-  }
-
-  .nav-backdrop.open {
-    opacity: 1;
-    pointer-events: auto;
+    display: none;
   }
 
   .nav__link {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     font-family: var(--font-serif);
     font-weight: 400;
   }
