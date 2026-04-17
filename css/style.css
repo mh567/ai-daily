@@ -820,6 +820,13 @@ body::before {
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 
+.article-content blockquote p {
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
 .article-content ul,
 .article-content ol {
   margin-bottom: var(--space-lg);
