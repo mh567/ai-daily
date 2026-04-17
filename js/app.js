@@ -124,9 +124,11 @@
     });
     // Unordered list items
     html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
-    html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
     // Ordered list items
-    html = html.replace(/^\d+\. (.+)$/gm, '<li>$1</li>');
+    html = html.replace(/^(\d+)\. (.+)$/gm, '<li value="$1">$2</li>');
+    // Wrap <li> groups — ordered first, then remaining unordered
+    html = html.replace(/((?:<li value="\d+">.*<\/li>\n?)+)/g, '<ol>$1</ol>');
+    html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
     // Links — validate URL protocol
     html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (match, text, url) => {
       return isSafeUrl(url) ? `<a href="${url}">${text}</a>` : `<span>${text}</span>`;
@@ -212,12 +214,7 @@
       date.className = 'article-card__date';
       date.textContent = a.date || '';
 
-      const tag = document.createElement('span');
-      tag.className = 'article-card__tag';
-      tag.textContent = a.category || '';
-
       meta.appendChild(date);
-      meta.appendChild(tag);
 
       const titleEl = document.createElement('div');
       titleEl.className = 'article-card__title';
@@ -436,7 +433,6 @@
     if (ogUrl) ogUrl.setAttribute('content', window.location.href);
 
     if (headerEl) {
-      headerEl.querySelector('.article-page__tag').textContent = article.category || '';
       headerEl.querySelector('.article-page__title').textContent = article.title || '';
       const metaEl = headerEl.querySelector('.article-page__meta');
       metaEl.textContent = '';
