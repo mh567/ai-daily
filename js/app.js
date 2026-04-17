@@ -179,6 +179,7 @@
   function renderCards(articles, container) {
     if (!container) return;
     container.textContent = '';
+    container.setAttribute('aria-busy', 'false');
 
     if (articles.length === 0) {
       const wrap = document.createElement('div');

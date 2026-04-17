@@ -1049,9 +1049,66 @@ body::before {
   color: var(--text-tertiary);
 }
 
+/* ---------- Skeleton Loading ---------- */
+.skeleton-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--space-xl);
+  align-items: start;
+  padding: var(--space-xl) 0;
+  border-bottom: 1px solid var(--border-secondary);
+}
+
+.skeleton-card__left {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-card__num {
+  width: 50px;
+  height: 40px;
+  background: var(--bg-tag);
+  border-radius: var(--radius-sm);
+  animation: skeletonPulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-line {
+  height: 14px;
+  background: var(--bg-tag);
+  border-radius: 4px;
+  animation: skeletonPulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-line--sm { width: 35%; }
+.skeleton-line--md { width: 80%; }
+.skeleton-line--lg { width: 90%; height: 20px; }
+.skeleton-line--cta { width: 25%; margin-top: 4px; }
+
+@keyframes skeletonPulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
 /* ---------- Page Transitions ---------- */
+.hero {
+  animation: heroFadeIn 600ms var(--ease-out) both;
+}
+
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .page-enter {
-  animation: pageEnter var(--duration-slow) var(--ease-out) forwards;
+  animation: pageEnter var(--duration-slow) var(--ease-out) both;
 }
 
 @keyframes pageEnter {
@@ -1065,21 +1122,22 @@ body::before {
   }
 }
 
-/* Staggered article entrance */
+/* Staggered article entrance — cards start visible, animate with slight offset */
 .article-card {
-  animation: cardEnter var(--duration-slow) var(--ease-out) both;
+  opacity: 0;
+  animation: cardEnter 500ms var(--ease-out) both;
 }
 
-.article-card:nth-child(1) { animation-delay: 50ms; }
-.article-card:nth-child(2) { animation-delay: 100ms; }
-.article-card:nth-child(3) { animation-delay: 150ms; }
-.article-card:nth-child(4) { animation-delay: 200ms; }
-.article-card:nth-child(5) { animation-delay: 250ms; }
+.article-card:nth-child(1) { animation-delay: 80ms; }
+.article-card:nth-child(2) { animation-delay: 140ms; }
+.article-card:nth-child(3) { animation-delay: 200ms; }
+.article-card:nth-child(4) { animation-delay: 260ms; }
+.article-card:nth-child(5) { animation-delay: 320ms; }
 
 @keyframes cardEnter {
   from {
     opacity: 0;
-    transform: translateY(16px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;

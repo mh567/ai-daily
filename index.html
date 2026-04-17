@@ -4,15 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Daily — 每日 AI 资讯</title>
-  <meta name="description" content="AI Daily 是一份专业的 AI 资讯日报，聚焦大模型、医疗 AI、开源生态等前沿领域。">
+  <meta name="description" content="AI Daily 是一份专业的 AI 资讯日报，聚焦大模型与产业变革。">
   <meta property="og:title" content="AI Daily — 每日 AI 资讯">
-  <meta property="og:description" content="AI Daily 是一份专业的 AI 资讯日报，聚焦大模型、医疗 AI、开源生态等前沿领域。">
+  <meta property="og:description" content="AI Daily 是一份专业的 AI 资讯日报，聚焦大模型与产业变革。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500;6..72,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400&display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Apply theme before paint to prevent flash
+    (function(){
+      var t = localStorage.getItem('ai-daily-theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
 </head>
 <body>
 
@@ -59,8 +66,26 @@
 
     <!-- Article List -->
     <section class="articles container">
-      <div class="articles-list">
-        <!-- Article cards rendered by JS -->
+      <div class="articles-list" aria-busy="true">
+        <!-- Loading skeleton -->
+        <div class="skeleton-card">
+          <div class="skeleton-card__left">
+            <div class="skeleton-line skeleton-line--sm"></div>
+            <div class="skeleton-line skeleton-line--lg"></div>
+            <div class="skeleton-line skeleton-line--md"></div>
+            <div class="skeleton-line skeleton-line--sm skeleton-line--cta"></div>
+          </div>
+          <div class="skeleton-card__num"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-card__left">
+            <div class="skeleton-line skeleton-line--sm"></div>
+            <div class="skeleton-line skeleton-line--lg"></div>
+            <div class="skeleton-line skeleton-line--md"></div>
+            <div class="skeleton-line skeleton-line--sm skeleton-line--cta"></div>
+          </div>
+          <div class="skeleton-card__num"></div>
+        </div>
       </div>
     </section>
   </main>
@@ -77,6 +102,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js" defer></script>
 </body>
 </html>
