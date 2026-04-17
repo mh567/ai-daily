@@ -782,7 +782,16 @@ body::before {
   color: var(--text-primary);
 }
 
-.article-content h2:first-child {
+.article-content h2:first-child,
+.article-content h2:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: var(--space-2xl);
+}
+
+/* Also hide border on the first visible H2 (after blockquote) */
+.article-content > blockquote + h2,
+.article-content > p + h2 {
   border-top: none;
   padding-top: 0;
   margin-top: var(--space-2xl);
