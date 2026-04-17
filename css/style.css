@@ -881,6 +881,48 @@ body::before {
   letter-spacing: 0.05em;
 }
 
+/* ---------- Article Day Navigation ---------- */
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border-secondary);
+}
+
+.article-nav__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  transition: color var(--duration-fast) var(--ease-out),
+              background var(--duration-fast) var(--ease-out);
+}
+
+.article-nav__link:hover {
+  color: var(--text-primary);
+  background: var(--bg-tag);
+}
+
+.article-nav__link--disabled {
+  visibility: hidden;
+}
+
+.article-nav__arrow {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.article-nav__label {
+  letter-spacing: 0.05em;
+}
+
 /* ---------- About Page ---------- */
 .about-page {
   padding-top: calc(var(--nav-height) + var(--space-3xl));

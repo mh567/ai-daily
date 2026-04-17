@@ -456,6 +456,42 @@
     }
 
     contentEl.innerHTML = mdToHtml(article.body);
+
+    // Prev / Next day navigation
+    const idx = articles.findIndex((a) => a.slug === slug);
+    const newer = idx > 0 ? articles[idx - 1] : null; // next day (newer)
+    const older = idx < articles.length - 1 ? articles[idx + 1] : null; // prev day (older)
+
+    if (newer || older) {
+      const nav = document.createElement('nav');
+      nav.className = 'article-nav';
+
+      if (older) {
+        const a = document.createElement('a');
+        a.href = 'article.html?slug=' + encodeURIComponent(older.slug);
+        a.className = 'article-nav__link article-nav__link--prev';
+        a.innerHTML = '<span class="article-nav__arrow">&larr;</span><span class="article-nav__label">前一天</span>';
+        nav.appendChild(a);
+      } else {
+        const span = document.createElement('span');
+        span.className = 'article-nav__link article-nav__link--disabled';
+        nav.appendChild(span);
+      }
+
+      if (newer) {
+        const a = document.createElement('a');
+        a.href = 'article.html?slug=' + encodeURIComponent(newer.slug);
+        a.className = 'article-nav__link article-nav__link--next';
+        a.innerHTML = '<span class="article-nav__label">后一天</span><span class="article-nav__arrow">&rarr;</span>';
+        nav.appendChild(a);
+      } else {
+        const span = document.createElement('span');
+        span.className = 'article-nav__link article-nav__link--disabled';
+        nav.appendChild(span);
+      }
+
+      contentEl.appendChild(nav);
+    }
   }
 
   // ----- About page init -----
