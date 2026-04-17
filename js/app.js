@@ -306,6 +306,52 @@
     });
   }
 
+  // ----- Pull to refresh (PWA) -----
+  function initPullToRefresh(onRefresh) {
+    let startY = 0;
+    let pulling = false;
+    const threshold = 80;
+
+    const indicator = document.createElement('div');
+    indicator.className = 'ptr-indicator';
+    indicator.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0020 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 004 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z" fill="currentColor"/></svg>';
+    document.body.prepend(indicator);
+
+    document.addEventListener('touchstart', (e) => {
+      if (window.scrollY === 0) {
+        startY = e.touches[0].clientY;
+        pulling = true;
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchmove', (e) => {
+      if (!pulling) return;
+      const dy = e.touches[0].clientY - startY;
+      if (dy > 0 && window.scrollY === 0) {
+        const progress = Math.min(dy / threshold, 1);
+        indicator.style.transform = `translateY(${dy * 0.5}px)`;
+        indicator.style.opacity = progress;
+      }
+    }, { passive: true });
+
+    document.addEventListener('touchend', () => {
+      if (!pulling) return;
+      pulling = false;
+      const current = parseFloat(indicator.style.transform.replace(/[^0-9.]/g, '')) || 0;
+      if (current >= threshold * 0.5) {
+        indicator.classList.add('ptr-spinning');
+        indicator.style.transform = 'translateY(40px)';
+        indicator.style.opacity = 1;
+        setTimeout(() => {
+          onRefresh();
+        }, 300);
+      } else {
+        indicator.style.transform = 'translateY(0)';
+        indicator.style.opacity = 0;
+      }
+    }, { passive: true });
+  }
+
   // ----- Home page init -----
   async function initHome() {
     const cardsContainer = document.querySelector('.articles-list');
@@ -325,6 +371,12 @@
     }
 
     renderCards(allArticles, cardsContainer);
+
+    // Pull to refresh
+    initPullToRefresh(async () => {
+      const fresh = await loadArticles();
+      renderCards(fresh, cardsContainer);
+    });
   }
 
   // ----- Article detail page init -----

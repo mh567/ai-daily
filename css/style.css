@@ -1175,6 +1175,35 @@ body::before {
 
 }
 
+/* ---------- Pull to Refresh (PWA) ---------- */
+.ptr-indicator {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-40px);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-card);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: var(--accent-warm);
+  opacity: 0;
+  z-index: 300;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.ptr-indicator.ptr-spinning svg {
+  animation: ptr-spin 0.8s linear infinite;
+}
+
+@keyframes ptr-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 /* ---------- Scrollbar ---------- */
 ::-webkit-scrollbar {
   width: 6px;
