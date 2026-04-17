@@ -1,5 +1,14 @@
 [
   {
+    "slug": "2026-04-17-daily-digest",
+    "path": "articles/2026-04-17-daily-digest.md",
+    "title": "AI Daily | 2026年4月17日：OpenAI Codex支持后台操控电脑，通用机器人大脑问世",
+    "date": "2026-04-17",
+    "category": "日报",
+    "excerpt": "OpenAI Codex 重大更新可后台操控桌面；OpenAI 推出生物学专用模型 GPT-Rosalind；Physical Intelligence 发布通用机器人大脑 π0.7；Mozilla 开源自托管 AI 客户端 Thunderbolt。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-16-daily-digest",
     "path": "articles/2026-04-16-daily-digest.md",
     "title": "AI Daily | 2026年4月16日：多模态竞争白热化，开源生态持续扩展",
