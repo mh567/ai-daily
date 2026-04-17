@@ -2,10 +2,10 @@
   {
     "slug": "2026-04-17-daily-digest",
     "path": "articles/2026-04-17-daily-digest.md",
-    "title": "AI Daily | 2026年4月17日：OpenAI Codex支持后台操控电脑，通用机器人大脑问世",
+    "title": "AI Daily | 2026年4月17日：OpenAI Codex可操控桌面，Anthropic发布Claude Opus 4.7",
     "date": "2026-04-17",
     "category": "日报",
-    "excerpt": "OpenAI Codex 重大更新可后台操控桌面；OpenAI 推出生物学专用模型 GPT-Rosalind；Physical Intelligence 发布通用机器人大脑 π0.7；Mozilla 开源自托管 AI 客户端 Thunderbolt。",
+    "excerpt": "OpenAI Codex 重大更新支持后台桌面操控；Anthropic 发布 Claude Opus 4.7；Physical Intelligence 推出通用机器人大脑 π0.7；OpenAI 推出生物学专用模型 GPT-Rosalind。",
     "author": "AI Daily 编辑部"
   }
 ]
