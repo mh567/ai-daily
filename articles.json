@@ -1,22 +1,32 @@
 [
   {
-    "slug": "2026-04-18-evening",
-    "path": "articles/2026-04-18-evening.md",
-    "title": "AI Daily | 2026年4月18日晚报：Anthropic CEO赴白宫谈判Mythos模型归属",
+    "slug": "2026-04-18-morning",
+    "path": "articles/2026-04-18-morning.md",
+    "title": "AI Daily | 2026年4月18日早报：Anthropic CEO赴白宫谈判Mythos模型归属",
     "date": "2026-04-18",
-    "edition": "evening",
+    "edition": "morning",
     "category": "日报",
-    "excerpt": "Anthropic CEO赴白宫就Mythos模型与五角大楼争端寻求突破；OpenAI发布生命科学专用推理模型GPT-Rosalind；阿里开源Qwen3.6代码基准全面领先Gemma 4。",
+    "excerpt": "Anthropic CEO赴白宫就Mythos模型与五角大楼争端寻求突破；OpenAI发布GPT-Rosalind生命科学专用推理模型；阿里开源Qwen3.6代码基准全面领先Gemma 4。",
     "author": "AI Daily 编辑部"
   },
   {
     "slug": "2026-04-17-evening",
     "path": "articles/2026-04-17-evening.md",
-    "title": "AI Daily | 2026年4月17日：OpenAI Codex可操控桌面，Anthropic发布Claude Opus 4.7",
+    "title": "AI Daily | 2026年4月17日晚报：OpenAI推生物学专用模型，垂直AI进入实操阶段",
     "date": "2026-04-17",
     "edition": "evening",
     "category": "日报",
-    "excerpt": "OpenAI Codex 重大更新支持后台桌面操控；Anthropic 发布 Claude Opus 4.7；Physical Intelligence 推出通用机器人大脑 π0.7；OpenAI 推出生物学专用模型 GPT-Rosalind。",
+    "excerpt": "OpenAI推出生物学专用模型GPT-Rosalind；AI编程赛道资本两极分化；Claude流量份额暴增近三倍。晨间速递：OpenAI Codex桌面操控、Claude Opus 4.7发布。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-17-morning",
+    "path": "articles/2026-04-17-morning.md",
+    "title": "AI Daily | 2026年4月17日早报：OpenAI Codex可操控桌面，Anthropic发布Claude Opus 4.7",
+    "date": "2026-04-17",
+    "edition": "morning",
+    "category": "日报",
+    "excerpt": "OpenAI Codex重大更新支持后台桌面操控；Anthropic发布最强通用模型Claude Opus 4.7；Physical Intelligence推出通用机器人大脑π0.7。",
     "author": "AI Daily 编辑部"
   }
 ]
