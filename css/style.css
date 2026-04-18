@@ -453,8 +453,8 @@ body::before {
 
 /* ---------- Hero ---------- */
 .hero {
-  padding-top: calc(var(--nav-height) + var(--space-3xl));
-  padding-bottom: var(--space-2xl);
+  padding-top: calc(var(--nav-height) + var(--space-xl));
+  padding-bottom: var(--space-xl);
   position: relative;
 }
 
@@ -523,7 +523,7 @@ body::before {
   grid-template-columns: 1fr auto;
   gap: var(--space-xl);
   align-items: start;
-  padding: var(--space-xl) 0 var(--space-2xl);
+  padding: var(--space-lg) 0 var(--space-xl);
   border-bottom: 1px solid var(--border-secondary);
   cursor: pointer;
   text-decoration: none;
@@ -655,13 +655,13 @@ body::before {
 
 /* ---------- Article Detail Page ---------- */
 .article-page {
-  padding-top: calc(var(--nav-height) + var(--space-3xl));
-  padding-bottom: var(--space-3xl);
+  padding-top: calc(var(--nav-height) + var(--space-xl));
+  padding-bottom: var(--space-2xl);
 }
 
 .article-page__header {
   max-width: 680px;
-  margin: 0 auto var(--space-3xl);
+  margin: 0 auto var(--space-2xl);
 }
 
 .article-page__back {
@@ -726,8 +726,8 @@ body::before {
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: -0.01em;
-  margin-top: var(--space-2xl);
-  margin-bottom: var(--space-lg);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
   color: var(--text-primary);
 }
 
@@ -737,7 +737,7 @@ body::before {
   font-weight: 600;
   line-height: 1.45;
   letter-spacing: -0.005em;
-  margin-top: var(--space-2xl);
+  margin-top: var(--space-lg);
   margin-bottom: var(--space-md);
   color: var(--text-primary);
 }
@@ -746,7 +746,7 @@ body::before {
   font-size: 1.1rem;
   line-height: 1.85;
   color: var(--text-primary);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .article-content strong {
@@ -761,7 +761,7 @@ body::before {
 .article-content blockquote {
   border-left: 2px solid var(--accent-warm);
   padding: var(--space-md) var(--space-lg);
-  margin: var(--space-xl) 0;
+  margin: var(--space-lg) 0;
   font-family: var(--font-serif);
   font-size: 1.05rem;
   font-style: normal;
@@ -791,7 +791,7 @@ body::before {
 
 .article-content ul,
 .article-content ol {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
   padding-left: 1.4em;
 }
 
@@ -850,7 +850,7 @@ body::before {
   border: none;
   height: 1px;
   background: var(--border-primary);
-  margin: var(--space-2xl) 0;
+  margin: var(--space-lg) 0;
 }
 
 /* Article tables */
@@ -889,7 +889,7 @@ body::before {
   font-size: 0.85rem;
   letter-spacing: 0.3em;
   color: var(--text-tertiary);
-  margin: var(--space-2xl) 0 var(--space-md);
+  margin: var(--space-xl) 0 var(--space-sm);
 }
 
 .end-mark-sub {
