@@ -216,6 +216,14 @@
 
       meta.appendChild(date);
 
+      // Edition badge (早报/晚报)
+      if (a.edition === 'morning' || a.edition === 'evening') {
+        const edition = document.createElement('span');
+        edition.className = 'article-card__edition article-card__edition--' + a.edition;
+        edition.textContent = a.edition === 'morning' ? '🌅 早报' : '🌆 晚报';
+        meta.appendChild(edition);
+      }
+
       const titleEl = document.createElement('div');
       titleEl.className = 'article-card__title';
       titleEl.textContent = a.title || '';
@@ -466,7 +474,7 @@
         const a = document.createElement('a');
         a.href = 'article.html?slug=' + encodeURIComponent(older.slug);
         a.className = 'article-nav__link article-nav__link--prev';
-        a.innerHTML = '<span class="article-nav__arrow">&larr;</span><span class="article-nav__label">前一天</span>';
+        a.innerHTML = '<span class="article-nav__arrow">&larr;</span><span class="article-nav__label">上一篇</span>';
         nav.appendChild(a);
       } else {
         const span = document.createElement('span');
@@ -478,7 +486,7 @@
         const a = document.createElement('a');
         a.href = 'article.html?slug=' + encodeURIComponent(newer.slug);
         a.className = 'article-nav__link article-nav__link--next';
-        a.innerHTML = '<span class="article-nav__label">后一天</span><span class="article-nav__arrow">&rarr;</span>';
+        a.innerHTML = '<span class="article-nav__label">下一篇</span><span class="article-nav__arrow">&rarr;</span>';
         nav.appendChild(a);
       } else {
         const span = document.createElement('span');
