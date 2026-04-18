@@ -111,8 +111,8 @@
     html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
     // Inline code
     html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
-    // Horizontal rule
-    html = html.replace(/^---$/gm, '<hr>');
+    // Horizontal rule — surround with blank lines so paragraph splitting isolates it
+    html = html.replace(/(^|\n)---(\n|$)/g, '\n\n<hr>\n\n');
     // Tables — pipe-style
     html = html.replace(/^(\|.+\|)\n(\|[\s\-:|]+\|)\n((?:\|.+\|\n?)+)/gm, (match, header, sep, body) => {
       const ths = header.split('|').filter(c => c.trim()).map(c => `<th>${c.trim()}</th>`).join('');
@@ -143,14 +143,15 @@
         return `<p>${block.replace(/\n/g, '<br>')}</p>`;
       })
       .join('\n');
-    // End mark — detect sign-off patterns
+    // End mark — detect sign-off: "— 完 —" followed by sign-off text
+    // Supports: "AI Daily · 每日清晨，如约至", "每日黄昏，如约而至", etc.
     html = html.replace(
-      /<p>(— 完 —)<\/p>\s*<p>(每日[^<]{2,20})<\/p>\s*$/,
+      /<p>(— 完 —)<\/p>\s*<p>(.*?每日[^<]{2,20})<\/p>\s*$/,
       '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
     );
-    // Fallback: generic end mark with any sign-off text
+    // Broader fallback: any "— 完 —" followed by short text
     html = html.replace(
-      /<p>(— 完 —)<\/p>\s*<p>([^<]{2,30})<\/p>\s*$/,
+      /<p>(— 完 —)<\/p>\s*<p>([^<]{2,40})<\/p>\s*$/,
       '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
     );
     return sanitizeHtml(html);
