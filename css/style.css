@@ -567,23 +567,23 @@ body::before {
 }
 
 .article-card__edition--morning {
-  color: #b45309;
-  background: #fef3c7;
-}
-
-.article-card__edition--evening {
   color: #1e40af;
   background: #dbeafe;
 }
 
+.article-card__edition--evening {
+  color: #b45309;
+  background: #fef3c7;
+}
+
 [data-theme="dark"] .article-card__edition--morning {
-  color: #fbbf24;
-  background: rgba(251, 191, 36, 0.15);
+  color: #60a5fa;
+  background: rgba(96, 165, 250, 0.15);
 }
 
 [data-theme="dark"] .article-card__edition--evening {
-  color: #60a5fa;
-  background: rgba(96, 165, 250, 0.15);
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.15);
 }
 
 .article-card__title {

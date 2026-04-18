@@ -143,9 +143,14 @@
         return `<p>${block.replace(/\n/g, '<br>')}</p>`;
       })
       .join('\n');
-    // End mark — detect "— 完 —" pattern
+    // End mark — detect sign-off patterns
     html = html.replace(
-      /<p>(— 完 —)<\/p>\s*<p>(AI Daily ·[\s\S]*?)<\/p>\s*$/,
+      /<p>(— 完 —)<\/p>\s*<p>(每日[^<]{2,20})<\/p>\s*$/,
+      '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
+    );
+    // Fallback: generic end mark with any sign-off text
+    html = html.replace(
+      /<p>(— 完 —)<\/p>\s*<p>([^<]{2,30})<\/p>\s*$/,
       '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
     );
     return sanitizeHtml(html);
@@ -220,7 +225,7 @@
       if (a.edition === 'morning' || a.edition === 'evening') {
         const edition = document.createElement('span');
         edition.className = 'article-card__edition article-card__edition--' + a.edition;
-        edition.textContent = a.edition === 'morning' ? '🌅 早报' : '🌆 晚报';
+        edition.textContent = a.edition === 'morning' ? '早报' : '晚报';
         meta.appendChild(edition);
       }
 
@@ -241,12 +246,7 @@
       left.appendChild(excerpt);
       left.appendChild(readMore);
 
-      const number = document.createElement('div');
-      number.className = 'article-card__number';
-      number.textContent = String(i + 1).padStart(2, '0');
-
       card.appendChild(left);
-      card.appendChild(number);
       container.appendChild(card);
     });
   }
