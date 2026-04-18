@@ -100,10 +100,13 @@
     // Escape HTML in source first
     html = escapeHtml(html);
 
-    // Headers
-    html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
-    html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
-    html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+    // Headers — auto-generate stable IDs for anchor linking
+    let headingCounter = 0;
+    html = html.replace(/^(#{1,3}) (.+)$/gm, (m, hashes, text) => {
+      const level = hashes.length;
+      const id = 'section-' + headingCounter++;
+      return '<h' + level + ' id="' + id + '">' + text + '</h' + level + '>';
+    });
     // Blockquote
     html = html.replace(/^&gt; (.+)$/gm, '<blockquote><p>$1</p></blockquote>');
     // Bold & italic
@@ -466,6 +469,14 @@
     }
 
     contentEl.innerHTML = mdToHtml(article.body);
+
+    // Scroll to hash anchor if present (e.g. #section-3)
+    if (window.location.hash) {
+      const target = document.getElementById(window.location.hash.slice(1));
+      if (target) {
+        setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+      }
+    }
 
     // Prev / Next day navigation
     const idx = articles.findIndex((a) => a.slug === slug);
