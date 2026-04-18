@@ -722,31 +722,43 @@ body::before {
 
 .article-content h2 {
   font-family: var(--font-serif);
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: -0.01em;
   margin-top: var(--space-xl);
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
   color: var(--text-primary);
 }
 
 .article-content h3 {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.45;
   letter-spacing: -0.005em;
   margin-top: var(--space-lg);
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
   color: var(--text-primary);
 }
 
 .article-content p {
-  font-size: 1.1rem;
-  line-height: 1.85;
+  font-size: 1.05rem;
+  line-height: 1.8;
   color: var(--text-primary);
-  margin-bottom: var(--space-md);
+  margin-bottom: 0.75em;
+}
+
+/* 链接样式：正文内链接可点击跳转 */
+.article-content a {
+  color: var(--accent-warm);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(196, 85, 58, 0.3);
+  transition: border-color var(--duration-fast) var(--ease-out);
+}
+
+.article-content a:hover {
+  border-bottom-color: var(--accent-warm);
 }
 
 .article-content strong {
@@ -760,12 +772,12 @@ body::before {
 
 .article-content blockquote {
   border-left: 2px solid var(--accent-warm);
-  padding: var(--space-md) var(--space-lg);
-  margin: var(--space-lg) 0;
+  padding: var(--space-sm) var(--space-md);
+  margin: var(--space-md) 0;
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-style: normal;
-  line-height: 1.7;
+  line-height: 1.65;
   color: var(--text-secondary);
   background: var(--bg-secondary);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
