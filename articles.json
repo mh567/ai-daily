@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-19-evening",
+    "path": "articles/2026-04-19-evening.md",
+    "title": "AI Daily | 2026年4月19日晚：人形机器人半马，Cursor 3智能体IDE，Gemini A2UI标准",
+    "date": "2026-04-19",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "2026北京亦庄人形机器人半马落幕，Cursor 3推出智能体优先IDE，谷歌发布A2UI 0.9生成式UI标准。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-19-morning",
     "path": "articles/2026-04-19-morning.md",
     "title": "AI Daily | 2026年4月19日早报：Anthropic设计工具，Meta芯片合作，Gemini登陆Mac",
