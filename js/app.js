@@ -107,8 +107,15 @@
       const id = 'section-' + headingCounter++;
       return '<h' + level + ' id="' + id + '">' + text + '</h' + level + '>';
     });
-    // Blockquote
-    html = html.replace(/^&gt; (.+)$/gm, '<blockquote><p>$1</p></blockquote>');
+ // Blockquote — merge consecutive &gt; lines into one <blockquote>
+ // Match one or more consecutive lines starting with &gt;
+ html = html.replace(/(?:^&gt; (.+)$\n?)+/gm, (match) => {
+   const lines = match.trim().split('\n').map(line => {
+     const content = line.replace(/^&gt; /, '');
+     return `<p>${content}</p>`;
+   });
+   return `<blockquote>${lines.join('')}</blockquote>`;
+ });
     // Bold & italic
     html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
