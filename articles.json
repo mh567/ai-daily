@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-19-evening",
+    "path": "articles/2026-04-19-evening.md",
+    "title": "AI Daily | 2026年4月19日晚报：豆包模型更新，ERNIE 4.5发布，AI芯片政策加码",
+    "date": "2026-04-19",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "多款国产大模型迭代更新，政策持续推动AI芯片发展",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-19-morning",
     "path": "articles/2026-04-19-morning.md",
     "title": "AI Daily | 2026年4月19日早报：Anthropic设计工具，Meta芯片合作，Gemini登陆Mac",
