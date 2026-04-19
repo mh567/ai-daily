@@ -1,35 +1,5 @@
 [
   {
-    "slug": "2026-04-19-evening-v1",
-    "path": "articles/2026-04-19-evening-v1.md",
-    "title": "AI Daily | 2026年4月19日晚报：DeepSeek融资传闻，仿冒AI智能体，Token经济学",
-    "date": "2026-04-19",
-    "edition": "evening",
-    "category": "日报",
-    "excerpt": "DeepSeek被传启动首轮融资，仿冒AI智能体乱象引发关注。",
-    "author": "AI Daily 编辑部"
-  },
-  {
-    "slug": "2026-04-19-evening-v3",
-    "path": "articles/2026-04-19-evening-v3.md",
-    "title": "AI Daily | 2026年4月19日晚报：DeepSeek融资传闻，V4模型下周发布，Token经济学重构产业",
-    "date": "2026-04-19",
-    "edition": "evening",
-    "category": "日报",
-    "excerpt": "DeepSeek融资与新模型传闻齐飞，Token经济学引发产业深度思考",
-    "author": "AI Daily 编辑部"
-  },
-  {
-    "slug": "2026-04-19-evening-v2",
-    "path": "articles/2026-04-19-evening-v2.md",
-    "title": "AI Daily | 2026年4月19日晚报：DeepSeek融资传闻，Claude写漏洞，AI应用多点开花",
-    "date": "2026-04-19",
-    "edition": "evening",
-    "category": "日报",
-    "excerpt": "DeepSeek融资传闻与新模型动态引发关注，AI应用在安全、汽车、教育领域持续渗透。",
-    "author": "AI Daily 编辑部"
-  },
-  {
     "slug": "2026-04-19-morning",
     "path": "articles/2026-04-19-morning.md",
     "title": "AI Daily | 2026年4月19日早报：Anthropic设计工具，Meta芯片合作，Gemini登陆Mac",
