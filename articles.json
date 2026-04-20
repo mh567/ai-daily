@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-20-morning",
+    "path": "articles/2026-04-20-morning.md",
+    "title": "Claude Mythos 发现数千零日漏洞，Anthropic 安全路线引发白宫关注",
+    "date": "2026-04-20",
+    "edition": "morning",
+    "category": "ai-daily",
+    "excerpt": "Anthropic 发布 Claude Opus 4.7 与 Mythos 安全模型，在主流系统中发现数千零日漏洞；OpenAI 高层持续调整，Sora 团队负责人离职。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-19-evening",
     "path": "articles/2026-04-19-evening.md",
     "title": "AI Daily | 2026年4月19日晚报：豆包模型更新，ERNIE 4.5发布，AI芯片政策加码",
