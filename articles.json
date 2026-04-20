@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-20-evening",
+    "path": "articles/2026-04-20-evening.md",
+    "title": "AI Daily | 2026年4月20日晚：DeepSeek V4本周发布启动首轮融资，Google开源Gemma 4，Mythos架构被逆推开源",
+    "date": "2026-04-20",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "DeepSeek V4据报本周发布、梁文锋启动首次外部融资；Google开源Gemma 4聚焦端侧推理；22岁开发者逆推Anthropic Mythos架构并开源。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-20-morning",
     "path": "articles/2026-04-20-morning.md",
     "title": "AI Daily | 2026年4月20日早报：Vercel遭AI工具供应链攻击，人形机器人半马跑赢人类纪录",
