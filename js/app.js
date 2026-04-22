@@ -237,11 +237,12 @@
 
       meta.appendChild(date);
 
-      // Edition badge (早报/晚报)
-      if (a.edition === 'morning' || a.edition === 'evening') {
+      // Edition badge
+      if (a.edition) {
         const edition = document.createElement('span');
-        edition.className = 'article-card__edition article-card__edition--' + a.edition;
-        edition.textContent = a.edition === 'morning' ? '早报' : '晚报';
+        edition.className = 'article-card__edition article-card__edition--' + (a.edition === 'daily' ? 'daily' : a.edition);
+        const labels = { daily: '日报', morning: '早报', evening: '晚报' };
+        edition.textContent = labels[a.edition] || a.edition;
         meta.appendChild(edition);
       }
 

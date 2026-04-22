@@ -1,15 +1,5 @@
 [
   {
-    "slug": "2026-04-22-evening",
-    "path": "articles/2026-04-22-evening.md",
-    "title": "AI Daily | 2026年4月22日晚报：世界统一模型，Images 2.0发布，Agent专业化",
-    "date": "2026-04-22",
-    "edition": "evening",
-    "category": "日报",
-    "excerpt": "首个世界统一模型发布，OpenAI发布Images 2.0，AI Agent走向专业协作。",
-    "author": "AI Daily 编辑部"
-  },
-  {
     "slug": "2026-04-22-morning",
     "path": "articles/2026-04-22-morning.md",
     "title": "ChatGPT Images 2.0 上线，OpenAI 生图能力跃升一代",
@@ -20,13 +10,13 @@
     "author": "AI Daily 编辑部"
   },
   {
-    "slug": "2026-04-21-evening",
-    "path": "articles/2026-04-21-evening.md",
-    "title": "AI Daily | 2026年4月21日晚报：小米龙虾登陆PC，Claude Design发布，AI深入开发一线",
-    "date": "2026-04-21",
+    "slug": "2026-04-22-evening",
+    "path": "articles/2026-04-22-evening.md",
+    "title": "AI Daily | 2026年4月22日晚报：世界统一模型，Images 2.0发布，Agent专业化",
+    "date": "2026-04-22",
     "edition": "evening",
     "category": "日报",
-    "excerpt": "小米AI助手多终端扩展，Anthropic发布设计工具，AI Agent深入软件研发",
+    "excerpt": "首个世界统一模型发布，OpenAI发布Images 2.0，AI Agent走向专业协作。",
     "author": "AI Daily 编辑部"
   },
   {
@@ -40,13 +30,13 @@
     "author": "AI Daily 编辑部"
   },
   {
-    "slug": "2026-04-20-evening",
-    "path": "articles/2026-04-20-evening.md",
-    "title": "AI Daily | 2026年4月20日晚：DeepSeek V4本周发布启动首轮融资，Google开源Gemma 4，Mythos架构被逆推开源",
-    "date": "2026-04-20",
+    "slug": "2026-04-21-evening",
+    "path": "articles/2026-04-21-evening.md",
+    "title": "AI Daily | 2026年4月21日晚报：小米龙虾登陆PC，Claude Design发布，AI深入开发一线",
+    "date": "2026-04-21",
     "edition": "evening",
     "category": "日报",
-    "excerpt": "DeepSeek V4据报本周发布、梁文锋启动首次外部融资；Google开源Gemma 4聚焦端侧推理；22岁开发者逆推Anthropic Mythos架构并开源。",
+    "excerpt": "小米AI助手多终端扩展，Anthropic发布设计工具，AI Agent深入软件研发",
     "author": "AI Daily 编辑部"
   },
   {
@@ -57,6 +47,16 @@
     "edition": "morning",
     "category": "日报",
     "excerpt": "Vercel确认遭黑客入侵，第三方AI工具OAuth漏洞波及数百组织；北京人形机器人半马完赛成绩超越人类世界纪录。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-20-evening",
+    "path": "articles/2026-04-20-evening.md",
+    "title": "AI Daily | 2026年4月20日晚：DeepSeek V4本周发布启动首轮融资，Google开源Gemma 4，Mythos架构被逆推开源",
+    "date": "2026-04-20",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "DeepSeek V4据报本周发布、梁文锋启动首次外部融资；Google开源Gemma 4聚焦端侧推理；22岁开发者逆推Anthropic Mythos架构并开源。",
     "author": "AI Daily 编辑部"
   },
   {
@@ -80,16 +80,6 @@
     "author": "AI Daily 编辑部"
   },
   {
-    "slug": "2026-04-18-evening",
-    "path": "articles/2026-04-18-evening.md",
-    "title": "AI Daily | 2026年4月18日晚报：Claude Design发布，AI安全峰会，模型能力评估",
-    "date": "2026-04-18",
-    "edition": "evening",
-    "category": "日报",
-    "excerpt": "Anthropic发布对话式设计工具Claude Design，AI安全治理成焦点。",
-    "author": "AI Daily 编辑部"
-  },
-  {
     "slug": "2026-04-18-morning",
     "path": "articles/2026-04-18-morning.md",
     "title": "AI Daily | 2026年4月18日早报：Anthropic CEO赴白宫谈判Mythos模型归属",
@@ -97,6 +87,16 @@
     "edition": "morning",
     "category": "日报",
     "excerpt": "Anthropic CEO赴白宫就Mythos模型与五角大楼争端寻求突破；OpenAI发布GPT-Rosalind生命科学专用推理模型；阿里开源Qwen3.6代码基准全面领先Gemma 4。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-18-evening",
+    "path": "articles/2026-04-18-evening.md",
+    "title": "AI Daily | 2026年4月18日晚报：Claude Design发布，AI安全峰会，模型能力评估",
+    "date": "2026-04-18",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "Anthropic发布对话式设计工具Claude Design，AI安全治理成焦点。",
     "author": "AI Daily 编辑部"
   },
   {
