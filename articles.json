@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-22-evening",
+    "path": "articles/2026-04-22-evening.md",
+    "title": "AI Daily | 2026年4月22日晚报：世界统一模型发布，百灵新模型，AI Agent组团",
+    "date": "2026-04-22",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "首个世界统一模型发布，新模型追求高Token效率，AI Agent进入协作时代",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-22-morning",
     "path": "articles/2026-04-22-morning.md",
     "title": "ChatGPT Images 2.0 上线，OpenAI 生图能力跃升一代",
