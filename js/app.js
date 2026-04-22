@@ -153,21 +153,14 @@
         return `<p>${block.replace(/\n/g, '<br>')}</p>`;
       })
       .join('\n');
-    // End mark — detect sign-off in various formats
-    // Format 1: <p>— 完 —</p><p>AI Daily · 每日黄昏，如约而至</p>
+    // End mark — detect sign-off in various formats, render as centered "完"
     html = html.replace(
-      /<p>(— 完 —)<\/p>\s*<p>(.*?每日[^<]{2,30})<\/p>\s*$/,
-      '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
+      /<p>\s*[—\-─]*\s*完\s*[—\-─]*\s*(?:<\/p>\s*<p>[^<]*<\/p>\s*$|$)/,
+      '<div class="end-mark">完</div>'
     );
-    // Format 2: <p>— 完 — AI Daily · 每日黄昏，如约而至</p> (single block)
     html = html.replace(
-      /<p>(— 完 —)\s*(.*?每日[^<]{2,30})<\/p>\s*$/,
-      '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
-    );
-    // Format 3: any "— 完 —" followed by short text in same block
-    html = html.replace(
-      /<p>(— 完 —)\s*([^<]{2,40})<\/p>\s*$/,
-      '<div class="end-mark">$1</div><div class="end-mark-sub">$2</div>'
+      /<p>\s*[—\-─]*\s*完\s*[—\-─]*\s*[^<]*<\/p>\s*$/,
+      '<div class="end-mark">完</div>'
     );
     return sanitizeHtml(html);
   }

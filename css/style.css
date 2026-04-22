@@ -908,10 +908,11 @@ body::before {
 .end-mark {
   text-align: center;
   font-family: var(--font-serif);
-  font-size: 0.85rem;
-  letter-spacing: 0.3em;
+  font-size: 1.1rem;
+  letter-spacing: 0.5em;
   color: var(--text-tertiary);
   margin: var(--space-xl) 0 var(--space-sm);
+  padding-bottom: var(--space-md);
 }
 
 .end-mark-sub {
