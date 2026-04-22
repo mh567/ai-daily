@@ -1,22 +1,12 @@
 [
   {
-    "slug": "2026-04-22-morning",
-    "path": "articles/2026-04-22-morning.md",
-    "title": "ChatGPT Images 2.0 上线，OpenAI 生图能力跃升一代",
+    "slug": "2026-04-22",
+    "path": "articles/2026-04-22.md",
+    "title": "AI Daily | 2026年4月22日：OpenAI发布图像生成新模型，国产AIPC标杆亮相，Anthropic调整产品策略",
     "date": "2026-04-22",
-    "edition": "morning",
-    "category": "ai-daily",
-    "excerpt": "OpenAI 发布 ChatGPT Images 2.0，生图模型首次具备\"思考\"能力；Claude Code 从 Pro 订阅中移除；库克宣布 9 月卸任苹果 CEO。",
-    "author": "AI Daily 编辑部"
-  },
-  {
-    "slug": "2026-04-22-evening",
-    "path": "articles/2026-04-22-evening.md",
-    "title": "AI Daily | 2026年4月22日晚报：世界统一模型，Images 2.0发布，Agent专业化",
-    "date": "2026-04-22",
-    "edition": "evening",
+    "edition": "daily",
     "category": "日报",
-    "excerpt": "首个世界统一模型发布，OpenAI发布Images 2.0，AI Agent走向专业协作。",
+    "excerpt": "OpenAI发布新一代图像模型，国产AI硬件与模型效率同步突破。",
     "author": "AI Daily 编辑部"
   },
   {
