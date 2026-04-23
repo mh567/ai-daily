@@ -162,6 +162,11 @@
       /<p>\s*[—\-─]*\s*完\s*[—\-─]*\s*[^<]*<\/p>\s*$/,
       '<div class="end-mark">完</div>'
     );
+    // Also handle "完" as plain text (not in <p> tag), with or without sign-off after it
+    html = html.replace(
+      /(?:<hr>\s*)?完\s*(?:<p>[^<]*<\/p>\s*)?$/,
+      '<div class="end-mark">完</div>'
+    );
     return sanitizeHtml(html);
   }
 

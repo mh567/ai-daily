@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-23",
+    "path": "articles/2026-04-23.md",
+    "title": "AI Daily | 2026年4月23日：GPT Image 2发布，小米MiMo公测，多模态与Agent密集落地",
+    "date": "2026-04-23",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI发布图像生成新模型，小米大模型公测，多领域AI应用涌现。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-22",
     "path": "articles/2026-04-22.md",
     "title": "AI Daily | 2026年4月22日：OpenAI发布图像生成新模型，国产AIPC标杆亮相，Anthropic调整产品策略",
