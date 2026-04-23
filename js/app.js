@@ -476,6 +476,37 @@
 
     contentEl.innerHTML = mdToHtml(article.body);
 
+    // End mark — post-render DOM replacement (more reliable than regex on HTML string)
+    const allText = contentEl.childNodes;
+    for (let i = allText.length - 1; i >= 0; i--) {
+      const node = allText[i];
+      if (node.nodeType === 3 && node.textContent.trim() === '完') {
+        const mark = document.createElement('div');
+        mark.className = 'end-mark';
+        mark.textContent = '完';
+        node.replaceWith(mark);
+        break;
+      }
+    }
+    // Fallback: also check inside last element (sanitizeHtml may wrap text)
+    if (!contentEl.querySelector('.end-mark')) {
+      const lastEl = contentEl.lastElementChild;
+      if (lastEl) {
+        const tw = document.createTreeWalker(lastEl, NodeFilter.SHOW_TEXT);
+        let tn;
+        while (tn = tw.nextNode()) {
+          if (tn.textContent.trim() === '完') {
+            const mark = document.createElement('div');
+            mark.className = 'end-mark';
+            mark.textContent = '完';
+            lastEl.parentNode.insertBefore(mark, lastEl.nextSibling);
+            tn.remove();
+            break;
+          }
+        }
+      }
+    }
+
     // Scroll to hash anchor if present (e.g. #section-3)
     if (window.location.hash) {
       const target = document.getElementById(window.location.hash.slice(1));
