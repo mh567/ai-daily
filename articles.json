@@ -1,15 +1,5 @@
 [
   {
-    "slug": "2026-04-23",
-    "path": "articles/2026-04-23.md",
-    "title": "AI Daily | 2026年4月22日：OpenAI发布图像新模型，Claude Code策略引争议",
-    "date": "2026-04-22",
-    "edition": "daily",
-    "category": "日报",
-    "excerpt": "OpenAI发布新一代图像模型，Anthropic调整Claude Code订阅策略。",
-    "author": "AI Daily 编辑部"
-  },
-  {
     "slug": "2026-04-22",
     "path": "articles/2026-04-22.md",
     "title": "AI Daily | 2026年4月22日：OpenAI发布图像生成新模型，国产AIPC标杆亮相，Anthropic调整产品策略",
@@ -40,16 +30,6 @@
     "author": "AI Daily 编辑部"
   },
   {
-    "slug": "2026-04-20-morning",
-    "path": "articles/2026-04-20-morning.md",
-    "title": "AI Daily | 2026年4月20日早报：Vercel遭AI工具供应链攻击，人形机器人半马跑赢人类纪录",
-    "date": "2026-04-20",
-    "edition": "morning",
-    "category": "日报",
-    "excerpt": "Vercel确认遭黑客入侵，第三方AI工具OAuth漏洞波及数百组织；北京人形机器人半马完赛成绩超越人类世界纪录。",
-    "author": "AI Daily 编辑部"
-  },
-  {
     "slug": "2026-04-20-evening",
     "path": "articles/2026-04-20-evening.md",
     "title": "AI Daily | 2026年4月20日晚：DeepSeek V4本周发布启动首轮融资，Google开源Gemma 4，Mythos架构被逆推开源",
@@ -60,13 +40,13 @@
     "author": "AI Daily 编辑部"
   },
   {
-    "slug": "2026-04-19-evening",
-    "path": "articles/2026-04-19-evening.md",
-    "title": "AI Daily | 2026年4月19日晚报：豆包模型更新，ERNIE 4.5发布，AI芯片政策加码",
-    "date": "2026-04-19",
-    "edition": "evening",
+    "slug": "2026-04-20-morning",
+    "path": "articles/2026-04-20-morning.md",
+    "title": "AI Daily | 2026年4月20日早报：Vercel遭AI工具供应链攻击，人形机器人半马跑赢人类纪录",
+    "date": "2026-04-20",
+    "edition": "morning",
     "category": "日报",
-    "excerpt": "多款国产大模型迭代更新，政策持续推动AI芯片发展",
+    "excerpt": "Vercel确认遭黑客入侵，第三方AI工具OAuth漏洞波及数百组织；北京人形机器人半马完赛成绩超越人类世界纪录。",
     "author": "AI Daily 编辑部"
   },
   {
@@ -77,6 +57,16 @@
     "edition": "morning",
     "category": "日报",
     "excerpt": "Anthropic发布Claude设计工具，Meta深化AI芯片合作，Google Gemini应用登陆Mac。",
+    "author": "AI Daily 编辑部"
+  },
+  {
+    "slug": "2026-04-19-evening",
+    "path": "articles/2026-04-19-evening.md",
+    "title": "AI Daily | 2026年4月19日晚报：豆包模型更新，ERNIE 4.5发布，AI芯片政策加码",
+    "date": "2026-04-19",
+    "edition": "evening",
+    "category": "日报",
+    "excerpt": "多款国产大模型迭代更新，政策持续推动AI芯片发展",
     "author": "AI Daily 编辑部"
   },
   {
