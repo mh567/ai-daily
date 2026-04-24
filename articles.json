@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-24",
+    "path": "articles/2026-04-24.md",
+    "title": "AI Daily | 2026年4月24日：GPT-5.5发布，DeepSeek V4开源，小米语音模型亮相",
+    "date": "2026-04-24",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI发布GPT-5.5，DeepSeek V4开源，小米推出全链路语音模型。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-23",
     "path": "articles/2026-04-23.md",
     "title": "AI Daily | 2026年4月23日：华为发布乾崑ADS 5，OpenAI推出图像生成新模型",
