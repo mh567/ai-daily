@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-26",
+    "path": "articles/2026-04-26.md",
+    "title": "AI Daily | 2026年4月26日：医疗视频大模型开源，Claude Code新增AI审查，美联储证实AI挤压程序员岗位",
+    "date": "2026-04-26",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "全球首个医疗视频理解大模型开源，Anthropic增强Claude Code审查能力，美联储研究显示AI工具已显著影响程序员就业增速。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-25",
     "path": "articles/2026-04-25.md",
     "title": "AI Daily | 2026年4月25日：DeepSeek适配华为芯片，谷歌加码Anthropic，欧洲主权AI整合",
