@@ -195,75 +195,126 @@
     return results.filter(Boolean).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   }
 
-  // ----- Render article cards (DOM API — no innerHTML with user data) -----
-  function renderCards(articles, container) {
+  function normalizeArticleMeta(article) {
+    const path = article.path || '';
+    const slug = article.slug || (path ? slugFromFile(path) : '');
+    return { ...article, slug };
+  }
+
+  function monthLabel(dateStr) {
+    if (!dateStr || !/^\d{4}-\d{2}/.test(dateStr)) return '未归档';
+    const [year, month] = dateStr.split('-');
+    return year + '年' + String(Number(month)) + '月';
+  }
+
+  function createEmptyState() {
+    const wrap = document.createElement('div');
+    wrap.className = 'empty-state';
+    wrap.innerHTML = '<div class="empty-state__icon">\uD83D\uDCE5</div>';
+    const title = document.createElement('div');
+    title.className = 'empty-state__title';
+    title.textContent = '暂无文章';
+    const desc = document.createElement('div');
+    desc.className = 'empty-state__desc';
+    desc.textContent = '该分类下暂时没有内容';
+    wrap.appendChild(title);
+    wrap.appendChild(desc);
+    return wrap;
+  }
+
+  function createArticleCard(a) {
+    const card = document.createElement('a');
+    card.className = 'article-card';
+    card.href = 'article.html?slug=' + encodeURIComponent(a.slug);
+    card.setAttribute('aria-label', '阅读文章：' + escapeHtml(a.title || ''));
+
+    const left = document.createElement('div');
+    left.className = 'article-card__left';
+
+    const meta = document.createElement('div');
+    meta.className = 'article-card__meta';
+
+    const date = document.createElement('span');
+    date.className = 'article-card__date';
+    date.textContent = a.date || '';
+    meta.appendChild(date);
+
+    if (a.edition) {
+      const edition = document.createElement('span');
+      edition.className = 'article-card__edition article-card__edition--' + (a.edition === 'daily' ? 'daily' : a.edition);
+      const labels = { daily: '日报', morning: '早报', evening: '晚报' };
+      edition.textContent = labels[a.edition] || a.edition;
+      meta.appendChild(edition);
+    }
+
+    const titleEl = document.createElement('div');
+    titleEl.className = 'article-card__title';
+    titleEl.textContent = a.title || '';
+
+    const readMore = document.createElement('div');
+    readMore.className = 'article-card__read-more';
+    readMore.textContent = '阅读';
+
+    left.appendChild(meta);
+    left.appendChild(titleEl);
+    left.appendChild(readMore);
+    card.appendChild(left);
+    return card;
+  }
+
+  // ----- Render home archive: compact monthly timeline + incremental loading -----
+  function renderHomeArchive(articles, container, options) {
     if (!container) return;
+    const visibleCount = options && options.visibleCount ? options.visibleCount : articles.length;
+    const onLoadMore = options && options.onLoadMore;
     container.textContent = '';
     container.setAttribute('aria-busy', 'false');
 
     if (articles.length === 0) {
-      const wrap = document.createElement('div');
-      wrap.className = 'empty-state';
-      wrap.innerHTML = '<div class="empty-state__icon">\uD83D\uDCE5</div>';
-      const title = document.createElement('div');
-      title.className = 'empty-state__title';
-      title.textContent = '暂无文章';
-      const desc = document.createElement('div');
-      desc.className = 'empty-state__desc';
-      desc.textContent = '该分类下暂时没有内容';
-      wrap.appendChild(title);
-      wrap.appendChild(desc);
-      container.appendChild(wrap);
+      container.appendChild(createEmptyState());
       return;
     }
 
-    articles.forEach((a, i) => {
-      const card = document.createElement('a');
-      card.className = 'article-card';
-      card.href = 'article.html?slug=' + encodeURIComponent(a.slug);
-      card.setAttribute('aria-label', '阅读文章：' + escapeHtml(a.title || ''));
+    const visible = articles.slice(0, visibleCount);
 
-      const left = document.createElement('div');
-      left.className = 'article-card__left';
+    const header = document.createElement('div');
+    header.className = 'archive-header';
+    const heading = document.createElement('h2');
+    heading.className = 'archive-header__title';
+    heading.textContent = '历史日报';
+    const count = document.createElement('div');
+    count.className = 'archive-header__count';
+    count.textContent = '已收录 ' + articles.length + ' 期，按月份归档';
+    header.appendChild(heading);
+    header.appendChild(count);
+    container.appendChild(header);
 
-      const meta = document.createElement('div');
-      meta.className = 'article-card__meta';
-
-      const date = document.createElement('span');
-      date.className = 'article-card__date';
-      date.textContent = a.date || '';
-
-      meta.appendChild(date);
-
-      // Edition badge
-      if (a.edition) {
-        const edition = document.createElement('span');
-        edition.className = 'article-card__edition article-card__edition--' + (a.edition === 'daily' ? 'daily' : a.edition);
-        const labels = { daily: '日报', morning: '早报', evening: '晚报' };
-        edition.textContent = labels[a.edition] || a.edition;
-        meta.appendChild(edition);
+    let currentMonth = '';
+    visible.forEach((a) => {
+      const label = monthLabel(a.date);
+      if (label !== currentMonth) {
+        currentMonth = label;
+        const month = document.createElement('div');
+        month.className = 'archive-month';
+        month.textContent = label;
+        container.appendChild(month);
       }
-
-      const titleEl = document.createElement('div');
-      titleEl.className = 'article-card__title';
-      titleEl.textContent = a.title || '';
-
-      const excerpt = document.createElement('div');
-      excerpt.className = 'article-card__excerpt';
-      excerpt.textContent = a.excerpt || '';
-
-      const readMore = document.createElement('div');
-      readMore.className = 'article-card__read-more';
-      readMore.textContent = '阅读全文';
-
-      left.appendChild(meta);
-      left.appendChild(titleEl);
-      left.appendChild(excerpt);
-      left.appendChild(readMore);
-
-      card.appendChild(left);
-      container.appendChild(card);
+      container.appendChild(createArticleCard(a));
     });
+
+    if (visibleCount < articles.length) {
+      const actions = document.createElement('div');
+      actions.className = 'archive-actions';
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'archive-load-more';
+      button.textContent = '加载更早日报';
+      button.addEventListener('click', () => {
+        if (typeof onLoadMore === 'function') onLoadMore();
+      });
+      actions.appendChild(button);
+      container.appendChild(actions);
+    }
   }
 
   // ----- Theme toggle -----
@@ -392,22 +443,39 @@
     initTheme();
     initMobileNav();
 
-    // Load article manifest first
-    await loadArticleManifest();
-
+    const pageSize = 12;
+    let visibleCount = pageSize;
     let allArticles = [];
-    try {
-      allArticles = await loadArticles();
-    } catch (err) {
-      console.error('Failed to load articles:', err);
+
+    function paint() {
+      renderHomeArchive(allArticles, cardsContainer, {
+        visibleCount,
+        onLoadMore: () => {
+          visibleCount += pageSize;
+          paint();
+        }
+      });
     }
 
-    renderCards(allArticles, cardsContainer);
+    try {
+      const manifest = await loadArticleManifest();
+      allArticles = manifest
+        .map(normalizeArticleMeta)
+        .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    } catch (err) {
+      console.error('Failed to load article manifest:', err);
+    }
+
+    paint();
 
     // Pull to refresh
     initPullToRefresh(async () => {
-      const fresh = await loadArticles();
-      renderCards(fresh, cardsContainer);
+      const manifest = await loadArticleManifest();
+      allArticles = manifest
+        .map(normalizeArticleMeta)
+        .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      visibleCount = pageSize;
+      paint();
     });
   }
 
