@@ -277,18 +277,6 @@
 
     const visible = articles.slice(0, visibleCount);
 
-    const header = document.createElement('div');
-    header.className = 'archive-header';
-    const heading = document.createElement('h2');
-    heading.className = 'archive-header__title';
-    heading.textContent = '历史日报';
-    const count = document.createElement('div');
-    count.className = 'archive-header__count';
-    count.textContent = '已收录 ' + articles.length + ' 期，按月份归档';
-    header.appendChild(heading);
-    header.appendChild(count);
-    container.appendChild(header);
-
     let currentMonth = '';
     visible.forEach((a) => {
       const label = monthLabel(a.date);
