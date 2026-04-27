@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-27",
+    "path": "articles/2026-04-27.md",
+    "title": "AI Daily | 2026年4月27日：韩国与DeepMind合作，DeepSeek V4发布，蚂蚁灵波开源世界模型",
+    "date": "2026-04-27",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "韩国联手DeepMind建AI研究中心，DeepSeek V4低调发布",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-26",
     "path": "articles/2026-04-26.md",
     "title": "AI Daily | 2026年4月26日：Anthropic智能体代码审查，医疗视频大模型开源，DeepSeek API降价",
