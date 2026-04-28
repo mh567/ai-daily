@@ -514,6 +514,7 @@
     if (headerEl) {
       headerEl.querySelector('.article-page__title').textContent = article.title || '';
       const metaEl = headerEl.querySelector('.article-page__meta');
+      const summaryEl = headerEl.querySelector('.article-page__summary');
       metaEl.textContent = '';
       const parts = [];
       if (article.author) parts.push(article.author);
@@ -528,9 +529,14 @@
         span.textContent = text;
         metaEl.appendChild(span);
       });
+      if (summaryEl) {
+        summaryEl.textContent = article.excerpt || '';
+        summaryEl.hidden = !article.excerpt;
+      }
     }
 
     contentEl.innerHTML = mdToHtml(article.body);
+    if (article.excerpt) removeDuplicatedLeadingSummary(contentEl);
 
     // End mark — post-render DOM replacement (more reliable than regex on HTML string)
     const allText = contentEl.childNodes;
@@ -606,6 +612,15 @@
 
       contentEl.appendChild(nav);
     }
+  }
+
+  function removeDuplicatedLeadingSummary(contentEl) {
+    const first = contentEl.firstElementChild;
+    if (!first || first.tagName !== 'BLOCKQUOTE') return;
+
+    const second = first.nextElementSibling;
+    first.remove();
+    if (second && second.tagName === 'HR') second.remove();
   }
 
   // ----- About page init -----
