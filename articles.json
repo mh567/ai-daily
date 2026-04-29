@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-29",
+    "path": "articles/2026-04-29.md",
+    "title": "AI Daily | 2026年4月29日：通用汽车推 Gemini 上车，大咖机器人首发重载机器马，OpenAI 正式登陆 AWS",
+    "date": "2026-04-29",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "通用汽车 400 万辆车集成 Gemini，OpenAI 模型通过 AWS 开放，大咖机器人发布吨级重载机器马",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-28",
     "path": "articles/2026-04-28.md",
     "title": "AI Daily | 2026年4月28日：Cloudflare发布AI代理隔离环境，阿里平头哥发布智能网卡，支付宝AI收上线",
