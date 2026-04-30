@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-04-30",
+    "path": "articles/2026-04-30.md",
+    "title": "AI Daily | 2026年4月30日：千问开源，整治乱象，万亿模型发布",
+    "date": "2026-04-30",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "阿里千问开源可解释性模块，中央网信办启动AI整治专项行动。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-29",
     "path": "articles/2026-04-29.md",
     "title": "AI Daily | 2026年4月29日：Gemini 上车 400 万辆，OpenAI 登陆 AWS，腾讯混元离线翻译开源",
