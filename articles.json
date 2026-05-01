@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-01",
+    "path": "articles/2026-05-01.md",
+    "title": "AI Daily | 2026年5月1日：MiniMax上市市值超700亿，Claude Security公测，Mistral Workflows发布",
+    "date": "2026-05-01",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "MiniMax港股上市，中国AI独角兽再获资本市场加持",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-04-30",
     "path": "articles/2026-04-30.md",
     "title": "AI Daily | 2026年4月30日：千问开源，整治乱象，万亿模型发布",
