@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-03",
+    "path": "articles/2026-05-03.md",
+    "title": "AI Daily | 2026年5月3日：GPT-5.5策划发布会细节，AI agent删除生产数据库，首部AI原生动画电影获龙标",
+    "date": "2026-05-03",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "奥尔特曼披露GPT-5.5自主策划发布活动；AI agent误删数据库致30小时宕机；国内首部院线AI原生动画电影过审",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-02",
     "path": "articles/2026-05-02.md",
     "title": "AI Daily | 2026年5月2日：五角大楼联手八大AI公司，Salesforce推Agent编排工具",
