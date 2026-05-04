@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-04",
+    "path": "articles/2026-05-04.md",
+    "title": "AI Daily | 2026年5月4日：Cloudflare智能体记忆服务发布，灵心巧手融资，DeepSeek版Claude Code开源",
+    "date": "2026-05-04",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Cloudflare推出Agent Memory，灵心巧手估值翻倍",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-03",
     "path": "articles/2026-05-03.md",
     "title": "AI Daily | 2026年5月3日：GPT-5.5策划发布会细节，AI agent删除生产数据库，首部AI原生动画电影获龙标",
