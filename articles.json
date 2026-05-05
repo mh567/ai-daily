@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-05",
+    "path": "articles/2026-05-05.md",
+    "title": "AI Daily | 2026年5月5日：Lattice收购AMI，特斯拉Robotaxi夜间运营，Vercel开源Agent",
+    "date": "2026-05-05",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "16.5亿美元收购落地，Robotaxi夜行，Agent开源",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-04",
     "path": "articles/2026-05-04.md",
     "title": "AI Daily | 2026年5月4日：Cloudflare试水智能体记忆，灵心巧手冲刺60亿美元估值",
