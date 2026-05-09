@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-09",
+    "path": "articles/2026-05-09.md",
+    "title": "AI Daily | 2026年5月9日：百度文心5.1发布，DeepSeek融资500亿，工信部启动AI伦理审查",
+    "date": "2026-05-09",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "文心5.1、DeepSeek融资、蚂蚁百灵万亿模型",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-07",
     "path": "articles/2026-05-07.md",
     "title": "AI Daily | 2026年5月7日：机器人精细操作Demo，小米开源OmniVoice，xAI解散算力租赁",
