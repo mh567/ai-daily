@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-10",
+    "path": "articles/2026-05-10.md",
+    "title": "AI Daily | 2026年5月10日：Anthropic Sonnet退役倒计时，拉姆齐数突破，图灵奖新作",
+    "date": "2026-05-10",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic计划移除Sonnet 4.5；拉姆齐数下界提升；Sutton团队提出强化学习新方法。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-09",
     "path": "articles/2026-05-09.md",
     "title": "AI Daily | 2026年5月9日：百度文心5.1发布，DeepSeek融资500亿，工信部启动AI伦理审查",
