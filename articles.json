@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-13",
+    "path": "articles/2026-05-13.md",
+    "title": "AI Daily | 2026年5月13日：谷歌全面AI化，何恺明首个语言模型，小米开源自动驾驶",
+    "date": "2026-05-13",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "谷歌Gemini融入全家桶，何恺明发布非自回归语言模型，小米开源OneVL",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-12",
     "path": "articles/2026-05-12.md",
     "title": "AI Daily | 2026年5月12日：理想发布自研AI芯片，OpenAI与微软分成上限敲定，可灵曝单独融资",
