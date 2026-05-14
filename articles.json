@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-14",
+    "path": "articles/2026-05-14.md",
+    "title": "AI Daily | 2026年5月14日：Claude for Small Business，腾讯开源Agent记忆，田渊栋AI创业",
+    "date": "2026-05-14",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic推中小企业Claude服务",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-13",
     "path": "articles/2026-05-13.md",
     "title": "AI Daily | 2026年5月13日：谷歌全面AI化，何恺明首个语言模型，小米开源自动驾驶",
