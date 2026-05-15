@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-15",
+    "path": "articles/2026-05-15.md",
+    "title": "AI Daily | 2026年5月15日：蚂蚁百灵开源1T推理模型，Anthropic推AWS平台，信通院启动终端分级",
+    "date": "2026-05-15",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "蚂蚁百灵Ring-2.6-1T开源，Anthropic推出AWS企业平台",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-14",
     "path": "articles/2026-05-14.md",
     "title": "AI Daily | 2026年5月14日：Claude for Small Business，腾讯开源Agent记忆，田渊栋AI创业",
