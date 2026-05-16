@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-16",
+    "path": "articles/2026-05-16.md",
+    "title": "AI Daily | 2026年5月16日：OpenAI大规模重组、蚂蚁开源万亿模型、上海治理AI乱象",
+    "date": "2026-05-16",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI组织大重组，Brockman接管产品；蚂蚁开源自研万亿级思考模型",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-15",
     "path": "articles/2026-05-15.md",
     "title": "AI Daily | 2026年5月15日：蚂蚁百灵开源1T推理模型，Anthropic推AWS平台，信通院启动终端分级",
