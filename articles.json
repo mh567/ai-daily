@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-20",
+    "path": "articles/2026-05-20.md",
+    "title": "AI Daily | 2026年5月20日：GitHub仓库外泄，Qwen3.5-LiveTranslate发布，首个AI长片登陆戛纳",
+    "date": "2026-05-20",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "GitHub遭恶意扩展入侵，阿里发布实时翻译模型，字节AI长片戛纳首映",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-19",
     "path": "articles/2026-05-19.md",
     "title": "AI Daily | 2026年5月19日：地平线开源机器人小脑大模型，Kimi融资获国资，渣打因AI裁员7000人",
