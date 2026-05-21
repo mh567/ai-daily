@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-21",
+    "path": "articles/2026-05-21.md",
+    "title": "AI Daily | 2026年5月21日：OpenAI突破80年数学难题，阿里千问3.7-Max发布，火山剧创1.0上线",
+    "date": "2026-05-21",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI非数学模型首破几何猜想，阿里发布千问旗舰，火山引擎推短剧AI平台",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-20",
     "path": "articles/2026-05-20.md",
     "title": "AI Daily | 2026年5月20日：GitHub仓库外泄，Qwen3.5-LiveTranslate发布，首个AI长片登陆戛纳",
