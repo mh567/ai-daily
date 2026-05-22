@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-22",
+    "path": "articles/2026-05-22.md",
+    "title": "AI Daily | 2026年5月22日：Gemini 3.5深夜发布，网易有道开源子曰4，DeepSeek融资700亿元",
+    "date": "2026-05-22",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Gemini 3.5速度提升4倍，网易有道开源教育大模型，DeepSeek冲击百亿美元融资纪录",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-21",
     "path": "articles/2026-05-21.md",
     "title": "AI Daily | 2026年5月21日：OpenAI突破80年数学难题，阿里千问3.7-Max发布，火山剧创1.0上线",
