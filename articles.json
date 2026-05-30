@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-05-30",
+    "path": "articles/2026-05-30.md",
+    "title": "AI Daily | 2026年5月30日：Opus 4.8 登顶，OpenAI 合作日本，Gamma-World 发布",
+    "date": "2026-05-30",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "沃顿教授用 Opus 4.8 开发投胎模拟器，模型登顶基准测试；OpenAI 联手日本云商拓展亚太企业市场；英伟达清华团队提出多人交互世界模型。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-29",
     "path": "articles/2026-05-29.md",
     "title": "AI Daily | 2026年5月29日：Claude Opus 4.8发布，Anthropic 650亿美元融资，DeepSeek首轮估值450亿美元",
