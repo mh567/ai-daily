@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-01",
+    "path": "articles/2026-06-01.md",
+    "title": "AI Daily | 2026年6月1日：Gemini 3.5 Flash，Nvidia RTX Spark，美国芯片出口管制",
+    "date": "2026-06-01",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Google发布Gemini 3.5 Flash，Nvidia推出PC AI芯片，美国收紧对华AI芯片出口。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-05-31",
     "path": "articles/2026-05-31.md",
     "title": "AI Daily | 2026年5月31日：复旦世界动作模型发布，苏炜杰加入OpenAI",
