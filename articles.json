@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-03",
+    "path": "articles/2026-06-03.md",
+    "title": "AI Daily | 2026年6月3日：微软发布自研推理MAI-Thinking-1，特朗普行政令要求AI安全测试",
+    "date": "2026-06-03",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "微软Build大会连发多款AI产品，特朗普签署AI安全行政令",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-02",
     "path": "articles/2026-06-02.md",
     "title": "AI Daily | 2026年6月2日：Anthropic 秘密递交IPO，阿里发布Qwen3.7-Plus",
