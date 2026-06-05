@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-05",
+    "path": "articles/2026-06-05.md",
+    "title": "AI Daily | 2026年6月5日：Gemma 4 开源发布，苹果批准首款AI Agent，微软推出企业AI平台",
+    "date": "2026-06-05",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Google DeepMind 发布 Gemma 4 开源模型；苹果批准 Poke 为 Messages for Business 平台首个 AI Agent；微软推出 IQ 企业智能平台。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-03",
     "path": "articles/2026-06-03.md",
     "title": "AI Daily | 2026年6月3日：微软发布自研推理MAI-Thinking-1，特朗普行政令要求AI安全测试",
