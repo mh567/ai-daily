@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-06",
+    "path": "articles/2026-06-06.md",
+    "title": "AI Daily | 2026年6月6日：微软发布7款自研模型，摆脱OpenAI；特朗普拟入股AI公司；Anthropic呼吁暂停开发",
+    "date": "2026-06-06",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "微软自研模型家族上线，AI权力格局生变",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-05",
     "path": "articles/2026-06-05.md",
     "title": "AI Daily | 2026年6月5日：Gemma 4 开源发布，苹果批准首款AI Agent，微软推出企业AI平台",
