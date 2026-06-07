@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-07",
+    "path": "articles/2026-06-07.md",
+    "title": "AI Daily | 2026年6月7日：OpenAI Lockdown Mode 发布，谷歌 Gemini 漏洞，芯片人才跳槽",
+    "date": "2026-06-07",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI 推出防注入安全模式；谷歌 Gemini 曝漏洞；OpenAI 芯片元老跳槽 Anthropic。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-06",
     "path": "articles/2026-06-06.md",
     "title": "AI Daily | 2026年6月6日：微软发布7款自研模型，摆脱OpenAI；特朗普拟入股AI公司；Anthropic呼吁暂停开发",
