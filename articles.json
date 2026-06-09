@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-09",
+    "path": "articles/2026-06-09.md",
+    "title": "AI Daily | 2026年6月9日：苹果联合Google打造全新AI架构，发布设备端推理框架，推出小开发者免费计划",
+    "date": "2026-06-09",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "苹果WWDC公布基于Gemini的基础模型、Core AI框架及免费政策",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-08",
     "path": "articles/2026-06-08.md",
     "title": "AI Daily | 2026年6月8日：微信AI内测上线，阿里合并AI事业部，阶跃星辰拟赴港IPO",
