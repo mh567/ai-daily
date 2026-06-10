@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-10",
+    "path": "articles/2026-06-10.md",
+    "title": "AI Daily | 2026年6月10日：阿里千问上线高考志愿Agent，美团Tabbit 1.0发布，摩尔线程开源MusaCoder",
+    "date": "2026-06-10",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "AI日报：阿里千问推高考志愿Agent，美团Tabbit 1.0上线，摩尔线程开源AI代码模型。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-09",
     "path": "articles/2026-06-09.md",
     "title": "AI Daily | 2026年6月9日：苹果联合Google打造全新AI架构，发布设备端推理框架，推出小开发者免费计划",
