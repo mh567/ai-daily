@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-11",
+    "path": "articles/2026-06-11.md",
+    "title": "AI Daily | 2026年6月11日：小米发布并开源MiMo Code，Meshy推出全球首个3D AI Agent，阿里云发布Meoo CLI",
+    "date": "2026-06-11",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "小米发布开源编程助手MiMo Code",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-10",
     "path": "articles/2026-06-10.md",
     "title": "AI Daily | 2026年6月10日：阿里千问上线高考志愿Agent，美团Tabbit 1.0发布，摩尔线程开源MusaCoder",
