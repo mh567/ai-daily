@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-13",
+    "path": "articles/2026-06-13.md",
+    "title": "AI Daily | 2026年6月13日：智谱GLM-5.2开放、谷歌Gemini-SQL2登顶、星火X2-VL发布",
+    "date": "2026-06-13",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "智谱开放最强开源模型GLM-5.2，谷歌推出文本转SQL新模型，科大讯飞发布国产算力多模态大模型。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-11",
     "path": "articles/2026-06-11.md",
     "title": "AI Daily | 2026年6月11日：小米发布并开源MiMo Code，Meshy推出全球首个3D AI Agent，阿里云发布Meoo CLI",
