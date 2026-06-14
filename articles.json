@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-14",
+    "path": "articles/2026-06-14.md",
+    "title": "AI Daily | 2026年6月14日：OpenAI GPT-5.5 登陆 Bedrock，Anthropic 推出化学家 Claude",
+    "date": "2026-06-14",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI 新模型入驻 AWS，让 Claude 搞化学",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-13",
     "path": "articles/2026-06-13.md",
     "title": "AI Daily | 2026年6月13日：智谱GLM-5.2开放、谷歌Gemini-SQL2登顶、星火X2-VL发布",
