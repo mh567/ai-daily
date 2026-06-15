@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-15",
+    "path": "articles/2026-06-15.md",
+    "title": "AI Daily | 2026年6月15日：理想发布全球首款动态数据流AI芯片，智元人形机器人自主打乒乓球",
+    "date": "2026-06-15",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "理想马赫M100芯片发布，智元远征A3实现自主兵乓球对抗",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-14",
     "path": "articles/2026-06-14.md",
     "title": "AI Daily | 2026年6月14日：OpenAI GPT-5.5 登陆 Bedrock，Anthropic 推出化学家 Claude",
