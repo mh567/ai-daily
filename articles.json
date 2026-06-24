@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-24",
+    "path": "articles/2026-06-24.md",
+    "title": "AI Daily | 2026年6月24日：千问开源语言世界模型，Anthropic推出Claude Tag，广电总局规范AI微短剧",
+    "date": "2026-06-24",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "千问开源原生语言世界模型，Anthropic推出Slack AI队友",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-23",
     "path": "articles/2026-06-23.md",
     "title": "AI Daily | 2026年6月23日：豆包大模型2.1发布，百川M4登顶医疗测试，中国超算重夺TOP500第一",
