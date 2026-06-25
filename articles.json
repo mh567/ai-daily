@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-25",
+    "path": "articles/2026-06-25.md",
+    "title": "AI Daily | 2026年6月25日：科大讯飞发布Claw平台，腾讯Marvis上线iOS，AI编程代理获专属问答库",
+    "date": "2026-06-25",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "科大讯飞推出企业服务Claw平台，腾讯Marvis移动端覆盖全平台，AI编程代理拥有独立Stack Overflow。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-24",
     "path": "articles/2026-06-24.md",
     "title": "AI Daily | 2026年6月24日：千问开源语言世界模型，Anthropic推出Claude Tag，广电总局规范AI微短剧",
