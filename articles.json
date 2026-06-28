@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-28",
+    "path": "articles/2026-06-28.md",
+    "title": "AI Daily | 2026年6月28日：DeepSeeK发布DSpark，苹果推出Core AI框架，智元机器人第15000台下线",
+    "date": "2026-06-28",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "DeepSeeK发布DSpark推理模型；苹果推出端侧Core AI框架；智元机器人量产破。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-27",
     "path": "articles/2026-06-27.md",
     "title": "AI Daily | 2026年6月27日：GPT-5.6正式发布，DeepSeek开源DSpark，千问输入法上线Mac",
