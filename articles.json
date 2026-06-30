@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-06-30",
+    "path": "articles/2026-06-30.md",
+    "title": "AI Daily | 2026年6月30日：优必选发布消费级人形机器人，美团开源万亿参数模型，编码Agent新开源",
+    "date": "2026-06-30",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "优必选发布全尺寸仿生人形机器人，美团开源LongCat-2.0，编码Agent模型Ornith-1发布",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-29",
     "path": "articles/2026-06-29.md",
     "title": "AI Daily | 2026年6月29日：GPT-5.6首发，小鹏发布X-Mind，国务院推进AI教育",
