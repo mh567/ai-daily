@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-01",
+    "path": "articles/2026-07-01.md",
+    "title": "AI Daily | 2026年7月1日：Anthropic发布Claude Sonnet 5，美国解除Fable 5限制，月之暗面获20亿美元融资",
+    "date": "2026-07-01",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic连续推出新模型与产品，政策松绑，国内大模型融资回暖",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-06-30",
     "path": "articles/2026-06-30.md",
     "title": "AI Daily | 2026年6月30日：优必选发布消费级人形机器人，美团开源万亿参数模型，编码Agent新开源",
