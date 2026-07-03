@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-03",
+    "path": "articles/2026-07-03.md",
+    "title": "AI Daily | 2026年7月3日：Kimi K2.7 接入 GitHub Copilot，OpenAI 股份提案，阿里禁用 Claude",
+    "date": "2026-07-03",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Kimi 开源模型首次进入 GitHub Copilot",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-01",
     "path": "articles/2026-07-01.md",
     "title": "AI Daily | 2026年7月1日：Anthropic发布Claude Sonnet 5，美国解除Fable 5限制，月之暗面获20亿美元融资",
