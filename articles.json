@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-06",
+    "path": "articles/2026-07-06.md",
+    "title": "AI Daily | 2026年7月6日：腾讯混元Hy3开源，阿里千问升级实时语音模型",
+    "date": "2026-07-06",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "腾讯开源旗舰模型Hy3，阿里千问升级多语言语音识别",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-05",
     "path": "articles/2026-07-05.md",
     "title": "AI Daily | 2026年7月5日：DeepSeek-V3.1 开源，月之暗面 20 亿美元融资，具身智能落地餐饮",
