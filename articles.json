@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-07",
+    "path": "articles/2026-07-07.md",
+    "title": "AI Daily | 2026年7月7日：xAI正式更名SpaceXAI，智谱GLM-5.2上线，蚂蚁灵波发布空间感知模型",
+    "date": "2026-07-07",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "xAI并入SpaceX体系完成最后一步，AI定义硬件竞争加速",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-06",
     "path": "articles/2026-07-06.md",
     "title": "AI Daily | 2026年7月6日：腾讯混元Hy3开源，阿里千问升级实时语音模型",
