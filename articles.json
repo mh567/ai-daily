@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-08",
+    "path": "articles/2026-07-08.md",
+    "title": "AI Daily | 2026年7月8日：蚂蚁灵波开源具身基座模型，DeepSeek自研芯片曝光，SambaNova融资10亿美元",
+    "date": "2026-07-08",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "蚂蚁灵波开源LingBot-VLA 2.0，支持20+构型；DeepSeek被曝自研AI推理芯片；SambaNova融资10亿美元。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-07",
     "path": "articles/2026-07-07.md",
     "title": "AI Daily | 2026年7月7日：xAI正式更名SpaceXAI，智谱GLM-5.2上线，蚂蚁灵波发布空间感知模型",
