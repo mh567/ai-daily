@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-09",
+    "path": "articles/2026-07-09.md",
+    "title": "AI Daily | 2026年7月9日：Grok 4.5 发布，具身智能视频基模开源，OpenAI 质疑 SWE-Bench Pro",
+    "date": "2026-07-09",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "SpaceXAI 发布 Grok 4.5，蚂蚁灵波开源全球首个具身智能视频基模，OpenAI 指出 SWE-Bench Pro 30% 缺陷。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-08",
     "path": "articles/2026-07-08.md",
     "title": "AI Daily | 2026年7月8日：蚂蚁灵波开源具身基座模型，DeepSeek自研芯片曝光，SambaNova融资10亿美元",
