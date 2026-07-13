@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-13",
+    "path": "articles/2026-07-13.md",
+    "title": "AI Daily | 2026年7月13日：商汤开源视觉大模型，东方算芯发布3D芯片",
+    "date": "2026-07-13",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "商汤开源统一视觉大模型，东方算芯发布全球首颗软件定义近存计算3D芯片",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-12",
     "path": "articles/2026-07-12.md",
     "title": "AI Daily | 2026年7月12日：Step Edge端侧模型，首尔MCP服务，灵巧操作创业",
