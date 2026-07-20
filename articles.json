@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-20",
+    "path": "articles/2026-07-20.md",
+    "title": "AI Daily | 2026年7月20日：阿里千问发布语音合成模型，宇树发布全模态机器人模型，Netflix5.87亿美元收购AI公司",
+    "date": "2026-07-20",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "阿里千问、宇树、Netflix、Kimi K3、不筹量子等密集发布",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-19",
     "path": "articles/2026-07-19.md",
     "title": "AI Daily | 2026年7月19日：腾讯具身基座模型，阿里Qwen3.8-Max预览版上线，WAIC密集发布",
