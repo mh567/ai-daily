@@ -2,21 +2,21 @@
   {
     "slug": "2026-07-20",
     "path": "articles/2026-07-20.md",
-    "title": "AI Daily | 2026年7月20日：阿里千问发布语音合成模型，宇树发布全模态机器人模型，Netflix5.87亿美元收购AI公司",
+    "title": "AI Daily | 2026年7月20日：Qwen-Audio-3.0-TTS 发布，语音合成进入“会表达”时代",
     "date": "2026-07-20",
     "edition": "daily",
     "category": "日报",
-    "excerpt": "阿里千问、宇树、Netflix、Kimi K3、不筹量子等密集发布",
+    "excerpt": "通义实验室发布Qwen-Audio-3.0-TTS，腾讯开源HiLS-Attention，微软在Azure部署AMD Helios用于AI推理，Netflix以5.87亿美元收购AI公司InterPositive。",
     "author": "AI Daily 编辑部"
   },
   {
     "slug": "2026-07-19",
     "path": "articles/2026-07-19.md",
-    "title": "AI Daily | 2026年7月19日：腾讯具身基座模型，阿里Qwen3.8-Max预览版上线，WAIC密集发布",
+    "title": "AI Daily | 2026年7月19日",
     "date": "2026-07-19",
     "edition": "daily",
     "category": "日报",
-    "excerpt": "WAIC 2026现场，腾讯、阿里、百度连续发布重大AI产品，具身智能与基础模型双轮驱动",
+    "excerpt": "",
     "author": "AI Daily 编辑部"
   },
   {

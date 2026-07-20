@@ -1,104 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>关于 — AI Daily</title>
-  <meta name="description" content="了解 AI Daily 的使命、团队与编辑理念。">
-  <meta property="og:title" content="关于 — AI Daily">
-  <meta property="og:description" content="了解 AI Daily 的使命、团队与编辑理念。">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f1ecdf">
+  <meta name="description" content="了解 AI 日报的内容范围、制作方法和信源原则。">
+  <meta property="og:title" content="关于日报 · AI 日报">
+  <meta property="og:description" content="AI 日报的内容范围、制作方法和信源原则。">
   <meta property="og:type" content="website">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500;6..72,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400&display=swap">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="theme-color" content="#FAFAF8">
+  <title>关于日报 · AI 日报</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/icon-152.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/icon-120.png">
-  <link rel="stylesheet" href="css/style.css?v=20260427a">
-  <script>
-    (function(){
-      var t = localStorage.getItem('ai-daily-theme');
-      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', t);
-    })();
-  </script>
-<script data-goatcounter="https://ai-daily.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/newspaper-secondary.css">
+  <script data-goatcounter="https://ai-daily.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">跳至刊物说明</a>
 
-  <a href="#main-content" class="skip-link">跳转到主要内容</a>
-
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav__inner">
-      <a href="index.html" class="nav__logo">
-        AI Daily <span class="nav__logo-dot"></span>
-      </a>
-      <div class="nav__links">
-        <a href="index.html" class="nav__link">文章</a>
-        <a href="about.html" class="nav__link nav__link--active">关于</a>
-        <button class="theme-toggle" aria-label="切换主题"></button>
-      </div>
-      <button class="nav__mobile-toggle" aria-label="菜单"><span></span></button>
+  <header class="paper-header">
+    <div class="utility-bar page-shell">
+      <a class="utility-link" href="archive.html">历史归档</a>
+      <a class="issue-mark" href="index.html">返回今日版</a>
+      <a class="utility-link is-current" href="about.html" aria-current="page">关于日报</a>
     </div>
-  </nav>
+    <div class="compact-masthead page-shell">
+      <a class="masthead-title" href="index.html" aria-label="AI 日报首页"><span>AI</span> 日报</a>
+      <p>ARTIFICIAL INTELLIGENCE DAILY</p>
+    </div>
+  </header>
 
-
-  <!-- About Content -->
-  <main id="main-content" class="about-page page-enter">
-    <div class="container">
-      <div class="about-page__header">
-        <h1 class="about-page__title">关于 AI Daily</h1>
-        <p class="about-page__subtitle">
-          在信息过载的时代，我们用编辑的眼光为你筛选真正值得阅读的 AI 报道。
-        </p>
+  <main id="main-content" class="page-shell about-page" tabindex="-1">
+    <header class="page-intro about-intro">
+      <div>
+        <p class="eyebrow">刊物说明 · ABOUT</p>
+        <h1>关于日报</h1>
       </div>
+      <p class="intro-copy">一份面向中文读者的人工智能新闻日报，记录每天真正值得关注的进展。</p>
+    </header>
 
-      <div class="about-content">
-        <h2>我们的使命</h2>
-        <p>
-          AI Daily 创立于 2026 年，致力于成为中文世界最专业的 AI 资讯平台。我们相信，在人工智能飞速发展的今天，专业、准确、有深度的信息筛选比以往任何时候都更加重要。
-        </p>
+    <div class="about-layout">
+      <aside class="publication-note" aria-label="出版信息">
+        <p class="note-label">出版信息</p>
+        <dl>
+          <div><dt>刊期</dt><dd>每日一期</dd></div>
+          <div><dt>范围</dt><dd>模型、产品、产业</dd></div>
+          <div><dt>语言</dt><dd>简体中文</dd></div>
+          <div><dt>信源</dt><dd>公开可访问资料</dd></div>
+        </dl>
+      </aside>
 
-        <h2>编辑理念</h2>
-        <p>
-          在信息过载的时代，AI Daily 致力于做一件事：<strong>为关注产业变革的读者提供经过筛选、验证和解读的 AI 资讯</strong>。每一条信息都经过编辑团队的深度加工，确保读者用最少的时间获得最准确的行业判断。
-        </p>
-        <ul>
-          <li><strong>一手信息优先</strong> — 优先引用论文、官方博客、财报数据</li>
-          <li><strong>国内外同步覆盖</strong> — 海外跟踪 OpenAI、Google、Anthropic，国内关注百度、阿里、字节、月之暗面</li>
-          <li><strong>准确大于快</strong> — 数据交叉验证，不确定的信息标注"据报"</li>
-          <li><strong>专家视角点评</strong> — 基于行业经验提供判断，理解事件背后的产业逻辑</li>
-        </ul>
+      <article class="about-copy">
+        <section>
+          <h2>我们记录什么</h2>
+          <p>AI 日报关注能够改变技术路线、产品能力或产业格局的公开事件。当天内容按模型与技术、产品与应用、产业与资本三类组织，并以简讯收纳仍值得知道的次要动态。</p>
+        </section>
 
-        <h2>联系方式</h2>
-        <p>
-          如果你有新闻线索、合作意向，或只是想聊聊 AI，欢迎通过以下方式联系我们：
-        </p>
-        <ul>
-          <li>邮箱：rwx@live.com</li>
-        </ul>
-      </div>
+        <section>
+          <h2>一份日报怎样形成</h2>
+          <p>系统每日采集公开信息，经过清洗、去重、相关性评分和分类编排，再生成结构化日报。发布前会检查版面结构、来源完整性和事实表达，未通过检查的内容不会进入正式日报。</p>
+        </section>
+
+        <section>
+          <h2>信源原则</h2>
+          <ol class="principles">
+            <li><span>01</span><div><strong>保留出处</strong><p>每条新闻保留原始链接，方便读者继续核对和阅读。</p></div></li>
+            <li><span>02</span><div><strong>减少重复</strong><p>同一事件的多篇报道会合并处理，避免相同信息反复占据版面。</p></div></li>
+            <li><span>03</span><div><strong>区分轻重</strong><p>头版、分类正文和简讯承担不同的信息层级，重要程度直接反映在版面位置中。</p></div></li>
+            <li><span>04</span><div><strong>承认边界</strong><p>日报依据公开材料整理，内容可能存在遗漏，原始信源始终是进一步判断的依据。</p></div></li>
+          </ol>
+        </section>
+
+        <section class="contact-section">
+          <h2>联系</h2>
+          <p>新闻线索、内容纠错或合作事项，请发送邮件至 <a href="mailto:rwx@live.com">rwx@live.com</a>。</p>
+        </section>
+      </article>
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__copy">&copy; 2026 AI Daily. All rights reserved.</div>
-      <div class="footer__links">
-        <a href="about.html" class="footer__link">关于我们</a>
-      </div>
-    </div>
+  <footer class="paper-footer page-shell">
+    <p>AI DAILY · 每日一期</p>
+    <a href="archive.html">查阅历史归档</a>
   </footer>
-
-  <script src="js/app.js?v=20260427b" defer></script>
 </body>
 </html>

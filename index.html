@@ -1,105 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Daily — 每日 AI 资讯</title>
-  <meta name="description" content="AI Daily 是一份专业的 AI 资讯日报，聚焦大模型与产业变革。">
-  <meta property="og:title" content="AI Daily — 每日 AI 资讯">
-  <meta property="og:description" content="AI Daily 是一份专业的 AI 资讯日报，聚焦大模型与产业变革。">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f1ecdf">
+  <meta name="description" content="AI 日报每日整理值得关注的模型、产品与产业进展。">
+  <meta property="og:title" content="AI 日报 · 每日人工智能新闻">
+  <meta property="og:description" content="每日整理值得关注的模型、产品与产业进展。">
   <meta property="og:type" content="website">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500;6..72,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400&display=swap">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="theme-color" content="#FAFAF8">
+  <title>AI 日报 · 每日人工智能新闻</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/icon-152.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/icon-120.png">
-  <link rel="stylesheet" href="css/style.css?v=20260427a">
-  <script>
-    (function(){
-      var t = localStorage.getItem('ai-daily-theme');
-      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', t);
-    })();
-  </script>
-<script data-goatcounter="https://ai-daily.goatcounter.com/count"
-        async src="https://gc.zgo.at/count.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/newspaper-prototype.css?v=20260721">
+  <script data-goatcounter="https://ai-daily.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#daily-content">跳至今日新闻</a>
 
-  <a href="#main-content" class="skip-link">跳转到主要内容</a>
-
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav__inner">
-      <a href="index.html" class="nav__logo">
-        AI Daily <span class="nav__logo-dot"></span>
-      </a>
-      <div class="nav__links">
-        <a href="index.html" class="nav__link nav__link--active">文章</a>
-        <a href="about.html" class="nav__link">关于</a>
-        <button class="theme-toggle" aria-label="切换主题"></button>
-      </div>
-      <button class="nav__mobile-toggle" aria-label="菜单"><span></span></button>
+  <header class="paper-header">
+    <div class="utility-bar page-shell">
+      <a class="utility-link" href="archive.html">历史归档</a>
+      <p id="issueLabel">第 001 期</p>
+      <a class="utility-link" href="about.html">关于日报</a>
     </div>
-  </nav>
 
+    <div class="masthead page-shell">
+      <p class="masthead-kicker">ARTIFICIAL INTELLIGENCE DAILY</p>
+      <a class="masthead-title" href="index.html" aria-label="AI 日报首页">
+        <span>AI</span> 日报
+      </a>
+      <p class="masthead-note">记录每日值得关注的人工智能进展</p>
+    </div>
 
-  <!-- Main Content -->
-  <main id="main-content">
-    <!-- Hero -->
-    <section class="hero">
-      <div class="container">
-        <div class="hero__eyebrow">AI Daily</div>
-        <h1 class="hero__title">追踪人工智能的每一个重要时刻</h1>
-        <div class="hero__date">每日黄昏，如约而至</div>
-      </div>
-    </section>
-
-    <hr class="divider container">
-
-    <!-- Article List -->
-    <section class="articles container">
-      <div class="articles-list" aria-busy="true">
-        <!-- Loading skeleton -->
-        <div class="skeleton-card">
-          <div class="skeleton-card__left">
-            <div class="skeleton-line skeleton-line--sm"></div>
-            <div class="skeleton-line skeleton-line--lg"></div>
-            <div class="skeleton-line skeleton-line--md"></div>
-            <div class="skeleton-line skeleton-line--sm skeleton-line--cta"></div>
-          </div>
-          <div class="skeleton-card__num"></div>
+    <div class="edition-bar">
+      <div class="page-shell edition-inner">
+        <div class="edition-date">
+          <span class="edition-status" aria-hidden="true"></span>
+          <span id="displayDate">正在读取今日版</span>
         </div>
-        <div class="skeleton-card">
-          <div class="skeleton-card__left">
-            <div class="skeleton-line skeleton-line--sm"></div>
-            <div class="skeleton-line skeleton-line--lg"></div>
-            <div class="skeleton-line skeleton-line--md"></div>
-            <div class="skeleton-line skeleton-line--sm skeleton-line--cta"></div>
-          </div>
-          <div class="skeleton-card__num"></div>
-        </div>
+        <label class="date-picker">
+          <span>切换日期</span>
+          <select id="dateSelect" aria-label="切换日报日期" disabled>
+            <option>读取中</option>
+          </select>
+        </label>
       </div>
-    </section>
+    </div>
+  </header>
+
+  <main id="daily-content" class="page-shell paper-main" tabindex="-1">
+    <div id="loadingState" class="loading-state" aria-live="polite">
+      <div class="skeleton skeleton-label"></div>
+      <div class="skeleton skeleton-title"></div>
+      <div class="skeleton skeleton-title short"></div>
+      <div class="skeleton skeleton-copy"></div>
+      <span class="sr-only">正在排印今日日报</span>
+    </div>
+
+    <div id="errorState" class="error-state" hidden>
+      <p class="eyebrow">排印提示</p>
+      <h1>这一期暂时无法展开</h1>
+      <p id="errorMessage">请稍后刷新页面。</p>
+      <button id="retryButton" type="button">重新读取</button>
+    </div>
+
+    <article id="newspaper" hidden>
+      <section id="leadSection" class="lead-layout" aria-labelledby="leadTitle"></section>
+      <nav id="sectionNavigation" class="section-navigation" aria-label="本期版面"></nav>
+      <div id="newsSections" class="news-sections"></div>
+      <section id="briefs" class="brief-section" hidden></section>
+      <footer class="paper-footer">
+        <p>AI DAILY · 每日一期</p>
+        <p>内容来自公开信源，保留原文链接</p>
+      </footer>
+    </article>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__copy">&copy; 2026 AI Daily. All rights reserved.</div>
-      <div class="footer__links">
-        <a href="about.html" class="footer__link">关于我们</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/app.js?v=20260427b" defer></script>
+  <script src="js/newspaper-prototype.js?v=20260721"></script>
 </body>
 </html>

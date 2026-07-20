@@ -207,6 +207,11 @@
     return year + '年' + String(Number(month)) + '月';
   }
 
+  function archiveDisplayTitle(title) {
+    if (typeof title !== 'string') return '';
+    return title.replace(/^AI Daily\s*[|｜·]\s*\d{4}年\d{1,2}月\d{1,2}日[：:]\s*/i, '').trim();
+  }
+
   function createEmptyState() {
     const wrap = document.createElement('div');
     wrap.className = 'empty-state';
@@ -225,7 +230,7 @@
   function createArticleCard(a) {
     const card = document.createElement('a');
     card.className = 'article-card';
-    card.href = 'article.html?slug=' + encodeURIComponent(a.slug);
+    card.href = 'index.html?date=' + encodeURIComponent(a.date || a.slug);
     card.setAttribute('aria-label', '阅读文章：' + escapeHtml(a.title || ''));
 
     const left = document.createElement('div');
@@ -249,7 +254,7 @@
 
     const titleEl = document.createElement('div');
     titleEl.className = 'article-card__title';
-    titleEl.textContent = a.title || '';
+    titleEl.textContent = archiveDisplayTitle(a.title || '');
 
     const readMore = document.createElement('div');
     readMore.className = 'article-card__read-more';
