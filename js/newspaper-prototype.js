@@ -15,6 +15,11 @@
     sectionNav: document.querySelector("#sectionNavigation"),
     sections: document.querySelector("#newsSections"),
     briefs: document.querySelector("#briefs"),
+    olderEdition: document.querySelector("#olderEdition"),
+    olderEditionDate: document.querySelector("#olderEditionDate"),
+    newerEdition: document.querySelector("#newerEdition"),
+    newerEditionDate: document.querySelector("#newerEditionDate"),
+    archiveCount: document.querySelector("#archiveCount"),
     retry: document.querySelector("#retryButton")
   };
 
@@ -158,6 +163,24 @@
       : `<p class="source-line">信源 · ${label}</p>`;
   }
 
+  function editionUrl(item) {
+    return item === state.manifest[0] ? "index.html" : `index.html?date=${encodeURIComponent(item.date)}`;
+  }
+
+  function setEditionJump(link, dateLabel, item, emptyLabel) {
+    if (item) {
+      link.href = editionUrl(item);
+      link.removeAttribute("aria-disabled");
+      link.classList.remove("is-disabled");
+      dateLabel.textContent = item.date;
+    } else {
+      link.removeAttribute("href");
+      link.setAttribute("aria-disabled", "true");
+      link.classList.add("is-disabled");
+      dateLabel.textContent = emptyLabel;
+    }
+  }
+
   function storyHtml(story, index, sectionIndex) {
     return `<article class="story" id="story-${sectionIndex + 1}-${index + 1}">
       <p class="story-index">${String(index + 1).padStart(2, "0")}</p>
@@ -214,6 +237,9 @@
     els.displayDate.textContent = formatted;
     const index = state.manifest.findIndex(item => item.date === article.meta.date);
     els.issueLabel.textContent = `第 ${String(state.manifest.length - Math.max(index, 0)).padStart(3, "0")} 期`;
+    setEditionJump(els.olderEdition, els.olderEditionDate, state.manifest[index + 1], "已至创刊号");
+    setEditionJump(els.newerEdition, els.newerEditionDate, state.manifest[index - 1], "当前最新");
+    els.archiveCount.textContent = `共 ${state.manifest.length} 期`;
     document.title = `${headline.title} · AI 日报`;
     els.loading.hidden = true;
     els.error.hidden = true;

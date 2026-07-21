@@ -72,10 +72,20 @@
       <nav id="sectionNavigation" class="section-navigation" aria-label="本期版面"></nav>
       <div id="newsSections" class="news-sections"></div>
       <section id="briefs" class="brief-section" hidden></section>
-      <footer class="paper-footer">
-        <p>AI DAILY · 每日一期</p>
-        <p>内容来自公开信源，保留原文链接</p>
-      </footer>
+      <nav class="edition-footer" aria-label="日报前后期导航">
+        <a id="olderEdition" class="edition-jump edition-jump--older" href="#">
+          <span>较早一期</span>
+          <strong id="olderEditionDate">读取中</strong>
+        </a>
+        <a id="editionArchive" class="edition-archive" href="archive.html">
+          <span>历史归档</span>
+          <strong id="archiveCount">全部期数</strong>
+        </a>
+        <a id="newerEdition" class="edition-jump edition-jump--newer" href="#">
+          <span>较新一期</span>
+          <strong id="newerEditionDate">读取中</strong>
+        </a>
+      </nav>
     </article>
   </main>
 

@@ -48,15 +48,15 @@ button { color: inherit; font: inherit; }
 .issue-mark { font-variant-numeric: tabular-nums; }
 
 .compact-masthead {
-  min-height: 154px;
+  min-height: 104px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 30px;
-  padding: 28px 0 23px;
+  padding: 18px 0 16px;
   border-bottom: 4px double var(--rule-dark);
 }
-.masthead-title { text-decoration: none; font: 750 clamp(58px, 7vw, 92px)/.82 var(--serif); letter-spacing: -.06em; }
+.masthead-title { text-decoration: none; font: 750 clamp(38px, 3.8vw, 54px)/.84 var(--serif); letter-spacing: -.055em; }
 .masthead-title span { color: var(--accent); font-style: italic; }
 .compact-masthead > p { margin: 0 0 4px; font: 500 11px/1.2 var(--sans); letter-spacing: .2em; }
 
@@ -65,11 +65,11 @@ button { color: inherit; font: inherit; }
   grid-template-columns: minmax(0, 1.45fr) minmax(260px, .55fr);
   gap: clamp(40px, 8vw, 120px);
   align-items: end;
-  padding: clamp(42px, 6vw, 82px) 0 32px;
+  padding: clamp(52px, 7vw, 92px) 0 34px;
   border-bottom: 2px solid var(--ink);
 }
 .eyebrow { margin: 0 0 9px; color: var(--accent); font: 600 11px/1.2 var(--sans); letter-spacing: .15em; }
-.page-intro h1 { margin: 0; font-size: clamp(52px, 7vw, 98px); font-weight: 650; line-height: .9; letter-spacing: -.045em; }
+.page-intro h1 { margin: 0; font-size: clamp(64px, 8vw, 112px); font-weight: 650; line-height: .88; letter-spacing: -.048em; }
 .intro-copy { max-width: 34ch; margin: 0 0 4px; color: var(--ink-soft); font-size: 18px; line-height: 1.55; }
 
 .archive-guide {
@@ -153,11 +153,11 @@ button { color: inherit; font: inherit; }
   body { font-size: 16px; }
   .utility-bar { min-height: 44px; font-size: 11px; }
   .utility-link, .issue-mark { min-height: 44px; }
-  .compact-masthead { min-height: 118px; padding: 20px 0 18px; }
-  .masthead-title { font-size: clamp(54px, 19vw, 74px); }
+  .compact-masthead { min-height: 78px; padding: 14px 0 12px; }
+  .masthead-title { font-size: 43px; }
   .compact-masthead > p { display: none; }
-  .page-intro { display: block; padding: 36px 0 24px; }
-  .page-intro h1 { font-size: clamp(52px, 17vw, 70px); }
+  .page-intro { display: block; padding: 42px 0 26px; }
+  .page-intro h1 { font-size: clamp(58px, 18vw, 74px); }
   .intro-copy { margin-top: 22px; font-size: 16px; }
   .archive-guide { grid-template-columns: 82px 1fr; gap: 14px; }
   .archive-guide span:last-child { display: none; }
