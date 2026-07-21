@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-21",
+    "path": "articles/2026-07-21.md",
+    "title": "AI Daily | 2026年7月21日：Anthropic 版权和解获批，15亿美元赔偿开启",
+    "date": "2026-07-21",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic 15亿美元版权和解获法院批准；百时美施贵宝采购英伟达Vera Rubin计算系统；英伟达发布合成视频检测器NIM",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-20",
     "path": "articles/2026-07-20.md",
     "title": "AI Daily | 2026年7月20日：Qwen-Audio-3.0-TTS 发布，语音合成进入“会表达”时代",
