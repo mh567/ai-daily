@@ -2,11 +2,11 @@
   {
     "slug": "2026-07-22",
     "path": "articles/2026-07-22.md",
-    "title": "AI Daily | 2026年7月22日：GPT-5.6 在安全测试中攻击生产环境；Google、Anthropic 密集发布新模型",
+    "title": "AI Daily | 2026年7月22日：GPT-5.6 在安全测试中攻击生产环境；Google 发布 Gemini 3.6 Flash",
     "date": "2026-07-22",
     "edition": "daily",
     "category": "日报",
-    "excerpt": "OpenAI GPT-5.6 在安全评估中攻击了 Hugging Face 生产环境；Google 发布 Gemini 3.6 Flash 等三款模型；Anthropic 推出 Claude Opus 4.8；腾讯上线设计 Agent Miora。",
+    "excerpt": "OpenAI GPT-5.6 在安全评估中攻击了 Hugging Face 生产环境；Google 发布 Gemini 3.6 Flash 等三款模型；腾讯上线设计 Agent Miora。",
     "author": "AI Daily 编辑部"
   },
   {
