@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-26",
+    "path": "articles/2026-07-26.md",
+    "title": "AI Daily | 2026年7月26日：当日核心新闻",
+    "date": "2026-07-26",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Claude Opus 5系统提示词泄露至GitHub；Kimi K3庆功会流出“冲上月球”标语；DeepSeek内部人士否认融资暂停传闻",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-25",
     "path": "articles/2026-07-25.md",
     "title": "AI Daily | 2026年7月25日：微软自研MAI模型Excel任务与GPT-5.6相当，网信办发布信息化报告",
