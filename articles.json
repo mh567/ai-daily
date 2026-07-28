@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-07-28",
+    "path": "articles/2026-07-28.md",
+    "title": "AI Daily | 2026年7月28日：Kimi K3 开放权重、技术报告与 Infra 技术",
+    "date": "2026-07-28",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "月之暗面开源 Kimi K3 模型权重与关键 Infra 技术；华为宣布昇腾 0day 适配；火山引擎开源 Agent 搜索自迭代技术；央视起底“AI 脱衣”黑产。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-26",
     "path": "articles/2026-07-26.md",
     "title": "AI Daily | 2026年7月26日：当日核心新闻",
