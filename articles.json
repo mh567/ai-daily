@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-03",
+    "path": "articles/2026-08-03.md",
+    "title": "AI Daily | 2026年8月3日：当日核心新闻",
+    "date": "2026-08-03",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "阿里巴巴发布迄今最大 AI 模型 Qwen3.8-Max，宣称基准测试成绩比肩 Anthropic；DeepSeek API 文档支持 Claude Code、GitHub Copilot 等工具直连。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-07-28",
     "path": "articles/2026-07-28.md",
     "title": "AI Daily | 2026年7月28日：Kimi K3 开放权重、技术报告与 Infra 技术",
