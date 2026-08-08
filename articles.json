@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-08",
+    "path": "articles/2026-08-08.md",
+    "title": "AI Daily | 2026年8月8日：当日核心新闻",
+    "date": "2026-08-08",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic 更新 Claude Fable 5 生物安全机制，英伟达拟投资 Lancium，OpenAI 调整模型矩阵，微信灰度测试朋友圈 AI 功能。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-07",
     "path": "articles/2026-08-07.md",
     "title": "AI Daily | 2026年8月7日：当日核心新闻",
