@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-10",
+    "path": "articles/2026-08-10.md",
+    "title": "AI Daily | 2026年8月10日：当日核心新闻",
+    "date": "2026-08-10",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "阿里 qwen3.8-max 冲入 Arena 综合榜 Top 6，字节跳动被曝训练 10 万亿参数模型，GPT-5.6 与 Fable 协作解决困扰 25 年的 MIMO 检测难题。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-09",
     "path": "articles/2026-08-09.md",
     "title": "AI Daily | 2026年8月9日：当日核心新闻",
