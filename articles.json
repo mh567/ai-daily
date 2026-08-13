@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-13",
+    "path": "articles/2026-08-13.md",
+    "title": "AI Daily | 2026年8月13日：当日核心新闻",
+    "date": "2026-08-13",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "DeepSeek V4 Pro 正式版 API 上线，增强 Agent 能力并支持 Responses API 与 Codex 接入。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-10",
     "path": "articles/2026-08-10.md",
     "title": "AI Daily | 2026年8月10日：当日核心新闻",
