@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-14",
+    "path": "articles/2026-08-14.md",
+    "title": "AI Daily | 2026年8月14日：当日核心新闻",
+    "date": "2026-08-14",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "DeepSeek 开源一切皆插件的 Agent 运行时框架 Harness v0.1，并带来 V4 Pro 正式版在榜单上的新表现。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-13",
     "path": "articles/2026-08-13.md",
     "title": "AI Daily | 2026年8月13日：当日核心新闻",
