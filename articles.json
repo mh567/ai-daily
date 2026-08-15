@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-15",
+    "path": "articles/2026-08-15.md",
+    "title": "AI Daily | 2026年8月15日：Anthropic 公布 Claude 文本水印机制",
+    "date": "2026-08-15",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic 详解 Claude 文本水印机制，未来模型将携带可检测水印以符合欧盟 AI 法案。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-14",
     "path": "articles/2026-08-14.md",
     "title": "AI Daily | 2026年8月14日：当日核心新闻",
