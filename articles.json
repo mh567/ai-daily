@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-17",
+    "path": "articles/2026-08-17.md",
+    "title": "AI Daily | 2026年8月17日：当日核心新闻",
+    "date": "2026-08-17",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "Anthropic 多款模型密集入榜、阿里上线语音与音乐模型，宇树发布‘超人’机器人，Stripe 超 70 亿美元收购 OpenRouter。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-15",
     "path": "articles/2026-08-15.md",
     "title": "AI Daily | 2026年8月15日：Anthropic 公布 Claude 文本水印机制",
