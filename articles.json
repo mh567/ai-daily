@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-18",
+    "path": "articles/2026-08-18.md",
+    "title": "AI Daily | 2026年8月18日：DeepSeek Harness 插件架构解析",
+    "date": "2026-08-18",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "BestBlogs AI 发文详解 DeepSeek Harness 架构与 Cordis 微内核动态替换机制",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-17",
     "path": "articles/2026-08-17.md",
     "title": "AI Daily | 2026年8月17日：当日核心新闻",
