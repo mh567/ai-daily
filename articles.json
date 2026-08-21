@@ -1,5 +1,15 @@
 [
   {
+    "slug": "2026-08-21",
+    "path": "articles/2026-08-21.md",
+    "title": "AI Daily | 2026年8月21日：当日核心新闻",
+    "date": "2026-08-21",
+    "edition": "daily",
+    "category": "日报",
+    "excerpt": "OpenAI 发布 GPT-Image-2 透明背景能力并开源 Codex Harness，DeepSeek 上线多模态视觉理解模型，软银创下建筑机器人领域 A 轮纪录。",
+    "author": "AI Daily 编辑部"
+  },
+  {
     "slug": "2026-08-19",
     "path": "articles/2026-08-19.md",
     "title": "AI Daily | 2026年8月19日：当日核心新闻",
