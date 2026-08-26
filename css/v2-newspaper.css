@@ -1,37 +1,13 @@
-/* AI Daily v2 报纸版面补充样式（叠加在 newspaper-prototype.css 之上） */
+/* AI Daily v2 补充样式（报纸版面全部样式来自 newspaper-prototype.css，此处只补 v2 特有元素） */
 
-/* 重要性徽记（story 顶部） */
-.imp-badge {
-  display: inline-block;
-  font: 600 10px/1 var(--sans);
-  letter-spacing: .12em;
-  padding: 3px 9px;
-  border-radius: 999px;
-  margin-bottom: 8px;
+/* 来源行：事件日期与"待核"标注（沿用报纸小字，不用徽章） */
+.source-line .src-pending {
+  color: var(--accent);
 }
-.imp-p0 { background: #9d2f20; color: #f6efe2; }
-.imp-p1 { background: #e8a13c; color: #3a2c10; }
-.imp-p2 { background: #d9d4c6; color: #6b6557; }
-
-/* 来源行内的日期与"来源待核"徽标 */
-.story-date { color: var(--ink-soft); }
-.src-badge {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 1px 7px;
-  border: 1px solid #9d2f20;
-  border-radius: 999px;
-  color: #9d2f20;
-  font: 500 10px/1.4 var(--sans);
-}
-
-/* lead 区微调：eyebrow 已是 type 标签，保持报纸感 */
-.lead-story .eyebrow { margin-bottom: 4px; }
-.lead-aside .aside-copy a { font-size: 16px; }
 
 /* 历史日报（首页底部） */
 .history-section {
-  padding: 46px 0 30px;
+  padding: 46px 0 26px;
 }
 .history-section .section-heading h2 { font-size: clamp(26px, 2.4vw, 36px); }
 .history-section .section-heading > p a { color: var(--accent); text-underline-offset: 3px; }
@@ -108,19 +84,8 @@
   letter-spacing: .1em;
 }
 
-/* 响应式 */
-@media (max-width: 900px) {
-  .lead-layout { grid-template-columns: 1fr; gap: 28px; }
-  .lead-story { padding-right: 0; border-right: 0; }
-  .stories-grid .story { grid-column: span 6 !important; }
-  .brief-grid { grid-template-columns: 1fr 1fr; }
-  .edition-footer { grid-template-columns: 1fr; }
-  .edition-jump--older, .edition-jump--newer { border: 0 !important; text-align: left !important; align-items: flex-start; }
-  .edition-archive { justify-self: start; min-width: 0; }
-}
-@media (max-width: 560px) {
-  .stories-grid .story { grid-column: span 12 !important; border-right: 0; padding-right: 0; }
-  .brief-grid { grid-template-columns: 1fr; }
+/* 小屏历史/归档（旧 CSS 已处理 lead/story/brief 的 1100/720 两档） */
+@media (max-width: 720px) {
   .history-list li { flex-direction: column; gap: 6px; }
   .archive-month li { flex-direction: column; gap: 6px; }
 }
