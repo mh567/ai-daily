@@ -1,75 +1,78 @@
 {
   "date": "2026-08-26",
   "window": {
-    "start": "2026-08-25 00:00:00",
-    "end": "2026-08-26 17:00:00"
+    "start": "2026-08-25 00:00",
+    "end": "2026-08-26 17:02"
   },
   "headline": {
-    "title": "英伟达洽谈投资AI搜索公司Perplexity，估值或突破300亿美元",
-    "summary": "据The Information报道，英伟达正就投资AI搜索初创公司Perplexity进行谈判，本轮融资完成后其估值有望突破300亿美元，较一年前约200亿美元的估值上涨超50%；Perplexity年化营收已攀升至7.5亿美元以上。",
-    "type": "funding",
+    "title": "OpenAI公布首款自研AI推理芯片Jalapeno，称单位功耗性能与响应速度领先英伟达GB300",
+    "summary": "8月25日，OpenAI公布其首款自研AI推理芯片Jalapeno，该芯片由OpenAI与博通联合开发，据称在单位功耗可处理的AI工作量与响应速度两项指标上均领先英伟达GB300。芯片额定功率700瓦，测试中持续功耗保持在550瓦或以下，OpenAI称最快将于今年晚些时候投入实际使用。",
+    "type": "compute",
     "importance": "P1",
-    "source_url": "https://m.nbd.com.cn/articles/2026-08-25/4555115.html",
+    "source_url": "https://f.aa.com.tr/en/world/openai-says-its-1st-custom-ai-chip-surpasses-nvidia-systems-in-key-tests/4037388",
     "source_published_date": "2026-08-25",
     "event_date": "2026-08-25"
   },
   "news": [
     {
-      "title": "开源AI平台Hugging Face探索出售，估值或超130亿美元",
-      "summary": "据Business Insider报道，Hugging Face已聘请投资银行评估潜在买家意向、探索出售事宜，潜在估值或达130亿美元（约合人民币881.6亿元）以上，接近其2023年上一轮融资估值的近三倍。",
+      "title": "Anthropic拟向IPO投资者披露超30万亿美元市场潜力，估值目标约2万亿美元",
+      "summary": "据8月25日报道，Anthropic将向IPO投资者披露超过30万亿美元的可寻址市场，投资者预期其10月上市时估值至少达2万亿美元，有望成为史上最大IPO。",
       "type": "funding",
       "importance": "P1",
-      "source_url": "https://www.chinaventure.com.cn/news/80-20260825-392919.html",
+      "source_url": "https://beincrypto.com/anthropic-ipo-30-trillion-tam/",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     },
     {
-      "title": "印度AI基础设施公司AM Intelligence订购9000组英伟达Vera Rubin系统",
-      "summary": "印度AI基础设施公司AM Intelligence已订购9000组英伟达Vera Rubin系统，寻求成为亚洲首批采用该先进运算平台的企业之一，其首批算力已获得美国客户预订。",
-      "type": "compute",
+      "title": "北京经开区发布全国首个AI4Chip专项政策",
+      "summary": "8月25日，北京经开区（亦庄）正式发布全国首个AI4Chip专项政策《\"AI4Chip\"人工智能赋能集成电路产业跨越式发展行动计划（2026-2028年）》（简称\"AI4Chip 20条\"），包含五大行动、20条重点任务，目标锚定\"芯智协同\"。",
+      "type": "policy",
       "importance": "P2",
-      "source_url": "https://wwwhk.aastocks.com/sc/stocks/news/aafn-con/NOW.1540667/latest-news/HK6",
+      "source_url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtscyqld/202608/t20260825_4835748.html",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     },
     {
-      "title": "亚信科技与月之暗面签署「登月计划」框架合作协议",
-      "summary": "亚信科技公告称已与月之暗面正式签署「登月计划」框架合作协议，双方将结合Token运营产品体系与Kimi大模型，在Agentic AI企业服务领域开展全面合作，推动AI规模化落地。",
+      "title": "Meta计划数周内推出消费级AI代理Hatch，10月发布新模型Watermelon",
+      "summary": "据The Information报道，Meta计划最早在未来几周内推出面向消费者的OpenClaw AI助手（内部代号Hatch），并计划于10月发布最新AI模型\"Watermelon\"，Hatch预计于8月底或9月初上线。",
       "type": "product",
       "importance": "P2",
-      "source_url": "https://wwwhk.aastocks.com/sc/stocks/news/aafn-con/NOW.1540683/industry-news/Source",
+      "source_url": "https://www.jiemian.com/article/14988211.html",
+      "source_published_date": "2026-08-25",
+      "event_date": "2026-08-25"
+    },
+    {
+      "title": "橡鹿机器人发布首个多模态烹饪AI基础模型CookingMuse",
+      "summary": "8月25日，橡鹿机器人发布其首个多模态烹饪AI基础模型CookingMuse，被列为当日AI行业的重要产品发布。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.sohu.com/a/1067154131_122014422",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     }
   ],
   "briefs": [
     {
-      "text": "a16z合伙人Martin Casado在社交平台预告「刚刚获得一个新模型的访问权限」，外界猜测Ilya Sutskever旗下首款模型或即将发布。",
-      "source_url": "https://www.sohu.com/a/1067470732_122014422",
-      "source_published_date": "2026-08-25",
-      "event_date": "2026-08-25"
-    },
-    {
-      "text": "开发者发现Anthropic API中现身两个未公开模型代号marshmallow与melon，后缀eap表明仍处于面向少量开发者的早期访问内测阶段。",
-      "source_url": "https://www.sohu.com/a/1067054851_455313",
+      "text": "斯坦福大学一项研究显示，AI对入门级岗位的冲击最大。",
+      "source_url": "https://www.my2cents.ai/news/2026-08-25/",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     }
   ],
   "_meta": {
     "model": "deepseek-v4-flash",
-    "generated_at": "2026-08-26T17:01:08.915518+08:00",
+    "generated_at": "2026-08-26T17:04:18.978641+08:00",
     "usage": {
-      "input_tokens": 35334,
+      "input_tokens": 26186,
       "input_tokens_details": {
-        "cached_tokens": 24960
+        "cached_tokens": 18048
       },
-      "output_tokens": 8484,
+      "output_tokens": 11543,
       "output_tokens_details": {
-        "reasoning_tokens": 7296
+        "reasoning_tokens": 10402
       },
-      "total_tokens": 43818
+      "total_tokens": 37729
     },
-    "retry_feedback": true
+    "retry_feedback": false
   }
 }
