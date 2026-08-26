@@ -1,0 +1,97 @@
+/* AI Daily v2 单期文章页补充样式（叠加在 newspaper-prototype.css 之上） */
+.daily-content {
+  padding-bottom: 4rem;
+}
+.daily-title {
+  font-family: "Newsreader", serif;
+  font-size: clamp(1.6rem, 3.4vw, 2.4rem);
+  font-weight: 650;
+  margin: 1.6rem 0 0.3rem;
+}
+.daily-window {
+  color: #8a8578;
+  font-size: 0.82rem;
+  margin: 0 0 1.6rem;
+}
+.card {
+  background: #fffdf6;
+  border: 1px solid #e6dfce;
+  border-left: 4px solid #c4553a;
+  border-radius: 6px;
+  padding: 1rem 1.2rem 0.9rem;
+  margin-bottom: 1.1rem;
+}
+.card-headline {
+  border-left-width: 6px;
+  background: #fff8ec;
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.45rem;
+}
+.type-chip {
+  background: #efe8d8;
+  color: #5c5648;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+.imp {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+.imp-p0 { background: #c4553a; color: #fff; }
+.imp-p1 { background: #e8a13c; color: #3a2c10; }
+.imp-p2 { background: #d9d4c6; color: #6b6557; }
+.card-date {
+  margin-left: auto;
+  color: #8a8578;
+  font-size: 0.78rem;
+}
+.card-title {
+  font-family: "Newsreader", serif;
+  font-size: 1.15rem;
+  font-weight: 650;
+  margin: 0 0 0.4rem;
+  line-height: 1.35;
+}
+.card-title a { color: #26231c; text-decoration: none; }
+.card-title a:hover { color: #c4553a; }
+.card-summary {
+  color: #4a453a;
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin: 0 0 0.55rem;
+}
+.src-line {
+  font-size: 0.78rem;
+  color: #8a8578;
+}
+.src-line a { color: #7a6a4d; text-decoration: underline; text-underline-offset: 2px; }
+.src-line a:hover { color: #c4553a; }
+.src-badge {
+  background: #f3e3d8;
+  color: #a34a2e;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  margin-left: 0.4rem;
+}
+.briefs { border-left-color: #b9b09c; background: #faf8f1; }
+.brief-list { list-style: none; margin: 0; padding: 0; }
+.brief-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #e0dacb;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #4a453a;
+}
+.brief-item:last-child { border-bottom: none; }
+.brief-item .src-line { display: block; margin-top: 0.2rem; }
