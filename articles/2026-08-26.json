@@ -1,71 +1,75 @@
 {
   "date": "2026-08-26",
   "window": {
-    "start": "2026-08-25",
-    "end": "2026-08-26"
+    "start": "2026-08-25 00:00:00",
+    "end": "2026-08-26 17:00:00"
   },
   "headline": {
-    "title": "工信部明确“十五五”人工智能发展路线图，深化“人工智能+制造”专项行动",
-    "summary": "8月26日，工业和信息化部副部长辛国斌在国新办“开局起步‘十五五’”系列主题新闻发布会上表示，“十五五”时期将坚持应用牵引，深化推进“人工智能+制造”专项行动，加快培育“5G+”“人工智能+”“机器人+”等重大应用场景；工信部同时表示将加强数字经济、人工智能等新兴领域的立法研究。",
-    "type": "policy",
+    "title": "英伟达洽谈投资AI搜索公司Perplexity，估值或突破300亿美元",
+    "summary": "据The Information报道，英伟达正就投资AI搜索初创公司Perplexity进行谈判，本轮融资完成后其估值有望突破300亿美元，较一年前约200亿美元的估值上涨超50%；Perplexity年化营收已攀升至7.5亿美元以上。",
+    "type": "funding",
     "importance": "P1",
-    "source_url": "https://www.stdaily.com/web/gdxw/2026-08/26/content_570053.html",
-    "source_published_date": "2026-08-26",
-    "event_date": "2026-08-26"
+    "source_url": "https://m.nbd.com.cn/articles/2026-08-25/4555115.html",
+    "source_published_date": "2026-08-25",
+    "event_date": "2026-08-25"
   },
   "news": [
     {
-      "title": "英伟达宣布推理加速器Groq 3 LPX进入全面量产",
-      "summary": "英伟达在Hot Chips 2026大会上宣布，面向AI代理的交互式推理加速器Groq 3 LPX已进入全面量产。该产品是Vera Rubin平台的扩展组件，需与Vera Rubin NVL72 GPU主机架搭配部署；在Artificial Analysis基准测试中，Groq 3 LPX在10万Token上下文下运行Gemma 4 31B模型时，生成速度最高达每秒3400个Token。",
+      "title": "开源AI平台Hugging Face探索出售，估值或超130亿美元",
+      "summary": "据Business Insider报道，Hugging Face已聘请投资银行评估潜在买家意向、探索出售事宜，潜在估值或达130亿美元（约合人民币881.6亿元）以上，接近其2023年上一轮融资估值的近三倍。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.chinaventure.com.cn/news/80-20260825-392919.html",
+      "source_published_date": "2026-08-25",
+      "event_date": "2026-08-25"
+    },
+    {
+      "title": "印度AI基础设施公司AM Intelligence订购9000组英伟达Vera Rubin系统",
+      "summary": "印度AI基础设施公司AM Intelligence已订购9000组英伟达Vera Rubin系统，寻求成为亚洲首批采用该先进运算平台的企业之一，其首批算力已获得美国客户预订。",
       "type": "compute",
-      "importance": "P1",
-      "source_url": "https://www.digitaltoday.co.kr/cn/view/96313/nvidia-begins-mass-production-of-groq-3-lpx-for-ai-agents",
+      "importance": "P2",
+      "source_url": "https://wwwhk.aastocks.com/sc/stocks/news/aafn-con/NOW.1540667/latest-news/HK6",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     },
     {
-      "title": "Waymo宣布进军欧洲，计划2027年底在慕尼黑推出Robotaxi",
-      "summary": "8月25日，Waymo表示将在未来数周开始在德国慕尼黑测试自动驾驶车辆，并计划于2027年底前在当地推出无人驾驶出租车服务，这是其首次进入欧盟市场；该公司还计划今年将业务扩展至伦敦和东京。",
-      "type": "product",
-      "importance": "P1",
-      "source_url": "https://www.investing.com/news/stock-market-news/waymo-to-begin-testing-autonomous-vehicles-in-munich-4875712",
-      "source_published_date": "2026-08-25",
-      "event_date": "2026-08-25"
-    },
-    {
-      "title": "腾讯汤道生回应“腾讯做AI慢了”质疑",
-      "summary": "8月26日，腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生在内部刊物发文回应外界对“腾讯做AI慢了”的质疑，称“一点不焦虑是不可能的”，混元大模型进行了多次重构、混元Hy3在同等参数的大模型中效果突出，但公司整体算力严重不足拖慢了模型训练与产品发展，产生了比较大的影响。",
+      "title": "亚信科技与月之暗面签署「登月计划」框架合作协议",
+      "summary": "亚信科技公告称已与月之暗面正式签署「登月计划」框架合作协议，双方将结合Token运营产品体系与Kimi大模型，在Agentic AI企业服务领域开展全面合作，推动AI规模化落地。",
       "type": "product",
       "importance": "P2",
-      "source_url": "https://www.aastocks.com/sc/stocks/news/aafn-con/GLH2633353L/latest-news/GLH",
-      "source_published_date": "2026-08-26",
-      "event_date": "2026-08-26"
-    },
-    {
-      "title": "亚信科技与月之暗面签署“登月计划”框架合作协议",
-      "summary": "8月25日，亚信科技宣布全资附属公司与北京月之暗面正式签署“登月计划”框架合作协议，亚信科技成为月之暗面优选FDE（前沿部署工程师）合作伙伴。双方将围绕Kimi大模型及企业级AI市场，在Token及API服务、模型私有化部署、行业智能体搭建等方面开展合作，推动Agentic AI规模化落地。",
-      "type": "product",
-      "importance": "P2",
-      "source_url": "https://finance.sina.com.cn/jjxw/2026-08-25/doc-inipqaah1466952.shtml",
+      "source_url": "https://wwwhk.aastocks.com/sc/stocks/news/aafn-con/NOW.1540683/industry-news/Source",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     }
   ],
   "briefs": [
     {
-      "text": "阿里Qwen团队宣布将于8月27日（日本时间）以开放权重方式发布基于新一代架构的Qwen3.8-Flash-Next模型，该架构将用于即将推出的Qwen4系列，ModelScope已上线倒计时页面。",
-      "source_url": "https://pc.watch.impress.co.jp/docs/news/2135530.html",
+      "text": "a16z合伙人Martin Casado在社交平台预告「刚刚获得一个新模型的访问权限」，外界猜测Ilya Sutskever旗下首款模型或即将发布。",
+      "source_url": "https://www.sohu.com/a/1067470732_122014422",
+      "source_published_date": "2026-08-25",
+      "event_date": "2026-08-25"
+    },
+    {
+      "text": "开发者发现Anthropic API中现身两个未公开模型代号marshmallow与melon，后缀eap表明仍处于面向少量开发者的早期访问内测阶段。",
+      "source_url": "https://www.sohu.com/a/1067054851_455313",
       "source_published_date": "2026-08-25",
       "event_date": "2026-08-25"
     }
   ],
   "_meta": {
     "model": "deepseek-v4-flash",
-    "generated_at": "2026-08-26T16:40:50.884582+08:00",
+    "generated_at": "2026-08-26T17:01:08.915518+08:00",
     "usage": {
-      "input_tokens": 129204,
-      "output_tokens": 12206,
-      "total_tokens": 141410
-    }
+      "input_tokens": 35334,
+      "input_tokens_details": {
+        "cached_tokens": 24960
+      },
+      "output_tokens": 8484,
+      "output_tokens_details": {
+        "reasoning_tokens": 7296
+      },
+      "total_tokens": 43818
+    },
+    "retry_feedback": true
   }
 }
