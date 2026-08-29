@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-29",
+  "window": {
+    "start": "2026-08-28 00:00",
+    "end": "2026-08-29 17:45"
+  },
+  "headline": {
+    "title": "英伟达被曝斥资129亿美元收购开源AI平台Hugging Face",
+    "summary": "据澎湃新闻等报道，当地时间8月27日外媒披露，英伟达正洽谈收购开源AI社区Hugging Face，已同意出价129亿美元，对后者的估值超过130亿美元，有望成为英伟达规模最大的交易之一。截至目前双方尚未正式官宣，谈判仍存在变数。",
+    "type": "funding",
+    "importance": "P0",
+    "source_url": "https://m.thepaper.cn/detail/33960493",
+    "source_published_date": "2026-08-28",
+    "event_date": "2026-08-28"
+  },
+  "news": [
+    {
+      "title": "腾讯混元发布并开源新一代大语言模型Hy4 preview",
+      "summary": "8月28日，腾讯混元发布并开源新一代大语言模型Hy4 preview，总参数770B、激活参数49B，上下文长度突破1M，在代码、办公、科学等生产力任务上能力突出，WorkBuddy、CodeBuddy、元宝等应用同步上线。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.news.cn/tech/20260828/b12d8417291b4193ba9e5d435a1a40db/c.html",
+      "source_published_date": "2026-08-28",
+      "event_date": "2026-08-28"
+    },
+    {
+      "title": "Anthropic发布Model Hardware Standard研究预览版，AI Agent首次操控物理设备",
+      "summary": "当地时间8月27日，Anthropic以研究预览形式发布模型硬件标准（MHS），让AI智能体可安全控制显微镜、液体处理仪、机械臂等可编程科研与制造设备，将硬件集成时间从数周甚至数月缩短至数小时甚至几分钟。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+      "source_published_date": "2026-08-27",
+      "event_date": "2026-08-28"
+    },
+    {
+      "title": "OpenAI联合百余家企业发布网络防御集体行动公开信",
+      "summary": "当地时间8月27日，OpenAI联合Anthropic、AWS、谷歌、微软等百余家科技、网络安全与金融企业发布题为《呼吁开展网络防御的集体行动》的公开信，警告AI驱动的网络攻击正日益复杂，呼吁企业和政府加快网络防御建设。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://m.thepaper.cn/detail/33965785",
+      "source_published_date": "2026-08-28",
+      "event_date": "2026-08-28"
+    },
+    {
+      "title": "阿里云正式启用巴西数据中心，加速拉美市场布局",
+      "summary": "8月28日，阿里云宣布巴西数据中心正式启用，节点设有两个可用区，为企业客户与开发者提供计算、存储、数据库等云服务，企业级AI服务将陆续上线，这是阿里云在拉美市场的第二个地域节点。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.jiemian.com/article/15014806.html",
+      "source_published_date": "2026-08-28",
+      "event_date": "2026-08-28"
+    },
+    {
+      "title": "小鹏X-Foresight预测世界模型首次实现量产上车",
+      "summary": "8月28日，小鹏汽车在物理AI分享会上发布第二代VLA新版本，X-Foresight预测世界模型首次量产上车，可结合目标物位置、速度与道路环境推演未来6秒内周边交通参与者的行为，搭载于G9L车型的XOS 6.3.0系统。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "http://www.xinhuanet.com/tech/20260828/4fbcc1a5333e4e81961152b8993bae49/c.html",
+      "source_published_date": "2026-08-28",
+      "event_date": "2026-08-28"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "AI初创公司Hark宣布与英伟达达成多年战略合作，围绕个性化智能体AI展开技术协作，并基于英伟达下一代Vera Rubin平台部署吉瓦级算力。",
+      "source_url": "https://www.tmcnet.com/usubmit/2026/08/27/10436694.htm",
+      "source_published_date": "2026-08-27",
+      "event_date": "2026-08-28"
+    },
+    {
+      "text": "全国一体化算力网加快构建，已有20余家算力调度主体入驻相关平台。",
+      "source_url": "https://www.sohu.com/a/1069013194_114986",
+      "source_published_date": "2026-08-28",
+      "event_date": "2026-08-28"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-08-29T17:47:51.473901+08:00",
+    "usage": {
+      "input_tokens": 79283,
+      "input_tokens_details": {
+        "cached_tokens": 65152
+      },
+      "output_tokens": 21542,
+      "output_tokens_details": {
+        "reasoning_tokens": 20000
+      },
+      "total_tokens": 100825
+    },
+    "retry_feedback": false
+  }
+}
