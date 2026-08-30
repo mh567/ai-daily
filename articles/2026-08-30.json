@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-30",
+  "window": {
+    "start": "2026-08-29 00:00",
+    "end": "2026-08-30 17:45"
+  },
+  "headline": {
+    "title": "OpenAI 终止向 SpaceX 旗下 Cursor 提供模型服务，马斯克与奥特曼冲突升级",
+    "summary": "据多家外媒报道，OpenAI 宣布计划停止向 SpaceX 旗下 AI 编程平台 Cursor 提供模型服务，拟定终止日期为 2026 年 11 月 12 日，并称其与 Cursor 的协议赋予其在“控制权变更”后有限时间内取消合同的权利。OpenAI 同时表示将不再向 Cursor 提供包括 Astra 在内的未来模型，此举被视为马斯克与奥特曼矛盾再度激化。",
+    "type": "product",
+    "importance": "P1",
+    "source_url": "https://www.163.com/dy/article/L5INOROR0534A4SC.html",
+    "source_published_date": "2026-08-29",
+    "event_date": "2026-08-29"
+  },
+  "news": [
+    {
+      "title": "微软完成 WinUI 开源，主线开发迁移至 GitHub",
+      "summary": "据 neowin 报道，微软宣布完成 WinUI 开源工作，WinUI 主线开发已正式迁移至 GitHub，开发者可在项目下创建分支、提交 PR 并进行代码审查，Windows 组件化进程随之加速。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://news.qq.com/rain/a/20260829A0CBIN00",
+      "source_published_date": "2026-08-29",
+      "event_date": "2026-08-29"
+    },
+    {
+      "title": "贵安新区发布人工智能公共服务平台及供应链物流 AI 大模型 2.0",
+      "summary": "在贵阳举行的 2026 中国国际大数据产业博览会上，“贵安新区人工智能公共服务平台”与“供应链物流 AI 大模型 2.0”两项成果正式发布，标志着贵州人工智能产业从“应用先行”的 1.0 阶段迈入新阶段。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "http://www.gz.xinhuanet.com/20260829/4da57c62c9ac4223b51e11739a1f4d08/c.html",
+      "source_published_date": "2026-08-29",
+      "event_date": "2026-08-29"
+    },
+    {
+      "title": "Bullish 向 USD.AI 提供 1 亿美元 GPU 抵押贷款",
+      "summary": "据 Edge AI Daily 早报报道，Bullish 向 USD.AI 提供 1 亿美元 GPU 抵押贷款，将算力作为可抵押融资的新资产类别进行交易。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.tmtpost.com/8121865.html",
+      "source_published_date": "2026-08-29",
+      "event_date": "2026-08-29"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Claude 两款新模型（棉花糖、甜瓜）实测流出，据开发者从 API 流量记录中截获的数据显示，其在 3D 强化学习与建筑空间布局等空间推理任务上表现突出。",
+      "source_url": "https://dev-news.cnblogs.com/n/date?date=08/29/2026&type=1",
+      "source_published_date": "2026-08-29",
+      "event_date": "2026-08-29"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-08-30T17:47:17.773946+08:00",
+    "usage": {
+      "input_tokens": 46858,
+      "input_tokens_details": {
+        "cached_tokens": 33152
+      },
+      "output_tokens": 12858,
+      "output_tokens_details": {
+        "reasoning_tokens": 11582
+      },
+      "total_tokens": 59716
+    },
+    "retry_feedback": false
+  }
+}
