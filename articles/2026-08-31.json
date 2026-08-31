@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-31",
+  "window": {
+    "start": "2026-08-30 00:00",
+    "end": "2026-08-31 17:45"
+  },
+  "headline": {
+    "title": "工信部开展人工智能应用服务商培育专项行动，加大大模型与智能体采购力度",
+    "summary": "8月31日，工业和信息化部办公厅发布关于开展人工智能应用服务商培育专项行动的通知，提出以专项行动为牵引建立服务商资源池，加大大模型、智能体、Token等服务采购力度。通知还鼓励服务商搭建前线部署工程师（FDE）团队，锻造一批懂行业痛点、通技术机理、知安全风险的AI应用服务商队伍。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://news.cctv.com/2026/08/31/ARTImCEGfiA11caRfuSYnPC7260831.shtml",
+    "source_published_date": "2026-08-31",
+    "event_date": "2026-08-31"
+  },
+  "news": [
+    {
+      "title": "小鹏机器人首轮融资超9亿美元，投后估值约430亿元",
+      "summary": "小鹏集团今日宣布旗下机器人业务完成首轮超9亿美元融资，投后估值超63亿美元（约430亿元人民币），本轮由多家投资机构主动发起，IDG资本领投，腾讯、阿里巴巴战略跟投。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://fund.eastmoney.com/a/202608303859386122.html",
+      "source_published_date": "2026-08-30",
+      "event_date": "2026-08-30"
+    },
+    {
+      "title": "AI机器人公司Sharpa完成超45亿元融资，阿里、美团、腾讯、京东参投",
+      "summary": "AI机器人公司Sharpa宣布完成超45亿元人民币融资，投后估值达220亿元，投资方包括阿里巴巴、美团、腾讯、京东、传音等产业资本以及红杉中国、启明创投等机构。这是Sharpa自2024年底成立以来首次公开披露融资。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://m.21jingji.com/article/20260830/herald/dcf8f4b3a0434e5dd44a6d30f25fb696.html",
+      "source_published_date": "2026-08-30",
+      "event_date": "2026-08-30"
+    },
+    {
+      "title": "火山引擎与贵广集团签署协议，布局智能体、算力等AI产业",
+      "summary": "火山引擎与贵州广电网络传媒集团（贵广集团）正式签署《合作框架协议》，双方将围绕AIGC、智能体、算力等布局AI相关产业，共谋创新拓展数智科技产业，服务赋能贵州数字经济发展。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://news.qq.com/rain/a/20260831A04B5900",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "经济日报报道，广东省首个词元经济专项金融产品“词元贷”在广州市海珠区正式发布，中国银行、中信银行、广州银行3家银行参与布局。",
+      "source_url": "https://www.aastocks.com/sc/cnhk/news/china-hot-topic-content.aspx?id=GLH2641370L&catg=4&source=GLH",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "text": "8月31日午后恒生科技指数翻红，大模型个股MINIMAX-W涨幅扩大近20%，智谱涨8%。",
+      "source_url": "https://www.aastocks.com/sc/cnhk/news/china-hot-topic-content.aspx?id=YLC6232065N&catg=4&source=YOULIAN",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "text": "财联社8月31日电，咨询机构Gartner发布2026中国数据、分析和人工智能技术成熟度曲线，指出代理型AI技术已成为企业首要焦点，物理AI有望成为新的重要驱动力。",
+      "source_url": "https://news.qq.com/rain/a/20260831A07F7L00",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-08-31T17:46:35.103033+08:00",
+    "usage": {
+      "input_tokens": 43208,
+      "input_tokens_details": {
+        "cached_tokens": 30976
+      },
+      "output_tokens": 13054,
+      "output_tokens_details": {
+        "reasoning_tokens": 11695
+      },
+      "total_tokens": 56262
+    },
+    "retry_feedback": false
+  }
+}
