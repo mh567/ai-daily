@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-01",
+  "window": {
+    "start": "2026-08-31 00:00",
+    "end": "2026-09-01 17:45"
+  },
+  "headline": {
+    "title": "Anthropic与英伟达支持的Lambda达成350亿美元算力协议，系AI领域规模最大的云服务交易之一",
+    "summary": "据知情人士透露，AI初创公司Anthropic已与英伟达支持的云服务商Lambda签署一份价值350亿美元的云计算协议，项目落地得克萨斯州数据中心，英伟达本身持有相关数据中心租约。这是Anthropic今年以来签署的第二笔百亿美元级算力大单，也是全球AI领域迄今规模最大的云服务交易之一。",
+    "type": "compute",
+    "importance": "P0",
+    "source_url": "https://hk.finance.yahoo.com/news/anthropic%E8%88%87%E8%BC%9D%E9%81%94%E6%94%AF%E6%8C%81%E7%9A%84lambda%E9%81%94%E6%88%90350%E5%84%84%E7%BE%8E%E5%85%83%E7%9A%84%E7%AE%97%E5%8A%9B%E5%90%88%E4%BD%9C%E5%8D%94%E8%AD%B0-003407686.html",
+    "source_published_date": "2026-08-31",
+    "event_date": "2026-08-31"
+  },
+  "news": [
+    {
+      "title": "英伟达斥资35亿美元认购联发科可转债，扩展AI基础设施与PC芯片合作",
+      "summary": "英伟达8月31日宣布投资35亿美元购入联发科可转债，双方合作覆盖AI基础设施、个人计算与汽车领域。联发科将采用英伟达NVLink Fusion平台，使客户能开发接入英伟达生态的定制AI芯片。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.moneycontrol.com/news/business/companies/nvidia-to-invest-3-5-billion-in-chipmaker-mediatek-14019154.html",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "title": "OpenAI广告业务ChatGPT Ads年化收入运行率突破10亿美元",
+      "summary": "OpenAI于8月31日宣布旗下广告业务ChatGPT Ads年化收入运行率已达10亿美元，该业务推出仅约200天，公司将其视为商业模式多元化的里程碑。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://www.thehindubusinessline.com/info-tech/openais-ad-business-hits-1-billion-annualized-revenue-run-rate/article71411546.ece",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "title": "国家人工智能基金14亿元入股快手可灵，正大机器人同步入局",
+      "summary": "快手8月31日公告，旗下视频生成大模型可灵AI的独立运营主体北京可灵完成新一轮增资扩股，国家人工智能产业投资基金注入现金资本14亿元，对应持股约1.14%；正大集团旗下正大机器人注资约1929万美元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://finance.sina.com.cn/roll/2026-09-01/doc-iniqhscx6701853.shtml",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-08-31"
+    },
+    {
+      "title": "工信部部署人工智能应用服务商培育专项行动，加大大模型与智能体采购力度",
+      "summary": "工信部办公厅8月31日发布关于开展人工智能应用服务商培育专项行动的通知（工信厅科函〔2026〕414号），提出探索通过首购首用、风险补偿等模式加大大模型、智能体、Token等服务采购力度，并部署建立服务商资源池等四项重点任务。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_6fbc038bf15c445ab53b2a94a3f9d4e4.html",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "title": "OpenAI否认苹果商业机密窃取指控，称其未证明任何机密信息被盗",
+      "summary": "OpenAI于8月31日回应苹果的诉讼，否认窃取商业机密的指控，称苹果未能证明前员工带走了任何机密信息。双方在法庭文件中透露，OpenAI已为其硬件项目从苹果招募约400名员工。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://www.emirates247.com/business/openai-says-apple-has-only-itself-to-blame-in-trade-secret-fight-denies-theft-claims-amid-hiring-dispute/5116",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "title": "科大讯飞词元星火开源星火X2.5-4B与X2.5-1.7B两款端侧大模型",
+      "summary": "9月1日，科大讯飞全资子公司词元星火推出并开源星火X2.5-4B和星火X2.5-1.7B两款端侧通用大模型，为端侧模型中唯一原生支持最长100万Token上下文的模型，面向车载、智能硬件等端侧场景。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.stdaily.com/web/gdxw/2026-09/01/content_573327.html",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    },
+    {
+      "title": "阿里千问创作上线Agent Teams功能，接入Wan3.0覆盖专业视频制作",
+      "summary": "8月31日，阿里千问宣布千问创作平台正式上线Agent Teams功能并接入Wan3.0视频生成模型，将多Agent协同机制引入专业视频创作全流程，已面向全部用户开放。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.pingwest.com/w/316932",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "全球首个太空算力在轨试验实现常态化运行，成为AI算力基建领域的重要信号。",
+      "source_url": "http://www.nbd.com.cn/rss/zaker/articles/4567449.html",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-08-31"
+    },
+    {
+      "text": "苹果新任CEO特努斯于9月1日正式上任，将AI视为其首要任务。",
+      "source_url": "https://www.sohu.com/a/1070129668_122014422",
+      "source_published_date": "2026-08-31",
+      "event_date": "2026-09-01"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-01T17:45:59.243835+08:00",
+    "usage": {
+      "input_tokens": 35383,
+      "input_tokens_details": {
+        "cached_tokens": 25216
+      },
+      "output_tokens": 7659,
+      "output_tokens_details": {
+        "reasoning_tokens": 5543
+      },
+      "total_tokens": 43042
+    },
+    "retry_feedback": false
+  }
+}
