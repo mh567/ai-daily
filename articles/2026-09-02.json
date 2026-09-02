@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-02",
+  "window": {
+    "start": "2026-09-01 00:00",
+    "end": "2026-09-02 17:45"
+  },
+  "headline": {
+    "title": "Anthropic发布旗舰模型Claude Fable 5.1与Mythos 5.1，称其成本大幅下降并刷新编程与知识工作能力上限",
+    "summary": "当地时间9月1日，Anthropic发布新一代旗舰模型Claude Fable 5.1及Mythos 5.1，自称是“全球最先进的编程与知识工作模型”，多项基准测试表现优于上一代及OpenAI的GPT-5.6。Fable 5.1定价与Fable 5持平（输入10美元/百万Token、输出50美元/百万Token），典型工作负载成本降低约25%、智能体场景最高降45%，缓存读取成本降低75%，并通过Anthropic API及AWS、谷歌云、微软Azure提供。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://on.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+    "source_published_date": "2026-09-01",
+    "event_date": "2026-09-01"
+  },
+  "news": [
+    {
+      "title": "OpenAI宣布即将推出新一代模型Astra，称其首度超越“关键”网络安全能力阈值",
+      "summary": "OpenAI于9月1日表示，即将推出的AI模型Astra是其首个达到公司定义的“关键”网络攻击能力阈值的模型；CEO萨姆·奥尔特曼同日称公司接近推出该模型，并强调提升安全标准的必要性。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.36kr.com/newsflashes/3965473105927683",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    },
+    {
+      "title": "英伟达据悉最快本周达成约140亿美元收购Hugging Face协议",
+      "summary": "据财联社9月2日报道，英伟达正就收购开源AI平台Hugging Face进行深入谈判，交易总额约140亿美元，其中现金对价约129亿美元，另设10亿美元员工留任激励，双方尚未签署最终协议，最快可能于本周达成。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.guandian.cn/article/20260902/596228.html",
+      "source_published_date": "2026-09-02",
+      "event_date": "2026-09-02"
+    },
+    {
+      "title": "AI 3D公司VAST（三启万物）完成B轮及B+轮融资合计约30亿元，经纬创投领投",
+      "summary": "9月1日，AI 3D大模型公司VAST宣布完成B轮与B+轮融资合计约30亿元人民币，由经纬创投领投，多家产业资本与财务机构参投、老股东超额追投；同日发布旗舰3D原生基座模型Tripo P2.0，基于自研Nexus框架生成原生四边面拓扑网格。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://finance.ifeng.com/c/8w40l1Jy92u",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    },
+    {
+      "title": "通用AI智能体公司Manus官宣恢复独立运营，原创始团队继续领导",
+      "summary": "9月1日，Manus在官网发布公告称已正式恢复独立运营，由肖弘、张涛、季逸超组成的原创始团队将继续领导公司，与科技巨头Meta的分拆过渡工作基本结束，公司将继续推进通用AI代理研发与产品创新。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://m.thepaper.cn/detail/33982655",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    },
+    {
+      "title": "影眸科技发布世界生成模型Hyper3D WorldGen，实现单图生成可编辑3D场景",
+      "summary": "9月1日，影眸科技Hyper3D正式发布世界生成模型WorldGen，用户上传一张场景图片即可自动识别主要物体生成3D资产，也可按手动框选内容生成；模型重点解决遮挡补全、空间对齐及物体间物理关系建模，把3D生成从单体推进到完整场景。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://news.qq.com/rain/a/20260901A0AMKK00",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "OpenAI宣布ChatGPT广告服务ChatGPT Ads上线不足200天，年化收入规模已突破10亿美元。",
+      "source_url": "https://www.watch.impress.co.jp/docs/news/2137194.html",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    },
+    {
+      "text": "Runway正式推出首个“界面世界模型”Solaris，可让AI逐帧实时生成可交互界面，取消中间代码转译环节。",
+      "source_url": "https://www.aitop100.cn/infomation/details/34595.html",
+      "source_published_date": "2026-09-01",
+      "event_date": "2026-09-01"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-02T17:47:47.433100+08:00",
+    "usage": {
+      "input_tokens": 77143,
+      "input_tokens_details": {
+        "cached_tokens": 62080
+      },
+      "output_tokens": 18134,
+      "output_tokens_details": {
+        "reasoning_tokens": 16295
+      },
+      "total_tokens": 95277
+    },
+    "retry_feedback": false
+  }
+}
