@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-03",
+  "window": {
+    "start": "2026-09-02T00:00:00+08:00",
+    "end": "2026-09-03T17:45:00+08:00"
+  },
+  "headline": {
+    "title": "谷歌发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型，强化编程与网络安全能力",
+    "summary": "当地时间9月2日，谷歌正式发布 Gemini 3.8 Flash 推理模型及面向网络安全与政府应用的 Gemini 3.8 Flash Cyber 两款模型，其中 3.8 Flash 重点优化软件工程与编程推理能力，Cyber 版本聚焦政府部门安全场景。这是谷歌在 Flash 轻量模型线上的又一次快速迭代。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://ph.investing.com/news/stock-market-news/google-launches-gemini-38-flash-cyber-for-government-security-2575552",
+    "source_published_date": "2026-09-03",
+    "event_date": "2026-09-02"
+  },
+  "news": [
+    {
+      "title": "Meta 发布旗舰模型 Muse Spark 1.3，并承诺将推出开源权重版本",
+      "summary": "Meta 于9月2日发布迄今性能最强的旗舰模型 Muse Spark 1.3，重点面向编程与智能体任务，已上线 Meta Model API 及 Muse Code CLI；CEO 扎克伯格在社交媒体发文称开源权重版本将“很快”推出。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.theregister.com/ai-and-ml/2026/09/02/zucks-muse-to-spark-joy-with-open-weights-release-soon/5294093",
+      "source_published_date": "2026-09-02",
+      "event_date": "2026-09-02"
+    },
+    {
+      "title": "Anthropic 推出 Claude Fable 5.1 与 Mythos 5.1，主打编程与知识工作",
+      "summary": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1，自称“全球最先进的编程与知识工作模型”，Fable 5.1 定价与 Fable 5 保持一致，据称可将复杂编程工作负载的综合成本最高降低45%。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://m.thepaper.cn/detail/33991810",
+      "source_published_date": "2026-09-02",
+      "event_date": "2026-09-02"
+    },
+    {
+      "title": "中央网信办通报“清朗·整治AI应用乱象”专项行动第二阶段情况",
+      "summary": "中央网信办9月2日通报第二阶段工作情况，聚焦利用AI制作发布虚假信息、假冒仿冒他人、侵害未成年人权益等问题；截至目前依法查处违规账号4.9万余个、清理AI生成违规信息561万余条，并督促豆包、元宝、千问、文心一言等大模型落实整改。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "http://mrdx.cn/h5/mrdx/content/20260903/Articel03004NR.htm",
+      "source_published_date": "2026-09-03",
+      "event_date": "2026-09-02"
+    },
+    {
+      "title": "字节跳动将获约296亿美元银团贷款，加码AI数据中心投入",
+      "summary": "据第一财经报道，字节跳动将获得约296亿美元（约合2000亿元人民币）银团贷款，为年内亚洲第二大美元贷款；公司正加速AI投入，考虑将2026年资本开支提升至最高700亿美元，主要用于扩建数据中心等AI基础设施。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.163.com/dy/article/L5TLKPDT0519DDQ2.html",
+      "source_published_date": "2026-09-03",
+      "event_date": "2026-09-03"
+    },
+    {
+      "title": "AI编程公司 Cognition 拟融资约10亿美元，估值约470亿美元",
+      "summary": "据彭博社报道，AI编程初创公司 Cognition AI 拟完成约10亿美元新一轮融资，估值约470亿美元，较三个月前的约260亿美元大幅提升；其编程产品 Devin 年化收入已接近10亿美元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://theedgemalaysia.com/node/816527",
+      "source_published_date": "2026-09-02",
+      "event_date": "2026-09-02"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "9月3日内媒消息称，Kimi 开发商月之暗面已以保密形式向港交所递交A1文件、启动港股IPO流程，市场传闻其投前估值约500亿美元，公司回应称对市场传闻不予置评。",
+      "source_url": "https://hkcd.com/hkcdweb/content/2026/09/03/content_8773028.html",
+      "source_published_date": "2026-09-03",
+      "event_date": "2026-09-03"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-03T17:47:32.355637+08:00",
+    "usage": {
+      "input_tokens": 45832,
+      "input_tokens_details": {
+        "cached_tokens": 34048
+      },
+      "output_tokens": 17316,
+      "output_tokens_details": {
+        "reasoning_tokens": 15855
+      },
+      "total_tokens": 63148
+    },
+    "retry_feedback": false
+  }
+}
