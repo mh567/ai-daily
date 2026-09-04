@@ -1,0 +1,96 @@
+{
+  "date": "2026-09-04",
+  "window": {
+    "start": "2026-09-03 00:00",
+    "end": "2026-09-04 17:45"
+  },
+  "headline": {
+    "title": "OpenAI发布旗舰模型GPT-6 Astra，宣称开启AGI时代",
+    "summary": "当地时间9月3日（北京时间9月4日凌晨），OpenAI正式发布新一代旗舰基座模型GPT-6 Astra，官方称其实现“代际跃迁”，在软件工程、计算机操作、科学研究及网络安全等领域达到领先水平。该模型使用超过10万块GPU在得州Stargate基地完成训练，通过Daybreak项目向可信企业用户先行开放，OpenAI总裁布罗克曼称其为迈向AGI的关键里程碑。",
+    "type": "model_release",
+    "importance": "P0",
+    "source_url": "https://www.163.com/dy/article/L5VRI34D0514R9OJ.html",
+    "source_published_date": "2026-09-04",
+    "event_date": "2026-09-04"
+  },
+  "news": [
+    {
+      "title": "英伟达宣布以129.3亿美元收购开源AI平台Hugging Face",
+      "summary": "9月3日，英伟达通过黄仁勋署名官方博客宣布，已同意以129.3亿美元收购开源AI平台Hugging Face，交易预计于2027年上半年完成、尚待监管批准，英伟达称将维持Hugging Face的开放平台定位。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://fund.eastmoney.com/a/202609033864354843.html",
+      "source_published_date": "2026-09-03",
+      "event_date": "2026-09-03"
+    },
+    {
+      "title": "美国头部AI服务集体宕机约3小时40分：ChatGPT、Claude、Grok等同时中断",
+      "summary": "9月3日晚间（美东时间早间），ChatGPT与Codex、Claude、Grok以及Gemini、Copilot等头部AI服务集体出现大规模中断，持续时间约3小时40分，Downdetector上关于OpenAI的用户报告超过1.2万份；有报道指出OpenAI、Anthropic与xAI均不同程度依赖Azure云计算能力。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://m.techweb.com.cn/marticle/2026-09-04/2978773.shtml",
+      "source_published_date": "2026-09-04",
+      "event_date": "2026-09-03"
+    },
+    {
+      "title": "沙特HUMAIN基于MiniMax M3开源模型推出首个阿拉伯语大模型HUMAIN M3",
+      "summary": "9月3日，沙特公共投资基金（PIF）旗下AI公司HUMAIN推出阿拉伯语大模型HUMAIN M3，该模型基于中国MiniMax开源的旗舰模型MiniMax M3，并使用超过1万亿Token的阿拉伯语数据完成后训练。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://m.thepaper.cn/newsDetail_forward_34006677",
+      "source_published_date": "2026-09-03",
+      "event_date": "2026-09-03"
+    },
+    {
+      "title": "奥特曼证实OpenAI将自研人形机器人，同时布局数据中心场景机器人",
+      "summary": "在GPT-6 Astra发布之际，OpenAI CEO萨姆·奥特曼首次明确表示公司“一定会做人形机器人”，同时推进面向数据中心场景的特种机器人研发，两条技术路线并行；OpenAI已于今年6月启动机器人团队招聘。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://api3.cls.cn/share/article/2473926?os=web&sv=698",
+      "source_published_date": "2026-09-04",
+      "event_date": "2026-09-04"
+    },
+    {
+      "title": "G20成员国一致通过美国力推的AI“轻监管”《卡罗来纳原则》",
+      "summary": "据彭博报道，二十国集团成员国一致同意采纳美国提出的AI及新兴技术治理框架《卡罗来纳原则》，该文件呼吁各国按行业差异化监管、避免新设AI监管机构，并加强政府与私营企业合作开展新兴技术测试。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://www.stheadline.com/zh-hans/realtime-finance/3611227/",
+      "source_published_date": "2026-09-03",
+      "event_date": "2026-09-03"
+    },
+    {
+      "title": "前OpenAI CTO穆拉蒂创立的Thinking Machines Lab拟融资50至60亿美元",
+      "summary": "9月4日消息，由前OpenAI首席技术官米拉·穆拉蒂执掌的Thinking Machines Lab正洽谈新一轮融资，拟募资50至60亿美元、投前估值至少400亿美元；现有投资方a16z正对外推介此轮，预计英伟达将出资约25亿美元。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://www.fx678.com/C/20260904/202609040926482466.html",
+      "source_published_date": "2026-09-04",
+      "event_date": "2026-09-04"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "在美国头部AI服务集体宕机期间，国产大模型公司智谱在X平台发文“我们还在线”，显示自家服务未受影响。",
+      "source_url": "https://www.dzwww.com/news/yw/202609/t20260904_18084523.htm",
+      "source_published_date": "2026-09-04",
+      "event_date": "2026-09-03"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-04T17:46:50.100571+08:00",
+    "usage": {
+      "input_tokens": 52144,
+      "input_tokens_details": {
+        "cached_tokens": 37888
+      },
+      "output_tokens": 13527,
+      "output_tokens_details": {
+        "reasoning_tokens": 11933
+      },
+      "total_tokens": 65671
+    },
+    "retry_feedback": false
+  }
+}
