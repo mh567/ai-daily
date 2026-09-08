@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-08",
+  "window": {
+    "start": "2026-09-07 00:00",
+    "end": "2026-09-08 17:45"
+  },
+  "headline": {
+    "title": "三星领投：法国Mistral完成30亿欧元D轮融资，估值超210亿欧元",
+    "summary": "9月8日，法国人工智能公司Mistral宣布完成30亿欧元（约35亿美元）D轮融资，投后估值超过210亿欧元（约240亿美元）。本轮由三星电子领投，EQT旗下Scaleup Europe Fund与PSG Equity联合领投，为欧洲科技企业迄今规模最大的股权融资。较2025年ASML领投C轮时的117亿欧元估值，Mistral一年内估值接近翻倍。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://finance.eastmoney.com/a/202609083867936888.html",
+    "source_published_date": "2026-09-08",
+    "event_date": "2026-09-08"
+  },
+  "news": [
+    {
+      "title": "科大讯飞发布星火X2.5大模型，重点提升代码与智能体能力",
+      "summary": "9月7日，科大讯飞正式发布星火X2.5大模型，采用MoE架构、总参数293B、激活参数30B，重点提升代码与智能体能力。该模型基于全国产算力完成全流程训练及推理，已上线讯飞开放平台。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://finance.sina.com.cn/roll/2026-09-07/doc-iniqyrka5595470.shtml",
+      "source_published_date": "2026-09-07",
+      "event_date": "2026-09-07"
+    },
+    {
+      "title": "华为发布Mate XT 2与全新旗舰芯片麒麟9050 Pro",
+      "summary": "华为9月7日在广州发布Mate XT 2三折叠手机，搭载全新麒麟9050 Pro芯片。该芯片被描述为全球首款落地“韬定律”、采用逻辑折叠技术的旗舰芯片，也是华为时隔近六年推出的全新麒麟系列芯片。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "http://hkcna.hk/docDetail.jsp?id=101415558&channel=2803",
+      "source_published_date": "2026-09-08",
+      "event_date": "2026-09-07"
+    },
+    {
+      "title": "小鹏启用全球首条高阶通用人形机器人自动化产线",
+      "summary": "小鹏汽车（09868.HK）宣布启用全球首条高阶通用人形机器人自动化产线，完成从研发试制到产线制造的跨越。首台高阶通用人形机器人已完成自动化总装并自主走下产线。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.aastocks.com/tc/stocks/news/aafn-con/NOW.1543309/top-news/AAFN",
+      "source_published_date": "2026-09-08",
+      "event_date": "2026-09-08"
+    },
+    {
+      "title": "宇树科技发布UnifoLM-X2-1.0，实现人形机器人全自主搏击",
+      "summary": "宇树科技9月7日发布视频，称其UnifoLM-X2-1.0世界-动作大模型突破瞬时规划、决策与动态交互执行等瓶颈，首次实现人形机器人全自主搏击。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "http://www.ce.cn/xwzx/kj/202609/t20260908_3199467.shtml",
+      "source_published_date": "2026-09-08",
+      "event_date": "2026-09-07"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "2026布达佩斯人工智能峰会于9月8日在匈牙利首都布达佩斯举行，据新华网报道。",
+      "source_url": "https://m.gmw.cn/2026-09/08/content_1304560746.htm",
+      "source_published_date": "2026-09-08",
+      "event_date": "2026-09-08"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-08T17:47:07.032963+08:00",
+    "usage": {
+      "input_tokens": 53930,
+      "input_tokens_details": {
+        "cached_tokens": 38784
+      },
+      "output_tokens": 15180,
+      "output_tokens_details": {
+        "reasoning_tokens": 13713
+      },
+      "total_tokens": 69110
+    },
+    "retry_feedback": false
+  }
+}
