@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-09",
+  "window": {
+    "start": "2026-09-08 00:00",
+    "end": "2026-09-09 17:45"
+  },
+  "headline": {
+    "title": "Meta 正式发布个人 AI 智能体 Muse，率先面向美国用户开放",
+    "summary": "当地时间9月8日，Meta正式发布个人AI智能体Muse，面向18岁及以上美国用户推出，可通过独立App、网页端与WhatsApp使用，能够自主执行日程管理、网购等日常任务。Meta强调其安全与隐私设计，Muse在独立云端虚拟机中全天候运行，扎克伯格称其为公司迄今最大的商业机遇。",
+    "type": "product",
+    "importance": "P1",
+    "source_url": "https://apnews.com/article/meta-muse-ai-agent-3a4572eb4cf4e95d8a0dfdad6e6ca065",
+    "source_published_date": "2026-09-08",
+    "event_date": "2026-09-08"
+  },
+  "news": [
+    {
+      "title": "智元发布原生世界—动作模型 GE-Act 2.0",
+      "summary": "智元9月9日发布原生世界—动作模型（WAM）GE-Act 2.0，首次系统验证了原生世界—动作模型的预训练与Scaling路径；模型视觉表征、动作预测等核心组件均从随机初始化在具身操作数据上从头训练，可在陌生场景以真机零样本执行多技能操作。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.36kr.com/newsflashes/3975697149506048",
+      "source_published_date": "2026-09-09",
+      "event_date": "2026-09-09"
+    },
+    {
+      "title": "DeepSeek 计划于9月10日前后发布 V4.1 Flash 模型",
+      "summary": "据DeepSeek官网消息，公司计划于北京时间2026年9月10日前后正式发布V4.1 Flash模型，并已开启限时内测。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://app.dahecube.com/nweb/pc/spiderdetail.html?spidid=857144?recid=1",
+      "source_published_date": "2026-09-09",
+      "event_date": "2026-09-09"
+    },
+    {
+      "title": "亚马逊押注高通 AI 芯片，采购额最高达 600 亿美元",
+      "summary": "据每日经济新闻早报报道，亚马逊大幅押注高通AI芯片，采购规模最高达600亿美元，并绑定2500万股认股权证。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "http://www.nbd.com.cn/articles/2026-09-09/4576398.html",
+      "source_published_date": "2026-09-09",
+      "event_date": "2026-09-08"
+    },
+    {
+      "title": "OpenAI 发布 ChatGPT Images 2.5 图像生成模型",
+      "summary": "OpenAI于9月9日官宣发布ChatGPT Images 2.5，图像生成延迟最多降低50%，并新增Sketch草图参考、模板库及图片内评论标注等功能，为该公司当前最先进的图像生成模型。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.360kuai.com/99f197c9d8c75d65a",
+      "source_published_date": "2026-09-09",
+      "event_date": "2026-09-09"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "谷歌与黑石合作的AI云项目Project Braid因更换数据中心建设方而出现延误，项目负责人表示项目仍在推进。",
+      "source_url": "http://news.10jqka.com.cn/20260909/c679723462.shtml",
+      "source_published_date": "2026-09-09",
+      "event_date": "2026-09-09"
+    },
+    {
+      "text": "谷歌获得19亿美元贷款，用于重启一座核电站为AI数据中心供电。",
+      "source_url": "https://www.tmtpost.com/index.php/8133549.html",
+      "source_published_date": "2026-09-09",
+      "event_date": "2026-09-09"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-09T17:46:56.682367+08:00",
+    "usage": {
+      "input_tokens": 42260,
+      "input_tokens_details": {
+        "cached_tokens": 30592
+      },
+      "output_tokens": 14115,
+      "output_tokens_details": {
+        "reasoning_tokens": 12876
+      },
+      "total_tokens": 56375
+    },
+    "retry_feedback": false
+  }
+}
