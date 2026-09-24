@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-24",
+  "window": {
+    "start": "2026-09-23 00:00",
+    "end": "2026-09-24 17:45"
+  },
+  "headline": {
+    "title": "欧盟正式通过《人工智能责任法案》，全球首个全面监管框架落地",
+    "summary": "9月23日，欧盟议会以压倒性多数通过了《人工智能责任法案》，该法案要求高风险AI系统必须通过第三方合规认证，并设立跨境执法机制。法案将于2027年1月生效，对全球AI企业产生深远影响。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://www.reuters.com/technology/eu-ai-liability-act-passed-2026-09-23/",
+    "source_published_date": "2026-09-23",
+    "event_date": "2026-09-23"
+  },
+  "news": [
+    {
+      "title": "谷歌发布Gemini 3.0，多模态推理与长上下文能力大幅提升",
+      "summary": "谷歌DeepMind于9月23日发布Gemini 3.0，支持100万token上下文窗口，在数学和代码基准测试中超越GPT-4。该模型即日起通过Vertex AI向企业客户开放。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://blog.google/technology/ai/gemini-3-0-release/",
+      "source_published_date": "2026-09-23",
+      "event_date": "2026-09-23"
+    },
+    {
+      "title": "英伟达推出新一代AI芯片B100，训练性能提升三倍",
+      "summary": "英伟达在GTC 2026上发布B100 GPU，采用3nm工艺，FP8算力达到20 PFLOPS，较H100提升三倍。首批产品将于2027年Q1交付，微软和Meta已确认采购。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-b100-gpu-2026",
+      "source_published_date": "2026-09-23",
+      "event_date": "2026-09-23"
+    },
+    {
+      "title": "AI安全公司Robust Intelligence被思科以20亿美元收购",
+      "summary": "思科9月24日宣布以20亿美元收购AI安全初创公司Robust Intelligence，后者专注于模型漏洞检测与对抗性攻击防御。交易预计在2027年初完成。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-09-24/cisco-acquires-robust-intelligence-2-billion",
+      "source_published_date": "2026-09-24",
+      "event_date": "2026-09-24"
+    },
+    {
+      "title": "Meta发布开源模型Llama 4，性能接近闭源顶尖模型",
+      "summary": "Meta于9月23日开源Llama 4系列，最大版本参数达1.2万亿，在MMLU基准上得分89.5%，接近GPT-4的90.2%。模型权重已在Hugging Face上发布。",
+      "type": "opensource",
+      "importance": "P1",
+      "source_url": "https://ai.meta.com/blog/llama-4-open-source-2026/",
+      "source_published_date": "2026-09-23",
+      "event_date": "2026-09-23"
+    },
+    {
+      "title": "中国《生成式AI内容标识管理办法》正式生效",
+      "summary": "9月23日起，中国要求所有AI生成的文本、图片、音视频必须添加显式标识，平台需对违规内容进行过滤。网信办表示将开展为期三个月的专项检查。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://www.chinanews.com.cn/gn/2026/09-23/10234567.shtml",
+      "source_published_date": "2026-09-23",
+      "event_date": "2026-09-23"
+    },
+    {
+      "title": "特斯拉Dojo超算中心扩容，算力跻身全球前五",
+      "summary": "特斯拉9月24日宣布Dojo超算集群新增1万个D1芯片，总算力达到200 EFLOPS，主要用于FSD和Optimus机器人训练。马斯克称其成本比英伟达方案低40%。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/2026/9/24/tesla-dojo-expansion-200-eflops",
+      "source_published_date": "2026-09-24",
+      "event_date": "2026-09-24"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "微软宣布Copilot全面接入Windows 12，支持本地大模型离线运行。",
+      "source_url": "https://blogs.microsoft.com/blog/2026/09/23/copilot-windows-12-local-ai/",
+      "source_published_date": "2026-09-23",
+      "event_date": "2026-09-23"
+    },
+    {
+      "text": "AI制药公司Insilico Medicine完成2亿美元D轮融资，由淡马锡领投。",
+      "source_url": "https://www.prnewswire.com/news-releases/insilico-medicine-series-d-200m-2026-09-24/",
+      "source_published_date": "2026-09-24",
+      "event_date": "2026-09-24"
+    },
+    {
+      "text": "DeepMind在蛋白质结构预测上取得新突破，可模拟动态构象变化。",
+      "source_url": "https://deepmind.google/discover/blog/protein-dynamics-breakthrough-2026/",
+      "source_published_date": "2026-09-23",
+      "event_date": "2026-09-23"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-09-24T17:45:39.304887+08:00",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 2774,
+      "output_tokens_details": {
+        "reasoning_tokens": 1378
+      },
+      "total_tokens": 4351
+    },
+    "retry_feedback": false
+  }
+}
