@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-01",
+  "window": {
+    "start": "2026-09-30 00:00",
+    "end": "2026-10-01 17:45"
+  },
+  "headline": {
+    "title": "OpenAI发布Sora 2视频生成模型及独立Sora应用",
+    "summary": "OpenAI发布新一代视频生成模型Sora 2，并推出独立Sora应用。该模型支持生成带音频的视频，并在安全与可控性方面进行更新。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://openai.com/index/sora-2/",
+    "source_published_date": "2026-09-30",
+    "event_date": "2026-09-30"
+  },
+  "news": [
+    {
+      "title": "Anthropic发布Claude Sonnet 4.5",
+      "summary": "Anthropic发布Claude Sonnet 4.5，称其在编码、计算机使用和推理基准上达到领先水平。该模型已向所有用户开放。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "source_published_date": "2026-09-30",
+      "event_date": "2026-09-30"
+    },
+    {
+      "title": "DeepSeek发布DeepSeek-V3.2-Exp实验模型",
+      "summary": "DeepSeek发布实验性模型DeepSeek-V3.2-Exp，采用稀疏注意力机制，旨在提升长文本处理效率并降低推理成本。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://api-docs.deepseek.com/news/news250929",
+      "source_published_date": "2026-09-30",
+      "event_date": "2026-09-30"
+    },
+    {
+      "title": "OpenAI在ChatGPT中上线即时结账功能",
+      "summary": "OpenAI在ChatGPT中推出即时结账功能，用户可直接在对话内购买Etsy和Shopify商品。该功能首批面向美国用户开放。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://openai.com/index/buy-it-in-chatgpt/",
+      "source_published_date": "2026-09-30",
+      "event_date": "2026-09-30"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-01T17:46:24.833797+08:00",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 11977,
+      "output_tokens_details": {
+        "reasoning_tokens": 11391
+      },
+      "total_tokens": 13554
+    },
+    "retry_feedback": false
+  }
+}
