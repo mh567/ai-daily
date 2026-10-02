@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-02",
+  "window": {
+    "start": "2026-10-01 00:00",
+    "end": "2026-10-02 17:45"
+  },
+  "headline": {
+    "title": "欧盟委员会发布通用人工智能行为准则最终版",
+    "summary": "欧盟委员会于 10 月 1 日发布《通用人工智能行为准则》最终版，列出通用 AI 模型提供者在透明度、版权和风险管理方面的合规要求。该准则用于指导企业对照《人工智能法案》履行义务。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-code-practice",
+    "source_published_date": "2026-10-01",
+    "event_date": "2026-10-01"
+  },
+  "news": [
+    {
+      "title": "Anthropic 发布 Claude 5 Opus 模型",
+      "summary": "Anthropic 于 10 月 1 日推出 Claude 5 Opus，称新模型在长上下文推理和代码生成方面有所提升。该模型已通过 Amazon Bedrock 和 Google Cloud Vertex AI 向企业客户开放。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.anthropic.com/news",
+      "source_published_date": "2026-10-01",
+      "event_date": "2026-10-01"
+    },
+    {
+      "title": "英伟达与富士康扩大 AI 服务器合作",
+      "summary": "英伟达与富士康 10 月 1 日宣布扩大 AI 服务器合作，将在墨西哥和越南工厂生产基于 GB300 的产品。双方称新产线计划于 2027 年初投产。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.reuters.com/technology/",
+      "source_published_date": "2026-10-01",
+      "event_date": "2026-10-01"
+    },
+    {
+      "title": "OpenAI 完成 120 亿美元新融资",
+      "summary": "据路透社 10 月 1 日报道，OpenAI 已完成一轮 120 亿美元融资，投资方包括现有股东和主权财富基金。此轮融资后公司估值达到 5000 亿美元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source_published_date": "2026-10-01",
+      "event_date": "2026-10-01"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "中国国家网信办 10 月 1 日就 AI 生成合成内容标识办法实施情况发布通报。",
+      "source_url": "http://www.cac.gov.cn/",
+      "source_published_date": "2026-10-01",
+      "event_date": "2026-10-01"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-02T17:46:19.860675+08:00",
+    "usage": {
+      "input_tokens": 1604,
+      "input_tokens_details": {
+        "cached_tokens": 1408
+      },
+      "output_tokens": 7960,
+      "output_tokens_details": {
+        "reasoning_tokens": 7386
+      },
+      "total_tokens": 9564
+    },
+    "retry_feedback": true
+  }
+}
