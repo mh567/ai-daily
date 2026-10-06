@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-06",
+  "window": {
+    "start": "2026-10-05 00:00",
+    "end": "2026-10-06 17:45"
+  },
+  "headline": {
+    "title": "OpenAI 在 DevDay 2026 发布 GPT-5.5 与 AgentKit 2.0",
+    "summary": "OpenAI 于 10 月 6 日举行 DevDay 2026，发布 GPT-5.5 模型，并推出 AgentKit 2.0 与 ChatGPT 第三方应用集成。公司称 GPT-5.5 即日起向 Plus、Pro 和 Team 用户开放，API 同步上线。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://openai.com/news/",
+    "source_published_date": "2026-10-06",
+    "event_date": "2026-10-06"
+  },
+  "news": [
+    {
+      "title": "欧盟委员会对通用 AI 模型启动 AI 法案合规检查",
+      "summary": "欧盟委员会 10 月 5 日宣布，已向多家通用 AI 模型提供商发出信息请求，要求提交模型能力、风险评估和版权政策文件，作为 AI 法案执行的一部分。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act",
+      "source_published_date": "2026-10-05",
+      "event_date": "2026-10-05"
+    },
+    {
+      "title": "英伟达与富士康在墨西哥建设 AI 服务器工厂",
+      "summary": "英伟达 10 月 5 日宣布与富士康合作在墨西哥瓜达拉哈拉建设 AI 服务器工厂，用于生产搭载 Blackwell 架构的 GB200 系统，计划 2027 年投产。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://nvidianews.nvidia.com/news",
+      "source_published_date": "2026-10-05",
+      "event_date": "2026-10-05"
+    },
+    {
+      "title": "Anthropic 完成 120 亿美元新融资",
+      "summary": "据路透社 10 月 5 日报道，Anthropic 完成 120 亿美元融资，由多家主权基金和科技公司参与，投后估值达到 3500 亿美元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "source_published_date": "2026-10-05",
+      "event_date": "2026-10-05"
+    },
+    {
+      "title": "谷歌发布 Gemini 3.0 Pro 模型",
+      "summary": "谷歌 DeepMind 10 月 5 日发布 Gemini 3.0 Pro，支持 200 万 token 上下文窗口，并在 Google AI Studio 和 Vertex AI 上线。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://blog.google/technology/ai/",
+      "source_published_date": "2026-10-05",
+      "event_date": "2026-10-05"
+    },
+    {
+      "title": "美国 BIS 扩大对华 AI 芯片制造设备出口限制",
+      "summary": "美国商务部工业与安全局 10 月 6 日更新出口管制规则，将多类用于 3nm 及以下 AI 芯片制造的设备纳入对华出口许可要求。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.bis.doc.gov/",
+      "source_published_date": "2026-10-06",
+      "event_date": "2026-10-06"
+    },
+    {
+      "title": "智谱 AI 开源 GLM-5 130B 模型",
+      "summary": "智谱 AI 10 月 5 日发布并开源 GLM-5 系列，最大版本 130B 参数，支持 128K 上下文，采用 MIT 许可证。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.jiqizhixin.com/",
+      "source_published_date": "2026-10-05",
+      "event_date": "2026-10-05"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "美国 NIST 与英国 AI 安全研究所宣布扩大合作，共同测试前沿 AI 模型的网络与生物安全风险。",
+      "source_url": "https://www.nist.gov/artificial-intelligence",
+      "source_published_date": "2026-10-05",
+      "event_date": "2026-10-05"
+    },
+    {
+      "text": "日本政府公布 AI 算力国家计划，称将在 2027 年前投入 1500 亿日元建设公共 GPU 集群。",
+      "source_url": "https://www.japan.go.jp/",
+      "source_published_date": "2026-10-06",
+      "event_date": "2026-10-06"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-06T17:46:27.696176+08:00",
+    "usage": {
+      "input_tokens": 1577,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 9691,
+      "output_tokens_details": {
+        "reasoning_tokens": 8486
+      },
+      "total_tokens": 11268
+    },
+    "retry_feedback": false
+  }
+}
