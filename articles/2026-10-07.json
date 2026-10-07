@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-07",
+  "window": {
+    "start": "2026-10-06 22:28",
+    "end": "2026-10-07 22:28"
+  },
+  "headline": {
+    "title": "达利欧警告 AI 泡沫濒临破裂节点",
+    "summary": "亿万富翁瑞·达利欧在新加坡举办的福布斯全球 CEO 大会上表示，人工智能领域已是典型泡沫。他指出大量债务融资正投向 AI，在利率上行以及财富变现需求的推动下，泡沫距离破裂已经不远。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-07/doc-iniuknsf8231319.shtml",
+    "source_published_date": "2026-10-07",
+    "event_date": "2026-10-07"
+  },
+  "news": [
+    {
+      "title": "OpenAI 启动 28 天连续新品发布活动",
+      "summary": "AI Daily Brief 2026-10-07 汇总称，OpenAI 开启为期 28 天的连续发布活动，首日涉及 GPT-6 系列模型提速、引入视觉广告、调整订阅价格及增加文本水印。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://github.com/kaka-personal/ai-daily-brief/issues/15",
+      "source_published_date": "2026-10-07",
+      "event_date": "2026-10-07"
+    },
+    {
+      "title": "OpenAI 数学研究突破一次性释出 700+ 篇数学预印本",
+      "summary": "Hacker News AI 社区动态日报 2026-10-07 显示，HN 社区几乎被 OpenAI 的数学研究突破刷屏，OpenAI 一次性释出 700 多篇数学预印本。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://github.com/howe12/agents-radar/issues/672",
+      "source_published_date": "2026-10-07",
+      "event_date": "2026-10-07"
+    },
+    {
+      "title": "Google DeepMind 发布开源多模态嵌入模型 EmbeddingGemma 2",
+      "summary": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2，基于 Gemma 4 架构，采用 Apache 2.0 许可。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://github.com/fu512647662-ai/AI-hot-news/issues/122",
+      "source_published_date": "2026-10-07",
+      "event_date": "2026-10-07"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "GitHub 项目 openTPU 发布了一款 AI 设计的 FPGA 推理加速器，可在 Kintex-7 上运行 Qwen3 和 LFM2.5。",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "source_published_date": "2026-10-07",
+      "event_date": "2026-10-07"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-07T22:29:43.896469+08:00",
+    "usage": {
+      "input_tokens": 6275,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 11017,
+      "output_tokens_details": {
+        "reasoning_tokens": 10262
+      },
+      "total_tokens": 17292
+    },
+    "search_results": 30,
+    "retry_feedback": false
+  }
+}
