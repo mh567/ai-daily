@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-09",
+  "window": {
+    "start": "2026-10-08 17:48",
+    "end": "2026-10-09 17:48"
+  },
+  "headline": {
+    "title": "Manus 母公司蝴蝶效应完成超 5 亿美元融资，投后估值升至 40 亿美元",
+    "summary": "10 月 8 日，通用 AI 智能体公司 Manus 母公司蝴蝶效应宣布完成超 5 亿美元新一轮融资，由博裕投资、IDG 资本领投，腾讯、红杉中国、真格基金等老股东继续加持，投后估值达到 40 亿美元。这是 Manus 今年 9 月恢复独立运营后的首笔融资，此前其曾因 20 亿美元被 Meta 并购引发关注，后交易解除重回独立。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://www.21jingji.com/article/20261009/herald/2d1d19846bc3689855a6d3d462920447.html",
+    "source_published_date": "2026-10-09",
+    "event_date": "2026-10-08"
+  },
+  "news": [
+    {
+      "title": "OpenAI 年化收入被曝不及预期，美股多只半导体股集体下挫",
+      "summary": "10 月 8 日博通市值蒸发超 780 亿美元；博通与 OpenAI 合作开发定制 AI 推理芯片，近日还传出就 500 亿美元债务融资进行初步磋商。作为 OpenAI 股东与算力供应商，英伟达与其合作内容包括构建和部署至少 10 吉瓦的 AI 数据中心，此前有市场消息称英伟达考虑为 OpenAI 提供 2500 亿美元的数据中心项目融资担保。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.21jingji.com/article/20261009/herald/15decf9c7e671982872f907b093684da.html",
+      "source_published_date": "2026-10-09",
+      "event_date": "2026-10-08"
+    },
+    {
+      "title": "软银孙正义转向海湾资本，拟募资 1000 亿美元设立基金",
+      "summary": "有知情人士表示，作为海湾地区潜在融资的一部分，软银创始人孙正义将利用这笔资金设立一个基金，用于收购企业，并通过人工智能及其他先进技术来提升这些企业的运营效率。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurmnf6819232.shtml",
+      "source_published_date": "2026-10-09",
+      "event_date": "2026-10-09"
+    },
+    {
+      "title": "壁仞科技完成约 40.4 亿港元港股配售，推进国产通用 GPU 量产",
+      "summary": "10 月 8 日融资简报显示，壁仞科技完成约 40.4 亿港元港股配售，资金用于推进国产通用 GPU 量产。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://www.sohu.com/a/1085266000_122990399",
+      "source_published_date": "2026-10-08",
+      "event_date": "2026-10-08"
+    },
+    {
+      "title": "新思科技拟寻求与中国 AI 实验室合作",
+      "summary": "10 月 9 日消息，据日经亚洲报道，芯片设计软件龙头企业新思科技（Synopsys）表示，尽管美国政府收紧了对人工智能与半导体的出口管制，公司仍计划寻求与中国 AI 实验室合作。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908qegu.html",
+      "source_published_date": "2026-10-09",
+      "event_date": "2026-10-09"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "AI 基础设施日报 2026-10-09 提到，跨多 GPU 的 MoE 缓存支持已完成，并针对 Vulkan 和 OpenCL 后端做了重大优化，覆盖从移动端 Adreno 芯片到桌面级显卡的各类硬件。",
+      "source_url": "https://github.com/jinming1345/agents-radar/issues/269",
+      "source_published_date": "2026-10-09",
+      "event_date": "2026-10-09"
+    },
+    {
+      "text": "美国、中国与欧盟正以不同路径治理人工智能，全球要求约束最强大 AI 系统的呼声持续上升。",
+      "source_url": "https://www.thestar.com.my/tech/tech-news/2026/10/08/us-china-eu-three-paths-to-regulating-ai",
+      "source_published_date": "2026-10-08",
+      "event_date": "2026-10-08"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-09T17:49:04.401521+08:00",
+    "usage": {
+      "input_tokens": 6098,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 10920,
+      "output_tokens_details": {
+        "reasoning_tokens": 9737
+      },
+      "total_tokens": 17018
+    },
+    "search_results": 30,
+    "retry_feedback": false
+  }
+}

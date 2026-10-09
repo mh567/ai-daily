@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-08",
+  "window": {
+    "start": "2026-10-08 00:23",
+    "end": "2026-10-09 00:23"
+  },
+  "headline": {
+    "title": "微软在 Windows 11 提出“混合智能”：云端与本地 AI 协同处理任务",
+    "summary": "微软在旧金山发布会上提出“混合智能”（hybrid intelligence）理念，让 Windows 11 按任务类型、设备性能与安全需求在本地与云端之间协同。隐私敏感、需快速响应的任务更多依靠本地处理，复杂模型与高算力需求交由云端完成。",
+    "type": "product",
+    "importance": "P1",
+    "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908q6ze.html",
+    "source_published_date": "2026-10-08",
+    "event_date": "2026-10-08"
+  },
+  "news": [
+    {
+      "title": "Google 发布 Gemini Nano Banana 2.1 图像生成与编辑模型",
+      "summary": "Google 发布 gemini-nano-banana-2.1，定位为高效图像生成与对话式编辑模型，是 Nano Banana 2（gemini-3.1-flash-image）的更新版本。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://aihot.news/daily",
+      "source_published_date": "2026-10-08",
+      "event_date": "2026-10-08"
+    },
+    {
+      "title": "Liquid AI 开源可在边缘设备运行的 open d1 决策模型系列",
+      "summary": "Liquid AI 在 HuggingFace 发布 open d1 决策模型系列，主打在边缘设备上运行的多模态决策能力，并公布了构建方法、基准结果与速度数据。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://txtmix.com/posts/news/ai-morning-news-2026-10-08/",
+      "source_published_date": "2026-10-08",
+      "event_date": "2026-10-08"
+    },
+    {
+      "title": "浪潮海若大模型主打安全可信，称已通过基础大模型、智能体、算法“三备案”",
+      "summary": "浪潮海若大模型定位为面向行业的安全可信大模型，涵盖语言、视觉、多模态及具身智能，形成“统一行业底座+垂域增强模型+智能体/Skill”产品体系，并称是国内唯一通过基础大模型、智能体和算法“三备案”的产品。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908q8m4.html",
+      "source_published_date": "2026-10-08",
+      "event_date": "2026-10-08"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "三名被解职的 OpenAI 安全研究员致信公司董事会，要求行业不要构建推理过程无法再被监控的模型；同期美国众议员 Lori Trahan 提出 CLAIM Act，拟要求开发者对失控智能体担责。",
+      "source_url": "https://www.cyberverso.net/brief/cyber-brief-8-oct-2026/",
+      "source_published_date": "2026-10-08",
+      "event_date": "2026-10-08"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-09T00:24:06.019342+08:00",
+    "usage": {
+      "input_tokens": 6016,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 10663,
+      "output_tokens_details": {
+        "reasoning_tokens": 9539
+      },
+      "total_tokens": 16679
+    },
+    "search_results": 28,
+    "retry_feedback": false
+  }
+}
