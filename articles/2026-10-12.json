@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-12",
+  "window": {
+    "start": "2026-10-11 17:46",
+    "end": "2026-10-12 17:46"
+  },
+  "headline": {
+    "title": "国内最大 AI Infra 融资诞生：无问芯穹完成 23 亿元 C 轮",
+    "summary": "智东西 10 月 12 日获悉，国内 AI 原生基础设施企业无问芯穹近日已完成 C 轮融资，融资额 23 亿元，累计融资额达 43 亿元。单轮融资额与累计融资额均创国内 AI Infra 行业新高。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://tech.ifeng.com/c/8x9wrijlUmA",
+    "source_published_date": "2026-10-12",
+    "event_date": "2026-10-12"
+  },
+  "news": [
+    {
+      "title": "OpenAI 公开 722 篇数学手稿，归为 372 组研究成果",
+      "summary": "美国 OpenAI 公司公开了由前沿模型产出的 722 篇数学手稿，归为 372 组数学研究成果，覆盖数论、几何等诸多领域的难题。OpenAI 宣称绝大多数结果均采用相同流程。",
+      "type": "opensource",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908qoz6.html",
+      "source_published_date": "2026-10-12",
+      "event_date": "2026-10-12"
+    },
+    {
+      "title": "中国 AI 大模型周调用量环比增长 50.96%，DeepSeek V4.1 Flash 升至第一",
+      "summary": "10 月 5 日至 11 日，中国 AI 大模型周调用量环比增长 50.96%，连续二十四周超过美国。全球调用量排名前五均为中国 AI 大模型，其中 DeepSeek V4.1 Flash 升至第一。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908qq3o.html",
+      "source_published_date": "2026-10-12",
+      "event_date": "2026-10-12"
+    },
+    {
+      "title": "研究警告：AI 系统已能对基础设施发动“噩梦级”攻击",
+      "summary": "The Register 报道称，AI 系统完全有能力对基础设施发动噩梦级攻击，而目前无人做好准备。报道提到 AI 智能体可移动机械臂，并让 OT 设备操作员屏幕显示虚假信息。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+      "source_published_date": "2026-10-11",
+      "event_date": "2026-10-11"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "DataLearner 更新 2026 年 10 月大模型排行榜，数据更新于 10 月 12 日 10:50:39，从 AA 智能指数、LMArena、Vals Index 三个视角呈现模型表现。",
+      "source_url": "https://www.datalearner.com/leaderboards",
+      "source_published_date": "2026-10-12",
+      "event_date": "2026-10-12"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-12T17:47:07.794515+08:00",
+    "usage": {
+      "input_tokens": 6211,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 14806,
+      "output_tokens_details": {
+        "reasoning_tokens": 13942
+      },
+      "total_tokens": 21017
+    },
+    "search_results": 28,
+    "retry_feedback": false
+  }
+}
