@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-15",
+  "window": {
+    "start": "2026-10-14 17:45",
+    "end": "2026-10-15 17:45"
+  },
+  "headline": {
+    "title": "中国已建成70多条算力大通道，计划五年投资约2万亿元建数据中心",
+    "summary": "中国国家统计局数据显示，截至2026年6月底，中国已围绕算力枢纽建成70多条算力大通道。彭博社报道称，中国计划未来五年投资约2万亿元人民币建设数据中心，目标至少80%的技术从中国供应商采购。",
+    "type": "compute",
+    "importance": "P1",
+    "source_url": "https://sputniknews.cn/20261015/1073619323.html",
+    "source_published_date": "2026-10-15",
+    "event_date": "2026-10-15"
+  },
+  "news": [
+    {
+      "title": "黄仁勋：将停止向开发不安全 AI 的客户供应芯片",
+      "summary": "英伟达 CEO 黄仁勋表示，如果客户在开发不安全的 AI 软件，他将停止向其供应芯片。他同时表示，目前对技术风险的担忧程度并不合理。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-10-14/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
+      "source_published_date": "2026-10-14",
+      "event_date": "2026-10-14"
+    },
+    {
+      "title": "台积电10月15日举行第三季度法人说明会",
+      "summary": "台积电于10月15日举行第三季度法人说明会，其营收指引与资本开支计划被视为判断人工智能算力需求的核心读数。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.sina.cn/weibo/detail/5354194324423648.html",
+      "source_published_date": "2026-10-14",
+      "event_date": "2026-10-15"
+    },
+    {
+      "title": "印度将推出数据中心政策，因电力使用担忧加剧",
+      "summary": "路透社报道，印度将推出数据中心政策，原因是市场对数据中心电力使用的担忧日益增长。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://reuters.com/world/india/india-roll-out-data-centre-policy-concerns-grow-over-power-use-2026-10-14",
+      "source_published_date": "2026-10-14",
+      "event_date": "2026-10-14"
+    },
+    {
+      "title": "OpenAI 通知开发者：部分 GPT-4 模型将于2027年1月从 API 退役",
+      "summary": "OpenAI 于10月14日通知开发者，部分 GPT-4 系列模型将于2027年1月14日从 API 中移除，并推荐使用 gpt-6-luna 作为替代。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://releasebot.io/updates/openai",
+      "source_published_date": "2026-10-14",
+      "event_date": "2026-10-14"
+    },
+    {
+      "title": "OpenAI CFO 称公司有一个已完成的高能力模型选择不发布",
+      "summary": "OpenAI 首席财务官在10月14日接受 Bloomberg Television 采访时表示，公司有一个已完成且能力很强的模型，但选择不发布。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://shattered.io/openai-cfo-holds-back-model-350-proofs-2026/",
+      "source_published_date": "2026-10-14",
+      "event_date": "2026-10-14"
+    },
+    {
+      "title": "OpenAI 工程师因在会议室安装秘密录音设备被捕",
+      "summary": "据报道，一名 OpenAI 工程师因在会议室安装秘密录音设备被捕，OpenAI 随后使用自家模型协助破案。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://juejin.cn/post/7696126567231373355",
+      "source_published_date": "2026-10-14",
+      "event_date": "2026-10-14"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "KAIST 与英伟达的 ACCRUE 通过持续离策略强化学习，将真实机器人训练时间减少 31-68%。",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "source_published_date": "2026-10-15",
+      "event_date": "2026-10-15"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-15T17:46:33.492052+08:00",
+    "usage": {
+      "input_tokens": 6699,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 15875,
+      "output_tokens_details": {
+        "reasoning_tokens": 14745
+      },
+      "total_tokens": 22574
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
