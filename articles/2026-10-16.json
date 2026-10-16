@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-16",
+  "window": {
+    "start": "2026-10-15 17:45",
+    "end": "2026-10-16 17:45"
+  },
+  "headline": {
+    "title": "Meta发布开放权重模型Muse Spark Open，与苹果合作支持Mac本地运行",
+    "summary": "Meta发布开放权重模型Muse Spark Open，并与苹果合作推动该模型在Apple silicon上本地运行。TechCrunch将该模型描述为可在Mac电脑上本地运行的开放权重AI模型。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+    "source_published_date": "2026-10-15",
+    "event_date": "2026-10-15"
+  },
+  "news": [
+    {
+      "title": "库克确认Apple Intelligence及阿里千问大模型获监管批准，10月晚些时候在华测试",
+      "summary": "苹果公司执行董事长蒂姆·库克在上海受访时确认，Apple Intelligence及相关阿里千问大模型已获得监管批准，将于10月晚些时候面向中国用户发布测试版本。首批上线功能包括实时翻译、书写工具和照片清除工具等。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://www.sohu.com/a/1088378586_115479",
+      "source_published_date": "2026-10-16",
+      "event_date": "2026-10-16"
+    },
+    {
+      "title": "理想汽车芯片子公司马赫心科技完成首轮16.25亿元融资，投后估值171亿元",
+      "summary": "理想汽车宣布旗下马赫心科技签署首轮股权融资协议，融资金额为16.25亿元人民币，由杭州经韬、蓝驰创投及华业天成领投，奇绩创坛参与投资。杭州经韬及其关联基金获授最高5亿元追加认购权，若悉数行使，投后估值达171亿元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://news.pedaily.cn/202610/570398.shtml",
+      "source_published_date": "2026-10-16",
+      "event_date": "2026-10-16"
+    },
+    {
+      "title": "马斯克Terafab芯片工厂计划披露：AI5芯片采用2nm制程，2027年中量产",
+      "summary": "新浪芯片热点小时报披露，马斯克的Terafab芯片工厂计划通过两类定制芯片分别赋能特斯拉与SpaceX；特斯拉下一代AI5芯片已完成设计，采用2纳米制程，算力比现款AI4高出40到50倍，内存容量提升9倍。AI5小批量试产预计2026年内完成，量产目标为2027年中，目前仍由台积电和三星联合代工。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908r8fo.html",
+      "source_published_date": "2026-10-16",
+      "event_date": "2026-10-16"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "德银图表显示，市场已将AI阵营划分为三级：接近国债利率融资的AA级巨头、需额外支付1.5-2个百分点“AI税”的BBB级借款人，以及定价已反映违约风险的新兴新云企业。",
+      "source_url": "https://m.21jingji.com/article/20261016/herald/f04b9afb4fbe46e0f4e8dee5e464cf26.html",
+      "source_published_date": "2026-10-16",
+      "event_date": "2026-10-16"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-16T17:46:40.991798+08:00",
+    "usage": {
+      "input_tokens": 5774,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 12596,
+      "output_tokens_details": {
+        "reasoning_tokens": 11694
+      },
+      "total_tokens": 18370
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
