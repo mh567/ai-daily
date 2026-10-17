@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-17",
+  "window": {
+    "start": "2026-10-16 17:45",
+    "end": "2026-10-17 17:45"
+  },
+  "headline": {
+    "title": "Anthropic IPO估值据报遭投资者讨论下调至约1.5万亿美元",
+    "summary": "路透社报道，在Anthropic最新财务数据披露后，部分现有和潜在IPO投资者表示正考虑调低对这家公司的估值。旧金山投资者说明会上，部分投资者讨论的估值约为1.5万亿美元，较此前约2万亿美元的预期大幅下调。受该消息影响，周五美股盘前AI硬件相关股票多数跳水。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908rb66.html",
+    "source_published_date": "2026-10-17",
+    "event_date": "2026-10-16"
+  },
+  "news": [
+    {
+      "title": "台湾拟收紧对中国AI芯片等尖端技术出口管制",
+      "summary": "台湾经济部长龚明鑫接受彭博社专访表示，台湾准备收紧对中国AI芯片等尖端技术产品的出口管制，以对齐美国政府的芯片出口限制，并打击将尖端半导体芯片走私到中国的行为。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.bannedbook.org/bnews/headline/20261017/2370827.html",
+      "source_published_date": "2026-10-17",
+      "event_date": "2026-10-17"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "总部位于波特兰的初创公司 Mueon 完成 6500 万美元融资，用于开发全新 AI 服务器机架组件排布架构。",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908r9xu.html",
+      "source_published_date": "2026-10-16",
+      "event_date": "2026-10-16"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-17T17:46:04.354674+08:00",
+    "usage": {
+      "input_tokens": 6164,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 9136,
+      "output_tokens_details": {
+        "reasoning_tokens": 8519
+      },
+      "total_tokens": 15300
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
