@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-20",
+  "window": {
+    "start": "2026-10-19 17:45",
+    "end": "2026-10-20 17:45"
+  },
+  "headline": {
+    "title": "MiniMax发布M3.1 Flash，推理提速近3倍并降低使用成本",
+    "summary": "10月19日晚间，MiniMax正式发布新一代Flash模型M3.1 Flash，称在Agentic任务、编程、Computer Use及网络安全能力上实现代际提升，线上推理速度提升近3倍，同时降低使用成本；更高智能上限的Pro版本将不久后推出。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908rp6i.html",
+    "source_published_date": "2026-10-20",
+    "event_date": "2026-10-19"
+  },
+  "news": [
+    {
+      "title": "OpenAI传加速推进约300亿美元融资，抢跑Anthropic上市",
+      "summary": "知情人士称，OpenAI正加速推进约300亿美元融资，估值可能超过1.4万亿美元；软银、阿布扎比MGX等现有投资者正洽谈参与，部分动机是抢在Anthropic 11月中旬上市前锁定资金。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://cn.investing.com/news/stock-market-news/article-3615617",
+      "source_published_date": "2026-10-20",
+      "event_date": "2026-10-20"
+    },
+    {
+      "title": "美国土安全部要求联邦文职机构停用DeepSeek产品",
+      "summary": "美国国土安全部下令联邦文职机构在采购中排除DeepSeek，并移除相关产品。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://fourweekmba.com/ai-daily-roundup-19-oct-2026-deepseek-barred-senate-claude/",
+      "source_published_date": "2026-10-19",
+      "event_date": "2026-10-19"
+    },
+    {
+      "title": "Anthropic传与Nscale洽谈算力购买，拟加购数据中心设施",
+      "summary": "据港媒报道，Anthropic于10月20日传正与AI云计算公司Nscale洽谈算力购买，并拟加购数据中心设施。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://global.hk01.com/%E8%B4%A2%E7%BB%8F%E5%BF%AB%E8%AE%AF/60401420/%E5%85%B1%E8%AE%A17032%E4%BA%BF-anthropic%E4%BC%A0%E5%86%8D%E5%8A%A0%E7%A0%81%E7%AE%97%E5%8A%9B%E6%8A%95%E5%85%A5-%E6%8B%9F%E5%8A%A0%E8%B4%AD%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E8%AE%BE%E6%96%BD",
+      "source_published_date": "2026-10-20",
+      "event_date": "2026-10-20"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-20T17:46:16.780992+08:00",
+    "usage": {
+      "input_tokens": 7025,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 11901,
+      "output_tokens_details": {
+        "reasoning_tokens": 11082
+      },
+      "total_tokens": 18926
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
