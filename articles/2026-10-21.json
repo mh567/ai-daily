@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-21",
+  "window": {
+    "start": "2026-10-20 17:45",
+    "end": "2026-10-21 17:45"
+  },
+  "headline": {
+    "title": "AI辅助黑客攻破100余家企业网站，攻击成本仅约5000美元",
+    "summary": "一名以中文交流的黑客利用AI智能体攻破100多家企业网站，报道称整个攻击过程仅花费约5000美元，调用了DeepSeek与Claude Code。该事件被视为低成本自主网络攻击风险上升的典型案例。",
+    "type": "security",
+    "importance": "P1",
+    "source_url": "https://www.chosun.com/english/world-en/2026/10/20/MSVLHVT3ZJEFFLYORYRC43EOT4/",
+    "source_published_date": "2026-10-20",
+    "event_date": "2026-10-20"
+  },
+  "news": [
+    {
+      "title": "中国实施类人AI聊天机器人与虚拟亲密关系监管措施",
+      "summary": "据报道，中国开始实施针对类人AI聊天机器人与虚拟亲密关系的监管措施：严禁18岁以下未成年人接触虚拟AI恋爱/亲密关系内容，并要求对成年用户每2小时弹出非人类身份提醒。相关措施旨在防范AI导致群体性情感依赖或自残诱导。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://news.sina.com.cn/c/2026-10-21/doc-inivyaaw4863018.shtml",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-21"
+    },
+    {
+      "title": "DeepSeek开源原生推理框架DeepInfer",
+      "summary": "DeepSeek宣布开源原生推理框架DeepInfer，公开生产级架构，并称96%的缓存命中率是其低价的答案。公司表示，已基于该框架实现DeepSeek V4.1 Flash的高吞吐、低延迟大规模推理服务，后续新模型的推理代码及优化也将在该框架内持续更新。",
+      "type": "opensource",
+      "importance": "P1",
+      "source_url": "https://www.21jingji.com/article/20261020/herald/5330df27d9317a4d21cf51ae14472b44.html",
+      "source_published_date": "2026-10-20",
+      "event_date": "2026-10-20"
+    },
+    {
+      "title": "统计称过去24小时全球初创融资超22亿美元",
+      "summary": "Tech Startups统计显示，过去24小时全球初创企业宣布的融资总额超过22亿美元，投资者最大的押注集中在AI半导体、无人配送车、机器人与企业软件领域。报道同时列出Neolix、Dream Labs、Prism Data、Tolan、ZAP Surgical等当日融资案例。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://techstartups.com/2026/10/20/startup-funding-news-today-october-20-2026-neolix-dream-labs-tolan-zap-surgical-more/",
+      "source_published_date": "2026-10-20",
+      "event_date": "2026-10-20"
+    },
+    {
+      "title": "Anthropic被曝开发可推断用户意图的新模型",
+      "summary": "据日报汇总，Anthropic被曝正在开发可推断用户意图的新模型，可能对应Fable 5.5；报道称头部三家厂商的下一代模型均在备战之中。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://juejin.cn/post/7698301509428330511",
+      "source_published_date": "2026-10-20",
+      "event_date": "2026-10-20"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "微软推出面向企业智能体的管控功能，与AI辅助黑客大规模攻破企业网站同日发生。",
+      "source_url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-21-2026/",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-20"
+    },
+    {
+      "text": "英伟达CEO黄仁勋在柏林与德国总理默茨同台，称“下一波AI是物理AI”，英伟达将欧洲推进与德国绑定。",
+      "source_url": "https://hervecuviliez.substack.com/p/market-news-wednesday-21-october",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-21"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-21T17:46:16.079942+08:00",
+    "usage": {
+      "input_tokens": 6428,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 11256,
+      "output_tokens_details": {
+        "reasoning_tokens": 10142
+      },
+      "total_tokens": 17684
+    },
+    "search_results": 32,
+    "retry_feedback": false
+  }
+}
