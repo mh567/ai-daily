@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-22",
+  "window": {
+    "start": "2026-10-21 17:45",
+    "end": "2026-10-22 17:45"
+  },
+  "headline": {
+    "title": "OpenAI 前沿模型与 Codex 将登陆 Google Cloud Model Garden",
+    "summary": "OpenAI 与 Google Cloud 宣布合作，将 OpenAI 的前沿模型和 Codex 智能体工作流接入 Google Cloud 的 Model Garden。客户将能原生访问这些模型，并依托 Google Cloud 的数据治理和高性能基础设施运行复杂智能体工作流。",
+    "type": "product",
+    "importance": "P1",
+    "source_url": "https://openai.com/index/openai-models-google-cloud/",
+    "source_published_date": "2026-10-21",
+    "event_date": "2026-10-21"
+  },
+  "news": [
+    {
+      "title": "Today AI 完成超 2 亿美元融资，IDG 资本、腾讯、蚂蚁集团等参投",
+      "summary": "个人 AI 助理公司 Today AI 完成超 2 亿美元融资，投资方包括 IDG 资本、腾讯、五源资本、蚂蚁集团、红杉中国、传音控股等。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.21jingji.com/article/20261022/herald/61b4db3e19b331d0b329ec3066fb3885.html",
+      "source_published_date": "2026-10-22",
+      "event_date": "2026-10-22"
+    },
+    {
+      "title": "中办、国办发文明确全面实施“人工智能+”行动",
+      "summary": "中办、国办发布《关于推动科技创新和产业创新深度融合的意见》，明确全面实施“人工智能+”行动。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908rx5u.html",
+      "source_published_date": "2026-10-22",
+      "event_date": "2026-10-22"
+    },
+    {
+      "title": "微软披露 Storm-0940 用 AI 智能体框架攻击超 2250 个租户",
+      "summary": "微软称，一个名为 Storm-0940 的中国国家关联行为者使用名为 ARTEX 的 AI 智能体框架自动化攻击，触达超过 2250 个租户。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://fourweekmba.com/ai-daily-roundup-21-oct-2026-ai-run-attack-2250-tenants/",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-21"
+    },
+    {
+      "title": "英伟达在 GTC 柏林推出 DSX POD 数据中心参考设计",
+      "summary": "英伟达在柏林 GTC 活动上发布 DSX POD 预制 AI 数据中心参考设计，并宣布供应链、电信、医疗、汽车和机器人合作；其股价盘前上涨 2%。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.tradingview.com/news/seekingalpha:e98efa03d094b:0-nvidia-announces-ai-data-center-supply-chain-telecom-and-robotics-deals-at-berlin-event/",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-21"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Meta 将 2026 年资本开支下限提高至 1350 亿美元，并创建无投票权 C 类股票，以继续为 AI 投入融资。",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-21"
+    },
+    {
+      "text": "英伟达与施耐德电气在葡萄牙 SINES 园区试点 AI 数据中心运营数字孪生，用于在部署前测试电力、冷却和工作负载变更。",
+      "source_url": "https://www.techtarget.com/it-infrastructure/news/366652445/Nvidia-Schneider-Electric-test-digital-twin-for-AI-data-center-ops",
+      "source_published_date": "2026-10-21",
+      "event_date": "2026-10-21"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-22T17:46:05.228674+08:00",
+    "usage": {
+      "input_tokens": 6532,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 9525,
+      "output_tokens_details": {
+        "reasoning_tokens": 8465
+      },
+      "total_tokens": 16057
+    },
+    "search_results": 30,
+    "retry_feedback": false
+  }
+}
