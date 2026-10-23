@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-23",
+  "window": {
+    "start": "2026-10-22 17:45",
+    "end": "2026-10-23 17:45"
+  },
+  "headline": {
+    "title": "中国拟对23项AI技术实施出口管制，涵盖先进模型与AI智能体",
+    "summary": "外媒报道称，中国拟对23项AI技术实施出口管制，范围涵盖先进模型与AI智能体。相关出口已启动临时登记要求。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://www.nationpathindia.com/technology/china-proposes-export-controls-23-ai-technologies-october-2026",
+    "source_published_date": "2026-10-23",
+    "event_date": "2026-10-23"
+  },
+  "news": [
+    {
+      "title": "HUMAIN称合作方拟部署最高84兆瓦AI算力基础设施",
+      "summary": "HUMAIN表示，双方计划合作部署最高84兆瓦AI算力基础设施，约相当于2.7万颗英伟达GPU。英伟达Blackwell Ultra将于2026年第四季度开始部署，双方并计划于2027年部署Vera Rubin系列芯片。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908s138.html",
+      "source_published_date": "2026-10-22",
+      "event_date": "2026-10-22"
+    },
+    {
+      "title": "国科脑机完成数千万元种子轮融资",
+      "summary": "北京国科脑机智能科技有限公司完成数千万元人民币种子轮融资，由国科创投领投，厚天资本、万方资本跟投。公司依托中国科学院自动化研究所科技成果转化设立，专注非侵入式可穿戴双向脑机接口研发与产业化。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://news.pedaily.cn/202610/570764.shtml",
+      "source_published_date": "2026-10-23",
+      "event_date": "2026-10-23"
+    },
+    {
+      "title": "美国FCC封禁两款搭载海思监控芯片设备",
+      "summary": "美国FCC封禁两款搭载海思监控芯片的设备。专家钱亚旭认为，FCC的管制范围从华为品牌终端成品延伸至产业链中游零部件，只要设备搭载黑名单企业生产的具备处理能力的智能元器件，无论终端厂商或品牌关联如何，都将被禁止进入美国市场。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://sputniknews.cn/20261023/1073759105.html",
+      "source_published_date": "2026-10-23",
+      "event_date": "2026-10-23"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-23T17:46:09.594214+08:00",
+    "usage": {
+      "input_tokens": 6463,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 10536,
+      "output_tokens_details": {
+        "reasoning_tokens": 9847
+      },
+      "total_tokens": 16999
+    },
+    "search_results": 30,
+    "retry_feedback": false
+  }
+}
