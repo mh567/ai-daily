@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24",
+  "window": {
+    "start": "2026-10-23 17:45",
+    "end": "2026-10-24 17:45"
+  },
+  "headline": {
+    "title": "美国联邦民间行政机构禁用DeepSeek服务及衍生应用",
+    "summary": "美国政府发布最新命令，以保护国家安全以及避免资讯泄漏为由，禁止联邦民间行政机构使用DeepSeek提供的服务，以及其他使用DeepSeek模型所开发的产品。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://www.bannedbook.org/bnews/cbnews/20261023/2373141.html",
+    "source_published_date": "2026-10-23",
+    "event_date": "2026-10-23"
+  },
+  "news": [
+    {
+      "title": "微软因供电问题退出英国埃塞克斯郡劳顿数据中心项目",
+      "summary": "由于当地无法确保供电、电网接入被推迟至2030年后，微软决定退出位于英国埃塞克斯郡劳顿的数据中心项目。该项目曾被英国前首相斯塔默称为让英国更接近AI世界领导者目标的一项计划。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908s646.html",
+      "source_published_date": "2026-10-23",
+      "event_date": "2026-10-23"
+    },
+    {
+      "title": "黄仁勋访问哈萨克斯坦，相关项目拟投资12亿美元建设电力基础设施",
+      "summary": "CNBC报道黄仁勋访问哈萨克斯坦；相关项目还计划投资12亿美元用于电力基础设施，首座数据中心模块预计2027年投运。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/10/23/nvidia-huang-investment-kazakhstan-.html",
+      "source_published_date": "2026-10-23",
+      "event_date": "2026-10-23"
+    },
+    {
+      "title": "AI虚拟细胞企业元示科技再获亿元融资，上海国资领投",
+      "summary": "北大校友创办的AI虚拟细胞企业元示科技再获亿元融资，本轮由上海国资领投。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://ainsight.aiext.co/2026/10/24/ai_hot_xv7ks7",
+      "source_published_date": "2026-10-24",
+      "event_date": "2026-10-24"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-24T17:46:19.347537+08:00",
+    "usage": {
+      "input_tokens": 6923,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 12131,
+      "output_tokens_details": {
+        "reasoning_tokens": 11221
+      },
+      "total_tokens": 19054
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
