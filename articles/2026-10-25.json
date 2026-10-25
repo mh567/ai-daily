@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-25",
+  "window": {
+    "start": "2026-10-24 17:45",
+    "end": "2026-10-25 17:45"
+  },
+  "headline": {
+    "title": "中国移动发布时空智能系列模型能力，覆盖时空重建、理解与预测",
+    "summary": "在2026全球开发者先锋大会（GDPS）暨国际具身智能技能大赛期间，中国移动举办时空智能赋能先进制造业论坛，发布时空智能系列模型能力及标杆场景。该能力体系整合5G+AI+北斗技术，覆盖时空重建、时空理解、时空预测三大技术路线，并构建L1-L4四级场景架构，覆盖自然资源、工业生产、城市交通、智能运载等领域。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908savo.html",
+    "source_published_date": "2026-10-24",
+    "event_date": "2026-10-24"
+  },
+  "news": [
+    {
+      "title": "英伟达AI融资角色面临首次重大考验，neoclouds遭遇市场冲击",
+      "summary": "CNBC报道，随着英伟达从芯片制造商转向产业融资方，部分投资者认为其承担了与AI基建相关的过大风险；在云算力新贵（neoclouds）遭遇市场冲击之际，英伟达的融资角色面临首次重大考验。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "source_published_date": "2026-10-24",
+      "event_date": "2026-10-24"
+    },
+    {
+      "title": "Claude支付页面出现中国大陆及港澳台选项，官方称尚未全面开放",
+      "summary": "IT之家称，Claude升级支付页面出现中国大陆及港澳台地区选项，支付入口支持绑定中国银联卡；但Anthropic官方帮助中心仍要求用户位于支持地区，官方未确认全面开放。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908sar2.html",
+      "source_published_date": "2026-10-24",
+      "event_date": "2026-10-24"
+    },
+    {
+      "title": "AI初创公司一周融资额达51.8亿美元，Tenstorrent与Flapping Airplanes领跑",
+      "summary": "AI Funding Tracker统计，10月19日至25日AI初创公司共宣布约51.8亿美元主要股权融资，涉及25笔2000万美元以上融资，较上周24.2亿美元增长逾一倍；Tenstorrent和Flapping Airplanes为本周领跑者。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://aifundingtracker.com/ai-funding-hits-5-2b-as-tenstorrent-and-flapping-airplanes-lead-week-oct-18-oct-25-2026/",
+      "source_published_date": "2026-10-25",
+      "event_date": "2026-10-25"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "荷兰央行原行长、欧洲央行行长候选人之一克拉斯·诺特表示，AI投资大约三分之一靠债务融资支持，并提醒这类数字通常只是下限，因为还有难以充分监测的表外承诺。",
+      "source_url": "https://m.21jingji.com/article/20261024/herald/2f3429e5010861ddb1b2131a7cbc3991.html",
+      "source_published_date": "2026-10-24",
+      "event_date": "2026-10-24"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-25T17:46:11.626605+08:00",
+    "usage": {
+      "input_tokens": 7121,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 10146,
+      "output_tokens_details": {
+        "reasoning_tokens": 9358
+      },
+      "total_tokens": 17267
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
