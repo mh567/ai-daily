@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-27",
+  "window": {
+    "start": "2026-10-26 17:45",
+    "end": "2026-10-27 17:45"
+  },
+  "headline": {
+    "title": "OpenAI 宣布 AI 模型在数学与物理领域取得三项研究突破",
+    "summary": "OpenAI 于 10 月 27 日公布三项“AI 做科学”成果，分别涉及局部光滑猜想（挂谷猜想相关）、指数时间假设（ETH），以及杨–米尔斯理论与 QCD 存在性。报道称，OpenAI 还针对这三类成果给出了三种不同的发布治理框架。",
+    "type": "model_release",
+    "importance": "P0",
+    "source_url": "https://recsysfrontier.substack.com/p/ai-2026-10-27",
+    "source_published_date": "2026-10-27",
+    "event_date": "2026-10-27"
+  },
+  "news": [
+    {
+      "title": "OpenAI 发布 GPT-6.1 Terra，面向 ChatGPT Work、Codex 与 API",
+      "summary": "GPT-6.1 Terra 在视觉推理、计算机使用和写作方面有所改进，并通过 ChatGPT Work、Codex 与 API 提供，发布同时公布了基础标准 API 的定价信息。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://iaipie.com/2026%E5%B9%B410%E6%9C%8827%E6%97%A5ai%E8%A1%8C%E4%B8%9A%E8%B5%84%E8%AE%AF%E9%80%9F%E8%A7%88/",
+      "source_published_date": "2026-10-27",
+      "event_date": "2026-10-27"
+    },
+    {
+      "title": "Anthropic 递交 S-1 文件，披露期限最长 20 年的算力与云服务协议",
+      "summary": "Anthropic 递交的 S-1 文件显示，公司涉及数据中心内的计算设备与云服务交易自 2026 至 2027 年间开始，期限从不足一年到最长 20 年。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "source_published_date": "2026-10-26",
+      "event_date": "2026-10-26"
+    },
+    {
+      "title": "中国 Approaching.AI 完成逾 13 亿元人民币 B 轮融资",
+      "summary": "据 Tech Startups 10 月 26 日的融资汇总，Approaching.AI 以超过 13 亿元人民币的 B 轮融资领跑当日初创融资活动，人形机器人公司 CASBOT 与 AI 研究初创 SuperSpherical Technology 也宣布了规模可观的融资。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://techstartups.com/2026/10/26/startup-funding-news-today-october-26-2026-ailytics-approaching-ai-casbot-volare-more/",
+      "source_published_date": "2026-10-26",
+      "event_date": "2026-10-26"
+    },
+    {
+      "title": "报告：多数已启用的 AI 智能体长期闲置却仍保留有效凭证",
+      "summary": "Arrakis Security 的 2026 年自主智能体威胁报告称，其检查的已启用 AI 智能体中，76% 在 60 天内未运行、44% 超过 180 天未活动，但这些智能体仍保有有效凭证与系统访问权限。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "source_published_date": "2026-10-26",
+      "event_date": "2026-10-26"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Nevis 完成由 EQT Ventures 领投的 7000 万美元 B 轮融资。",
+      "source_url": "https://aiweekly.co/ai-news-today/funding-ai-news",
+      "source_published_date": "2026-10-26",
+      "event_date": "2026-10-26"
+    },
+    {
+      "text": "AI Funding 统计显示，截至 10 月 26 日，10 月已记录 77 笔 AI 初创融资、总额 425 亿美元，其中 OpenAI 的 200 亿美元轮次规模居首。",
+      "source_url": "https://aifunding.me/roundups/october-2026",
+      "source_published_date": "2026-10-26",
+      "event_date": "2026-10-26"
+    },
+    {
+      "text": "路透 Breakingviews 评论指出，AI 资本竞赛正快速进入优胜劣汰阶段。",
+      "source_url": "https://reuters.com/commentary/breakingviews/ai-capital-race-sprints-into-winnowing-phase-2026-10-26",
+      "source_published_date": "2026-10-26",
+      "event_date": "2026-10-26"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-27T17:45:56.088593+08:00",
+    "usage": {
+      "input_tokens": 5305,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 7560,
+      "output_tokens_details": {
+        "reasoning_tokens": 6494
+      },
+      "total_tokens": 12865
+    },
+    "search_results": 29,
+    "retry_feedback": false
+  }
+}
