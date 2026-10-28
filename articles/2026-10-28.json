@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "window": {
+    "start": "2026-10-27 17:46",
+    "end": "2026-10-28 17:46"
+  },
+  "headline": {
+    "title": "谷歌 DeepMind 发布世界模型 Genie 4，支持自然语言实时操控与原生音频",
+    "summary": "谷歌 DeepMind 于周二推出最新世界模型 Genie 4，目前处于研究预览阶段，官方称其能生成迄今拟真度最高、可交互的虚拟世界。该模型以 Gemini 作为“大脑”，支持用自然语言实时改变天气、移动镜头，并自带环境音与可对话人物，先向受信测试者开放，随后进入 AI Ultra。",
+    "type": "model_release",
+    "importance": "P0",
+    "source_url": "https://recsysfrontier.substack.com/p/ai-2026-10-28",
+    "source_published_date": "2026-10-28",
+    "event_date": "2026-10-27"
+  },
+  "news": [
+    {
+      "title": "甲骨文扩大与英伟达云端合作，并在云平台引入谷歌 TPU 与 Cerebras 芯片",
+      "summary": "甲骨文当地时间周二宣布扩大与英伟达的云端 AI 芯片合作，将借助英伟达最新一代 Vera Rubin AI 服务器把云端部署扩大至“数吉瓦级”规模。同时在云平台上线谷歌 TPU、Cerebras Systems 等英伟达竞争对手的芯片，为不同 AI 工作负载提供多元选择。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908sp0g.html",
+      "source_published_date": "2026-10-28",
+      "event_date": "2026-10-27"
+    },
+    {
+      "title": "英伟达拟向 Meta 股权投资 30 亿美元，AMD 拟参与 10 亿美元",
+      "summary": "美东时间 10 月 27 日，英伟达拟向 Meta 股权投资 30 亿美元、AMD 拟参与 10 亿美元；同日甲骨文宣布多芯片扩容，AI 算力投入呈现“芯片多元化+股权互相绑定”并行的态势。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908srn8.html",
+      "source_published_date": "2026-10-28",
+      "event_date": "2026-10-27"
+    },
+    {
+      "title": "上海印发新一代智能制造行动方案，加快构建算力设施体系",
+      "summary": "上海市经济信息化委印发《上海市加快发展新一代智能制造行动方案》，提出推进工业 5G/EUHT 独立专网试点，支持部署 5G-A、万兆光网等高质量网络，加快突破 AI 高性能芯片，并构建“枢纽-区域-边缘”算力设施体系。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://m.21jingji.com/article/20261028/herald/32684a497eb79f2d425207bcb7e5f813.html",
+      "source_published_date": "2026-10-28",
+      "event_date": "2026-10-28"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Hugging Face 热门模型日报显示，Qwen3.8-27B 以 18,553 点赞、750 万+ 下载领跑本周榜单，成为最受关注的旗舰开源模型，DeepSeek-V4.1-Flash-1017 系列同时上榜。",
+      "source_url": "https://github.com/rollysys/agents-radar/issues/1570",
+      "source_published_date": "2026-10-28",
+      "event_date": "2026-10-28"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-28T17:46:40.693329+08:00",
+    "usage": {
+      "input_tokens": 7098,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 8037,
+      "output_tokens_details": {
+        "reasoning_tokens": 6947
+      },
+      "total_tokens": 15135
+    },
+    "search_results": 30,
+    "retry_feedback": false
+  }
+}
