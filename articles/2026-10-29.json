@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-29",
+  "window": {
+    "start": "2026-10-28 17:45",
+    "end": "2026-10-29 17:45"
+  },
+  "headline": {
+    "title": "谷歌发布旗舰模型 Gemini 4 Carbon，以 59 分重夺智能指数榜首",
+    "summary": "谷歌在两周内再次发布旗舰模型 Gemini 4 Carbon，该模型以 Artificial Analysis Intelligence Index v5 的 59 分重回第一。目前该模型仅通过 Fairwind 计划限量开放，定价将从 $2/$10 调整为 $4/$20。",
+    "type": "model_release",
+    "importance": "P0",
+    "source_url": "https://recsysfrontier.substack.com/p/ai-2026-10-29",
+    "source_published_date": "2026-10-29",
+    "event_date": "2026-10-29"
+  },
+  "news": [
+    {
+      "title": "智元在 2026 创新日发布 GO-3 Preview，采用自研具身原生架构 WRAM",
+      "summary": "10 月 29 日，在上海举行的 2026 智元创新日上，智元发布 GO-3 Preview，采用自研具身原生架构 WRAM，通过对理解、预测与动作的统一建模，实现跨任务泛化与精细操作。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908svog.html",
+      "source_published_date": "2026-10-29",
+      "event_date": "2026-10-29"
+    },
+    {
+      "title": "路透：中国新一轮出口管制为 AI“皇冠明珠”划出界线",
+      "summary": "路透报道称，中国新一轮出口管制措施围绕其 AI“皇冠明珠”划出界线，将 AI 核心技术领域纳入管控范围。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://reuters.com/business/retail-consumer/chinas-new-export-curbs-draw-line-around-its-ai-crown-jewels-2026-10-28/&gsessionid=eIXk0AQ82U5ndlXZXuuD3lvLhVVW2b4lBPZ1k-eK9YZosuSUsxjFqg",
+      "source_published_date": "2026-10-28",
+      "event_date": "2026-10-28"
+    },
+    {
+      "title": "彭博：银行搁置与 Anthropic 相关的得州数据中心债券发售",
+      "summary": "据彭博报道，多家银行已搁置一笔与 Anthropic 相关的得克萨斯州数据中心债券发售。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://github.com/96loveslife/big_model_radar/issues/725",
+      "source_published_date": "2026-10-29",
+      "event_date": "2026-10-28"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "境外媒体汇总显示，中国 AI 概念股大幅回调，科创 50 下跌 40%、约 4800 亿美元市值蒸发，同期中国芯片出口同比增长 136% 创下新高。",
+      "source_url": "https://github.com/Jealouszj/daily-china-tech-scan/issues/138",
+      "source_published_date": "2026-10-29",
+      "event_date": "2026-10-29"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-29T17:47:02.365041+08:00",
+    "usage": {
+      "input_tokens": 6680,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 12112,
+      "output_tokens_details": {
+        "reasoning_tokens": 11279
+      },
+      "total_tokens": 18792
+    },
+    "search_results": 29,
+    "retry_feedback": false
+  }
+}
