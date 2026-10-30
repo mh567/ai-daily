@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-30",
+  "window": {
+    "start": "2026-10-29 17:45",
+    "end": "2026-10-30 17:45"
+  },
+  "headline": {
+    "title": "Mistral 开源万亿参数多模态 MoE 模型 Le Chonk",
+    "summary": "Mistral 发布万亿参数多模态 MoE 模型「Le Chonk」并放出模型权重，vLLM 同日宣布支持。该模型以开源权重形式提供，参数规模达到万亿级。",
+    "type": "opensource",
+    "importance": "P0",
+    "source_url": "https://recsysfrontier.substack.com/p/ai-2026-10-30",
+    "source_published_date": "2026-10-30",
+    "event_date": "2026-10-30"
+  },
+  "news": [
+    {
+      "title": "FuriosaAI 完成 6.2 亿美元 D 轮融资",
+      "summary": "韩国半导体初创公司 FuriosaAI 完成 6.2 亿美元 D 轮融资，投后估值 29 亿美元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://techstartups.com/2026/10/29/startup-funding-news-today-october-29-2026-braid-casap-furiosaai-upwind-foundry-robotics-plato-more/",
+      "source_published_date": "2026-10-29",
+      "event_date": "2026-10-29"
+    },
+    {
+      "title": "印度 AM Intelligence 寻求 30 亿美元融资开发英伟达芯片",
+      "summary": "印度人工智能公司 AM Intelligence 寻求 30 亿美元融资，用于开发英伟达芯片。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908szn0.html",
+      "source_published_date": "2026-10-30",
+      "event_date": "2026-10-29"
+    },
+    {
+      "title": "Ares 避开 GPU 融资，转向数据中心与电力基础设施",
+      "summary": "Ares Management CEO Michael Arougheti 在周四分析师电话会上表示，公司正避开为高端 AI 模型所用 GPU 提供融资，转而投资承载这些芯片的数据中心及配套电力基础设施。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://k.sina.cn/article_7857201856_1d45362c001908t0d2.html",
+      "source_published_date": "2026-10-30",
+      "event_date": "2026-10-29"
+    },
+    {
+      "title": "Pika 基于 MiniMax H3 开源 Pika H3 Flex 视频模型",
+      "summary": "Pika Labs 基于 MiniMax H3 进行后训练，推出并开源 Pika H3 Flex 视频生成模型，采样步数从 50 步压缩到 6 步，生成时间大幅降低。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://github.com/fu512647662-ai/AI-hot-news/issues/145",
+      "source_published_date": "2026-10-30",
+      "event_date": "2026-10-30"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-30T17:46:59.141165+08:00",
+    "usage": {
+      "input_tokens": 6728,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 11618,
+      "output_tokens_details": {
+        "reasoning_tokens": 10597
+      },
+      "total_tokens": 18346
+    },
+    "search_results": 31,
+    "retry_feedback": false
+  }
+}
