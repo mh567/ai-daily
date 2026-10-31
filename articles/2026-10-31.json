@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-31",
+  "window": {
+    "start": "2026-10-30 17:47",
+    "end": "2026-10-31 17:47"
+  },
+  "headline": {
+    "title": "OpenAI 将融资目标下调至 200 亿美元，寻求更快完成交易",
+    "summary": "OpenAI 将最新一轮融资目标下调至 200 亿美元。市场低迷和 Anthropic IPO 时点推动其寻求以降低后的规模更快完成交易。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://biz.chosun.com/en/en-it/2026/10/31/R5O2N7DCOJGD5MTSELEDFL3BRE/",
+    "source_published_date": "2026-10-31",
+    "event_date": "2026-10-31"
+  },
+  "news": [
+    {
+      "title": "苹果国行 Apple 智能 11 月 4 日开放测试，接入通义千问",
+      "summary": "10 月 31 日苹果宣布 Apple 智能即将在中国推出，并与阿里巴巴合作接入通义千问大模型。首批功能将于 11 月 4 日起随最新 iOS 开发者 Beta 版开放测试。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908t4cc.html",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    },
+    {
+      "title": "亚马逊设立供应商融资安排，可借入至多 800 亿美元",
+      "summary": "亚马逊已设立供应商融资安排，可凭借所购硬件的价值借入至多 800 亿美元。在向人工智能基础设施投入数千亿美元之际，这是该公司为保持财务灵活性所采取的最新举措。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://k.sina.com.cn/article_7857201856_1d45362c001908t4ca.html",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    },
+    {
+      "title": "Anthropic IPO 文件披露近 9000 亿美元隐性债务",
+      "summary": "金十数据整理显示，Anthropic 的 IPO 文件披露近 9000 亿美元“隐性债务”。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://shishixinwen.news/news/jin10/20261031095309836800",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    },
+    {
+      "title": "Dreamgroup 披露中国关联攻击活动，15 分钟攻破 24 台防火墙",
+      "summary": "Dreamgroup 研究人员披露一起中国关联攻击活动，串联 PHP2Shell 与 Fragnesia 内核提权漏洞，在不到 15 分钟内攻破 24 台防火墙及 1 台内部管理机。攻击目标涉及美国、日本、台湾和韩国，包括两个美国政府相关目标。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-10-31T17:48:42.530795+08:00",
+    "usage": {
+      "input_tokens": 7580,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 13844,
+      "output_tokens_details": {
+        "reasoning_tokens": 12941
+      },
+      "total_tokens": 21424
+    },
+    "search_results": 30,
+    "retry_feedback": false
+  }
+}
