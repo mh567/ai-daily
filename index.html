@@ -12,10 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/newspaper-prototype.css?v=3">
-  <link rel="stylesheet" href="css/v2-newspaper.css?v=3">
+  <link rel="stylesheet" href="css/newspaper-prototype.css?v=4">
+  <link rel="stylesheet" href="css/v2-newspaper.css?v=4">
 </head>
-<body>
 <body>
 <header class="paper-header">
   <div class="utility-bar page-shell">
@@ -49,30 +48,22 @@
   </div>
   <aside class="lead-aside" aria-label="今日要闻">
   <h2>今日要闻</h2>
-  <div class="aside-item"><span class="aside-mark" aria-hidden="true"></span><div class="aside-copy"><span class="aside-section">产品应用</span><a href="#story-1">苹果国行 Apple 智能 11 月 4 日开放测试，接入通义千问</a></div></div>
-<div class="aside-item"><span class="aside-mark" aria-hidden="true"></span><div class="aside-copy"><span class="aside-section">算力基建</span><a href="#story-2">亚马逊设立供应商融资安排，可借入至多 800 亿美元</a></div></div>
+  <div class="aside-item"><span class="aside-mark" aria-hidden="true"></span><div class="aside-copy"><span class="aside-section">产品应用</span><h3>苹果国行 Apple 智能 11 月 4 日开放测试，接入通义千问</h3><p class="aside-summary">10 月 31 日苹果宣布 Apple 智能即将在中国推出，并与阿里巴巴合作接入通义千问大模型。首批功能将于 11 月 4 日起随最新 iOS 开发者 Beta 版开放测试。</p><p class="source-line">信源 · <a href="https://k.sina.com.cn/article_7857201856_1d45362c001908t4cc.html" target="_blank" rel="noopener noreferrer">k.sina.com.cn</a> · 10月31日</p></div></div>
+<div class="aside-item"><span class="aside-mark" aria-hidden="true"></span><div class="aside-copy"><span class="aside-section">算力基建</span><h3>亚马逊设立供应商融资安排，可借入至多 800 亿美元</h3><p class="aside-summary">亚马逊已设立供应商融资安排，可凭借所购硬件的价值借入至多 800 亿美元。在向人工智能基础设施投入数千亿美元之际，这是该公司为保持财务灵活性所采取的最新举措。</p><p class="source-line">信源 · <a href="https://k.sina.com.cn/article_7857201856_1d45362c001908t4ca.html" target="_blank" rel="noopener noreferrer">k.sina.com.cn</a> · 10月31日</p></div></div>
 </aside>
 </section>
-<section class="news-flow" aria-label="今日新闻">
-  <div class="news-grid stories-count-4"><article class="story" id="story-1">
-  <p class="story-tag">产品应用</p>
-  <h3>苹果国行 Apple 智能 11 月 4 日开放测试，接入通义千问</h3>
-  <p class="story-body">10 月 31 日苹果宣布 Apple 智能即将在中国推出，并与阿里巴巴合作接入通义千问大模型。首批功能将于 11 月 4 日起随最新 iOS 开发者 Beta 版开放测试。</p>
-  <p class="source-line">信源 · <a href="https://k.sina.com.cn/article_7857201856_1d45362c001908t4cc.html" target="_blank" rel="noopener noreferrer">k.sina.com.cn</a> · 10月31日</p>
-</article>
-<article class="story" id="story-2">
-  <p class="story-tag">算力基建</p>
-  <h3>亚马逊设立供应商融资安排，可借入至多 800 亿美元</h3>
-  <p class="story-body">亚马逊已设立供应商融资安排，可凭借所购硬件的价值借入至多 800 亿美元。在向人工智能基础设施投入数千亿美元之际，这是该公司为保持财务灵活性所采取的最新举措。</p>
-  <p class="source-line">信源 · <a href="https://k.sina.com.cn/article_7857201856_1d45362c001908t4ca.html" target="_blank" rel="noopener noreferrer">k.sina.com.cn</a> · 10月31日</p>
-</article>
-<article class="story" id="story-3">
+<section class="news-flow" id="more-news" aria-label="更多新闻">
+  <header class="section-heading">
+    <div class="section-title-block"><span class="section-marker" aria-hidden="true"><span></span><span class="is-active"></span><span></span><span></span></span><h2>更多新闻</h2></div>
+    <p>本版 2 条</p>
+  </header>
+  <div class="news-grid stories-count-2"><article class="story" id="story-1">
   <p class="story-tag">融资并购</p>
   <h3>Anthropic IPO 文件披露近 9000 亿美元隐性债务</h3>
   <p class="story-body">金十数据整理显示，Anthropic 的 IPO 文件披露近 9000 亿美元“隐性债务”。</p>
   <p class="source-line">信源 · <a href="https://shishixinwen.news/news/jin10/20261031095309836800" target="_blank" rel="noopener noreferrer">shishixinwen.news</a> · 10月31日</p>
 </article>
-<article class="story" id="story-4">
+<article class="story" id="story-2">
   <p class="story-tag">安全事件</p>
   <h3>Dreamgroup 披露中国关联攻击活动，15 分钟攻破 24 台防火墙</h3>
   <p class="story-body">Dreamgroup 研究人员披露一起中国关联攻击活动，串联 PHP2Shell 与 Fragnesia 内核提权漏洞，在不到 15 分钟内攻破 24 台防火墙及 1 台内部管理机。攻击目标涉及美国、日本、台湾和韩国，包括两个美国政府相关目标。</p>
