@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01",
+  "window": {
+    "start": "2026-10-31 15:39",
+    "end": "2026-11-01 15:39"
+  },
+  "headline": {
+    "title": "美联邦法官驳回 xAI 撤诉请求，孟菲斯数据中心污染诉讼继续",
+    "summary": "美国联邦法官裁定，xAI 在孟菲斯 Colossus 数据中心运行的燃气轮机不属于《清洁空气法》下的“移动源”，NAACP 依据该法提起的诉讼可继续推进。NAACP 指 xAI 未取得必要许可便安装运行至少 35 台燃气轮机，TechCrunch 已联系 SpaceX 置评。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://lcz.me/topic/2753",
+    "source_published_date": "2026-11-01",
+    "event_date": "2026-11-01"
+  },
+  "news": [
+    {
+      "title": "DeepSeek 发布开源推理栈 DeepInfer，单集群日处理 155 万亿 tokens",
+      "summary": "DeepSeek 发布开源推理栈 DeepInfer，称其单集群每天可处理 155 万亿 tokens，在约 80% 利润率下实现每天 2200 万美元收入，回本周期约 81 天。",
+      "type": "opensource",
+      "importance": "P1",
+      "source_url": "https://thewire.ink/sources/latentspace",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    },
+    {
+      "title": "Cursor 插件市场出现恶意 Claude Code 扩展，影响多达 5000 名开发者",
+      "summary": "Cursor 插件市场中发现被篡改的 Claude Code 扩展，恶意版本分发约 11 小时，影响多达 5000 名开发者。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://radarai.top/en/updates/brief-20261031-1600",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    }
+  ],
+  "briefs": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-01T15:40:27.444791+08:00",
+    "usage": {
+      "input_tokens": 32015,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 14192,
+      "output_tokens_details": {
+        "reasoning_tokens": 13401
+      },
+      "total_tokens": 46207
+    },
+    "search_results": 39,
+    "retry_feedback": false
+  }
+}
