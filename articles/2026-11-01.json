@@ -1,25 +1,43 @@
 {
   "date": "2026-11-01",
   "window": {
-    "start": "2026-10-31 15:43",
-    "end": "2026-11-01 15:43"
+    "start": "2026-10-31 15:52",
+    "end": "2026-11-01 15:52"
   },
   "headline": {
-    "title": "DeepSeek 公布 Super-agent 架构，支持多 Agent 并行与主动修复 Bug",
-    "summary": "10 月 31 日，DeepSeek Harness 团队发布技术文章，提出 Router 与 Worker 双层 Super-agent 架构，Router 负责维护全局上下文并分配任务，多个 Worker 在独立会话中并行执行。系统引入事件驱动机制，可持续关注群聊、GitHub 评论和 CI 测试结果，并主动复现 Bug、生成修复代码甚至提交 Pull Request；DeepSeek 已在内部研发中使用该架构参与问题修复和代码审查，并公开实验性原型。",
+    "title": "AI 智能体从概念炒作走向落地：阿里、腾讯、百度各守场景",
+    "summary": "阿里已将智能体嵌入千问、夸克与阿里商家体系，面向电商经营与搜索信息检索；腾讯 WorkBuddy 扎根企业微信，主打组织级办公智能体，对接内部审批、文档与会议系统，面向政企与金融客户。百度则把智能体与搜索结合，智谱、DeepSeek 等公司也在各自赛道推进。",
     "type": "product",
     "importance": "P1",
-    "source_url": "https://reportify.cn/news/1314275961889492992",
+    "source_url": "https://www.toutiao.com/article/7702301672919548467/?wid=1793505356407",
     "source_published_date": "2026-10-31",
     "event_date": "2026-10-31"
   },
   "news": [
     {
-      "title": "Fortune：Meta 因现金流、支出和变现问题收到信用警告",
-      "summary": "Fortune 报道，在科技股抛售和 AI 投资回报疑虑升温之际，Meta 因现金流、支出和变现问题收到信用警告；报道同时提到 OpenAI 将最新融资目标下调至 200 亿美元。",
+      "title": "Anthropic 递交招股书：拟 11 月中旬登陆纳斯达克，募资最高 1000 亿美元",
+      "summary": "Anthropic 已递交招股书，计划 11 月中旬登陆纳斯达克，市场预计其募资额最高可达 1000 亿美元，估值预期处于 1.5 万亿至 2 万亿美元区间。报道称公司 2026 年二季度录得 9.74 亿美元营业利润。",
       "type": "funding",
       "importance": "P1",
-      "source_url": "https://fortune.com/2026/10/31/ai-boom-bust-openai-fundraising-target-meta-credit-warning-cash-flow-capex/",
+      "source_url": "https://finance.eastmoney.com/a/202611013917676265.html",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    },
+    {
+      "title": "vLLM 新增异步 RLHF API，NVIDIA 上支持批处理不变性",
+      "summary": "vLLM 文档更新显示其新增异步 RLHF API，开发者可通过 VLLM_BATCH_INVARIANT 环境变量在 NVIDIA 平台上启用批处理不变性以获得确定性输出，文档称该平台上批处理不变性已获完整支持。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://docs.vllm.ai/en/latest/examples/rl/rlhf_async_new_apis/",
+      "source_published_date": "2026-10-31",
+      "event_date": "2026-10-31"
+    },
+    {
+      "title": "《财富》案例：AI 智能体替代多个 6 万美元营销岗位，token 成本仅数百美元",
+      "summary": "《财富》刊发的作者自述称，其公司用 AI 智能体替代了多个年薪 6 万美元的营销岗位，改为以更高薪酬聘用一人，相关 token 成本仅数百美元。文中给出的参考价格是每百万 token 约 2 至 8 美元。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://fortune.com/2026/10/31/dont-ration-company-ai-token-budgets-caps-accenture/",
       "source_published_date": "2026-10-31",
       "event_date": "2026-10-31"
     }
@@ -27,19 +45,19 @@
   "briefs": [],
   "_meta": {
     "model": "deepseek-v4-flash",
-    "generated_at": "2026-11-01T15:43:56.247321+08:00",
+    "generated_at": "2026-11-01T15:52:56.691861+08:00",
     "usage": {
-      "input_tokens": 31320,
+      "input_tokens": 14923,
       "input_tokens_details": {
         "cached_tokens": 0
       },
-      "output_tokens": 6081,
+      "output_tokens": 9230,
       "output_tokens_details": {
-        "reasoning_tokens": 5301
+        "reasoning_tokens": 8265
       },
-      "total_tokens": 37401
+      "total_tokens": 24153
     },
-    "search_results": 36,
-    "retry_feedback": true
+    "search_results": 83,
+    "retry_feedback": false
   }
 }
