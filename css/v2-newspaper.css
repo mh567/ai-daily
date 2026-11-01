@@ -1,6 +1,7 @@
 /* AI Daily v2 版面（报纸世界：纸面、双线、字号层级；不用卡片、不用侧栏拼贴）
- * 结构：头版头条 → 今日要闻 → 更多新闻 → 今日简讯 → 前后期
- * 资讯带按条数自动分 1–3 栏（multi-column），条数少时自然收窄，不留空列
+ * 结构：头版头条 → 主题资讯带（模型与产品 / 开源与社区 / 产业与资本 / 治理与安全）
+ *       → 今日简讯 → 前后期
+ * 资讯带按条数阈值分栏：1 条单栏收窄，2–4 条两栏，≥5 条三栏
  */
 
 :root {
@@ -77,6 +78,10 @@
   font-variant-numeric: tabular-nums;
 }
 
+.band-body[data-cols="1"] {
+  columns: 1;
+  max-width: 34em;
+}
 .band-body[data-cols="2"] {
   columns: 2;
   column-gap: clamp(32px, 4vw, 56px);
