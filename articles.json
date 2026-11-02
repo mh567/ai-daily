@@ -1,7 +1,11 @@
 [
   {
+    "date": "2026-11-02",
+    "headline": "OpenAI 融资目标下调至约 200 亿美元"
+  },
+  {
     "date": "2026-11-01",
-    "headline": "DeepSeek 开源 Agent 底座架构，可自行分配并行任务"
+    "headline": "DeepSeek 开源 Agent 底座架构，AI 可自查 Bug 并提交 PR"
   },
   {
     "date": "2026-10-31",

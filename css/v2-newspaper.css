@@ -1,6 +1,6 @@
-/* AI Daily v2 版面（报纸世界：纸面、双线、字号层级；不用卡片、不用侧栏拼贴）
- * 结构：头版头条 → 主题资讯带（模型与产品 / 开源与社区 / 产业与资本 / 治理与安全）
- *       → 今日简讯 → 前后期
+/* AI Daily v2 版面（报纸世界：纸面、双线、字号层级；不用卡片拼贴）
+ * 结构：头版（头条 + 右侧免费与优惠面板）→ 主题资讯带
+ *       （模型与产品 / 开源与社区 / 产业与资本 / 治理与安全）→ 今日简讯 → 前后期
  * 资讯带按条数阈值分栏：1 条单栏收窄，2–4 条两栏，≥5 条三栏
  */
 
@@ -33,6 +33,70 @@
   line-height: 1.72;
 }
 .edition-lead .edition-meta { font-size: 12px; }
+
+/* ---------- 头版：头条 + 右侧优惠面板 ---------- */
+.edition-front {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(248px, 296px);
+  gap: clamp(28px, 4vw, 56px);
+  padding-bottom: clamp(26px, 3vw, 42px);
+  border-bottom: 4px double var(--rule-dark);
+}
+.edition-front .edition-lead { padding-bottom: 0; border-bottom: 0; }
+
+.deals-panel {
+  align-self: start;
+  padding-top: clamp(22px, 2.6vw, 40px);
+  padding-left: clamp(18px, 2vw, 30px);
+  border-left: 1px solid var(--rule);
+}
+.deals-head {
+  margin: 0 0 14px;
+  padding-bottom: 9px;
+  border-bottom: 2px solid var(--ink);
+}
+.deals-head h2 {
+  margin: 0;
+  font: 650 20px/1.1 var(--serif);
+  letter-spacing: -.02em;
+}
+.deals-head p {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+  font: 500 10px/1 var(--sans);
+  letter-spacing: .1em;
+}
+.deals-list { list-style: none; margin: 0; padding: 0; }
+.deal-item { border-bottom: 1px solid var(--rule); }
+.deal-item a {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.deal-time {
+  color: var(--accent);
+  font: 500 11px/1.4 var(--sans);
+  letter-spacing: .04em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.deal-title {
+  font: 600 15px/1.35 var(--serif);
+  letter-spacing: -.01em;
+  text-wrap: pretty;
+}
+.deal-item a:hover .deal-title { color: var(--accent); }
+.deals-more {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--accent);
+  font: 500 11px/1 var(--sans);
+  letter-spacing: .1em;
+  text-underline-offset: 3px;
+}
 
 /* ---------- 署名行：类型 · 来源 · 日期 ---------- */
 .edition-meta {
@@ -208,6 +272,35 @@
   white-space: nowrap;
 }
 
+/* ---------- 优惠历史页 ---------- */
+.deal-archive-list { list-style: none; margin: 0; padding: 0; }
+.deal-archive-item {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 22px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.deal-archive-date {
+  color: var(--ink-soft);
+  font: 500 13px/1 var(--sans);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.deal-archive-title {
+  font: 600 18px/1.3 var(--serif);
+  text-decoration: none;
+}
+.deal-archive-title:hover { color: var(--accent); }
+.deal-archive-summary {
+  max-width: 46em;
+  margin: 6px 0 4px;
+  color: #37342e;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
 .paper-footer {
   padding: 30px 0 60px;
   color: var(--ink-soft);
@@ -218,6 +311,16 @@
 /* ---------- 响应式 ---------- */
 @media (max-width: 980px) {
   .band-body[data-cols="3"] { columns: 2; }
+  .edition-front { display: block; }
+  .edition-front .edition-lead { padding-bottom: clamp(20px, 3vw, 30px); }
+  .deals-panel {
+    margin-top: 22px;
+    padding: 20px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--rule-dark);
+  }
+  .deals-list { columns: 2; column-gap: 32px; column-rule: 1px solid var(--rule); }
+  .deal-item { break-inside: avoid; }
 }
 
 @media (max-width: 760px) {
@@ -233,10 +336,13 @@
   .digest-item h3 { font-size: 20px; }
   .digest-item--more h3 { font-size: 18px; }
   .history-list li,
-  .archive-month li {
+  .archive-month li,
+  .deal-archive-item {
     grid-template-columns: 1fr;
     gap: 4px;
   }
   .hist-title,
   .archive-headline { white-space: normal; overflow: visible; }
+  .deals-list { columns: 1; }
+  .deal-item:nth-child(n + 5) { display: none; }  /* 窄屏只留 4 条，其余去「更多优惠」 */
 }
