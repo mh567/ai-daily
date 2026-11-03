@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-03",
+  "window": {
+    "start": "2026-11-02 18:00",
+    "end": "2026-11-03 18:00"
+  },
+  "headline": {
+    "title": "Anthropic Q3营收170亿美元，算力承诺8954亿",
+    "summary": "Anthropic 在修订版 S-1 中报告第三季度营收约 170 亿美元，并披露约 8954 亿美元的 AI 基础设施支出承诺。",
+    "type": "funding",
+    "importance": "P1",
+    "source_url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+    "source_published_date": "2026-11-03",
+    "event_date": "2026-11-02"
+  },
+  "news": [
+    {
+      "title": "英伟达要求云客户至少51%服务卖给非中国公司",
+      "summary": "据 FT 报道，英伟达已告知全球云与数据中心客户，至少 51% 的服务必须销售给非中国公司；B300 等先进芯片受美国出口管制不得对华出售。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://en.sedaily.com/international/2026/11/03/nvidia-tells-cloud-clients-51-percent-of-capacity-must-go",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "OpenAI与阿布扎比签署能源、政府及投资协议",
+      "summary": "OpenAI 与阿布扎比签署四项协议，覆盖能源、政府和投资领域；Sam Altman 在访问期间会见阿布扎比王储。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+      "source_published_date": "2026-11-02",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "沙特阿美26亿美元入股Humain，持股49%",
+      "summary": "沙特阿美以 26 亿美元收购 AI 公司 Humain 49% 股份，该公司旨在推动沙特成为全球 AI 中心。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+      "source_published_date": "2026-11-02",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "OpenAI推电网保护计划，数据中心可释放1000MW",
+      "summary": "OpenAI 宣布 Grid Protectors Program，将在佐治亚州 Effingham County 的数据中心试点，在极端天气或紧急情况下释放最多 1000 兆瓦电力。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "纽约时报等起诉Brave非法抓取内容",
+      "summary": "纽约时报指控 Brave 浏览器抓取其受版权保护的内容，并分发给 Anthropic、Perplexity 等客户；其他媒体也加入诉讼。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "Anthropic警告已非常接近RSI自进化能力",
+      "summary": "Anthropic 警告称，其已非常接近 RSI（递归自我改进）能力，即 AI 能训练自身并引发能力加速；TechCrunch 称这是长期担忧的临界点。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "ChatGPT合并Chat与Work标签，额度池与Codex共享",
+      "summary": "OpenAI 将 ChatGPT 的 Chat 与 Work 标签合并；调整后 ChatGPT 和 Codex 从同一额度池中扣减用量。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "source_published_date": "2026-11-02",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "Trajectory融资4500万美元，让行业专家训练AI",
+      "summary": "成立一年的 Trajectory 完成 4500 万美元融资，估值达 3 亿美元；其平台让律师、医生等非技术专家对开源模型做后训练。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://ai.cnmo.com/news/821675.html",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "美团LongCat-2.5补全技术报告：总参1.6万亿",
+      "summary": "美团 LongCat-2.5 补全技术报告和评测对比表，总参数 1.6 万亿、激活约 480 亿；API 已接入，但权重尚未开源。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://hub-assets-cache.baai.ac.cn/view/59293",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "发改委：超8000家基层机构接入云端AI影像",
+      "summary": "国家发改委表示，国内已有超过 8000 家基层医疗机构接入云端 AI 影像服务，肺结节、宫颈癌等筛查准确率得到提升。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://m.mp.oeeee.com/a/BAAFRD0000202611031696636.html",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "Brookfield拟在英建270亿美元AI数据中心",
+      "summary": "Brookfield 计划在英国 Drax 电站建设价值 270 亿美元的 AI 数据中心，欧洲正加快 AI 基础设施布局。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "Deep Principle发布753B开源科学模型",
+      "summary": "Deep Principle 发布 Hydrogen-1.0，这是一个面向化学、材料科学和生命科学的 753B 开源权重模型，基于 GLM-5.3 在领域数据和实验室记录上后训练。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-02"
+    },
+    {
+      "title": "高盛撤回交易员与银行家的AI编程工具",
+      "summary": "高盛将 Claude Code、GitHub Copilot 等 AI 编程工具从交易员和银行家处撤回，仅限工程师使用，理由是生产力与风险管理。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "英伟达开源Auto Ontology智能体上下文层",
+      "summary": "英伟达发布开源 Python 框架 Auto Ontology，在企业数据上构建语义推理层，通过 MCP、CLI 和 API 向智能体提供经过验证的上下文。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://news.lavx.hu/article/nvidia-releases-auto-ontology-for-agent-context-layers",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "LiquidAI LFM3-1.7B登HF趋势榜第一",
+      "summary": "LiquidAI 的 LFM3-1.7B 文本生成模型今日位列 Hugging Face 趋势榜第一，获得 1267 个点赞和 47817 次下载。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "百度Unlimited-OCR-2登HF趋势榜",
+      "summary": "百度 Unlimited-OCR-2 图像文本模型今日位列 Hugging Face 趋势榜第八，获得 573 个点赞和 189897 次下载。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "HN热议SEC是否应阻止Anthropic IPO",
+      "summary": "HN 讨论 TechPolicy.Press 文章《The SEC Should Block Anthropic's IPO to Protect the Public》，帖子获 335 分、248 条评论。",
+      "type": "community",
+      "importance": "P2",
+      "source_url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "title": "linux.do热议DeepSeek官网服务器繁忙",
+      "summary": "linux.do 帖子称 DeepSeek 官网提示“服务器繁忙，请稍后重试”，话题有 4 个帖子、4 位参与者；V2EX 也有多个帖子讨论同一故障。",
+      "type": "community",
+      "importance": "P2",
+      "source_url": "https://linux.do/t/topic/3116195",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "OpenAI提高安全漏洞赏金，新增报告质量、忠诚和优先活动奖金。",
+      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "text": "OpenAI与Cathedral Systems进行下一轮内部安全冲刺，用AI测试并强化防御。",
+      "source_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "text": "Anthropic更新Claude Code系统提示，阻止其复刻现有视频游戏。",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "text": "腾讯混元多模态模型部原负责人薄列峰确认离职。",
+      "source_url": "https://smarthey.com/detail/458134701243.html",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "text": "江苏落地全国首单“制造业Token贷”，两笔贷款投向智能产线与AI辅助研发。",
+      "source_url": "https://www.jsxc.gov.cn/jsfb/ztxc/202611/t20261103_97474.shtml",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "text": "小米获世界互联网大会“杰出贡献奖”，小米具身基座模型获“领先科技奖”。",
+      "source_url": "https://www.qbitai.com/2026/11/507396.html",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    },
+    {
+      "text": "北大与IBM提出模拟计算矩阵新定义，称一步完成GPU迭代百次的工作。",
+      "source_url": "https://www.qbitai.com/2026/11/507367.html",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    }
+  ],
+  "deals": [
+    {
+      "title": "IBM watsonx.ai免费层每月30万token",
+      "summary": "IBM watsonx.ai 免费计划每月提供 30 万个基础模型 token 和 20 个计算使用小时（CUH），可在 Prompt Lab 和 AgentLab 中试用 IBM 及开源模型。",
+      "tag": "免费额度",
+      "source_url": "https://freeaihub.org/en/benefits/ibm-watsonx-free-plan/",
+      "source_published_date": "2026-11-03",
+      "event_date": "2026-11-03"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-03T17:47:53.973177+08:00",
+    "usage": {
+      "input_tokens": 24956,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 26529,
+      "output_tokens_details": {
+        "reasoning_tokens": 23054
+      },
+      "total_tokens": 51485
+    },
+    "search_results": 184,
+    "candidates": {
+      "news": 119,
+      "community": 50,
+      "project": 15
+    },
+    "queries": [
+      {
+        "slot": "国内创业公司",
+        "query": "中国 AI 创业公司 新模型 新产品 融资 开源",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "模型发布",
+        "query": "AI model release open weights API update version",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "产品应用",
+        "query": "AI product launch new feature agent coding tool adoption",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "行业落地",
+        "query": "AI 医疗 金融 法律 教育 制造 落地 案例",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "开源工具",
+        "query": "open source AI framework MCP inference engine developer tool",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "资本",
+        "query": "AI startup funding acquisition IPO earnings valuation",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "监管法律",
+        "query": "AI regulation lawsuit copyright antitrust enforcement",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AI chip data center power export control supply chain",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "安全事件",
+        "query": "AI security breach jailbreak data leak model misuse",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "研究评测",
+        "query": "AI research benchmark leaderboard evaluation paper",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "商业化组织",
+        "query": "AI pricing subscription token price layoffs hiring executive",
+        "priority": 50,
+        "why": ""
+      },
+      {
+        "slot": "国内大厂",
+        "query": "阿里 字节 腾讯 百度 华为 智谱 DeepSeek 模型 产品 合作 人事",
+        "priority": 99,
+        "why": "默认补齐"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "AI free tier free trial credits quota reset price cut discount student offer",
+        "priority": 99,
+        "why": "默认补齐"
+      }
+    ],
+    "query_fallback": true,
+    "query_adjustments": [
+      "查询生成失败，整体回退默认查询"
+    ],
+    "coverage": {
+      "watch": [],
+      "vocab_learned": 388,
+      "anchor_rejected": 99,
+      "deal_candidates": 12,
+      "gate_dropped": {
+        "feeds": 5,
+        "hackernews": 7,
+        "reddit": 1,
+        "v2ex": 5
+      },
+      "vocab_seeds_hit": 153
+    },
+    "retry_feedback": false
+  }
+}
