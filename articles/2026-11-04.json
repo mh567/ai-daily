@@ -182,16 +182,7 @@
       "event_date": "2026-11-04"
     }
   ],
-  "deals": [
-    {
-      "title": "Claude Opus 5.5降低使用成本",
-      "summary": "Claude Opus 5.5相比Opus 5降低令牌价格；Anthropic称Fable 5.1使典型工作负载成本降低约25%，Opus 5.5使每项任务成本较Opus 5下降约40%。",
-      "tag": "模型降价",
-      "source_url": "https://www.baiyi.com/news/757494.html",
-      "source_published_date": "2026-11-04",
-      "event_date": "2026-11-04"
-    }
-  ],
+  "deals": [],
   "_meta": {
     "model": "deepseek-v4-flash",
     "generated_at": "2026-11-04T17:50:09.783090+08:00",
