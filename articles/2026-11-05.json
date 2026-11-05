@@ -1,0 +1,508 @@
+{
+  "date": "2026-11-05",
+  "window": {
+    "start": "2026-11-04 18:00",
+    "end": "2026-11-05 18:00"
+  },
+  "headline": {
+    "title": "OpenAI用AI在Linux内核发现948个漏洞",
+    "summary": "OpenAI使用一套尚未发布的网络安全模型和AI Agent流水线，在10天内从Linux内核中找出948个可获取root权限的严重漏洞，总花费120万美元。按披露数据，平均每个漏洞成本约1279美元。",
+    "type": "security",
+    "importance": "P1",
+    "source_url": "https://www.qbitai.com/2026/11/507697.html",
+    "source_published_date": "2026-11-05",
+    "event_date": "2026-11-05"
+  },
+  "news": [
+    {
+      "title": "百度开源文心5.5 Flash Base",
+      "summary": "百度11月5日开源ERNIE 5.5 Flash Base，采用MoE架构，总参数2800亿、每Token激活140亿，预训练使用33.5万亿Token。模型支持最高100万Token上下文，并在知识、推理、数学、代码等基准上取得同尺寸SOTA。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.qbitai.com/2026/11/507787.html",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    },
+    {
+      "title": "OpenAI收购开发者工具公司Pierre",
+      "summary": "OpenAI宣布收购Pierre Computer Company，后者是Code Storage及开源开发者工具背后的公司。其Trees和Diffs库已用于Codex应用，OpenAI计划借此扩展Codex的代码构建、理解和审查工具。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source_published_date": "2026-11-04",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "Meta收购AI编程初创公司Conductor",
+      "summary": "Meta确认收购Conductor，这家公司允许工程师部署多个智能体在并行工作区处理项目。Conductor成立于2024年，去年夏天才推出核心产品，交易细节未披露。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "月之暗面推出Kimi Hosted Agents云服务",
+      "summary": "月之暗面11月5日发布Kimi Hosted Agents，将支撑智能体运行的Harness作为云端服务提供给企业和开发者。服务提供7×24小时托管环境，支持长程任务与多智能体协作，并兼容OpenAI与Anthropic接口。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://businesstimescn.com/articles/632587.html?in=wanfang",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    },
+    {
+      "title": "昇腾0 Day支持Kimi K3.1 Pro推理部署",
+      "summary": "华为计算宣布，昇腾基于vLLM Ascend完成对Kimi K3.1 Pro的0 Day推理部署支持。Kimi K3.1 Pro总参数2.8万亿，原生支持视觉理解，具备百万Token上下文窗口。",
+      "type": "opensource",
+      "importance": "P1",
+      "source_url": "https://m.ithome.com/html/1022502.htm",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    },
+    {
+      "title": "GPT-Image-2.6全量上线，支持GIF与SVG",
+      "summary": "OpenAI的GPT-Image-2.6在ChatGPT、Codex和API全量上线，整体生成时间缩短50%，最快6秒出图。新版本原生支持生成GIF动图和导出SVG，并将场景规划与像素渲染拆为独立参数。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.qbitai.com/2026/11/507707.html",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    },
+    {
+      "title": "Google回应校园AI争议：搜索可重新开启",
+      "summary": "在政界人士批评Google以关闭搜索迫使学校接受AI后，Google表示学校可以重新开启搜索，但会启用带AI Overviews的版本。此前该计划引发了关于垄断与教育场景AI使用的争议。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "高通加码数据中心，预计2029年收入150亿美元",
+      "summary": "高通在2026财年Q4电话会上称，智能手机销量同比下滑约20%，公司将数据中心视为新增长点。其预计数据中心收入将从2027年Q1的6.5亿美元增至2029年的150亿美元。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "Uber：AI代理订车单周仅4次",
+      "summary": "Uber在Q3电话会上称，在截至万圣节的一周内，平台完成约3.2亿次出行和订单，但仅4次出行由AI代理预订，Uber Eats也只有500单由AI代理下单。CEO称这项业务仍非常早期。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "Nothing预告首款无屏AI原生设备",
+      "summary": "Nothing CEO裴宇表示，公司首款AI原生设备将于12月发货，产品没有新屏幕，也不会是应用形态，并称其是一款生产力工具。具体名称和发布日期尚未公布。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "AT&T家庭安防接入Gemini for Home",
+      "summary": "AT&T的Connected Life安防系统现已集成Gemini for Home，成为首个接入Google Home Premium的家庭安防产品。用户可用自然语言搜索录像、获取事件摘要和摄像头画面描述。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "title": "微软发布MCP C# SDK 2.0",
+      "summary": "微软发布MCP C# SDK 2.0，适配MCP协议2026-07-28修订版，重构HTTP层为无状态设计。新版本支持多轮往返请求（MRTR）和动态功能协商。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.infoq.cn/article/80iUxvCNB59aOgyXB7LN?utm_source=rss&utm_medium=article",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    },
+    {
+      "title": "豆包鸿蒙电脑版上架AppGallery",
+      "summary": "豆包鸿蒙电脑版首个版本已上架AppGallery，接入Seed 2.1 Turbo和Seed 2.1 Pro模型。应用提供对话与工作两种模式，并支持深入研究、PPT生成、写作辅助、图像生成和云盘等功能。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://news.qq.com/rain/a/20261105A0A7EB00",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    },
+    {
+      "title": "Claude Code子代理更新，部分成本降99%",
+      "summary": "Anthropic在X上宣布Claude Code子代理更新，称其使用量较此前明显下降，部分场景成本可削减99%。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.gizmodo.jp/article/2611-claude-code-subagents-cost-reduction/",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "苹果据报下调工程团队每日AI使用预算，部分降至100美元",
+      "source_url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "text": "Figma Q3营收超预期，但AI功能优先长期增长令股价下跌",
+      "source_url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-04"
+    },
+    {
+      "text": "Brockman称OpenAI将在2027年做好IPO准备",
+      "source_url": "https://thenextweb.com/news/openai-ipo-2027-brockman-enterprise-revenue",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    }
+  ],
+  "deals": [
+    {
+      "title": "阿里云千问AI双11 Token Plan五折",
+      "summary": "在阿里云百炼参与千问AI双11，Token Plan新客可享5折、最低19.5元/月，并可免费领取7000万Tokens。",
+      "tag": "限时五折",
+      "source_url": "https://developer.aliyun.com/article/1779219",
+      "source_published_date": "2026-11-05",
+      "event_date": "2026-11-05"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-05T17:48:46.377390+08:00",
+    "usage": {
+      "input_tokens": 41590,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 16693,
+      "output_tokens_details": {
+        "reasoning_tokens": 13991
+      },
+      "total_tokens": 58283
+    },
+    "search_results": 189,
+    "candidates": {
+      "news": 120,
+      "community": 50,
+      "project": 19
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "字节 豆包 新功能",
+        "priority": 1,
+        "why": "字节可能发布豆包消费级功能或用户规模更新。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "月之暗面 Kimi 产品",
+        "priority": 1,
+        "why": "Kimi 可能上线新功能或公布用户增长。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "DeepSeek V4 发布",
+        "priority": 1,
+        "why": "DeepSeek 新一代模型可能发布或开源。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Qwen3.5 开源",
+        "priority": 1,
+        "why": "阿里 Qwen 新版本可能开源权重。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "GPT-5.5 发布",
+        "priority": 1,
+        "why": "OpenAI 可能发布 GPT 新版本。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Claude 5 发布",
+        "priority": 1,
+        "why": "Anthropic 可能发布 Claude 新模型。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT 新功能 上线",
+        "priority": 1,
+        "why": "ChatGPT 可能上线新功能或更新入口。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 更新",
+        "priority": 1,
+        "why": "Claude Code 可能更新编码或 Agent 能力。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP 协议 更新",
+        "priority": 1,
+        "why": "MCP 生态可能有协议或注册表更新。"
+      },
+      {
+        "slot": "资本",
+        "query": "OpenAI funding round",
+        "priority": 1,
+        "why": "OpenAI 可能公布新融资或估值变化。"
+      },
+      {
+        "slot": "资本",
+        "query": "xAI funding",
+        "priority": 1,
+        "why": "xAI 可能有新融资或估值消息。"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic valuation",
+        "priority": 1,
+        "why": "Anthropic 可能披露估值或融资进展。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "EU AI Act enforcement",
+        "priority": 1,
+        "why": "欧盟 AI 法案可能有执法或合规新进展。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI copyright lawsuit",
+        "priority": 1,
+        "why": "OpenAI 版权诉讼可能有裁定或新进展。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "US chip export controls",
+        "priority": 1,
+        "why": "美国芯片出口管制可能有新调整。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AMD MI400 launch",
+        "priority": 1,
+        "why": "AMD 可能发布或更新 MI400 芯片。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Nvidia Blackwell supply",
+        "priority": 1,
+        "why": "英伟达 Blackwell 供应可能有新消息。"
+      },
+      {
+        "slot": "安全事件",
+        "query": "ChatGPT prompt injection",
+        "priority": 1,
+        "why": "ChatGPT 可能曝出提示注入或越狱风险。"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench leaderboard",
+        "priority": 1,
+        "why": "SWE-bench 榜单可能因新模型发布变化。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "OpenAI API pricing",
+        "priority": 1,
+        "why": "OpenAI 可能调整 API 定价或套餐。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Claude Pro pricing",
+        "priority": 1,
+        "why": "Anthropic 可能调整 Claude Pro 价格或权益。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "阿里云 百炼 免费额度",
+        "priority": 1,
+        "why": "阿里云百炼可能开放免费额度或赠金。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini free tier",
+        "priority": 1,
+        "why": "Gemini 免费层可能更新额度或权益。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "GitHub Copilot free",
+        "priority": 1,
+        "why": "GitHub Copilot 可能有免费试用或额度。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "阿里 通义 千问 企业",
+        "priority": 2,
+        "why": "阿里可能发布通义千问企业服务或合作。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯 混元 模型",
+        "priority": 2,
+        "why": "腾讯混元可能模型迭代或有行业合作。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度 文心 智能体",
+        "priority": 2,
+        "why": "百度可能更新文心智能体或企业落地案例。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为 盘古 行业",
+        "priority": 2,
+        "why": "华为盘古可能发布行业模型或政企合作。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "智谱 GLM 智能体",
+        "priority": 2,
+        "why": "智谱可能发布 GLM 新模型或智能体产品。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "阶跃星辰 Step 模型",
+        "priority": 2,
+        "why": "阶跃星辰可能更新多模态或 Step 系列模型。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Gemini 3.5 发布",
+        "priority": 2,
+        "why": "谷歌可能发布 Gemini 新版本或能力更新。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Sora 应用 更新",
+        "priority": 2,
+        "why": "Sora 应用可能更新视频生成或社交功能。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Cursor 新版本",
+        "priority": 2,
+        "why": "Cursor 可能发布新版本或定价调整。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "Harvey 法律 AI 更新",
+        "priority": 2,
+        "why": "法律 AI 可能发布新客户或产品能力。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "Abridge 医疗 AI 合作",
+        "priority": 2,
+        "why": "医疗 AI 可能公布医院合作或产品落地。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 新版本",
+        "priority": 2,
+        "why": "推理引擎 vLLM 可能发布性能更新。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "SGLang 发布",
+        "priority": 2,
+        "why": "SGLang 可能发布新版本或优化。"
+      },
+      {
+        "slot": "资本",
+        "query": "Mistral IPO",
+        "priority": 2,
+        "why": "Mistral 可能有 IPO 或资本动作。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "中国 AI 标识 执法",
+        "priority": 2,
+        "why": "中国可能公布 AI 生成内容标识执法案例。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "FTC AI investigation",
+        "priority": 2,
+        "why": "美国 FTC 可能发起 AI 调查或执法。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "TSMC CoWoS capacity",
+        "priority": 2,
+        "why": "台积电 CoWoS 产能可能影响 AI 芯片供应。"
+      },
+      {
+        "slot": "安全事件",
+        "query": "Hugging Face malicious model",
+        "priority": 2,
+        "why": "Hugging Face 可能出现恶意模型或供应链风险。"
+      },
+      {
+        "slot": "研究评测",
+        "query": "ARC-AGI benchmark",
+        "priority": 2,
+        "why": "ARC-AGI 可能有新评测结果或突破。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Microsoft Copilot pricing",
+        "priority": 2,
+        "why": "微软可能调整 Copilot 定价或订阅。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Kimi 会员 优惠",
+        "priority": 2,
+        "why": "Kimi 可能有会员折扣或限时免费活动。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "面壁 MiniCPM",
+        "priority": 3,
+        "why": "面壁智能可能更新端侧小模型或开源版本。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "AlphaSense 金融 AI 更新",
+        "priority": 3,
+        "why": "金融 AI 可能发布新功能或企业案例。"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "DeepSeek V4",
+        "Qwen3.5",
+        "Kimi K2.5",
+        "GPT-5.5",
+        "Claude 5",
+        "Gemini 3.5",
+        "MCP registry",
+        "阶跃星辰 Step-3",
+        "Sora 应用",
+        "阿里云百炼免费额度"
+      ],
+      "vocab_learned": 414,
+      "anchor_rejected": 82,
+      "deal_candidates": 67,
+      "gate_dropped": {
+        "feeds": 2,
+        "v2ex": 5,
+        "linuxdo": 3,
+        "hackernews": 16,
+        "reddit": 4
+      },
+      "vocab_seeds_hit": 308,
+      "deal_candidates_pooled": 15
+    },
+    "retry_feedback": false
+  }
+}
