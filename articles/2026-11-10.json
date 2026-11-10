@@ -1,0 +1,511 @@
+{
+  "date": "2026-11-10",
+  "window": {
+    "start": "2026-11-09 18:00",
+    "end": "2026-11-10 18:00"
+  },
+  "headline": {
+    "title": "Anthropic发布Fable与Mythos 5.2",
+    "summary": "Anthropic于11月9日发布Claude Fable 5.2和Claude Mythos 5.2，称两者在编程、推理和视觉能力上提升，输出速度较5.1版本更快。Fable 5.2可编排智能体团队并处理长周期项目，公司称其解决了两项开放理论物理问题；API价格下调20%。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+    "source_published_date": "2026-11-10",
+    "event_date": "2026-11-10"
+  },
+  "news": [
+    {
+      "title": "Anthropic近700亿美元IPO文件短暂流出后撤回",
+      "summary": "路透所见文件显示，Anthropic拟以每股70至80美元发行约8.67亿股，最高募资693亿美元；谷歌、英伟达、AMD、博通、美光、微软和台积电拟以IPO价私募认购260亿美元。Anthropic随后称定价细节不准确并撤回该文件。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.163.com/dy/article/LBCBLMFU05198NMR.html?clickfrom=w_tech",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Meta发布轻量模型Muse Ember，主打智能体执行",
+      "summary": "Meta Superintelligence Lab发布迄今最轻、最具成本效率的模型Muse Ember，面向工具调用、编码子任务、路由、抽取和长文档解析。其输入价格为每百万token 10美分，Meta称其比Haiku和Luna更便宜且更聪明。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "谷歌一年推出四款TPU，新增8tx与8i Max",
+      "summary": "谷歌为第八代AI芯片新增TPU 8tx和TPU 8i Max：前者在计算过程中保持数据加密，后者通过单封装双芯片将算力与内存翻倍。谷歌称一年内已交付四款TPU系统，外部客户接近100家。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/",
+      "source_published_date": "2026-11-09",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Anthropic斥资34亿美元购买天然气涡轮机",
+      "summary": "为应对AI算力电力紧张，Anthropic以34亿美元购买Caterpillar发电机，这些设备由供应商OnePWR原订购，发电能力最高1.7GW。公司此前偏好租赁算力，并在S-1中披露每月向xAI支付12.5亿美元至2029年5月。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "OpenAI上线Control Room，35秒内可停止模型输出",
+      "summary": "OpenAI称Control Room已部署在研究基础设施，连接包括智能体采样、训练评估和数据处理在内的推理负载，并可在决定干预后35秒内停止模型输出。系统设计为在其他系统故障时仍可工作。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://openai.com/index/control-room",
+      "source_published_date": "2026-11-09",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "英伟达在CoRL发布GR00T 2与Isaac Lab 3.0",
+      "summary": "英伟达在CoRL推出GR00T 2、Isaac Lab 3.0及新的开放基准，覆盖世界动作模型、仿真工具和智能体工作流，用于训练机器人完成齿轮对齐、线缆连接等精细操作。两篇英伟达论文进入CoRL最佳论文六强。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "source_published_date": "2026-11-09",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "ChatGPT Enterprise上线AWS Marketplace",
+      "summary": "OpenAI宣布ChatGPT Enterprise可通过AWS Marketplace采购，企业可沿用现有AWS采购与账单关系，简化采购流程。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Medium推出TK写作应用，内置AI助手",
+      "summary": "Medium上线写作应用TK，将AI助手嵌入编辑器；用户输入“@TK”加请求即可获得帮助，可查资料、调用此前保存的写作片段，并提供编辑反馈等技能。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "苹果Logic Pro开卖50美元AI用量包",
+      "summary": "苹果在Logic Pro中加入“Buy More Usage”选项，一次性支付49.99美元可购买Intelligence Usage Packs，延长依赖OpenAI或Gemini云模型的Apple Intelligence功能使用。用量包仅限购买它的Apple账户使用，不支持家庭共享。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Instagram上线AI滤镜生成器Effect Builder",
+      "summary": "Instagram推出Effect Builder，美国18岁以上用户可在网页用提示词生成Stories自定义滤镜，支持附加风格参考图、上传照片预览并用后续提示修改。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "MiniMax开源海螺H3一半权重",
+      "summary": "MiniMax发布海螺视频第三代模型H3，但仅开放一半权重；原生2K能力需通过官方API使用。闫俊杰称公司打算一直开源，直到AGI实现。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.ai345.info/post/post-1794266920256",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "HF趋势榜首idol：图像转3D模型",
+      "summary": "Hugging Face今日趋势榜第1位为speridlabs/idol，标签为image-to-3d，已获1707 likes和24747次下载。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/speridlabs/idol",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Notion帮助页称Fireworks AI安全事件影响其及客户；HN讨论27分/6评论。",
+      "source_url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "text": "“全员AI编码一年后无人理解代码”帖登HN，讨论125分/161评论。",
+      "source_url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "text": "百度披露文心5.5 Flash研发细节，引入RSI技术优化昆仑芯P800推理。",
+      "source_url": "https://jigou.jiqizhixin.com/articles/2026-11-10-4",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "text": "中国移动云与智谱签约，GLM模型系列将接入MoMA服务平台。",
+      "source_url": "https://web.gate.it/zh-tw/news/detail/china-mobile-cloud-and-zhipu-sign-cooperation-agreement-glm-to-be-25522442",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "text": "智谱称GLM-5.3-Flash周调用量全球前三，推出200 tokens/s的FlashX。",
+      "source_url": "https://caifuhao.eastmoney.com/news/20261110105931567714580",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    }
+  ],
+  "deals": [
+    {
+      "title": "Voyage AI 提供2亿免费Token额度",
+      "summary": "在Voyage AI开通服务即可获得多数模型2亿免费tokens，专用模型5000万tokens，按文档和查询token计费。",
+      "tag": "免费额度",
+      "source_url": "https://github.com/mongodb/docs/blob/d3639769dc26e0c8ac8c6e6b46a6f509cf9195c9/content/voyageai/source/includes/billing/voyage-pricing.rst",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-10T17:49:49.824574+08:00",
+    "usage": {
+      "input_tokens": 37690,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 18499,
+      "output_tokens_details": {
+        "reasoning_tokens": 15769
+      },
+      "total_tokens": 56189
+    },
+    "search_results": 185,
+    "candidates": {
+      "news": 120,
+      "community": 50,
+      "project": 15
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "字节 豆包 更新",
+        "priority": 1,
+        "why": "豆包用户量大，功能更新易成当天热点。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "智谱 GLM 发布",
+        "priority": 1,
+        "why": "智谱模型发布可能影响国内API与开源榜。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "阿里 Qwen 发布",
+        "priority": 1,
+        "why": "阿里模型若迭代会牵动云API与开源生态。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "月之暗面 Kimi 发布",
+        "priority": 1,
+        "why": "Kimi迭代可能影响长上下文与Agent产品。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "MiniMax 模型 开源",
+        "priority": 1,
+        "why": "开源权重和API更新值得跟踪。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "DeepSeek 新模型",
+        "priority": 1,
+        "why": "新模型或权重发布是高影响事件。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "OpenAI 模型 发布",
+        "priority": 1,
+        "why": "头部模型发布或能力更新是当天最高优先级。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Claude 新模型 发布",
+        "priority": 1,
+        "why": "Anthropic模型更新影响编码与企业市场。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Gemini 3.5 发布",
+        "priority": 1,
+        "why": "谷歌模型迭代可能引发评测和API变化。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 更新",
+        "priority": 1,
+        "why": "编码Agent更新影响开发者工具竞争。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT 新功能",
+        "priority": 1,
+        "why": "消费级功能上线易形成用户规模话题。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP 协议 更新",
+        "priority": 1,
+        "why": "MCP更新影响Agent工具互操作生态。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 发布",
+        "priority": 1,
+        "why": "推理引擎发布影响部署成本与性能。"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic funding round",
+        "priority": 1,
+        "why": "头部模型公司融资影响行业估值。"
+      },
+      {
+        "slot": "资本",
+        "query": "OpenAI valuation",
+        "priority": 1,
+        "why": "OpenAI估值变化是资本核心信号。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "EU AI Act enforcement",
+        "priority": 1,
+        "why": "欧盟执法影响合规与产品上线。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI copyright lawsuit",
+        "priority": 1,
+        "why": "版权诉讼可能产生判例影响。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AMD MI400 launch",
+        "priority": 1,
+        "why": "竞品芯片发布改变算力市场。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Nvidia Blackwell supply",
+        "priority": 1,
+        "why": "供应进展影响AI算力扩容。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AI chip export controls",
+        "priority": 1,
+        "why": "出口管制影响供应链与区域市场。"
+      },
+      {
+        "slot": "安全事件",
+        "query": "ChatGPT 数据泄露",
+        "priority": 1,
+        "why": "数据泄露是高影响安全事件。"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench 新结果",
+        "priority": 1,
+        "why": "编码基准变化反映模型能力竞争。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Claude 定价 调整",
+        "priority": 1,
+        "why": "定价变化影响订阅与企业采购。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "火山引擎 豆包 免费额度",
+        "priority": 1,
+        "why": "豆包API免费额度是直接福利。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "OpenAI API 定价",
+        "priority": 1,
+        "why": "官方定价页可确认免费层与价格变化。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini API 免费额度",
+        "priority": 1,
+        "why": "官方额度页可能有可领取信息。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "阿里云百炼 免费额度",
+        "priority": 1,
+        "why": "国内开发者可查免费额度与活动。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯 混元 发布",
+        "priority": 2,
+        "why": "混元模型与企业合作可能更新。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度 文心 更新",
+        "priority": 2,
+        "why": "文心模型和搜索产品更新受国内关注。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为 盘古 合作",
+        "priority": 2,
+        "why": "盘古行业合作常关联国产算力落地。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "面壁 MiniCPM 发布",
+        "priority": 2,
+        "why": "端侧小模型发布可能带来开源生态变化。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "阶跃星辰 融资",
+        "priority": 2,
+        "why": "新融资反映国内创业公司资本动向。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Mistral 模型 开源",
+        "priority": 2,
+        "why": "欧洲头部模型开源动态值得关注。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Grok 5 发布",
+        "priority": 2,
+        "why": "xAI模型迭代与产品整合可能更新。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Llama 5 发布",
+        "priority": 2,
+        "why": "Meta开源权重发布影响开源生态。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Cursor Agent 更新",
+        "priority": 2,
+        "why": "Agent编码工具迭代受开发者关注。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Microsoft Copilot 更新",
+        "priority": 2,
+        "why": "办公场景AI更新影响企业采用。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "豆包 应用商店",
+        "priority": 2,
+        "why": "应用商店表现可反映消费级AI增长。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "医疗 AI 获批",
+        "priority": 2,
+        "why": "医疗AI审批是行业落地高价值信号。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "金融 AI 风控",
+        "priority": 2,
+        "why": "金融AI案例体现合规与商业化进展。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "SGLang 更新",
+        "priority": 2,
+        "why": "推理框架更新受开源部署关注。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "Ollama 更新",
+        "priority": 2,
+        "why": "本地模型工具更新影响开发者体验。"
+      },
+      {
+        "slot": "资本",
+        "query": "xAI funding round",
+        "priority": 2,
+        "why": "xAI融资与算力扩张值得跟踪。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "FTC AI investigation",
+        "priority": 2,
+        "why": "美国监管调查影响大厂AI业务。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AI data center power",
+        "priority": 2,
+        "why": "电力瓶颈是数据中心扩张关键。"
+      },
+      {
+        "slot": "安全事件",
+        "query": "MCP 安全漏洞",
+        "priority": 2,
+        "why": "Agent协议漏洞可能影响工具生态安全。"
+      },
+      {
+        "slot": "研究评测",
+        "query": "LMArena 榜单 更新",
+        "priority": 2,
+        "why": "榜单变化影响模型口碑与选型。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "AI 公司 裁员",
+        "priority": 2,
+        "why": "组织调整反映商业化与成本压力。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "GitHub Copilot 学生认证",
+        "priority": 2,
+        "why": "学生优惠可执行且指向官方认证页。"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "Qwen3.5",
+        "DeepSeek V4",
+        "Kimi K2.5",
+        "Gemini 3.5",
+        "Claude Code 新定价",
+        "豆包实时语音",
+        "阿里云百炼免费额度",
+        "阶跃星辰 Step-4",
+        "面壁 MiniCPM"
+      ],
+      "vocab_learned": 446,
+      "anchor_rejected": 92,
+      "deal_candidates": 70,
+      "gate_dropped": {
+        "v2ex": 1,
+        "reddit": 5,
+        "hackernews": 12
+      },
+      "vocab_seeds_hit": 311,
+      "deal_candidates_pooled": 1
+    },
+    "retry_feedback": false
+  }
+}
