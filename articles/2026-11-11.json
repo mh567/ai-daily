@@ -1,0 +1,576 @@
+{
+  "date": "2026-11-11",
+  "window": {
+    "start": "2026-11-10 18:00",
+    "end": "2026-11-11 18:00"
+  },
+  "headline": {
+    "title": "OpenAI在ChatGPT上线企业主页与商业智能体",
+    "summary": "OpenAI 11月10日发布Businesses in ChatGPT测试版，企业可通过Business Hub认领并维护资料、查看用户在ChatGPT中的互动数据。首批面向美国符合条件的电商和在线服务企业开放Business Agents，ChatGPT每周用户规模为12亿。",
+    "type": "product",
+    "importance": "P1",
+    "source_url": "https://openai.com/index/introducing-businesses-chatgpt",
+    "source_published_date": "2026-11-10",
+    "event_date": "2026-11-10"
+  },
+  "news": [
+    {
+      "title": "Anthropic公布IPO定价区间，最高估值1.404万亿美元",
+      "summary": "Anthropic在更新招股书中拟发行8.25亿股A类股，发行价区间70至78美元，预计募资577.5亿至643.5亿美元；按完全稀释口径最高估值1.404万亿美元。公司还计划以IPO价格向AMD、博通、谷歌、美光、微软、英伟达和台积电私募出售260亿美元无投票权N类股，谷歌与英伟达各投100亿美元。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "纽约AI安全法生效，头部模型公司须登记并报事件",
+      "summary": "TechCrunch报道，纽约开始执行全面AI安全法，要求OpenAI、Anthropic等主要开发商注册、披露安全实践并上报重大事故，否则可能面临罚款。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "八国与OpenAI、Anthropic等签署巴黎AI安全宣言",
+      "summary": "八国与OpenAI、Anthropic、微软、Mistral AI代表在马克龙倡议下签署“巴黎AI安全与安全宣言”，承诺建立关停机制、接受独立审计并披露已知风险。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "谷歌云发布Gemini for healthcare，整合临床与行政数据",
+      "summary": "Google Cloud推出Gemini for healthcare，连接电子病历、账单平台、临床指南和Medicare数据集，用于病历综合与事前授权审查等工作流，初期与HCA Healthcare、Highmark Health、Northwell Health等合作预览。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Adobe在MAX发布AI智能体、Firefly Builder与MCP",
+      "summary": "Adobe为Photoshop、Premiere、Illustrator、InDesign和Firefly加入更多AI能力，Firefly推出私测的原型工具Builder，并发布Model Context Protocol，让ChatGPT、Claude、Gemini等可调用Adobe功能。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Grok Build被曝泄露大量机密，3.5万应用可公开访问",
+      "summary": "Ars Technica报道，研究者发现35,000个Grok Build应用可被任何人访问，泄露大量机密信息。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "title": "CoreWeave三季度营收超预期并上调指引",
+      "summary": "CoreWeave公布第三季度业绩，营收超出预期并上调指引，CNBC称这缓解了市场对AI投资放缓的担忧。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Oura以6.25亿美元收购AI医疗初创Counsel Health",
+      "summary": "Oura在季度财报中宣布以6.25亿美元收购AI原生基层医疗公司Counsel Health，此前Oura已将该公司的AI聊天机器人加入其应用。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/gadgets/1031284/oura-counsel-health-acquisition",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "Zyphra开源ZONOS3-Mini，100M激活参数TTS",
+      "summary": "Zyphra发布ZONOS3-Mini，采用Apache 2.0许可证，总参数800M、激活参数100M，支持声音克隆、逐词控制表达，并可在浏览器中实时运行。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
+      "source_published_date": "2026-11-10",
+      "event_date": "2026-11-10"
+    },
+    {
+      "title": "NVIDIA宣布捐赠OpenShell，扩展AI基础设施开源",
+      "summary": "NVIDIA在KubeCon + CloudNativeCon宣布深化开源承诺，捐赠OpenShell，并推出面向AI工厂的新基础设施方案。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "title": "Anthropic将限制中国地区访问Claude服务",
+      "summary": "Business Insider Taiwan报道，Anthropic预定11月12日生效的新政策覆盖Claude.ai、Claude Code、Cowork、API、开发者平台及云平台与授权经销商提供的Claude模型；企业派员赴中国工作时，员工也不能在当地登录Claude.ai、使用Claude Code或调用API。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://www.businessinsider.tw/article/9496",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "title": "Lightricks LTX-2.5登HF趋势榜，支持图生视频",
+      "summary": "Hugging Face趋势榜第7位，Lightricks/LTX-2.5为image-to-video模型，页面显示11,427 likes、2,791,606次下载。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "HN热议苹果将推新Mac应用，简化本地AI模型运行，231分/190评论。",
+      "source_url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-10"
+    },
+    {
+      "text": "VulnCheck汇总Anthropic发现的漏洞进展，HN讨论399分/190评论。",
+      "source_url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "text": "开源项目拒收AI生成贡献的清单站登HN，讨论41分/38评论。",
+      "source_url": "https://osssaysno.com",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "text": "HN展示用Fable 5.2构建的FPS《Saltline》，讨论63分/72评论。",
+      "source_url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "text": "HN讨论推理目标一文，探索推理是否在解决路径问题，146分/67评论。",
+      "source_url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    },
+    {
+      "text": "Nieman Lab谈AI成信息入口但受众不愿AI写新闻，HN讨论54分/57评论。",
+      "source_url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    }
+  ],
+  "deals": [
+    {
+      "title": "退伍军人及现役军人可获一年免费ChatGPT Plus",
+      "summary": "退伍军人及过渡期服役人员可申请一年免费ChatGPT Plus，OpenAI称已有超过2万人领取。",
+      "tag": "免费一年",
+      "source_url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "source_published_date": "2026-11-11",
+      "event_date": "2026-11-11"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-11T17:48:34.922204+08:00",
+    "usage": {
+      "input_tokens": 39612,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 16445,
+      "output_tokens_details": {
+        "reasoning_tokens": 13721
+      },
+      "total_tokens": 56057
+    },
+    "search_results": 187,
+    "candidates": {
+      "news": 120,
+      "community": 50,
+      "project": 17
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "阿里 Qwen3.5 发布",
+        "priority": 1,
+        "why": "双十一前后阿里可能更新主力模型与百炼 API"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "字节 豆包 1.5 Pro",
+        "priority": 1,
+        "why": "豆包版本迭代与电商场景结合值得核查"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "DeepSeek V4 API",
+        "priority": 1,
+        "why": "DeepSeek 大版本与 API 能力价格可能变动"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "智谱 GLM-5 开源",
+        "priority": 1,
+        "why": "智谱新模型与开源权重可能发布"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "月之暗面 Kimi K3",
+        "priority": 1,
+        "why": "月之暗面新模型可能影响长上下文竞争"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "MiniMax M2 发布",
+        "priority": 1,
+        "why": "MiniMax 模型迭代与商业化值得核查"
+      },
+      {
+        "slot": "模型发布",
+        "query": "OpenAI GPT-5.1 发布",
+        "priority": 1,
+        "why": "OpenAI 主力模型迭代是当天最高影响项之一"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Google Gemini 3 发布",
+        "priority": 1,
+        "why": "Gemini 大版本发布是头部模型重要事件"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Anthropic Claude Opus 4.5",
+        "priority": 1,
+        "why": "Anthropic 旗舰模型更新可能影响编程与企业市场"
+      },
+      {
+        "slot": "产品应用",
+        "query": "豆包 AI 购物 双十一",
+        "priority": 1,
+        "why": "双十一当天 AI 购物助手可能集中曝光"
+      },
+      {
+        "slot": "产品应用",
+        "query": "淘宝 AI 导购 双十一",
+        "priority": 1,
+        "why": "电商 AI 导购是当天国内特色场景"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 企业版",
+        "priority": 1,
+        "why": "编程智能体企业化是高频产品方向"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT Agent 模式",
+        "priority": 1,
+        "why": "ChatGPT 智能体功能上线或更新影响消费级应用"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP 协议 更新",
+        "priority": 1,
+        "why": "MCP 生态更新可能影响 Agent 工具接入标准"
+      },
+      {
+        "slot": "资本",
+        "query": "OpenAI funding round",
+        "priority": 1,
+        "why": "OpenAI 融资与估值是资本重大事件"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic valuation",
+        "priority": 1,
+        "why": "Anthropic 估值与融资动态影响头部格局"
+      },
+      {
+        "slot": "监管法律",
+        "query": "中国 生成式AI 备案",
+        "priority": 1,
+        "why": "国内生成式 AI 备案与合规更新需覆盖"
+      },
+      {
+        "slot": "监管法律",
+        "query": "EU AI Act enforcement",
+        "priority": 1,
+        "why": "欧盟 AI 法执法进展是高影响监管事件"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI copyright lawsuit",
+        "priority": 1,
+        "why": "版权诉讼可能影响模型训练与内容生态"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "US chip export controls",
+        "priority": 1,
+        "why": "出口管制变化直接影响算力供应链"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Nvidia Rubin GPU",
+        "priority": 1,
+        "why": "英伟达下一代 GPU 是算力供应链核心"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AMD MI400",
+        "priority": 1,
+        "why": "AMD 数据中心 GPU 竞争进展需覆盖"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "TSMC AI capacity",
+        "priority": 1,
+        "why": "台积电 AI 产能与先进封装影响供给"
+      },
+      {
+        "slot": "安全事件",
+        "query": "OpenAI 数据泄露",
+        "priority": 1,
+        "why": "头部 AI 公司数据安全事件影响大"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench 新纪录",
+        "priority": 1,
+        "why": "编程智能体评测纪录是能力风向标"
+      },
+      {
+        "slot": "研究评测",
+        "query": "LMArena 榜单",
+        "priority": 1,
+        "why": "模型竞技榜单变化可反映能力格局"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "OpenAI 订阅 涨价",
+        "priority": 1,
+        "why": "头部 AI 订阅定价变化影响用户与竞品"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Anthropic 企业 定价",
+        "priority": 1,
+        "why": "企业级模型定价与套餐调整需核查"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "阿里云 百炼 免费额度",
+        "priority": 1,
+        "why": "厂商定价页免费额度是读者可执行福利"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "火山引擎 豆包 免费额度",
+        "priority": 1,
+        "why": "豆包 API 免费层与代金券值得核查"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini API 免费层",
+        "priority": 1,
+        "why": "Gemini API 免费额度与限额变化需核查"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "OpenAI API 免费额度",
+        "priority": 1,
+        "why": "OpenAI 定价页免费层或试用额度需核查"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯 混元 新模型",
+        "priority": 2,
+        "why": "腾讯模型与产品生态更新需覆盖"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度 文心 6.0",
+        "priority": 2,
+        "why": "百度主力模型版本与生态发布需覆盖"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为 盘古 6.0",
+        "priority": 2,
+        "why": "华为行业模型与算力协同可能更新"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "商汤 日日新 6.0",
+        "priority": 2,
+        "why": "商汤模型与行业落地进展需覆盖"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "阶跃星辰 Step-4",
+        "priority": 2,
+        "why": "创业公司新模型与多模态进展需覆盖"
+      },
+      {
+        "slot": "模型发布",
+        "query": "xAI Grok 4.1",
+        "priority": 2,
+        "why": "xAI 模型版本与生态更新需覆盖"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Meta Llama 4.5",
+        "priority": 2,
+        "why": "开源权重模型迭代需覆盖"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Mistral Large 3",
+        "priority": 2,
+        "why": "欧洲头部模型发布需覆盖"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Gemini Agent 功能",
+        "priority": 2,
+        "why": "Google 智能体产品更新需覆盖"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Cursor 2.0 发布",
+        "priority": 2,
+        "why": "AI 编程工具版本迭代值得核查"
+      },
+      {
+        "slot": "行业落地",
+        "query": "招商银行 大模型",
+        "priority": 2,
+        "why": "金融行业大模型应用案例需覆盖"
+      },
+      {
+        "slot": "行业落地",
+        "query": "医疗 AI 三类证",
+        "priority": 2,
+        "why": "医疗 AI 合规落地与获批事件需覆盖"
+      },
+      {
+        "slot": "行业落地",
+        "query": "学而思 九章大模型",
+        "priority": 2,
+        "why": "教育 AI 产品与模型落地需覆盖"
+      },
+      {
+        "slot": "开源工具",
+        "query": "SGLang 推理 引擎",
+        "priority": 2,
+        "why": "高性能推理框架进展需覆盖"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 新版本",
+        "priority": 2,
+        "why": "推理引擎版本更新影响开源部署生态"
+      },
+      {
+        "slot": "开源工具",
+        "query": "LangChain 1.0",
+        "priority": 2,
+        "why": "Agent 开发框架大版本变化值得核查"
+      },
+      {
+        "slot": "资本",
+        "query": "xAI funding",
+        "priority": 2,
+        "why": "xAI 融资与算力投入需覆盖"
+      },
+      {
+        "slot": "资本",
+        "query": "Perplexity acquisition",
+        "priority": 2,
+        "why": "AI 搜索公司并购与估值动态需核查"
+      },
+      {
+        "slot": "监管法律",
+        "query": "FTC AI investigation",
+        "priority": 2,
+        "why": "美国监管调查与执法动态需覆盖"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AI data center power",
+        "priority": 2,
+        "why": "数据中心电力约束是算力扩张关键变量"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Broadcom AI ASIC",
+        "priority": 2,
+        "why": "定制 AI 芯片与大厂自研进展需覆盖"
+      },
+      {
+        "slot": "安全事件",
+        "query": "AI 语音 诈骗",
+        "priority": 2,
+        "why": "AI 诈骗与滥用案例需核查"
+      },
+      {
+        "slot": "安全事件",
+        "query": "Claude 越狱",
+        "priority": 2,
+        "why": "模型越狱与安全对齐事件需覆盖"
+      },
+      {
+        "slot": "研究评测",
+        "query": "ARC-AGI 评测",
+        "priority": 2,
+        "why": "通用推理评测进展需覆盖"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Meta AI 组织 调整",
+        "priority": 2,
+        "why": "大厂 AI 组织与人事调整需覆盖"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "腾讯云 混元 免费",
+        "priority": 2,
+        "why": "腾讯云模型免费试用与额度活动需覆盖"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "GitHub Copilot 免费试用",
+        "priority": 2,
+        "why": "开发者编程助手免费试用是可直接领取福利"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "Qwen3.5",
+        "豆包 AI 购物",
+        "Claude Opus 4.5",
+        "Gemini 3",
+        "DeepSeek V4",
+        "Nvidia Rubin",
+        "阿里云百炼免费额度",
+        "MCP 协议更新"
+      ],
+      "vocab_learned": 481,
+      "anchor_rejected": 80,
+      "deal_candidates": 96,
+      "gate_dropped": {
+        "v2ex": 2,
+        "hackernews": 6,
+        "reddit": 3
+      },
+      "vocab_seeds_hit": 275,
+      "deal_candidates_pooled": 4
+    },
+    "retry_feedback": false
+  }
+}
