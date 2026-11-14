@@ -10,19 +10,21 @@
 }
 .edition-lead h1 {
   margin: 0 0 clamp(14px, 1.6vw, 20px);
-  font: 650 clamp(40px, 4.4vw, 72px) var(--serif);
-  line-height: 1.05;
+  max-width: 24em;
+  font: 650 clamp(2rem, 1.5rem + 2vw, 3.25rem) var(--serif);
+  line-height: 1.12;
   letter-spacing: -.025em;
   overflow-wrap: anywhere;
   text-wrap: balance;
 }
-.edition-lead h1.lead-title--l { font-size: clamp(36px, 3.9vw, 62px); }
-.edition-lead h1.lead-title--xl { font-size: clamp(32px, 3.4vw, 54px); line-height: 1.1; }
+.edition-lead h1.lead-title--l { font-size: clamp(1.875rem, 1.4rem + 1.8vw, 3rem); }
+.edition-lead h1.lead-title--xl { font-size: clamp(1.75rem, 1.35rem + 1.6vw, 2.75rem); }
+.edition-lead h1 a, .digest-item h3 a { text-decoration: none; }
+.edition-lead h1 a:hover, .digest-item h3 a:hover { color: var(--accent); }
 .lead-footer {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: clamp(18px, 3vw, 48px);
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .lead-dek {
   max-width: 34em;
@@ -33,10 +35,6 @@
 }
 .lead-meta {
   min-width: 0;
-  max-width: 36ch;
-  padding-left: clamp(16px, 2vw, 28px);
-  border-left: 1px solid var(--rule);
-  text-align: right;
 }
 .lead-meta .edition-meta { font-size: 12px; overflow-wrap: anywhere; }
 
@@ -367,12 +365,7 @@
 }
 
 @media (max-width: 760px) {
-  .edition-lead h1 { font-size: 40px; }
-  .edition-lead h1.lead-title--l { font-size: 36px; }
-  .edition-lead h1.lead-title--xl { font-size: 32px; }
-  .lead-footer { grid-template-columns: 1fr; gap: 12px; }
   .lead-dek { font-size: 16px; }
-  .lead-meta { max-width: none; padding-left: 0; border-left: 0; text-align: left; }
   .deals-ticker {
     grid-template-columns: 1fr auto;
     gap: 10px 16px;
