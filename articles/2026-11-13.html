@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月13日">
   <meta property="og:title" content="AI 日报 · 2026年11月13日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月13日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月13日</p>
+        <p class="edition-issue">第 54 期 · 20 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">Anthropic启动IPO路演，估值缩水至约1.4万亿美元</h1>
-  <p class="lead-dek">Anthropic正式启动IPO路演，拟以每股70—78美元发行8.25亿股，交易规模最高约643.5亿美元，计划11月19日在纳斯达克开始交易，股票代码ANT。按完全摊薄口径计算，其潜在IPO估值约1.4万亿美元，较此前2万亿美元预期缩水约三成。</p>
-  <p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.qbitai.com/2026/11/509381.html" target="_blank" rel="noopener noreferrer">qbitai.com</a> · 11月12日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">Anthropic正式启动IPO路演，拟以每股70—78美元发行8.25亿股，交易规模最高约643.5亿美元，计划11月19日在纳斯达克开始交易，股票代码ANT。按完全摊薄口径计算，其潜在IPO估值约1.4万亿美元，较此前2万亿美元预期缩水约三成。</p>
+    <div class="lead-meta"><p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.qbitai.com/2026/11/509381.html" target="_blank" rel="noopener noreferrer">qbitai.com</a> · 11月12日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-governance" aria-labelledby="band-governance-title">
   <header class="band-head">
     <h2 id="band-governance-title">治理与安全</h2>
     <p>5 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>黄仁勋辞任英伟达CEO，CFO临时接任</h3>
   <p class="digest-summary">英伟达董事会宣布，联合创始人黄仁勋辞去总裁、CEO及董事职务，立即生效；CFO Colette Kress出任临时CEO，公司开始寻找正式继任者。</p>
   <p class="edition-meta">安全事件 · <a class="meta-source" href="https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/" target="_blank" rel="noopener noreferrer">techcrunch.com</a> · 11月12日</p>
-</article>
-<article class="digest-item digest-item--more">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>EDPB将AI招聘筛查列为2027执法重点</h3>
   <p class="digest-summary">欧洲数据保护委员会将AI驱动的招聘自动决策列为2027年协调执法行动，重点审查人工复核是否真正影响筛选结果，以及被拒候选人能否获得解释。</p>
   <p class="edition-meta">政策监管 · <a class="meta-source" href="https://eyeon.ai/f/3730" target="_blank" rel="noopener noreferrer">eyeon.ai</a> · 11月13日</p>
@@ -138,7 +142,7 @@
   <p class="edition-meta">开源生态 · <a class="meta-source" href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite" target="_blank" rel="noopener noreferrer">huggingface.co</a> · 11月12日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>5 条</p>
@@ -167,7 +171,7 @@
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-11-12.html"><span>较早一期</span><strong>2026-11-12</strong></a>
   <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-jump edition-jump--newer is-disabled" aria-disabled="true"><span>较新一期</span><strong>当前最新</strong></a>
 </nav>
   </article>
 </main>

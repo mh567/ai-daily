@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年8月28日">
   <meta property="og:title" content="AI 日报 · 2026年8月28日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年8月28日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年8月28日</p>
+        <p class="edition-issue">第 3 期 · 9 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--l">英伟达以129亿美元收购Hugging Face，拿下开源AI模型生态</h1>
-  <p class="lead-dek">据The Information报道，英伟达已同意以129亿美元（约合人民币867亿元）收购开源AI模型平台Hugging Face，对其估值超过130亿美元。若交易完成，英伟达将掌握被视为AI领域GitHub的开源模型仓库，进一步布局AI全链条生态。</p>
-  <p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.thepaper.cn/detail/33960493" target="_blank" rel="noopener noreferrer">thepaper.cn</a> · 8月27日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">据The Information报道，英伟达已同意以129亿美元（约合人民币867亿元）收购开源AI模型平台Hugging Face，对其估值超过130亿美元。若交易完成，英伟达将掌握被视为AI领域GitHub的开源模型仓库，进一步布局AI全链条生态。</p>
+    <div class="lead-meta"><p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.thepaper.cn/detail/33960493" target="_blank" rel="noopener noreferrer">thepaper.cn</a> · 8月27日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-industry" aria-labelledby="band-industry-title">
   <header class="band-head">
     <h2 id="band-industry-title">产业与资本</h2>
     <p>3 条</p>
   </header>
-  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>阿里发布全新Qoder智能体工作台，内置Qwen3.8-Max等多款模型</h3>
   <p class="digest-summary">阿里8月27日发布全新Qoder，定位为以Coding能力为核心、面向所有人的智能体工作台，内置Qwen3.8-Max等多款前沿模型，支持用户以自然语言完成开发、原型制作与数据处理等任务，并适配70多个插件与2万多项技能。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://www.pingwest.com/w/316832" target="_blank" rel="noopener noreferrer">pingwest.com</a> · 8月27日</p>
-</article>
-<article class="digest-item digest-item--important">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
   <h3>英伟达Q2财报营收962亿美元同比翻倍，数据中心收入增117%</h3>
   <p class="digest-summary">英伟达公布2027财年第二季度业绩，营收962.2亿美元，同比增长106%、环比增长18%，超出分析师预期的921.7亿美元；其中数据中心收入890亿美元，同比增长117%。</p>
   <p class="edition-meta">算力基建 · <a class="meta-source" href="https://www.stheadline.com/stock-market/3608675/Nvidia%E6%A5%AD%E7%B8%BE%E8%B6%85%E9%A0%90%E6%9C%9F-%E6%96%99%E7%AC%AC%E4%B8%89%E5%AD%A3%E6%94%B6%E5%85%A5%E9%A6%96%E7%A0%B4%E5%8D%83%E5%84%84-%E6%98%8E%E5%B9%B4%E6%8C%87%E5%BC%95%E9%80%B2%E5%8F%96-%E7%9B%A4%E5%BE%8C%E8%82%A1%E5%83%B9%E5%8D%87%E8%BF%913" target="_blank" rel="noopener noreferrer">stheadline.com</a> · 8月26日</p>
@@ -86,7 +90,7 @@
   <p class="edition-meta">安全事件 · <a class="meta-source" href="https://ishare.ifeng.com/c/s/8vvI5CyfFJT" target="_blank" rel="noopener noreferrer">ishare.ifeng.com</a> · 8月26日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>2 条</p>
@@ -102,7 +106,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-08-27.html"><span>较早一期</span><strong>2026-08-27</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-08-29.html"><span>较新一期</span><strong>2026-08-29</strong></a>
 </nav>
   </article>

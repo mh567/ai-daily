@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月6日">
   <meta property="og:title" content="AI 日报 · 2026年11月6日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月6日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月6日</p>
+        <p class="edition-issue">第 47 期 · 25 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">AI概念股重挫，纳指创2025年4月以来最大跌幅</h1>
-  <p class="lead-dek">美股周四AI相关股票遭抛售，英伟达和高通跌幅均超过9%，纳斯达克指数下跌5.5%，为2025年4月以来最差单日表现。报道将抛售与中期选举后市场对AI数据中心建设放缓的担忧联系起来。</p>
-  <p class="edition-meta">算力基建 · <a class="meta-source" href="https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月5日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">美股周四AI相关股票遭抛售，英伟达和高通跌幅均超过9%，纳斯达克指数下跌5.5%，为2025年4月以来最差单日表现。报道将抛售与中期选举后市场对AI数据中心建设放缓的担忧联系起来。</p>
+    <div class="lead-meta"><p class="edition-meta">算力基建 · <a class="meta-source" href="https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月5日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-models" aria-labelledby="band-models-title">
   <header class="band-head">
     <h2 id="band-models-title">模型与产品</h2>
     <p>9 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>Gemini Omni 1.2 Flash支持15秒视频</h3>
   <p class="digest-summary">Google发布Gemini Omni 1.2 Flash，支持原生15秒视频生成、多轮对话编辑和更强参考一致性，并称价格降低30%。该模型已在Gemini API、Google Vids和Gemini for business上线。</p>
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" rel="noopener noreferrer">blog.google</a> · 11月6日</p>
-</article>
-<article class="digest-item digest-item--important">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
   <h3>Perplexity推出全天候AI同事Teammates</h3>
   <p class="digest-summary">Perplexity发布Teammates，可在一个工作区内承担多种角色，并调用现有项目、技能和记忆；该功能构建在Perplexity Computer之上，定位持续、大规模工作协作。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work" target="_blank" rel="noopener noreferrer">theverge.com</a> · 11月5日</p>
@@ -158,7 +162,7 @@
   <p class="edition-meta">开源生态 · <a class="meta-source" href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation" target="_blank" rel="noopener noreferrer">huggingface.co</a> · 11月5日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>6 条</p>
@@ -190,8 +194,8 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-11-05.html"><span>较早一期</span><strong>2026-11-05</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 47 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
+  <a class="edition-jump edition-jump--newer" href="2026-11-07.html"><span>较新一期</span><strong>2026-11-07</strong></a>
 </nav>
   </article>
 </main>

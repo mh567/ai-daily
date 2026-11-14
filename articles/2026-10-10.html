@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年10月10日">
   <meta property="og:title" content="AI 日报 · 2026年10月10日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年10月10日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年10月10日</p>
+        <p class="edition-issue">第 21 期 · 7 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,17 +38,22 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">特朗普政府宣布强制性 AI 安全事件报告要求</h1>
-  <p class="lead-dek">当地时间10月9日，在Anthropic发生多起未经授权使用美国政府系统的安全事件后，特朗普政府宣布实施新的强制性AI安全事件报告要求。AI公司今后发生安全事件后必须立即向政府报告，提高透明度并对受影响机构采取补救和纠正措施。由“超级智能特别工作组”负责监督执行。</p>
-  <p class="edition-meta">政策监管 · <a class="meta-source" href="https://k.sina.com.cn/article_7857201856_1d45362c001908qh7y.html?from=tech" target="_blank" rel="noopener noreferrer">k.sina.com.cn</a> · 10月9日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">当地时间10月9日，在Anthropic发生多起未经授权使用美国政府系统的安全事件后，特朗普政府宣布实施新的强制性AI安全事件报告要求。AI公司今后发生安全事件后必须立即向政府报告，提高透明度并对受影响机构采取补救和纠正措施。由“超级智能特别工作组”负责监督执行。</p>
+    <div class="lead-meta"><p class="edition-meta">政策监管 · <a class="meta-source" href="https://k.sina.com.cn/article_7857201856_1d45362c001908qh7y.html?from=tech" target="_blank" rel="noopener noreferrer">k.sina.com.cn</a> · 10月9日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-today" aria-labelledby="band-today-title">
   <header class="band-head">
     <h2 id="band-today-title">今日要闻</h2>
     <p>5 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--more">
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>Qwen-Image-2.1-Turbo 与 MiMo-V2.6 等新模型公开</h3>
   <p class="digest-summary">阿里 Qwen 公开 Qwen-Image-2.1-Turbo 图像生成与编辑模型，为 7B 开源权重模型，仅需 8 个去噪步，较基础模型 40 步减少 5 倍。同时 MiMo-V2.6 公开，FlashInfer 0.7.1 发布。</p>
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://github.com/senshwang-git/ai-model-radar/issues/4" target="_blank" rel="noopener noreferrer">github.com</a> · 10月10日</p>
@@ -75,7 +79,7 @@
   <p class="edition-meta">算力基建 · <a class="meta-source" href="https://k.sina.cn/article_7857201856_1d45362c001908qfjm.html" target="_blank" rel="noopener noreferrer">k.sina.cn</a> · 10月9日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>1 条</p>
@@ -87,7 +91,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-10-09.html"><span>较早一期</span><strong>2026-10-09</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-10-11.html"><span>较新一期</span><strong>2026-10-11</strong></a>
 </nav>
   </article>

@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年9月2日">
   <meta property="og:title" content="AI 日报 · 2026年9月2日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年9月2日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年9月2日</p>
+        <p class="edition-issue">第 8 期 · 8 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,17 +38,22 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--xl">Anthropic发布旗舰模型Claude Fable 5.1与Mythos 5.1，称其成本大幅下降并刷新编程与知识工作能力上限</h1>
-  <p class="lead-dek">当地时间9月1日，Anthropic发布新一代旗舰模型Claude Fable 5.1及Mythos 5.1，自称是“全球最先进的编程与知识工作模型”，多项基准测试表现优于上一代及OpenAI的GPT-5.6。Fable 5.1定价与Fable 5持平（输入10美元/百万Token、输出50美元/百万Token），典型工作负载成本降低约25%、智能体场景最高降45%，缓存读取成本降低75%，并通过Anthropic API及AWS、谷歌云、微软Azure提供。</p>
-  <p class="edition-meta">模型发布 · <a class="meta-source" href="https://on.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1" target="_blank" rel="noopener noreferrer">on.theverge.com</a> · 9月1日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">当地时间9月1日，Anthropic发布新一代旗舰模型Claude Fable 5.1及Mythos 5.1，自称是“全球最先进的编程与知识工作模型”，多项基准测试表现优于上一代及OpenAI的GPT-5.6。Fable 5.1定价与Fable 5持平（输入10美元/百万Token、输出50美元/百万Token），典型工作负载成本降低约25%、智能体场景最高降45%，缓存读取成本降低75%，并通过Anthropic API及AWS、谷歌云、微软Azure提供。</p>
+    <div class="lead-meta"><p class="edition-meta">模型发布 · <a class="meta-source" href="https://on.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1" target="_blank" rel="noopener noreferrer">on.theverge.com</a> · 9月1日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-today" aria-labelledby="band-today-title">
   <header class="band-head">
     <h2 id="band-today-title">今日要闻</h2>
     <p>5 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--important">
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
   <h3>英伟达据悉最快本周达成约140亿美元收购Hugging Face协议</h3>
   <p class="digest-summary">据财联社9月2日报道，英伟达正就收购开源AI平台Hugging Face进行深入谈判，交易总额约140亿美元，其中现金对价约129亿美元，另设10亿美元员工留任激励，双方尚未签署最终协议，最快可能于本周达成。</p>
   <p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.guandian.cn/article/20260902/596228.html" target="_blank" rel="noopener noreferrer">guandian.cn</a> · 9月2日</p>
@@ -75,7 +79,7 @@
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://news.qq.com/rain/a/20260901A0AMKK00" target="_blank" rel="noopener noreferrer">news.qq.com</a> · 9月1日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>2 条</p>
@@ -91,7 +95,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-09-01.html"><span>较早一期</span><strong>2026-09-01</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-09-03.html"><span>较新一期</span><strong>2026-09-03</strong></a>
 </nav>
   </article>

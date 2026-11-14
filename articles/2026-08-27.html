@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年8月27日">
   <meta property="og:title" content="AI 日报 · 2026年8月27日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年8月27日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年8月27日</p>
+        <p class="edition-issue">第 2 期 · 6 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,11 +38,16 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--l">英伟达以129亿美元收购开源AI模型平台Hugging Face</h1>
-  <p class="lead-dek">据The Information报道，英伟达已同意以129亿美元（约合人民币867亿元）收购开源AI模型平台Hugging Face，作价接近其2023年45亿美元估值的三倍，Hugging Face年化收入已突破1.5亿美元。该交易若完成，将成为英伟达规模最大的收购之一。</p>
-  <p class="edition-meta">融资并购 · <a class="meta-source" href="http://www.geekpark.net/news/369458" target="_blank" rel="noopener noreferrer">geekpark.net</a> · 8月26日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">据The Information报道，英伟达已同意以129亿美元（约合人民币867亿元）收购开源AI模型平台Hugging Face，作价接近其2023年45亿美元估值的三倍，Hugging Face年化收入已突破1.5亿美元。该交易若完成，将成为英伟达规模最大的收购之一。</p>
+    <div class="lead-meta"><p class="edition-meta">融资并购 · <a class="meta-source" href="http://www.geekpark.net/news/369458" target="_blank" rel="noopener noreferrer">geekpark.net</a> · 8月26日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-today" aria-labelledby="band-today-title">
   <header class="band-head">
     <h2 id="band-today-title">今日要闻</h2>
@@ -70,7 +74,7 @@
   <p class="edition-meta">融资并购 · <a class="meta-source" href="https://m.hexun.com/stock/2026-08-26/224896315.html" target="_blank" rel="noopener noreferrer">m.hexun.com</a> · 8月26日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>1 条</p>
@@ -82,7 +86,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-08-26.html"><span>较早一期</span><strong>2026-08-26</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-08-28.html"><span>较新一期</span><strong>2026-08-28</strong></a>
 </nav>
   </article>

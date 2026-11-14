@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年9月4日">
   <meta property="og:title" content="AI 日报 · 2026年9月4日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年9月4日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年9月4日</p>
+        <p class="edition-issue">第 10 期 · 8 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,11 +38,16 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--l">OpenAI发布旗舰模型GPT-6 Astra，宣称开启AGI时代</h1>
-  <p class="lead-dek">当地时间9月3日（北京时间9月4日凌晨），OpenAI正式发布新一代旗舰基座模型GPT-6 Astra，官方称其实现“代际跃迁”，在软件工程、计算机操作、科学研究及网络安全等领域达到领先水平。该模型使用超过10万块GPU在得州Stargate基地完成训练，通过Daybreak项目向可信企业用户先行开放，OpenAI总裁布罗克曼称其为迈向AGI的关键里程碑。</p>
-  <p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.163.com/dy/article/L5VRI34D0514R9OJ.html" target="_blank" rel="noopener noreferrer">163.com</a> · 9月4日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">当地时间9月3日（北京时间9月4日凌晨），OpenAI正式发布新一代旗舰基座模型GPT-6 Astra，官方称其实现“代际跃迁”，在软件工程、计算机操作、科学研究及网络安全等领域达到领先水平。该模型使用超过10万块GPU在得州Stargate基地完成训练，通过Daybreak项目向可信企业用户先行开放，OpenAI总裁布罗克曼称其为迈向AGI的关键里程碑。</p>
+    <div class="lead-meta"><p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.163.com/dy/article/L5VRI34D0514R9OJ.html" target="_blank" rel="noopener noreferrer">163.com</a> · 9月4日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-industry" aria-labelledby="band-industry-title">
   <header class="band-head">
     <h2 id="band-industry-title">产业与资本</h2>
@@ -92,7 +96,7 @@
   <p class="edition-meta">开源生态 · <a class="meta-source" href="https://m.thepaper.cn/newsDetail_forward_34006677" target="_blank" rel="noopener noreferrer">m.thepaper.cn</a> · 9月3日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>1 条</p>
@@ -104,7 +108,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-09-03.html"><span>较早一期</span><strong>2026-09-03</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-09-05.html"><span>较新一期</span><strong>2026-09-05</strong></a>
 </nav>
   </article>

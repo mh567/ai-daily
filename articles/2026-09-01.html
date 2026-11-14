@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年9月1日">
   <meta property="og:title" content="AI 日报 · 2026年9月1日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年9月1日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年9月1日</p>
+        <p class="edition-issue">第 7 期 · 10 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--xl">Anthropic与英伟达支持的Lambda达成350亿美元算力协议，系AI领域规模最大的云服务交易之一</h1>
-  <p class="lead-dek">据知情人士透露，AI初创公司Anthropic已与英伟达支持的云服务商Lambda签署一份价值350亿美元的云计算协议，项目落地得克萨斯州数据中心，英伟达本身持有相关数据中心租约。这是Anthropic今年以来签署的第二笔百亿美元级算力大单，也是全球AI领域迄今规模最大的云服务交易之一。</p>
-  <p class="edition-meta">算力基建 · <a class="meta-source" href="https://hk.finance.yahoo.com/news/anthropic%E8%88%87%E8%BC%9D%E9%81%94%E6%94%AF%E6%8C%81%E7%9A%84lambda%E9%81%94%E6%88%90350%E5%84%84%E7%BE%8E%E5%85%83%E7%9A%84%E7%AE%97%E5%8A%9B%E5%90%88%E4%BD%9C%E5%8D%94%E8%AD%B0-003407686.html" target="_blank" rel="noopener noreferrer">hk.finance.yahoo.com</a> · 8月31日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">据知情人士透露，AI初创公司Anthropic已与英伟达支持的云服务商Lambda签署一份价值350亿美元的云计算协议，项目落地得克萨斯州数据中心，英伟达本身持有相关数据中心租约。这是Anthropic今年以来签署的第二笔百亿美元级算力大单，也是全球AI领域迄今规模最大的云服务交易之一。</p>
+    <div class="lead-meta"><p class="edition-meta">算力基建 · <a class="meta-source" href="https://hk.finance.yahoo.com/news/anthropic%E8%88%87%E8%BC%9D%E9%81%94%E6%94%AF%E6%8C%81%E7%9A%84lambda%E9%81%94%E6%88%90350%E5%84%84%E7%BE%8E%E5%85%83%E7%9A%84%E7%AE%97%E5%8A%9B%E5%90%88%E4%BD%9C%E5%8D%94%E8%AD%B0-003407686.html" target="_blank" rel="noopener noreferrer">hk.finance.yahoo.com</a> · 8月31日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-models" aria-labelledby="band-models-title">
   <header class="band-head">
     <h2 id="band-models-title">模型与产品</h2>
     <p>3 条</p>
   </header>
-  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>OpenAI广告业务ChatGPT Ads年化收入运行率突破10亿美元</h3>
   <p class="digest-summary">OpenAI于8月31日宣布旗下广告业务ChatGPT Ads年化收入运行率已达10亿美元，该业务推出仅约200天，公司将其视为商业模式多元化的里程碑。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://www.thehindubusinessline.com/info-tech/openais-ad-business-hits-1-billion-annualized-revenue-run-rate/article71411546.ece" target="_blank" rel="noopener noreferrer">thehindubusinessline.com</a> · 8月31日</p>
-</article>
-<article class="digest-item digest-item--more">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>科大讯飞词元星火开源星火X2.5-4B与X2.5-1.7B两款端侧大模型</h3>
   <p class="digest-summary">9月1日，科大讯飞全资子公司词元星火推出并开源星火X2.5-4B和星火X2.5-1.7B两款端侧通用大模型，为端侧模型中唯一原生支持最长100万Token上下文的模型，面向车载、智能硬件等端侧场景。</p>
   <p class="edition-meta">开源生态 · <a class="meta-source" href="https://www.stdaily.com/web/gdxw/2026-09/01/content_573327.html" target="_blank" rel="noopener noreferrer">stdaily.com</a> · 9月1日</p>
@@ -97,7 +101,7 @@
   <p class="edition-meta">安全事件 · <a class="meta-source" href="https://www.emirates247.com/business/openai-says-apple-has-only-itself-to-blame-in-trade-secret-fight-denies-theft-claims-amid-hiring-dispute/5116" target="_blank" rel="noopener noreferrer">emirates247.com</a> · 8月31日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>2 条</p>
@@ -113,7 +117,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-08-31.html"><span>较早一期</span><strong>2026-08-31</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-09-02.html"><span>较新一期</span><strong>2026-09-02</strong></a>
 </nav>
   </article>

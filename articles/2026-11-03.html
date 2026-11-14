@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月3日">
   <meta property="og:title" content="AI 日报 · 2026年11月3日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月3日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月3日</p>
+        <p class="edition-issue">第 44 期 · 26 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">Anthropic Q3营收170亿美元，算力承诺8954亿</h1>
-  <p class="lead-dek">Anthropic 在修订版 S-1 中报告第三季度营收约 170 亿美元，并披露约 8954 亿美元的 AI 基础设施支出承诺。</p>
-  <p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月2日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">Anthropic 在修订版 S-1 中报告第三季度营收约 170 亿美元，并披露约 8954 亿美元的 AI 基础设施支出承诺。</p>
+    <div class="lead-meta"><p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月2日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-industry" aria-labelledby="band-industry-title">
   <header class="band-head">
     <h2 id="band-industry-title">产业与资本</h2>
     <p>5 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>OpenAI与阿布扎比签署能源、政府及投资协议</h3>
   <p class="digest-summary">OpenAI 与阿布扎比签署四项协议，覆盖能源、政府和投资领域；Sam Altman 在访问期间会见阿布扎比王储。</p>
   <p class="edition-meta">算力基建 · <a class="meta-source" href="https://www.cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月2日</p>
-</article>
-<article class="digest-item digest-item--important">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
   <h3>沙特阿美26亿美元入股Humain，持股49%</h3>
   <p class="digest-summary">沙特阿美以 26 亿美元收购 AI 公司 Humain 49% 股份，该公司旨在推动沙特成为全球 AI 中心。</p>
   <p class="edition-meta">融资并购 · <a class="meta-source" href="https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/" target="_blank" rel="noopener noreferrer">the-decoder.com</a> · 11月2日</p>
@@ -106,7 +110,7 @@
     <h2 id="band-opensource-title">开源与社区</h2>
     <p>5 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--more">
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>英伟达开源Auto Ontology智能体上下文层</h3>
   <p class="digest-summary">英伟达发布开源 Python 框架 Auto Ontology，在企业数据上构建语义推理层，通过 MCP、CLI 和 API 向智能体提供经过验证的上下文。</p>
   <p class="edition-meta">开源生态 · <a class="meta-source" href="https://news.lavx.hu/article/nvidia-releases-auto-ontology-for-agent-context-layers" target="_blank" rel="noopener noreferrer">news.lavx.hu</a> · 11月3日</p>
@@ -158,7 +162,7 @@
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/" target="_blank" rel="noopener noreferrer">marktechpost.com</a> · 11月2日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>7 条</p>
@@ -194,8 +198,8 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-11-02.html"><span>较早一期</span><strong>2026-11-02</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 44 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
+  <a class="edition-jump edition-jump--newer" href="2026-11-04.html"><span>较新一期</span><strong>2026-11-04</strong></a>
 </nav>
   </article>
 </main>

@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月9日">
   <meta property="og:title" content="AI 日报 · 2026年11月9日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月9日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月9日</p>
+        <p class="edition-issue">第 50 期 · 16 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">英伟达董事会启动调查 黄仁勋承认与涉谍高管婚外情</h1>
-  <p class="lead-dek">英伟达董事会周日宣布启动独立调查，此前有报道称CEO黄仁勋成为外国情报行动目标。黄仁勋向员工发送备忘录承认与Megaspeed高管Alice Huang的婚外情，美国官员认为Alice Huang是中国间谍。</p>
-  <p class="edition-meta">安全事件 · <a class="meta-source" href="https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy" target="_blank" rel="noopener noreferrer">theverge.com</a> · 11月8日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">英伟达董事会周日宣布启动独立调查，此前有报道称CEO黄仁勋成为外国情报行动目标。黄仁勋向员工发送备忘录承认与Megaspeed高管Alice Huang的婚外情，美国官员认为Alice Huang是中国间谍。</p>
+    <div class="lead-meta"><p class="edition-meta">安全事件 · <a class="meta-source" href="https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy" target="_blank" rel="noopener noreferrer">theverge.com</a> · 11月8日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-models" aria-labelledby="band-models-title">
   <header class="band-head">
     <h2 id="band-models-title">模型与产品</h2>
     <p>3 条</p>
   </header>
-  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>字节发布图像模型Seedream 5.5，支持百轮连续编辑</h3>
   <p class="digest-summary">字节跳动11月9日发布Seedream 5.5，支持同一作品最多100轮连续编辑并保持未编辑区域像素级一致，原生生成RGBA透明素材；正陆续上线即梦、豆包、豆包工作和火山方舟，后续将推出Pro版。</p>
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.theblockbeats.info/flash/376316" target="_blank" rel="noopener noreferrer">theblockbeats.info</a> · 11月9日</p>
-</article>
-<article class="digest-item digest-item--more">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>千问办公2.0发布，推出多人与Agent协作功能</h3>
   <p class="digest-summary">千问办公11月9日发布2.0版本，推出支持多人与Agent协作的“协作”功能，数字员工可实时关联钉钉群聊、文档、AI表格等信息源并支持任务指派；同步上线“自动任务”“人机共创”“资料空间”等能力。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://www.qbitai.com/2026/11/508694.html" target="_blank" rel="noopener noreferrer">qbitai.com</a> · 11月9日</p>
@@ -118,7 +122,7 @@
   <p class="edition-meta">安全事件 · <a class="meta-source" href="https://www.cnbc.com/2026/11/08/ai-agents-risks.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月8日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>5 条</p>
@@ -146,8 +150,8 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-11-08.html"><span>较早一期</span><strong>2026-11-08</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 50 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
+  <a class="edition-jump edition-jump--newer" href="2026-11-10.html"><span>较新一期</span><strong>2026-11-10</strong></a>
 </nav>
   </article>
 </main>

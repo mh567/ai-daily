@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月10日">
   <meta property="og:title" content="AI 日报 · 2026年11月10日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月10日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月10日</p>
+        <p class="edition-issue">第 51 期 · 18 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">Anthropic发布Fable与Mythos 5.2</h1>
-  <p class="lead-dek">Anthropic于11月9日发布Claude Fable 5.2和Claude Mythos 5.2，称两者在编程、推理和视觉能力上提升，输出速度较5.1版本更快。Fable 5.2可编排智能体团队并处理长周期项目，公司称其解决了两项开放理论物理问题；API价格下调20%。</p>
-  <p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2" target="_blank" rel="noopener noreferrer">theverge.com</a> · 11月10日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">Anthropic于11月9日发布Claude Fable 5.2和Claude Mythos 5.2，称两者在编程、推理和视觉能力上提升，输出速度较5.1版本更快。Fable 5.2可编排智能体团队并处理长周期项目，公司称其解决了两项开放理论物理问题；API价格下调20%。</p>
+    <div class="lead-meta"><p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2" target="_blank" rel="noopener noreferrer">theverge.com</a> · 11月10日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-industry" aria-labelledby="band-industry-title">
   <header class="band-head">
     <h2 id="band-industry-title">产业与资本</h2>
     <p>4 条</p>
   </header>
-  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>Anthropic近700亿美元IPO文件短暂流出后撤回</h3>
   <p class="digest-summary">路透所见文件显示，Anthropic拟以每股70至80美元发行约8.67亿股，最高募资693亿美元；谷歌、英伟达、AMD、博通、美光、微软和台积电拟以IPO价私募认购260亿美元。Anthropic随后称定价细节不准确并撤回该文件。</p>
   <p class="edition-meta">融资并购 · <a class="meta-source" href="https://www.163.com/dy/article/LBCBLMFU05198NMR.html?clickfrom=w_tech" target="_blank" rel="noopener noreferrer">163.com</a> · 11月10日</p>
-</article>
-<article class="digest-item digest-item--important">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
   <h3>谷歌一年推出四款TPU，新增8tx与8i Max</h3>
   <p class="digest-summary">谷歌为第八代AI芯片新增TPU 8tx和TPU 8i Max：前者在计算过程中保持数据加密，后者通过单封装双芯片将算力与内存翻倍。谷歌称一年内已交付四款TPU系统，外部客户接近100家。</p>
   <p class="edition-meta">算力基建 · <a class="meta-source" href="https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/" target="_blank" rel="noopener noreferrer">the-decoder.com</a> · 11月10日</p>
@@ -75,7 +79,7 @@
     <h2 id="band-models-title">模型与产品</h2>
     <p>6 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--more">
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>Meta发布轻量模型Muse Ember，主打智能体执行</h3>
   <p class="digest-summary">Meta Superintelligence Lab发布迄今最轻、最具成本效率的模型Muse Ember，面向工具调用、编码子任务、路由、抽取和长文档解析。其输入价格为每百万token 10美分，Meta称其比Haiku和Luna更便宜且更聪明。</p>
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/" target="_blank" rel="noopener noreferrer">techcrunch.com</a> · 11月10日</p>
@@ -122,7 +126,7 @@
   <p class="edition-meta">热门项目 · <a class="meta-source" href="https://huggingface.co/speridlabs/idol" target="_blank" rel="noopener noreferrer">huggingface.co</a> · 11月10日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>5 条</p>
@@ -150,8 +154,8 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-11-09.html"><span>较早一期</span><strong>2026-11-09</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 51 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
+  <a class="edition-jump edition-jump--newer" href="2026-11-11.html"><span>较新一期</span><strong>2026-11-11</strong></a>
 </nav>
   </article>
 </main>

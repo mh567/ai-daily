@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月1日">
   <meta property="og:title" content="AI 日报 · 2026年11月1日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月1日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月1日</p>
+        <p class="edition-issue">第 42 期 · 18 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--l">DeepSeek 开源 Agent 底座架构，AI 可自查 Bug 并提交 PR</h1>
-  <p class="lead-dek">量子位 10 月 31 日报道，DeepSeek 重磅开源了一套 Agent 底座架构。报道提到，在这套架构下 AI 已经能够自己找到 Bug 并提交 PR。</p>
-  <p class="edition-meta">开源生态 · <a class="meta-source" href="https://www.qbitai.com/2026/10/506904.html" target="_blank" rel="noopener noreferrer">qbitai.com</a> · 10月31日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">量子位 10 月 31 日报道，DeepSeek 重磅开源了一套 Agent 底座架构。报道提到，在这套架构下 AI 已经能够自己找到 Bug 并提交 PR。</p>
+    <div class="lead-meta"><p class="edition-meta">开源生态 · <a class="meta-source" href="https://www.qbitai.com/2026/10/506904.html" target="_blank" rel="noopener noreferrer">qbitai.com</a> · 10月31日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-models" aria-labelledby="band-models-title">
   <header class="band-head">
     <h2 id="band-models-title">模型与产品</h2>
     <p>4 条</p>
   </header>
-  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>OpenAI 合并 ChatGPT 与 Codex 用量额度池</h3>
   <p class="digest-summary">36 氪报道，在连续 28 天更新后，OpenAI 正式合并 ChatGPT 与 Codex 的用量额度池，并上线计费聊天功能；新的额度规则从 12 月起适用于 Plus、Pro 和 Business 三档付费计划。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://www.36kr.com/p/4050682558714755" target="_blank" rel="noopener noreferrer">36kr.com</a> · 10月31日</p>
-</article>
-<article class="digest-item digest-item--more">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>OpenAI 把 ChatGPT Dot agent 接入 iMessage 与 RCS</h3>
   <p class="digest-summary">该功能以 beta 形式面向美国 ChatGPT Pro 用户推出，用户可在苹果 iMessage 和安卓 RCS 中直接给 Dot agent 派任务，无需打开 ChatGPT。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://tech.yahoo.com/ai/chatgpt/articles/openai-now-lets-text-chatgpt-010639985.html" target="_blank" rel="noopener noreferrer">tech.yahoo.com</a> · 11月1日</p>
@@ -133,7 +137,7 @@
   <p class="edition-meta">社区热议 · <a class="meta-source" href="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/" target="_blank" rel="noopener noreferrer">jetstream.security</a> · 10月31日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>4 条</p>
@@ -157,8 +161,8 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-10-31.html"><span>较早一期</span><strong>2026-10-31</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
+  <a class="edition-jump edition-jump--newer" href="2026-11-02.html"><span>较新一期</span><strong>2026-11-02</strong></a>
 </nav>
   </article>
 </main>

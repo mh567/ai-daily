@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年8月29日">
   <meta property="og:title" content="AI 日报 · 2026年8月29日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年8月29日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年8月29日</p>
+        <p class="edition-issue">第 4 期 · 8 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,17 +38,22 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="lead-title--l">英伟达被曝斥资129亿美元收购开源AI平台Hugging Face</h1>
-  <p class="lead-dek">据澎湃新闻等报道，当地时间8月27日外媒披露，英伟达正洽谈收购开源AI社区Hugging Face，已同意出价129亿美元，对后者的估值超过130亿美元，有望成为英伟达规模最大的交易之一。截至目前双方尚未正式官宣，谈判仍存在变数。</p>
-  <p class="edition-meta">融资并购 · <a class="meta-source" href="https://m.thepaper.cn/detail/33960493" target="_blank" rel="noopener noreferrer">m.thepaper.cn</a> · 8月28日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">据澎湃新闻等报道，当地时间8月27日外媒披露，英伟达正洽谈收购开源AI社区Hugging Face，已同意出价129亿美元，对后者的估值超过130亿美元，有望成为英伟达规模最大的交易之一。截至目前双方尚未正式官宣，谈判仍存在变数。</p>
+    <div class="lead-meta"><p class="edition-meta">融资并购 · <a class="meta-source" href="https://m.thepaper.cn/detail/33960493" target="_blank" rel="noopener noreferrer">m.thepaper.cn</a> · 8月28日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-today" aria-labelledby="band-today-title">
   <header class="band-head">
     <h2 id="band-today-title">今日要闻</h2>
     <p>5 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--important">
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--important">
   <h3>腾讯混元发布并开源新一代大语言模型Hy4 preview</h3>
   <p class="digest-summary">8月28日，腾讯混元发布并开源新一代大语言模型Hy4 preview，总参数770B、激活参数49B，上下文长度突破1M，在代码、办公、科学等生产力任务上能力突出，WorkBuddy、CodeBuddy、元宝等应用同步上线。</p>
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.news.cn/tech/20260828/b12d8417291b4193ba9e5d435a1a40db/c.html" target="_blank" rel="noopener noreferrer">news.cn</a> · 8月28日</p>
@@ -75,7 +79,7 @@
   <p class="edition-meta">产品应用 · <a class="meta-source" href="http://www.xinhuanet.com/tech/20260828/4fbcc1a5333e4e81961152b8993bae49/c.html" target="_blank" rel="noopener noreferrer">xinhuanet.com</a> · 8月28日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>2 条</p>
@@ -91,7 +95,7 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-08-28.html"><span>较早一期</span><strong>2026-08-28</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 42 期</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
   <a class="edition-jump edition-jump--newer" href="2026-08-30.html"><span>较新一期</span><strong>2026-08-30</strong></a>
 </nav>
   </article>

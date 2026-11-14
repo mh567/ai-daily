@@ -3,17 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f1ecdf">
+  <meta name="theme-color" content="#f3eee3">
+  <meta name="theme-color" content="#191713" media="(prefers-color-scheme: dark)">
   <meta name="description" content="AI 日报 · 2026年11月12日">
   <meta property="og:title" content="AI 日报 · 2026年11月12日">
   <meta property="og:type" content="article">
   <title>AI 日报 · 2026年11月12日</title>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=6">
-  <link rel="stylesheet" href="../css/v2-newspaper.css?v=6">
+  <link rel="stylesheet" href="../css/newspaper-prototype.css?v=7">
+  <link rel="stylesheet" href="../css/v2-newspaper.css?v=7">
 </head>
 <body>
 <header class="paper-header">
@@ -32,6 +30,7 @@
       <div class="edition-date">
         <span class="edition-status" aria-hidden="true"></span>
         <p id="displayDate">2026年11月12日</p>
+        <p class="edition-issue">第 53 期 · 19 条</p>
       </div>
       <span>每日 18:00 更新</span>
     </div>
@@ -39,22 +38,27 @@
 </header>
 <main id="daily-content" class="page-shell paper-main" tabindex="-1">
   <article id="newspaper">
-    <section class="edition-lead">
+    <div class="edition-front">
+  <section class="edition-lead">
   <h1 id="leadTitle" class="">英伟达董事会开会讨论罢免黄仁勋</h1>
-  <p class="lead-dek">英伟达董事会已开会决定是否罢免CEO黄仁勋，会议持续到晚间。此前黄仁勋承认与一名被美情报部门指为疑似中国间谍的女性有婚外情，纽约时报又报道他与直接下属Kimberly Powell存在另一段婚外情。公司尚未公布决定。</p>
-  <p class="edition-meta">安全事件 · <a class="meta-source" href="https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月11日</p>
+  <div class="lead-footer">
+    <p class="lead-dek">英伟达董事会已开会决定是否罢免CEO黄仁勋，会议持续到晚间。此前黄仁勋承认与一名被美情报部门指为疑似中国间谍的女性有婚外情，纽约时报又报道他与直接下属Kimberly Powell存在另一段婚外情。公司尚未公布决定。</p>
+    <div class="lead-meta"><p class="edition-meta">安全事件 · <a class="meta-source" href="https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html" target="_blank" rel="noopener noreferrer">cnbc.com</a> · 11月11日</p></div>
+  </div>
 </section>
+  
+</div>
 <section class="edition-band" id="band-models" aria-labelledby="band-models-title">
   <header class="band-head">
     <h2 id="band-models-title">模型与产品</h2>
     <p>8 条</p>
   </header>
-  <div class="band-body" data-cols="3"><article class="digest-item digest-item--important">
+  <div class="band-feature"><article class="digest-item digest-item--feature">
   <h3>DeepMind发布AlphaGenome 2基因模型</h3>
   <p class="digest-summary">Google DeepMind推出AlphaGenome 2，可更细致预测DNA突变如何影响不同细胞类型，为疾病机制研究和治疗路径提供线索。该模型是去年AlphaGenome的继任者。</p>
   <p class="edition-meta">模型发布 · <a class="meta-source" href="https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model" target="_blank" rel="noopener noreferrer">theverge.com</a> · 11月11日</p>
-</article>
-<article class="digest-item digest-item--more">
+</article></div>
+  <div class="band-body" data-cols="2"><article class="digest-item digest-item--more">
   <h3>字节计划数周内推出豆包个人AI助理</h3>
   <p class="digest-summary">字节跳动计划在数周内推出与豆包整合的个人AI助理，内部代号Spell，项目今年4月已启动内测，原定发布因智能手机推出等因素推迟。张一鸣在Seed团队全体会议上提出了这一时间表。</p>
   <p class="edition-meta">产品应用 · <a class="meta-source" href="https://36kr.com/p/4065283402257286" target="_blank" rel="noopener noreferrer">36kr.com</a> · 11月12日</p>
@@ -67,7 +71,7 @@
 <article class="digest-item digest-item--more">
   <h3>百度发布ERNIE 5.5 Flash Preview</h3>
   <p class="digest-summary">百度在11月12日世界大会上发布2800亿参数的ERNIE 5.5 Flash Preview，并推出文心闪电深度思考模型与文心一镜微表情大模型，同步上线百度智能云千帆平台开放API。</p>
-  <p class="edition-meta">模型发布 · <a class="meta-source" href="http://www.enet.com.cn/article/2026/1112/A202611121279416.html" target="_blank" rel="noopener noreferrer">enet.com.cn</a> · 11月12日 · <span class="meta-pending">待核</span></p>
+  <p class="edition-meta">模型发布 · <a class="meta-source" href="http://www.enet.com.cn/article/2026/1112/A202611121279416.html" target="_blank" rel="noopener noreferrer">enet.com.cn</a> · 11月12日</p>
 </article>
 <article class="digest-item digest-item--more">
   <h3>谷歌测试Tabletop AI协作应用</h3>
@@ -137,7 +141,7 @@
   <p class="edition-meta">政策监管 · <a class="meta-source" href="https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/" target="_blank" rel="noopener noreferrer">the-decoder.com</a> · 11月11日</p>
 </article></div>
 </section>
-<section class="edition-band edition-band--briefs" id="briefs" aria-labelledby="briefs-title">
+<section class="edition-band" id="briefs" aria-labelledby="briefs-title">
   <header class="band-head">
     <h2 id="briefs-title">今日简讯</h2>
     <p>3 条</p>
@@ -157,8 +161,8 @@
 </section>
 <nav class="edition-footer" aria-label="日报前后期导航">
   <a class="edition-jump edition-jump--older" href="2026-11-11.html"><span>较早一期</span><strong>2026-11-11</strong></a>
-  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 53 期</strong></a>
-  <a class="edition-jump edition-jump--newer is-disabled" href="#"><span>较新一期</span><strong>当前最新</strong></a>
+  <a class="edition-archive" href="../archive.html"><span>历史归档</span><strong>共 54 期</strong></a>
+  <a class="edition-jump edition-jump--newer" href="2026-11-13.html"><span>较新一期</span><strong>2026-11-13</strong></a>
 </nav>
   </article>
 </main>
