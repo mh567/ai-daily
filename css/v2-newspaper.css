@@ -12,7 +12,7 @@
   margin: 0 0 clamp(14px, 1.6vw, 20px);
   max-width: 24em;
   font: 650 clamp(2rem, 1.5rem + 2vw, 3.25rem) var(--serif);
-  line-height: 1.12;
+  line-height: 1.3;
   letter-spacing: -.025em;
   overflow-wrap: anywhere;
   text-wrap: balance;
@@ -27,16 +27,17 @@
   gap: 12px;
 }
 .lead-dek {
-  max-width: 34em;
+  max-width: 36em;
   margin: 0;
   color: var(--ink-2);
-  font-size: clamp(16px, 1.35vw, 19px);
-  line-height: 1.72;
+  font-size: clamp(1rem, .9rem + .35vw, 1.1875rem);
+  line-height: 1.85;
+  text-wrap: pretty;
 }
 .lead-meta {
   min-width: 0;
 }
-.lead-meta .edition-meta { font-size: 12px; overflow-wrap: anywhere; }
+.lead-meta .edition-meta { font-size: .8125rem; overflow-wrap: anywhere; }
 
 /* ---------- 头版：纵向容器 + 单行优惠快讯 ---------- */
 .edition-front {
@@ -110,8 +111,8 @@
 .edition-meta {
   margin: 0;
   color: var(--ink-soft);
-  font: 500 12px/1.6 var(--sans);
-  letter-spacing: .05em;
+  font: 400 .8125rem/1.65 var(--sans);
+  letter-spacing: .02em;
   font-variant-numeric: tabular-nums;
 }
 .edition-meta a {
@@ -124,7 +125,7 @@
 
 /* ---------- 资讯带 ---------- */
 .edition-band {
-  padding: clamp(26px, 3vw, 40px) 0 clamp(24px, 2.6vw, 34px);
+  padding: clamp(32px, 4vw, 52px) 0 clamp(24px, 2.6vw, 34px);
   border-bottom: 1px solid var(--rule-dark);
 }
 .edition-band:last-of-type { border-bottom: 4px double var(--rule-dark); }
@@ -135,11 +136,12 @@
   gap: 24px;
   margin: 0 0 clamp(18px, 2vw, 26px);
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
 }
 .band-head h2 {
   margin: 0;
-  font: 650 clamp(24px, 2.1vw, 30px)/1.05 var(--serif);
+  color: var(--accent);
+  font: 700 clamp(1.125rem, 1rem + .5vw, 1.375rem)/1.4 var(--sans);
   letter-spacing: -.022em;
 }
 .band-head p {
@@ -156,7 +158,7 @@
   border-bottom: 1px solid var(--rule);
 }
 .band-feature .digest-item { margin-bottom: 0; }
-.band-feature .digest-item h3 { font-size: clamp(22px, 2.4vw, 26px); }
+.band-feature .digest-item h3 { font-size: clamp(1.375rem, 1.1rem + 1vw, 1.75rem); }
 
 .band-body[data-cols="1"] {
   columns: 1;
@@ -165,33 +167,35 @@
 .band-body[data-cols="2"] {
   columns: 2;
   column-gap: clamp(32px, 4vw, 56px);
-  column-rule: 0;
+  column-rule: 1px solid var(--rule);
 }
 .brief-list[data-cols="3"] {
   columns: 3;
   column-gap: clamp(26px, 3vw, 44px);
-  column-rule: 0;
+  column-rule: 1px solid var(--rule);
 }
 .digest-item {
   break-inside: avoid;
-  margin: 0 0 clamp(20px, 2.2vw, 28px);
+  margin: 0 0 clamp(28px, 3vw, 38px);
   padding: 0;
   border: 0;
 }
 .digest-item h3 {
-  margin: 0 0 8px;
-  font: 600 clamp(18px, 1.8vw, 26px)/1.22 var(--serif);
+  margin: 0 0 12px;
+  color: var(--headline);
+  font: 650 clamp(1.125rem, 1rem + .4vw, 1.375rem)/1.5 var(--sans);
   letter-spacing: -.015em;
-  text-wrap: pretty;
+  text-wrap: balance;
 }
-.digest-item--important h3 { font-size: clamp(19px, 1.7vw, 23px); }
-.digest-item--more h3 { font-size: clamp(18px, 1.55vw, 22px); }
+.digest-item--important h3 { font-size: clamp(1.25rem, 1rem + .5vw, 1.5rem); }
+.digest-item--more h3 { font-size: clamp(1.125rem, 1rem + .3vw, 1.25rem); }
 .digest-summary {
-  max-width: 42em;
-  margin: 0 0 10px;
+  max-width: 36em;
+  margin: 0 0 12px;
   color: var(--ink-2);
-  font-size: 16px;
-  line-height: 1.75;
+  font-size: 1rem;
+  line-height: 1.85;
+  text-wrap: pretty;
 }
 
 /* ---------- 简讯 ---------- */
@@ -203,7 +207,7 @@
   border-bottom: 1px solid var(--rule);
 }
 .brief-item:last-child { margin-bottom: 0; border-bottom: 0; }
-.brief-text { max-width: 42em; margin: 0 0 6px; font-size: 15px; line-height: 1.65; }
+.brief-text { max-width: 42em; margin: 0 0 6px; color: var(--ink-2); font-size: 1rem; line-height: 1.8; }
 
 /* ---------- 前后期导航 ---------- */
 .edition-footer {
@@ -242,7 +246,7 @@
   gap: 24px;
   margin-bottom: 18px;
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 1px solid var(--rule);
 }
 .history-section .section-heading h2 {
   margin: 0;
@@ -275,7 +279,8 @@
 .hist-title {
   min-width: 0;
   overflow: hidden;
-  font: 600 18px/1.3 var(--serif);
+  color: var(--headline);
+  font: 600 1.125rem/1.5 var(--sans);
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -314,8 +319,9 @@
 .archive-headline {
   min-width: 0;
   overflow: hidden;
-  color: var(--ink);
-  font-size: 15px;
+  color: var(--headline);
+  font-size: 1rem;
+  font-weight: 600;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -339,8 +345,8 @@
 .deal-archive-body .deal-archive-title {
   display: inline-block;
   padding: 6px 0;
-  color: var(--ink);
-  font: 600 18px/1.3 var(--serif);
+  color: var(--headline);
+  font: 650 1.125rem/1.5 var(--sans);
   text-decoration: none;
 }
 .deal-archive-title:hover { color: var(--accent); }
@@ -348,8 +354,8 @@
   max-width: 46em;
   margin: 6px 0 4px;
   color: var(--ink-2);
-  font-size: 15px;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.8;
 }
 
 .paper-footer {
@@ -365,7 +371,7 @@
 }
 
 @media (max-width: 760px) {
-  .lead-dek { font-size: 16px; }
+  .lead-dek { font-size: 1rem; }
   .deals-ticker {
     grid-template-columns: 1fr auto;
     gap: 10px 16px;
@@ -373,7 +379,7 @@
   }
   .deals-ticker h2 { grid-column: 1; }
   .deals-ticker h2::after { content: " · 左右滑动"; color: var(--ink-soft); font: 500 11px/1 var(--sans); }
-  .deals-more { grid-column: 2; }
+  .deals-more { grid-column: 2; grid-row: 1; }
   .deals-ticker-list {
     grid-column: 1 / -1;
     display: flex;
@@ -394,10 +400,10 @@
     white-space: normal;
   }
   .band-body[data-cols] { columns: 1; }
-  .digest-item h3 { font-size: 20px; }
-  .digest-item--important h3 { font-size: 21px; }
-  .digest-item--more h3 { font-size: 18px; }
-  .band-feature .digest-item h3 { font-size: 24px; }
+  .digest-item h3 { font-size: 1.25rem; }
+  .digest-item--important h3 { font-size: 1.3125rem; }
+  .digest-item--more h3 { font-size: 1.125rem; }
+  .band-feature .digest-item h3 { font-size: 1.5rem; }
   .edition-footer { grid-template-columns: 1fr 1fr; }
   .edition-footer a { min-height: 76px; padding: 13px 11px; }
   .edition-footer strong { font-size: 15px; }

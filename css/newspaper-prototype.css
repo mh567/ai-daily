@@ -4,15 +4,14 @@
   --paper: #f3eee3;
   --paper-deep: #e8e0d1;
   --ink: #16150f;
-  --ink-2: #34312a;
+  --ink-2: #57534c;
+  --headline: #284b52;
   --ink-soft: #6e6759;
   --rule: #ccc3b2;
   --rule-dark: #1a1913;
   --accent: #9d2f20;
   --accent-bright: #c4553a;
   --selection: rgba(196,85,58,.16);
-  --paper-glow: rgba(255,255,255,.36);
-  --paper-grain: rgba(55,44,25,.018);
   --sans: "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
   --serif: "Songti SC", STSong, "Source Han Serif SC", "Noto Serif CJK SC", "Noto Serif SC", SimSun, serif;
   --page: min(1280px, calc(100vw - 64px));
@@ -23,15 +22,14 @@
     --paper: #191713;
     --paper-deep: #23201a;
     --ink: #ede7da;
-    --ink-2: #d6cebe;
+    --ink-2: #c1bbaf;
+    --headline: #b7d2d4;
     --ink-soft: #a79e8d;
     --rule: #3a352c;
     --rule-dark: #ede7da;
     --accent: #e08a6f;
     --accent-bright: #e08a6f;
     --selection: rgba(224,138,111,.18);
-    --paper-glow: rgba(255,255,255,.045);
-    --paper-grain: rgba(255,255,255,.025);
   }
 }
 
@@ -40,12 +38,9 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 18% 10%, var(--paper-glow), transparent 30%),
-    repeating-linear-gradient(90deg, var(--paper-grain) 0 1px, transparent 1px 4px),
-    var(--paper);
-  font-family: var(--serif);
-  font-size: 17px;
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 1rem;
   line-height: 1.72;
   text-rendering: optimizeLegibility;
 }
@@ -150,8 +145,8 @@ html ::selection { background: var(--selection); }
 .about-copy { max-width: 760px; }
 .about-copy section { padding: 0 0 35px; margin: 0 0 35px; border-bottom: 1px solid var(--rule); }
 .about-copy section:last-child { margin-bottom: 0; }
-.about-copy h2 { margin: 0 0 16px; font-size: clamp(30px, 3.4vw, 45px); font-weight: 620; line-height: 1; letter-spacing: -.025em; }
-.about-copy > section > p { max-width: 61ch; margin: 0; color: var(--ink-2); font-size: 19px; line-height: 1.78; }
+.about-copy h2 { margin: 0 0 16px; color: var(--accent); font-size: clamp(30px, 3.4vw, 45px); font-weight: 620; line-height: 1; letter-spacing: -.025em; }
+.about-copy > section > p { max-width: 61ch; margin: 0; color: var(--ink-2); font-size: 1.0625rem; line-height: 1.85; }
 .principles { margin: 4px 0 0; padding: 0; list-style: none; }
 .principles li { display: grid; grid-template-columns: 40px 1fr; gap: 15px; padding: 17px 0; border-top: 1px solid var(--rule); }
 .principles li > span { color: var(--accent); font: 600 11px/1.6 var(--sans); }
@@ -183,7 +178,7 @@ html ::selection { background: var(--selection); }
 }
 
 @media (max-width: 720px) {
-  body { font-size: 16px; line-height: 1.66; }
+  body { font-size: 1rem; line-height: 1.8; }
   .utility-bar { min-height: 44px; }
   .utility-link, .issue-mark { min-height: 44px; font-size: 11px; }
 
