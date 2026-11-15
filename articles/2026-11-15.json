@@ -1,0 +1,531 @@
+{
+  "date": "2026-11-15",
+  "window": {
+    "start": "2026-11-14 18:00",
+    "end": "2026-11-15 18:00"
+  },
+  "headline": {
+    "title": "Gemini 4 Carbon登顶MathArena数学榜",
+    "summary": "Google的Gemini 4 Carbon成为近来首个登顶MathArena的非OpenAI模型，将GPT-6.1 Sol拉下榜首，Claude Fable 5.2位列第二。报道指出，在测试所用推理设置下，Carbon和Fable 5.2的成本约为GPT-6.1 Sol的15倍和40倍。",
+    "type": "model_release",
+    "importance": "P1",
+    "source_url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+    "source_published_date": "2026-11-15",
+    "event_date": "2026-11-15"
+  },
+  "news": [
+    {
+      "title": "Anthropic将Claude Opus 5.5设为付费默认",
+      "summary": "Anthropic将Claude Opus 5.5设为Pro、Max、Ultra和Team计划的默认模型，并发布新提示指南。官方建议移除“think hard”等旧提示，从Medium effort开始；测试中不含这些短语的响应启动更快，质量无明显下降。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "title": "OpenAI重组机器人团队并澄清未放弃",
+      "summary": "OpenAI将机器人研究人员转入Mark Chen领导的主研究团队，应用机器人与硬件团队加入Greg Brockman的应用组织。公司澄清这是重组而非放弃机器人，机器人工作继续。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "source_published_date": "2026-11-14",
+      "event_date": "2026-11-14"
+    },
+    {
+      "title": "Nvidia两大投资者呼吁考虑黄仁勋回归",
+      "summary": "Altimeter Capital的Brad Gerstner与Atreides Management的Gavin Baker致信Nvidia董事会，要求进行缓慢审慎的CEO搜寻，并为黄仁勋回归留出可能。两家截至6月30日披露约21.3亿美元Nvidia股票。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-14"
+    },
+    {
+      "title": "Megaspeed就相关报道启动内部调查",
+      "summary": "新加坡云计算公司Megaspeed表示，已聘请外部法律顾问调查媒体关于其业务、供应链和全球运营的报道。公司同时称，被报道与黄仁勋有关的Alice Huang已于2025年离职。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "title": "Anthropic七位联合创始人IPO后身家曝光",
+      "summary": "CNBC报道，Dario和Daniela Amodei、Tom Brown、Jack Clark、Jared Kaplan、Sam McCandlish、Chris Olah七位联合创始人每人预计获得2.5亿美元现金收益，并在Anthropic IPO后持有价值超过180亿美元的股票。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+      "source_published_date": "2026-11-14",
+      "event_date": "2026-11-14"
+    },
+    {
+      "title": "斯坦福开源Memorilla记忆模块",
+      "summary": "斯坦福研究人员开源Memorilla，可将文档集合压缩为16个记忆token，接入冻结的Qwen3-8B。该系统在FactKG上达到84.33%，相比完整上下文少用108倍文档token。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+      "source_published_date": "2026-11-14",
+      "event_date": "2026-11-14"
+    },
+    {
+      "title": "Cmpnd发布dspy-wsp权重空间优化器",
+      "summary": "Cmpnd发布dspy-wsp原型优化器，把权重空间编程带入DSPy：前沿LLM读取并直接编辑小模型权重，无需梯度、训练循环或微调数据集。测试中约5至10美元的GPT-6-Astra调用可改善0.6B至9B参数的决策模型。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "title": "TechCrunch梳理AI项目墓地清单",
+      "summary": "TechCrunch发布AI项目“墓地”清单，收录已关闭、转型或明显未达预期的AI产品和创业公司。文中提到Character.ai上月申请破产、Ollie近期关停，并引用S&P Global称约42%的AI计划最终被母公司放弃。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "title": "Inkitt用智能体自动创建一次性PR",
+      "summary": "Inkitt构建了一次性PR创建器，由事件驱动编排器协调短生命周期智能体容器，覆盖需求说明、实现、验证、CI失败修复和合并冲突解决。系统持久化运行状态，智能体仅有短期仓库Token和模型凭证，人工审批仍不可绕过。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
+      "source_published_date": "2026-11-14",
+      "event_date": "2026-11-14"
+    },
+    {
+      "title": "Lovable应用被曝泄露护照与20万私信",
+      "summary": "HN讨论809分/314条评论，帖子指向一项研究称Lovable应用暴露护照资料及超过20万条私密消息。",
+      "type": "community",
+      "importance": "P2",
+      "source_url": "https://www.crissyfield.de/research/lovable-en/",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "title": "MiniMax-H3-Image登HF趋势榜第二",
+      "summary": "今日Hugging Face趋势榜第2位，获得1137 likes、517948次下载，任务类型为text-to-image。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "HN 47分/65条：Claude重编号页面时误删法学教授全年讲义，文件后经Dropbox恢复。",
+      "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "text": "HN 64分/190条：讨论太空数据中心的可行性。",
+      "source_url": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "text": "V2EX 3条回复：用户称Claude频繁KYC与封号，正成为国内用户的“奢侈品”。",
+      "source_url": "https://www.v2ex.com/t/1257188",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    },
+    {
+      "text": "V2EX 7条回复：用户称DeepSeek harness实际能力远超多数人认知，并分享深度体验。",
+      "source_url": "https://www.v2ex.com/t/1257214",
+      "source_published_date": "2026-11-15",
+      "event_date": "2026-11-15"
+    }
+  ],
+  "deals": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-15T17:48:08.975989+08:00",
+    "usage": {
+      "input_tokens": 25164,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 17443,
+      "output_tokens_details": {
+        "reasoning_tokens": 15062
+      },
+      "total_tokens": 42607
+    },
+    "search_results": 94,
+    "candidates": {
+      "news": 33,
+      "community": 50,
+      "project": 11
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "阿里 Qwen3.5 开源",
+        "priority": 1,
+        "why": "阿里模型迭代与开源权重是高影响发布点"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "字节 豆包 2.0 API",
+        "priority": 1,
+        "why": "字节模型与API更新可能影响开发者生态"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "DeepSeek V4 发布",
+        "priority": 1,
+        "why": "DeepSeek版本迭代可能引发开源与价格连锁反应"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Anthropic Claude Opus 4.5",
+        "priority": 1,
+        "why": "Claude旗舰模型更新影响编码与Agent市场"
+      },
+      {
+        "slot": "模型发布",
+        "query": "OpenAI GPT-5.2",
+        "priority": 1,
+        "why": "OpenAI版本迭代是全球模型发布最大变量"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Google Gemini 3.5",
+        "priority": 1,
+        "why": "Gemini版本更新可能伴随API与产品能力提升"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT Agent 新功能",
+        "priority": 1,
+        "why": "ChatGPT Agent功能更新是消费级与办公工具重点"
+      },
+      {
+        "slot": "资本",
+        "query": "OpenAI 融资 估值",
+        "priority": 1,
+        "why": "OpenAI融资与估值是全球资本最大变量"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic 融资 估值",
+        "priority": 1,
+        "why": "Anthropic融资动态影响头部模型竞争"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI 版权 诉讼",
+        "priority": 1,
+        "why": "版权诉讼可能影响模型训练与内容许可"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Nvidia Blackwell 供应",
+        "priority": 1,
+        "why": "Blackwell供应与交付是算力瓶颈核心"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini API 免费层",
+        "priority": 1,
+        "why": "Gemini API免费层是开发者可立即使用的优惠"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Claude Pro 免费额度",
+        "priority": 1,
+        "why": "读者可直接确认Claude免费层与额度"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "阿里云百炼 赠金",
+        "priority": 1,
+        "why": "国内开发者可领取的模型API赠金"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "火山方舟 免费额度",
+        "priority": 1,
+        "why": "字节模型平台免费额度是可直接执行信息"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "智谱 GLM-5",
+        "priority": 2,
+        "why": "智谱新模型是国产开源与API重要变量"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯 混元 3.0",
+        "priority": 2,
+        "why": "腾讯混元版本更新会带动国内模型竞争"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度 文心 6.0",
+        "priority": 2,
+        "why": "百度文心版本升级可能伴随API与产品更新"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "月之暗面 Kimi K3",
+        "priority": 2,
+        "why": "Kimi新版本可能带动长上下文与Agent能力竞争"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "MiniMax M3 开源",
+        "priority": 2,
+        "why": "MiniMax开源权重是创业公司模型发布重点"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Meta Llama 5 开源",
+        "priority": 2,
+        "why": "Llama开源权重发布将影响开源生态"
+      },
+      {
+        "slot": "模型发布",
+        "query": "xAI Grok 5",
+        "priority": 2,
+        "why": "Grok新版本与API更新值得跟踪"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 更新",
+        "priority": 2,
+        "why": "编码Agent产品迭代影响开发者采用"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Gemini App 新功能",
+        "priority": 2,
+        "why": "Gemini消费级应用更新可能带动用户规模"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Sora 2 应用商店",
+        "priority": 2,
+        "why": "视频生成产品上架与应用商店表现值得跟踪"
+      },
+      {
+        "slot": "行业落地",
+        "query": "AI 金融 风控 案例",
+        "priority": 2,
+        "why": "金融AI应用与合规案例值得跟踪"
+      },
+      {
+        "slot": "行业落地",
+        "query": "AI 医疗 诊断 FDA",
+        "priority": 2,
+        "why": "医疗AI审批与落地是高影响行业案例"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP 协议 服务器",
+        "priority": 2,
+        "why": "MCP生态扩展是Agent工具连接关键"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 新版本",
+        "priority": 2,
+        "why": "推理引擎版本更新影响部署成本"
+      },
+      {
+        "slot": "资本",
+        "query": "Nvidia 财报 AI 收入",
+        "priority": 2,
+        "why": "英伟达AI收入与指引影响全行业估值"
+      },
+      {
+        "slot": "资本",
+        "query": "CoreWeave 融资",
+        "priority": 2,
+        "why": "AI云算力公司融资反映算力资本热度"
+      },
+      {
+        "slot": "监管法律",
+        "query": "欧盟 AI 法案 执行",
+        "priority": 2,
+        "why": "欧盟AI法案执行是高影响监管节点"
+      },
+      {
+        "slot": "监管法律",
+        "query": "Google 反垄断 AI",
+        "priority": 2,
+        "why": "大厂AI反垄断与搜索分发相关"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AMD MI400 出货",
+        "priority": 2,
+        "why": "AMD新一代AI芯片出货影响竞争格局"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "台积电 CoWoS 产能",
+        "priority": 2,
+        "why": "CoWoS产能决定AI芯片供给"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "美国 AI 芯片 出口管制",
+        "priority": 2,
+        "why": "出口管制变化影响供应链与区域算力"
+      },
+      {
+        "slot": "安全事件",
+        "query": "AI 深度伪造 诈骗",
+        "priority": 2,
+        "why": "深度伪造诈骗是AI滥用高频风险"
+      },
+      {
+        "slot": "安全事件",
+        "query": "ChatGPT 数据泄露",
+        "priority": 2,
+        "why": "头部产品数据泄露是高影响安全事件"
+      },
+      {
+        "slot": "研究评测",
+        "query": "LMArena 榜单 变化",
+        "priority": 2,
+        "why": "榜单变化反映模型能力竞争"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench 新模型",
+        "priority": 2,
+        "why": "编码Agent评测是产品能力关键指标"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "OpenAI 高管 调整",
+        "priority": 2,
+        "why": "高管与组织调整可能影响产品与商业化节奏"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "OpenAI Codex 试用",
+        "priority": 2,
+        "why": "Codex试用与额度信息影响开发者采用"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "GitHub Copilot 学生优惠",
+        "priority": 2,
+        "why": "学生开发者优惠可直接降低编码工具成本"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为 盘古 行业模型",
+        "priority": 3,
+        "why": "华为行业模型合作常见于政企落地"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "讯飞 星火 6.0",
+        "priority": 3,
+        "why": "科大讯飞教育政企模型迭代值得跟踪"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "商汤 日日新 6.0",
+        "priority": 3,
+        "why": "商汤模型升级与行业方案可能发布"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "面壁智能 融资",
+        "priority": 3,
+        "why": "端侧模型创业公司融资可能披露"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "阶跃星辰 Step-4",
+        "priority": 3,
+        "why": "多模态创业公司新模型值得留意"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Mistral Large 3",
+        "priority": 3,
+        "why": "欧洲头部模型迭代可能影响企业API选择"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Perplexity Comet 浏览器",
+        "priority": 3,
+        "why": "AI浏览器新入口可能影响搜索与Agent分发"
+      },
+      {
+        "slot": "行业落地",
+        "query": "AI 法律 合同 审查",
+        "priority": 3,
+        "why": "法律AI产品落地与诉讼风险相关"
+      },
+      {
+        "slot": "开源工具",
+        "query": "Ollama 模型 支持",
+        "priority": 3,
+        "why": "本地推理工具新增模型支持影响开发者"
+      },
+      {
+        "slot": "监管法律",
+        "query": "中国 生成式AI 备案",
+        "priority": 3,
+        "why": "国内生成式AI备案与合规动态值得跟踪"
+      },
+      {
+        "slot": "安全事件",
+        "query": "Claude 越狱 漏洞",
+        "priority": 3,
+        "why": "越狱与漏洞披露影响模型安全边界"
+      },
+      {
+        "slot": "研究评测",
+        "query": "ARC-AGI 2 评测",
+        "priority": 3,
+        "why": "推理评测进展影响模型能力叙事"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Anthropic 招聘 组织",
+        "priority": 3,
+        "why": "头部AI公司招聘与组织变化反映战略方向"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "Qwen3.5",
+        "豆包2.0",
+        "DeepSeek V4",
+        "Kimi K3",
+        "Gemini 3.5",
+        "Claude Opus 4.5",
+        "GPT-5.2",
+        "MiniMax M3",
+        "火山方舟免费额度",
+        "Claude Pro免费额度"
+      ],
+      "vocab_learned": 330,
+      "anchor_rejected": 1,
+      "deal_candidates": 0,
+      "gate_dropped": {
+        "feeds": 4,
+        "v2ex": 5,
+        "hackernews": 20,
+        "reddit": 8
+      },
+      "vocab_seeds_hit": 60,
+      "deal_candidates_pooled": 0
+    },
+    "retry_feedback": false
+  }
+}
