@@ -1,0 +1,488 @@
+{
+  "date": "2026-11-19",
+  "window": {
+    "start": "2026-11-18 18:00",
+    "end": "2026-11-19 18:00"
+  },
+  "headline": {
+    "title": "特朗普：两三年后或允许英伟达对华出售 Blackwell 芯片",
+    "summary": "美国总统特朗普表示，美国可能在未来两到三年后允许向中国出售英伟达 Blackwell 芯片，理由是届时该产品已不再是市场上最先进的芯片。他指出后续将有取代 Blackwell 的新一代产品。Blackwell 系列此前长期被纳入美国对华芯片出口管制清单。",
+    "type": "policy",
+    "importance": "P1",
+    "source_url": "https://www.cnbctv18.com/world/trump-says-nvidia-could-sell-blackwell-chips-to-china-in-three-years-20037363.htm/amp",
+    "source_published_date": "2026-11-19",
+    "event_date": "2026-11-19"
+  },
+  "news": [
+    {
+      "title": "Anthropic 以 83 美元定价 IPO，募资 813 亿美元创纪录",
+      "summary": "Anthropic 将 IPO 发行价定为每股 83 美元，高于 70 至 78 美元的初始区间，并扩大发行至约 9.8 亿股，募资 813 亿美元，超越 SpaceX 成为有史以来最大 IPO。按发行价计算，公司全面摊薄估值约 1.5 万亿美元，将于周四在纳斯达克以代码 ANT 挂牌交易。",
+      "type": "funding",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "GAO 测试：四大聊天机器人 12 小时内被诱导输出袭击方案",
+      "summary": "美国政府问责局（GAO）周三发布的报告显示，调查人员伪装成袭击者，用常见越狱手法绕过 ChatGPT、Claude、Gemini 和 Grok 的安全防护，四个平台均在不到 12 小时内提供了可用于策划潜在致命袭击的信息。各平台最初均触发拒绝回答等防护机制。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://www.techtimes.com/articles/331074/20261119/gao-bypassed-ai-chatbot-safeguards-on-chatgpt-claude-gemini-grok-attack-plans-under-12-hours.htm",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "美国国会委员会：中国军方积极求购英伟达最先进芯片",
+      "summary": "美国国会某委员会的报告称，中国人民解放军一直“积极求购”英伟达最先进的半导体芯片，用于发展 AI 赋能的军事能力。该报告发布之际，英伟达正因其 CEO 辞职及相关报道而剧烈震荡。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/18/nvidia-chips-china-military-ai.html",
+      "source_published_date": "2026-11-18",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "纽约、洛杉矶、芝加哥学区考虑弃用 Google 搜索",
+      "summary": "据《纽约时报》报道，纽约、洛杉矶和芝加哥的学区正在考虑改用 Google 之外的搜索服务。Google 表示，从明年起，选择关闭其 AI 功能的学校将同时无法使用 Search；纽约市长 Mamdani 与参议员 Sanders 批评这一做法是“勒索”。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "Palo Alto 45 亿美元收购 AI 初创 Applied Compute",
+      "summary": "Palo Alto Networks 在公布超出华尔街预期的 fiscal Q1 业绩同时，宣布以 45 亿美元收购 AI 初创公司 Applied Compute，股价当日上涨 7%。公司近期持续通过收购加码应对 AI 驱动攻击的安全工具需求。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "OpenAI 首次向四家独立机构开放未发布模型与训练数据",
+      "summary": "OpenAI 首次向包括 Apollo Research 和 METR 在内的四家独立审计组织开放未发布模型、源代码与训练数据的直接访问，以查明隐藏的不当行为与安全缺口。报道指出，OpenAI 可以对这些报告进行删改或延迟发布。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+      "source_published_date": "2026-11-18",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "Google 搜索 AI Mode 上线“临时线程”隐身对话",
+      "summary": "Google 为搜索中的 AI Mode 增加“临时线程”功能，用户在其中的对话不会出现在搜索历史里，也不会影响后续推荐。用户无需调整设置，点击 AI Mode 右上角的临时线程图标即可开启，体验与 Gemini 独立应用中的临时聊天一致。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "Gemini 应用登陆低内存 Android Go 设备",
+      "summary": "Google 将 Gemini 应用带入符合条件的 Android（Go edition）低内存设备，并为此重写了应用架构。用户可用 45 种以上语言与 Gemini Live 语音对话、拍笔记或表单进行翻译学习，也可用 Nano Banana 生成图片。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "title": "花旗改条款：第三方 AI 理财代理出问题客户自担",
+      "summary": "花旗本周更新在线用户协议，明确客户若使用第三方 AI 工具管理个人财务，出现任何问题（包括被黑客攻击）需自行承担。花旗发言人称，此举是为了让客户理解分享银行凭证、授权第三方工具访问账户所伴随的风险。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "Humyn Labs 获 4700 万美元 A 轮，供美国机器人训练数据",
+      "summary": "印度 Humyn Labs 完成 4700 万美元 A 轮融资，其中 2600 万美元股权由 Accel 领投，2100 万美元为 Lighthouse Canton 领投的风险债。公司自研双摄像头硬件记录人们完成日常任务，再用软件处理与标注，约 90% 收入来自美国。",
+      "type": "funding",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "source_published_date": "2026-11-18",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "安谋科技发布 Cortex-M42 与“星辰100e”AIoT 平台",
+      "summary": "安谋科技举办 Arm Cortex-M42 CPU 新品说明会，并推出基于该 CPU 与 Arm Ethos-U55 NPU 的“星辰100e”AIoT 原型平台，已在 FPGA 上跑通关键字检测、目标识别、自动语音识别等典型 AI 用例。Cortex-M42 面向成本与面积敏感的智能端点设备。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/511079.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "可灵发布 Kling Image 4.0，支持原生 8K 与 2000 字长文",
+      "summary": "可灵推出 Kling Image 4.0，主打原生 8K 图像输出，放大后细节依然清晰。新版本还支持单张图片生成 2000 字、70 多种预设字体，并可一次描述生成最多 10 张系列组图以及超长商品详情页、网页设计长图。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/511092.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "title": "联想 Q2 营收首破 2000 亿元，AI 基建业务增 177.6%",
+      "summary": "联想集团公布截至 2026 年 9 月 30 日的第二财季业绩，季度营收首次突破 2000 亿元人民币、同比增长近 50%，调整后净利润同比增长 166%。ISG 基础设施业务营收约 761 亿元、同比增长 177.6%，运营利润首次突破 70 亿元。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/511088.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "title": "Hugging Face 改由 OpenRouter 路由模型请求",
+      "summary": "Hugging Face 将语言模型请求改由 OpenRouter 路由，自动选择价格最低或速度最快的供应商，语言模型的自带 API key 模式将取消。据 OpenRouter 称，新路由把容量错误降低了 46%。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+      "source_published_date": "2026-11-18",
+      "event_date": "2026-11-18"
+    },
+    {
+      "title": "Qwen3.8-27B 登 Hugging Face 趋势榜第三",
+      "summary": "Qwen/Qwen3.8-27B 位列 Hugging Face 趋势榜第 3 位，累计 20598 likes、约 688 万次下载，任务类型为 image-text-to-text。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "title": "腾讯 Hy4-flash 位列 Hugging Face 趋势榜第二",
+      "summary": "tencent/Hy4-flash 位列 Hugging Face 趋势榜第 2 位，273 likes、159 次下载，任务类型为 image-text-to-text。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/tencent/Hy4-flash",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "智谱 MaaS 平台开发者数量突破千万，摩根大通将其列为板块首选股。",
+      "source_url": "https://www.163.com/dy/article/LC30JJQ805568W0A.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "text": "HN 热议 Gemini 4 Neon，帖文 814 分 / 662 条评论，传其接替 Argon。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "text": "美国黑人高中生起诉：AI 把多力多滋包装误判为枪支，HN 讨论 88 分 / 51 条评论。",
+      "source_url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    },
+    {
+      "text": "LLM 辅助逆向工程帖登 HN，205 分 / 50 条评论。",
+      "source_url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-11-19"
+    }
+  ],
+  "deals": [
+    {
+      "title": "ChatGPT 订阅每月附赠 API 额度",
+      "summary": "把 ChatGPT Pro 或 Business 订阅关联到自有 API 组织后，可按档位每月领取对应额度：Pro 100 美元档 $100、200 美元档 $200、500 美元档 $500。",
+      "tag": "订阅赠金",
+      "source_url": "https://www.w3cschool.cn/openai_api/openai_api-docs-chatgpt-api-credits.html",
+      "source_published_date": "2026-11-19",
+      "event_date": "2026-10-30"
+    }
+  ],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-19T17:49:12.752445+08:00",
+    "usage": {
+      "input_tokens": 40527,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 16081,
+      "output_tokens_details": {
+        "reasoning_tokens": 12554
+      },
+      "total_tokens": 56608
+    },
+    "search_results": 189,
+    "candidates": {
+      "news": 120,
+      "community": 50,
+      "project": 19
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "阿里 Qwen3.5 发布",
+        "priority": 1,
+        "why": "阿里新一代模型发布可能影响开源与 API 生态"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "智谱 GLM-5 发布",
+        "priority": 1,
+        "why": "GLM 新版本或开源策略可能影响国内模型生态"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "月之暗面 Kimi K3",
+        "priority": 1,
+        "why": "Kimi 新模型或产品发布可能成为创业公司焦点"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "DeepSeek V4 开源",
+        "priority": 1,
+        "why": "DeepSeek 新一代开源权重可能引发广泛关注"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Google Gemini 3 发布",
+        "priority": 1,
+        "why": "Gemini 大版本发布可能重塑多模态与 Agent 竞争"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Anthropic Claude Opus 4.5",
+        "priority": 1,
+        "why": "Claude 新版本发布或 API 更新值得追踪"
+      },
+      {
+        "slot": "模型发布",
+        "query": "OpenAI GPT-5.5",
+        "priority": 1,
+        "why": "OpenAI 旗舰模型更新可能影响全行业能力基线"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 更新",
+        "priority": 1,
+        "why": "编码 Agent 工具更新可能影响开发者工作流"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT Agent 上线",
+        "priority": 1,
+        "why": "OpenAI Agent 产品功能上线可能改变消费级使用方式"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP 协议 更新",
+        "priority": 1,
+        "why": "MCP 生态更新可能影响 Agent 与开发工具互操作"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic 融资 估值",
+        "priority": 1,
+        "why": "头部模型公司融资与估值变化可能影响行业格局"
+      },
+      {
+        "slot": "监管法律",
+        "query": "欧盟 AI 法案 执行",
+        "priority": 1,
+        "why": "欧盟监管执行与合规要求可能产生新案例"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI 版权 诉讼",
+        "priority": 1,
+        "why": "头部模型版权诉讼新进展可能影响训练数据合规"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "美国 芯片 出口管制",
+        "priority": 1,
+        "why": "出口管制变化可能影响 AI 芯片供应链与区域市场"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "NVIDIA Blackwell 供应",
+        "priority": 1,
+        "why": "Blackwell 产能与供应情况影响全球算力部署"
+      },
+      {
+        "slot": "安全事件",
+        "query": "ChatGPT 漏洞 越狱",
+        "priority": 1,
+        "why": "头部模型安全漏洞或越狱事件可能引发风险讨论"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench 新榜",
+        "priority": 1,
+        "why": "编码 Agent 能力榜单变化可能显示模型竞争格局"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "OpenAI 订阅 涨价",
+        "priority": 1,
+        "why": "订阅定价变化直接影响读者使用成本"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "OpenAI API 免费额度",
+        "priority": 1,
+        "why": "开发者免费额度或试用活动可直接降低使用成本"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini API 免费额度",
+        "priority": 1,
+        "why": "厂商定价页免费层更新值得读者立即核对"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度 Ernie 开放",
+        "priority": 2,
+        "why": "文心模型能力开放或价格政策可能调整"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "字节 Doubao 新功能",
+        "priority": 2,
+        "why": "豆包产品与模型更新可能带来消费级应用变化"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为 Pangu 行业模型",
+        "priority": 2,
+        "why": "盘古在政企与制造场景的落地可能更新"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯 Hunyuan 新模型",
+        "priority": 2,
+        "why": "腾讯混元版本迭代或行业合作值得关注"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "MiniMax 新模型",
+        "priority": 2,
+        "why": "MiniMax 模型与产品更新可能带来新能力"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Meta Llama 5 开源",
+        "priority": 2,
+        "why": "开源权重模型发布将影响开发者与推理生态"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Gemini AI 搜索",
+        "priority": 2,
+        "why": "Google 搜索与助手产品整合可能带来新入口"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 推理引擎",
+        "priority": 2,
+        "why": "主流推理引擎版本更新影响部署成本与性能"
+      },
+      {
+        "slot": "资本",
+        "query": "Cerebras IPO 估值",
+        "priority": 2,
+        "why": "AI 芯片公司上市进展与估值值得关注"
+      },
+      {
+        "slot": "资本",
+        "query": "CoreWeave 财报",
+        "priority": 2,
+        "why": "算力租赁公司财报可能反映 AI 基础设施需求"
+      },
+      {
+        "slot": "监管法律",
+        "query": "Google 反垄断 AI",
+        "priority": 2,
+        "why": "科技巨头反垄断与 AI 业务交叉裁定值得关注"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AMD MI400 芯片",
+        "priority": 2,
+        "why": "AMD 新一代 AI 芯片竞争进展值得追踪"
+      },
+      {
+        "slot": "安全事件",
+        "query": "AI 诈骗 案件",
+        "priority": 2,
+        "why": "AI 滥用与诈骗案例可反映新型安全威胁"
+      },
+      {
+        "slot": "研究评测",
+        "query": "Gemini 3 benchmark",
+        "priority": 2,
+        "why": "新模型评测得分与能力评估值得关注"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "Meta AI 裁员",
+        "priority": 2,
+        "why": "组织调整与招聘变化可能反映 AI 业务重心"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Claude 学生 优惠",
+        "priority": 2,
+        "why": "教育优惠与开发者计划可能提供可领取福利"
+      },
+      {
+        "slot": "产品应用",
+        "query": "字节 豆包 应用 排名",
+        "priority": 3,
+        "why": "消费级 AI 应用榜单与用户规模变化值得关注"
+      },
+      {
+        "slot": "行业落地",
+        "query": "蚂蚁 金融 大模型",
+        "priority": 3,
+        "why": "金融行业大模型落地与风控应用可能更新"
+      },
+      {
+        "slot": "行业落地",
+        "query": "华为 制造 大模型",
+        "priority": 3,
+        "why": "制造业 AI 质检与生产优化案例值得追踪"
+      },
+      {
+        "slot": "行业落地",
+        "query": "NVIDIA 医疗 AI 合作",
+        "priority": 3,
+        "why": "医疗 AI 合作案例可能显示算力与行业结合进展"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "阿里 Qwen3.5",
+        "DeepSeek V4",
+        "月之暗面 Kimi K3",
+        "智谱 GLM-5",
+        "OpenAI GPT-5.5",
+        "Anthropic Claude Opus 4.5",
+        "Google Gemini 3",
+        "ChatGPT Agent",
+        "MCP 协议更新",
+        "arete-27b"
+      ],
+      "vocab_learned": 489,
+      "anchor_rejected": 76,
+      "deal_candidates": 59,
+      "gate_dropped": {
+        "v2ex": 6,
+        "hackernews": 8,
+        "feeds": 1
+      },
+      "vocab_seeds_hit": 263,
+      "deal_candidates_pooled": 13
+    },
+    "retry_feedback": false
+  }
+}
