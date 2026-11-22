@@ -1,0 +1,465 @@
+{
+  "date": "2026-11-22",
+  "window": {
+    "start": "2026-11-21 18:00",
+    "end": "2026-11-22 18:00"
+  },
+  "headline": {
+    "title": "英伟达SC26公布Rubin HPC，2028年落地",
+    "summary": "英伟达在SC26超算大会上扩展Vera Rubin平台，公布Rubin HPC GPU。该GPU拥有超过5万CUDA核心，英伟达预计相关系统要到2028年才会部署。",
+    "type": "compute",
+    "importance": "P1",
+    "source_url": "https://tech.yahoo.com/computing/articles/nvidia-expands-vera-rubin-platform-002500489.html",
+    "source_published_date": "2026-11-22",
+    "event_date": "2026-11-22"
+  },
+  "news": [
+    {
+      "title": "OpenAI上线GPT-Live-1.1语音模型",
+      "summary": "OpenAI在API中推出全双工语音模型GPT-Live-1.1，支持多语言对话并改进口音、转写与任务完成。新增待机计费，空闲WebRTC时长从每分钟0.05美元降至0.02美元，默认上下文12.8万token。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "source_published_date": "2026-11-21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "Signal限制移动端截图，回应AI代理监控",
+      "summary": "Signal宣布在Android和iOS端默认限制应用内截图，用户可手动关闭该限制。总裁Meredith Whittaker称系统级AI代理扫描屏幕数据正在削弱Signal独立保障隐私的能力。",
+      "type": "security",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source_published_date": "2026-11-21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "MachinePulse开源Karpo决策模型",
+      "summary": "MachinePulse AI开源Karpo Decision 31B，面向Agent的快速决策模型；在Decision Index上以73.9分居首，单题最多判断255个候选。团队同时开源karpo-browser框架、27B Act模型和KBB评测集，在Browserbase Benchmark v2上取得89%平均成功率。",
+      "type": "model_release",
+      "importance": "P1",
+      "source_url": "https://www.qbitai.com/2026/11/511791.html",
+      "source_published_date": "2026-11-21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "联合国自主武器管控谈判破裂",
+      "summary": "《卫报》报道，国际社会关于控制自主武器的联合国谈判破裂。HN相关讨论获得42分、30条评论。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "source_published_date": "2026-11-21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "腾讯元宝与KCL发布群聊记忆基准",
+      "summary": "腾讯元宝与伦敦国王学院NLP团队推出GroupAssistBench，基于50个真实群聊、80,299条历史消息构建2,395道题，区分记忆召回与服务使用两层任务。论文、代码和数据集已公开。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/511841.html",
+      "source_published_date": "2026-11-21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "OpenAI发布GPT-6.2提示模板",
+      "summary": "OpenAI为GPT-6.2 Astra与Sol发布可直接复制的提示模板，覆盖写作风格、主动性和编码，以减少过短回答、不必要追问和过度测试。API侧编辑会话历史会丢弃早期推理内容，temperature和top_p参数被移除。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "source_published_date": "2026-11-21",
+      "event_date": "2026-11-21"
+    },
+    {
+      "title": "英伟达研究者提出替代超长上下文方案",
+      "summary": "英伟达研究者指出，大模型往往不需要完整上下文窗口，完整窗口速度慢、成本高且易出错；周期性摘要和定向关键词检索在测试中通常能以低得多的成本达到接近全上下文的结果。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "title": "TensorLean用Lean验证GPU内核",
+      "summary": "哥伦比亚大学与CertiK提出TensorLean，在PTX层用Lean形式化验证生产GPU内核。团队检查149个内核实例，证明83个正确，并在FlashAttention、DeepGEMM等中发现38个bug。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "title": "AWS推出TorchNeuron直跑Trainium",
+      "summary": "亚马逊云科技推出TorchNeuron，可直接在AWS Trainium上运行PyTorch模型，无需修改代码。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "title": "Claude Code上线实时diff面板",
+      "summary": "Claude Code v2.1.260加入实时diff侧边栏，输入/diff即可查看Claude正在修改的代码，Ctrl+X B可切换当前会话、未提交修改和分支差异三种视图。使用需全屏渲染、git仓库及至少110列终端宽度。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://bbs.huaweicloud.com/blogs/540636",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "title": "IEA：数据中心用电2030年预计达950TWh",
+      "summary": "国际能源署指出，数据中心2025年消耗约485TWh电力，预计到2030年达到950TWh，其中AI设施是增长最快的部分。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://insight.tmcnet.com/insight/iea-flags-global-data-center-backlash-as-ai-power-demand-surges-mwr2owzm",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "title": "国产开源大模型下载量突破100亿次",
+      "summary": "11月21日至22日多篇报道称，国产开源大模型全球累计下载量突破100亿次；Kimi K3的混合线性注意力和美团LongCat-2.5的国产算力全流程被列为新注脚。",
+      "type": "opensource",
+      "importance": "P2",
+      "source_url": "https://www.feitianyingye.com/2026/1122/10072.shtml",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "OpenRouter披露推理服务商数据处理事件，HN讨论142分/54条评论。",
+      "source_url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "text": "Pandex提供面向AI Agent的欧洲法律MCP接口，HN讨论90分/21条评论。",
+      "source_url": "https://www.pandex.io",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "text": "Noema谈AI意识神话的文章登HN，60分/118条评论。",
+      "source_url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    },
+    {
+      "text": "Together.ai披露6至7月请求提示词泄露事件，HN讨论29分/8条评论。",
+      "source_url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "source_published_date": "2026-11-22",
+      "event_date": "2026-11-22"
+    }
+  ],
+  "deals": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-22T17:49:01.198030+08:00",
+    "usage": {
+      "input_tokens": 43809,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 21871,
+      "output_tokens_details": {
+        "reasoning_tokens": 19486
+      },
+      "total_tokens": 65680
+    },
+    "search_results": 186,
+    "candidates": {
+      "news": 120,
+      "community": 50,
+      "project": 16
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "阿里 Qwen 新模型",
+        "priority": 1,
+        "why": "阿里大模型当天可能有版本或API更新，影响国内模型格局。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "字节 Doubao 产品更新",
+        "priority": 1,
+        "why": "豆包是头部消费级入口，需捕捉功能与用户规模变化。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "月之暗面 Kimi 融资",
+        "priority": 1,
+        "why": "Kimi融资或估值进展可能改变创业公司竞争格局。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "MiniMax 港股 IPO",
+        "priority": 1,
+        "why": "MiniMax上市进程是头部AI创业公司资本化关键信号。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Kimi K3 发布",
+        "priority": 1,
+        "why": "月之暗面新模型可能刷新长上下文与Agent能力。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "DeepSeek V4 发布",
+        "priority": 1,
+        "why": "DeepSeek新版本可能影响开源权重、API价格与开发者生态。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "GLM-5 发布",
+        "priority": 1,
+        "why": "智谱新版本发布可能带动国内开源模型与API更新。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Gemini 3 更新",
+        "priority": 1,
+        "why": "谷歌旗舰模型更新可能影响全球模型能力对比。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 更新",
+        "priority": 1,
+        "why": "编码Agent是当前产品竞争焦点，需捕捉能力与定价变化。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT 新功能",
+        "priority": 1,
+        "why": "ChatGPT功能更新直接影响消费级AI产品风向。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "医院 AI 诊断 获批",
+        "priority": 1,
+        "why": "医疗AI诊断获批是行业落地与监管审批的重要信号。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP Registry 上线",
+        "priority": 1,
+        "why": "MCP注册表上线可能改变Agent工具生态与开发体验。"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic funding round",
+        "priority": 1,
+        "why": "Anthropic融资动向反映头部模型公司估值与资本竞争。"
+      },
+      {
+        "slot": "资本",
+        "query": "OpenAI valuation",
+        "priority": 1,
+        "why": "OpenAI估值交易可能重塑AI行业资本预期。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "EU AI Act enforcement",
+        "priority": 1,
+        "why": "欧盟AI法案执法动态影响全球合规与产品上线。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI copyright lawsuit",
+        "priority": 1,
+        "why": "版权诉讼进展可能影响训练数据与模型商业模式。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Nvidia Rubin 出货",
+        "priority": 1,
+        "why": "新一代AI芯片出货影响算力供给与云厂商资本开支。"
+      },
+      {
+        "slot": "安全事件",
+        "query": "prompt injection attack",
+        "priority": 1,
+        "why": "提示注入攻击是Agent与工具调用高频安全风险。"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench 新榜单",
+        "priority": 1,
+        "why": "SWE-bench榜单变化反映编码Agent能力竞争。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "API token 降价",
+        "priority": 1,
+        "why": "API降价直接影响开发者成本与模型商业化竞争。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Qwen App 免费额度",
+        "priority": 1,
+        "why": "通义Qwen免费额度是读者可直接使用的优惠信息。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Claude 学生优惠",
+        "priority": 1,
+        "why": "Claude学生优惠可执行性强，适合开发者与学生领取。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度 文心 模型 更新",
+        "priority": 2,
+        "why": "百度模型与搜索、云产品联动，需关注版本迭代。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯 混元 新发布",
+        "priority": 2,
+        "why": "腾讯混元可能联动办公与云生态发布新能力。"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为 盘古 行业模型",
+        "priority": 2,
+        "why": "盘古行业模型发布可能影响政企与制造落地。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "阶跃星辰 融资",
+        "priority": 2,
+        "why": "阶跃星辰新融资可能反映多模态创业公司热度。"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "面壁智能 新模型",
+        "priority": 2,
+        "why": "面壁智能新模型发布可能带动端侧与开源生态。"
+      },
+      {
+        "slot": "模型发布",
+        "query": "MiniMax M3 发布",
+        "priority": 2,
+        "why": "MiniMax新模型可能影响多模态与创业公司模型竞争。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Sora 视频 上线",
+        "priority": 2,
+        "why": "视频生成产品上线可能引发版权与创作者生态讨论。"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Cursor 新功能",
+        "priority": 2,
+        "why": "Cursor更新反映编码工具商业化与用户增长态势。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "银行 AI 风控 上线",
+        "priority": 2,
+        "why": "金融风控AI上线可反映高价值行业部署进展。"
+      },
+      {
+        "slot": "行业落地",
+        "query": "教育 AI 平台 发布",
+        "priority": 2,
+        "why": "教育AI平台发布涉及应用落地与合规边界。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "Ollama 模型 支持",
+        "priority": 2,
+        "why": "Ollama新增模型支持影响本地推理开发者生态。"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 新版本",
+        "priority": 2,
+        "why": "vLLM版本更新影响推理性能与部署成本。"
+      },
+      {
+        "slot": "资本",
+        "query": "xAI funding",
+        "priority": 2,
+        "why": "xAI融资进展影响头部模型与算力投入格局。"
+      },
+      {
+        "slot": "资本",
+        "query": "CoreWeave earnings",
+        "priority": 2,
+        "why": "AI云厂商财报可反映算力需求与估值变化。"
+      },
+      {
+        "slot": "监管法律",
+        "query": "中国 生成式AI 备案",
+        "priority": 2,
+        "why": "国内生成式AI备案动态影响产品合规与上线节奏。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "HBM4 供应",
+        "priority": 2,
+        "why": "HBM4供应是高端AI芯片产能与成本关键瓶颈。"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AI datacenter power",
+        "priority": 2,
+        "why": "数据中心电力约束直接影响AI算力扩张速度。"
+      },
+      {
+        "slot": "安全事件",
+        "query": "AI deepfake fraud",
+        "priority": 2,
+        "why": "深度伪造诈骗事件影响AI滥用治理与平台责任。"
+      },
+      {
+        "slot": "研究评测",
+        "query": "LLM leaderboard update",
+        "priority": 2,
+        "why": "模型排行榜更新可捕捉能力评价与口碑变化。"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "AI 公司 裁员",
+        "priority": 2,
+        "why": "裁员与组织调整反映AI公司成本与战略重心变化。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini API 免费额度",
+        "priority": 2,
+        "why": "Gemini API免费层影响开发者试用与成本选择。"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "OpenAI 免费额度",
+        "priority": 2,
+        "why": "OpenAI免费额度或试用活动是读者可立即使用的福利。"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "Qwen App 免费额度",
+        "DeepSeek V4",
+        "Kimi K3",
+        "GLM-5",
+        "MiniMax M3",
+        "Gemini 3",
+        "Claude 学生优惠",
+        "MCP Registry"
+      ],
+      "vocab_learned": 478,
+      "anchor_rejected": 98,
+      "deal_candidates": 34,
+      "gate_dropped": {
+        "feeds": 1,
+        "v2ex": 5,
+        "hackernews": 16
+      },
+      "vocab_seeds_hit": 157,
+      "deal_candidates_pooled": 7
+    },
+    "retry_feedback": false
+  }
+}
