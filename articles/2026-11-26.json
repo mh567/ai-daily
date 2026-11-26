@@ -1,0 +1,473 @@
+{
+  "date": "2026-11-26",
+  "window": {
+    "start": "2026-11-25 18:00",
+    "end": "2026-11-26 18:00"
+  },
+  "headline": {
+    "title": "FCC批准SpaceX部署百万颗AI数据中心卫星",
+    "summary": "FCC宣布授权SpaceX在“Starmind”计划下部署最多100万颗搭载AI芯片的卫星。该批准要求SpaceX在2033年前至少部署一颗卫星，并在2040年达到100万颗；FCC还暂缓了600公里以上卫星的“墓地轨道”处置请求。",
+    "type": "compute",
+    "importance": "P1",
+    "source_url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "source_published_date": "2026-11-26",
+    "event_date": "2026-11-26"
+  },
+  "news": [
+    {
+      "title": "美收紧AI芯片远程访问，英伟达卖家寻找新买家",
+      "summary": "美国收紧对先进计算的远程访问规则后，英伟达GPU卖家正为先进AI硬件寻找新买家。CNBC援引消息人士称，新规针对与中国关联的客户。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "标普警告可能下调英伟达信用评级",
+      "summary": "标普全球评级警告，若英伟达在管理层面上继续显示缺陷，其信用评级可能在未来90天内被下调一档；该机构称英伟达的管理与治理风险正在上升。",
+      "type": "compute",
+      "importance": "P1",
+      "source_url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "亚马逊与Meta谈判解除Muse购物封锁",
+      "summary": "报道称亚马逊与Meta已进行多轮谈判，可能允许Meta的AI代理Muse直接接入亚马逊商店。搜索结果如何呈现以及广告如何处理仍是谈判中的两个关键问题。",
+      "type": "product",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "source_published_date": "2026-11-25",
+      "event_date": "2026-11-25"
+    },
+    {
+      "title": "42州总检察长阻Character.AI拍卖用户私聊",
+      "summary": "42州总检察长介入Character.AI破产程序，试图阻止其出售包含2100多万美国账户聊天记录的数据，其中210万账户属于未成年人。公司此前曾向用户表示个人信息不会被出售。",
+      "type": "policy",
+      "importance": "P1",
+      "source_url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "OpenAI合并Chat与Work并统一使用额度",
+      "summary": "OpenAI开始向少量Pro订阅用户推送Chat与Work合并体验，并在ChatGPT内采用统一使用额度。OpenAI发言人称多数用户不会更频繁遇到重置，但少数重度用户可能更早触及限制。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "PrismML将27B模型压缩至5.9GB",
+      "summary": "PrismML发布Ternary Bonsai 2.5 27B，基于Qwen3.8-27B，通过三值量化把模型内存占用从全精度约54GB降至5.9GB。其SWE-bench Verified得分从60.8升至75.6%，AppWorld从51.2升至90.5%。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+      "source_published_date": "2026-11-25",
+      "event_date": "2026-11-25"
+    },
+    {
+      "title": "DeepMind让AI代理控制部分Gemini实验算力",
+      "summary": "Google DeepMind研究主管Koray Kavukcuoglu称，AI代理已用于自主运行部分Gemini模型实验，但距离递归自我改进仍远。为便于监督，DeepMind故意不训练代理的内部思维链。",
+      "type": "compute",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "source_published_date": "2026-11-25",
+      "event_date": "2026-11-25"
+    },
+    {
+      "title": "美金融与情报机构接连发生网络事件",
+      "summary": "美国金融犯罪执法网络（FinCEN）因未授权访问将部分系统下线作为预防措施。数小时前有报道称CIA、NGA和ODNI的一个公开数据分析系统遭入侵，调查人员怀疑攻击者使用了AI防御工具Artex。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages/",
+      "source_published_date": "2026-11-25",
+      "event_date": "2026-11-25"
+    },
+    {
+      "title": "商汤开源SenseNova U1.6图像模型",
+      "summary": "商汤科技开源SenseNova U1.6图像生成模型，并已在商汤小浣熊、Seko及ComfyUI上线。量子位实测称其出图速度较快，在内容准确性和审美方面有所提升。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/512748.html",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "蔚来发布世界模型NWM 3.0与NOMI 4.0",
+      "summary": "蔚来发布世界模型NWM 3.0，称引入隐式世界模型和双闭环强化学习，综合训练效率提升5倍、整车控制时延平均降低50%。同时发布的NOMI Intelligence 4.0重构底层架构，采用超千亿参数MoE模型。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/512897.html",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "Sand.ai发布480B视频模型MAGI-2",
+      "summary": "Sand.ai发布480B视频模型MAGI-2，称在Artificial Analysis图生视频榜单登顶。该模型支持30秒一镜到底、最高两万字符脚本解析，每秒定价为同级别头部闭源模型的十分之一，并计划尽快开放权重。",
+      "type": "model_release",
+      "importance": "P2",
+      "source_url": "https://www.qbitai.com/2026/11/512916.html",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "Google人脸识别功能支持沃尔玛摄像头",
+      "summary": "Google Home更新将Familiar Faces人脸识别功能带到沃尔玛Onn Outdoor Camera Plug-In和Onn Floodlight Camera Hardwired。两款摄像头售价分别为35美元和77美元，使用该功能仍需Google Home Premium订阅。",
+      "type": "product",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "AI需求令美国公开记录系统承压",
+      "summary": "美国小镇书记员称，SmartProcure等公司的公开记录请求从每年一次增至每季度一次，其他公司还按月提出更具体的采购记录请求。与此同时，公民开始用聊天机器人提交更多公开记录申请。",
+      "type": "policy",
+      "importance": "P2",
+      "source_url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source_published_date": "2026-11-25",
+      "event_date": "2026-11-25"
+    },
+    {
+      "title": "HN热议纽约时报警告摄影师勿更新Photoshop",
+      "summary": "HN讨论385分、322条评论，焦点是《纽约时报》因AI功能警告摄影师不要更新Photoshop。帖子链接指向The Verge的相关报道。",
+      "type": "community",
+      "importance": "P2",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "Inkling-2-Mini登顶HF趋势榜",
+      "summary": "thinkingmachines的Inkling-2-Mini为image-text-to-text模型，今日位列Hugging Face趋势榜第1，页面显示6112 likes、96527下载。",
+      "type": "project",
+      "importance": "P2",
+      "source_url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "title": "研究在1.45亿GitHub帖子中发现AI隐藏文本",
+      "summary": "对约1.45亿条GitHub帖子和README的分析发现2281例只有AI能看到的隐藏文本，其中43例被归类为针对其他用户AI代理的间接提示注入攻击。",
+      "type": "security",
+      "importance": "P2",
+      "source_url": "https://www.digitaltoday.co.kr/en/view/131329/github-security-alert-hidden-text-visible-only-to-ai",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Claude接口疑似出现未发布Opus5.6，Anthropic未证实。",
+      "source_url": "https://www.pingwest.com/w/319907",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "text": "英伟达为Nemotron 3.5 Parse发布合成训练数据与微调配方。",
+      "source_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    },
+    {
+      "text": "OpenAI与马斯克在得州再次庭审，双方顶级律师团队交锋。",
+      "source_url": "https://tech.ifeng.com/c/8yKwxTVO2C5",
+      "source_published_date": "2026-11-26",
+      "event_date": "2026-11-26"
+    }
+  ],
+  "deals": [],
+  "_meta": {
+    "model": "deepseek-v4-flash",
+    "generated_at": "2026-11-26T17:48:39.125065+08:00",
+    "usage": {
+      "input_tokens": 39779,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 23368,
+      "output_tokens_details": {
+        "reasoning_tokens": 20410
+      },
+      "total_tokens": 63147
+    },
+    "search_results": 179,
+    "candidates": {
+      "news": 120,
+      "community": 44,
+      "project": 15
+    },
+    "queries": [
+      {
+        "slot": "国内大厂",
+        "query": "豆包 1.8 升级",
+        "priority": 1,
+        "why": "字节消费级模型与产品入口可能同步更新"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "Qwen3.5 发布",
+        "priority": 1,
+        "why": "阿里旗舰模型迭代可能带动国内模型与API竞争"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "Kimi K3 发布",
+        "priority": 1,
+        "why": "月之暗面新模型可能影响长上下文与Agent竞争"
+      },
+      {
+        "slot": "模型发布",
+        "query": "DeepSeek V4 开源",
+        "priority": 1,
+        "why": "国内开源模型重大版本可能引发开发者关注"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Claude Opus 5 发布",
+        "priority": 1,
+        "why": "Anthropic旗舰模型更新可能影响编码与Agent能力"
+      },
+      {
+        "slot": "模型发布",
+        "query": "GPT-5.5 更新",
+        "priority": 1,
+        "why": "OpenAI模型迭代可能牵动产品与开发者生态"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Gemini 3 API",
+        "priority": 1,
+        "why": "Google模型API能力与价格变化值得优先确认"
+      },
+      {
+        "slot": "开源工具",
+        "query": "MCP 协议 更新",
+        "priority": 1,
+        "why": "Agent工具协议生态更新可能影响大量开发工具"
+      },
+      {
+        "slot": "资本",
+        "query": "OpenAI funding round",
+        "priority": 1,
+        "why": "头部AI公司融资交易可能影响行业估值"
+      },
+      {
+        "slot": "资本",
+        "query": "Anthropic valuation",
+        "priority": 1,
+        "why": "Anthropic估值变化可能反映头部模型公司资本热度"
+      },
+      {
+        "slot": "监管法律",
+        "query": "OpenAI copyright lawsuit",
+        "priority": 1,
+        "why": "版权诉讼裁定可能影响模型训练与内容生态"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "Nvidia B300 supply",
+        "priority": 1,
+        "why": "新芯片供应情况可能影响AI算力扩张"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AI chip export controls",
+        "priority": 1,
+        "why": "出口管制变化可能影响芯片供应链与区域市场"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "OpenAI API 降价",
+        "priority": 1,
+        "why": "token价格调整会直接影响开发者成本与采用"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "百度文心 5.0",
+        "priority": 2,
+        "why": "百度模型发布常与搜索、云和行业方案绑定"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "智谱 GLM-5 开源",
+        "priority": 2,
+        "why": "智谱开源权重与API迭代可能成为国内焦点"
+      },
+      {
+        "slot": "模型发布",
+        "query": "Llama 5 开源",
+        "priority": 2,
+        "why": "Meta开源权重动向可能改变开源模型格局"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Claude Code 企业版",
+        "priority": 2,
+        "why": "编码Agent商业化与企业采用值得跟踪"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Sora 2 API",
+        "priority": 2,
+        "why": "视频生成产品与API开放可能扩展应用场景"
+      },
+      {
+        "slot": "产品应用",
+        "query": "Cursor 新版本",
+        "priority": 2,
+        "why": "编码Agent工具迭代可能反映开发者工作流变化"
+      },
+      {
+        "slot": "产品应用",
+        "query": "ChatGPT 新功能",
+        "priority": 2,
+        "why": "消费级AI入口功能变化可能影响用户规模"
+      },
+      {
+        "slot": "开源工具",
+        "query": "vLLM 新版本",
+        "priority": 2,
+        "why": "推理引擎版本更新可能影响模型部署效率"
+      },
+      {
+        "slot": "监管法律",
+        "query": "EU AI Act enforcement",
+        "priority": 2,
+        "why": "欧盟AI法案执法进展可能带来合规影响"
+      },
+      {
+        "slot": "监管法律",
+        "query": "China AI regulation",
+        "priority": 2,
+        "why": "国内AI监管政策响应值得国内日报覆盖"
+      },
+      {
+        "slot": "算力芯片",
+        "query": "AMD MI450 发布",
+        "priority": 2,
+        "why": "AMD加速器进展可能改变算力竞争格局"
+      },
+      {
+        "slot": "安全事件",
+        "query": "prompt injection 漏洞",
+        "priority": 2,
+        "why": "Agent与工具调用安全漏洞值得安全事件覆盖"
+      },
+      {
+        "slot": "研究评测",
+        "query": "SWE-bench 榜单",
+        "priority": 2,
+        "why": "编码Agent评测榜单变化可反映模型能力进展"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Qwen API 免费额度",
+        "priority": 2,
+        "why": "开发者可领取的免费额度值得提供可执行信息"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "腾讯混元 新模型",
+        "priority": 3,
+        "why": "腾讯模型与云生态可能披露新进展"
+      },
+      {
+        "slot": "国内大厂",
+        "query": "华为盘古 行业模型",
+        "priority": 3,
+        "why": "华为行业模型与算力生态落地值得确认"
+      },
+      {
+        "slot": "国内创业公司",
+        "query": "MiniMax M3 模型",
+        "priority": 3,
+        "why": "创业公司多模态或Agent模型可能更新"
+      },
+      {
+        "slot": "行业落地",
+        "query": "医疗 AI 诊断 落地",
+        "priority": 3,
+        "why": "医疗AI案例与合规进展可能出现在当天窗口"
+      },
+      {
+        "slot": "行业落地",
+        "query": "金融 AI 风控 案例",
+        "priority": 3,
+        "why": "金融行业AI应用与监管边界值得补充覆盖"
+      },
+      {
+        "slot": "开源工具",
+        "query": "OpenHands 开源",
+        "priority": 3,
+        "why": "开源编码Agent生态进展值得纳入覆盖"
+      },
+      {
+        "slot": "资本",
+        "query": "Perplexity funding",
+        "priority": 3,
+        "why": "AI搜索公司融资动向可补充资本覆盖"
+      },
+      {
+        "slot": "安全事件",
+        "query": "AI 数据泄露",
+        "priority": 3,
+        "why": "企业AI数据泄露事件可能引发合规与信任问题"
+      },
+      {
+        "slot": "研究评测",
+        "query": "ARC-AGI 新结果",
+        "priority": 3,
+        "why": "推理评测新结果可能成为研究讨论焦点"
+      },
+      {
+        "slot": "商业化组织",
+        "query": "AI 公司 裁员",
+        "priority": 3,
+        "why": "组织调整可反映AI商业化压力与资源重配"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "Gemini API 免费层",
+        "priority": 3,
+        "why": "厂商免费层变化可能降低开发者试用门槛"
+      },
+      {
+        "slot": "优惠福利",
+        "query": "GitHub Copilot 学生包",
+        "priority": 3,
+        "why": "学生优惠是可直接执行的AI工具福利信息"
+      }
+    ],
+    "query_fallback": false,
+    "query_adjustments": [],
+    "coverage": {
+      "watch": [
+        "Qwen3.5",
+        "豆包1.8",
+        "Kimi K3",
+        "DeepSeek V4",
+        "Claude Opus 5",
+        "Gemini 3",
+        "GPT-5.5",
+        "Sora 2 API",
+        "MCP 协议更新",
+        "Qwen API 免费额度"
+      ],
+      "vocab_learned": 462,
+      "anchor_rejected": 105,
+      "deal_candidates": 36,
+      "gate_dropped": {
+        "feeds": 1,
+        "v2ex": 2,
+        "hackernews": 13
+      },
+      "vocab_seeds_hit": 225,
+      "deal_candidates_pooled": 0
+    },
+    "retry_feedback": false
+  }
+}
